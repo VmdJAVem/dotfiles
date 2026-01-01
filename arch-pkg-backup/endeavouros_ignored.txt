@@ -1,0 +1,9 @@
+endeavouros-branding
+endeavouros-keyring
+endeavouros-mirrorlist
+eos-apps-info
+eos-hooks
+eos-log-tool
+eos-packagelist
+eos-quickstart
+eos-rankmirrors
