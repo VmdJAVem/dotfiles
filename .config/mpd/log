@@ -453,3 +453,56 @@
 2026-01-02T19:58:50 player: played "A Tribe Called Quest - Jazz (We've Got).mp3"
 2026-01-02T20:02:28 player: played "A Tribe Called Quest - Keeping It Moving.mp3"
 2026-01-02T20:05:25 player: played "Aphex Twin - Flim.mp3"
+2026-01-02T21:56:04 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-02T21:56:04 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T15:32:12 player: played "Aphex Twin - Fingerbib.mp3"
+2026-01-03T15:48:24 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T15:48:24 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T15:59:26 player: played "American Football - Honestly.mp3"
+2026-01-03T16:00:28 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:00:28 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:05:03 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-01-03T16:08:10 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:08:10 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:08:26 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-01-03T16:08:26 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:08:26 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:08:26 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:08:26 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:08:27 player: played "Charli xcx - Talk talk.mp3"
+2026-01-03T16:08:27 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:08:27 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:08:27 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:08:27 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:08:29 player: played "Charli xcx - Von dutch.mp3"
+2026-01-03T16:08:29 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:08:29 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:08:29 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:08:29 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:11:38 player: played "Charli xcx - Mean girls.mp3"
+2026-01-03T16:12:05 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:12:05 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:37:08 player: played "Charli xcx - 365.mp3"
+2026-01-03T16:43:18 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:43:18 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:43:20 player: played "Charli xcx - 365.mp3"
+2026-01-03T16:43:20 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:43:20 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:43:20 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:43:20 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:43:24 player: played "Charli xcx - Mean girls.mp3"
+2026-01-03T16:43:24 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:43:24 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:43:24 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:43:24 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:46:22 player: played "Charli xcx - B2b.mp3"
+2026-01-03T16:47:03 player: played "Clipse, Nas, Pusha T, Malice - Let God Sort Em OutChandeliers.mp3"
+2026-01-03T16:47:12 player: played "Clipse, Tyler, The Creator, Pusha T, Malice - P.O.V..mp3"
+2026-01-03T16:50:35 player: played "Clipse, Pusha T, Malice - So Be It.mp3"
+2026-01-03T16:51:22 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:51:22 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:51:24 player: played "Clipse, Pusha T, Malice - So Be It.mp3"
+2026-01-03T16:51:24 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:51:24 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:51:24 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:51:24 exception: Failed to set mixer for "pipewire"; disconnected

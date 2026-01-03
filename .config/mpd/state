@@ -1,8 +1,8 @@
 sw_volume: 62
 audio_device_state:1:pipewire
-state: pause
-current: 6
-time: 17.814
+state: play
+current: 0
+time: 71.593
 random: 0
 repeat: 0
 single: 0
@@ -12,11 +12,5 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:A Tribe Called Quest - Bonita Applebum.mp3
-1:A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3
-2:A Tribe Called Quest - Buggin' Out.mp3
-3:A Tribe Called Quest - Jazz (We've Got).mp3
-4:A Tribe Called Quest - Keeping It Moving.mp3
-5:Aphex Twin - Flim.mp3
-6:Aphex Twin - Fingerbib.mp3
+0:Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3
 playlist_end

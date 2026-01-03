@@ -2,91 +2,149 @@
   border: none;
   border-radius: 0px;
   font-size: 16px;
-  font-family:
-    "CaskaydiaCove Nerd Font Mono", "CaskaydiaCove Nerd Font Mono", sans-serif;
+  font-family: "CaskaydiaCove Nerd Font Mono", "CaskaydiaCove Nerd Font", sans-serif;
   min-height: 0;
-  margin: 0px;
+  margin: 1px;
   padding: 0px;
 }
 
 window#waybar {
-  border-bottom-style: inset;
-  background: transparent;
-}
-
-#workspaces,
-#clock {
-  background: rgba(40, 40, 40, 0.8);
-  border: 1px solid rgba(168, 153, 132, 0.6);
-  border-radius: 30px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 0px 20px;
+  background: rgba(40, 40, 40, 0.95);
+  border-bottom: 0px;
   color: #ebdbb2;
 }
+
+/* Workspaces */
 
 #workspaces {
-  padding: 0px 10px;
-}
-
-#workspaces button label {
-  font-size: 24px;
+  padding: 0 10px;
   background: transparent;
-  color: #ebdbb2;
-  margin: 0px 5px;
-}
-
-#workspaces button.active label {
-  background: transparent;
-  color: #98971A;
+  border-right: 1px solid rgba(168, 153, 132, 0.4);
+  margin-left: 1px;
 }
 
 #workspaces button {
   background: transparent;
-}
-
-#clock,
-#cpu,
-#memory,
-#tray {
-  background: rgba(40, 40, 40, 0.8);
-  border: 1px solid rgba(168, 153, 132, 0.6);
-  border-radius: 30px;
-  margin-top: 10px;
-  margin-left: 0px;
-  margin-right: 10px;
-  padding: 0px 12px;
-}
-
-#tray:hover {
-  background: rgba(80, 80, 80, 0.8);
-}
-#network,
-#custom-power,
-#custom-brightness,
-#custom-media,
-#pulseaudio {
-  background: rgba(40, 40, 40, 0.8);
-  border: 1px solid rgba(168, 153, 132, 0.6);
-  border-radius: 30px;
-  margin-top: 10px;
-  margin-left: 0px;
-  margin-right: 10px;
-  padding: 0px 12px;
   color: #ebdbb2;
+  padding: 0 8px;
+  margin: 0 2px;
+  min-width: 0;
+  /* Remove circle/dot indicators */
+  border: none;
+  border-radius: 0;
+  /* Style for number display */
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  min-width: 20px;
 }
-#network:hover,
-#custom-power:hover,
-#custom-brightness:hover,
-#pulseaudio:hover {
+
+#workspaces button:hover {
   background: rgba(80, 80, 80, 0.8);
+}
+
+#workspaces button.active {
+  color: #98971A;
+  background: rgba(80, 80, 80, 0.6);
+  /* Optional: add a subtle border or background for active workspace */
+  box-shadow: inset 0 -2px 0 #98971A;
+}
+
+#workspaces button.urgent {
+  color: #cc241d;
+  background: rgba(204, 36, 29, 0.2);
+}
+
+
+/* Clock */
+#clock {
+  padding: 0 15px;
+  background: transparent;
+  font-weight: bold;
+}
+
+/* Right side modules */
+#custom-media,
+#pulseaudio,
+#memory,
+#cpu,
+#network,
+#custom-brightness,
+#tray,
+#custom-notifications,
+#custom-power {
+  padding: 0 12px;
+  background: transparent;
+  border-left: 1px solid rgba(168, 153, 132, 0.4);
+}
+
+/* Individual module colors */
+#custom-media {
+  color: #d79921;
+}
+
+#pulseaudio {
+  color: #b16286;
+}
+
+#pulseaudio.muted {
+  color: #cc241d;
+}
+
+#memory {
+  color: #458588;
+}
+
+#cpu {
+  color: #689d6a;
+}
+
+#network {
+  color: #d65d0e;
 }
 
 #network.disconnected {
   color: #cc241d;
 }
 
-#pulseaudio.muted {
+#custom-brightness {
+  color: #d79921;
+}
+
+/* Tray */
+#tray {
+  padding: 0 15px;
+}
+
+/* Power button */
+#custom-power {
   color: #cc241d;
+  padding-right: 15px;
+}
+
+#custom-power:hover {
+  background: rgba(204, 36, 29, 0.2);
+}
+
+/* Hover effects */
+#clock:hover,
+#pulseaudio:hover,
+#memory:hover,
+#cpu:hover,
+#network:hover,
+#custom-brightness:hover,
+#tray:hover,
+#custom-media:hover {
+  background: rgba(80, 80, 80, 0.8);
+}
+
+/* Tooltip */
+tooltip {
+  background: rgba(40, 40, 40, 0.95);
+  border: 1px solid rgba(168, 153, 132, 0.6);
+  border-radius: 0;
+}
+
+tooltip label {
+  color: #ebdbb2;
 }

@@ -14,21 +14,23 @@
 		"tray",
 		"network",
 		"custom/brightness",
+		"custom/notifications",
 		"pulseaudio",
 		"custom/power"
 	],
-	"margin-left": 5,
-	"margin-right": 5,
+	"margin-left": 0,
+	"margin-right": 0,
 	"margin-bottom": 0,
 	"hyprland/workspaces": {
 		"disable-scroll": true,
 		"all-outputs": true,
-		"format": "●",
+		"format": "{id}",
 		"persistent-workspaces": {
 			"1": [],
 			"2": [],
 			"3": [],
-			"4": []
+			"4": [],
+			"5": []
 		}
 	},
 	"clock": {
@@ -63,6 +65,26 @@
 		"signal": 10,
 		"tooltip": false
 	},
+	"custom/notifications": {
+		"tooltip": true,
+		"format": "<span size='16pt'>{icon}</span>",
+		"format-icons": {
+			"notification": "󱅫",
+			"none": "󰂜",
+			"dnd-notification": "󰂠",
+			"dnd-none": "󰪓",
+			"inhibited-notification": "󰂛",
+			"inhibited-none": "󰪑",
+			"dnd-inhibited-notification": "󰂛",
+			"dnd-inhibited-none": "󰪑"
+		},
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "swaync-client -t -sw",
+		"on-click-right": "swaync-client -d -sw",
+		"escape": true
+	},
 	"custom/media": {
 		"format": "\uf001 {}",
 		"max-length": 30,
@@ -83,5 +105,5 @@
 			]
 		},
 		"on-click": "pavucontrol"
-	},
+	}
 }
