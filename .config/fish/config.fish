@@ -1,0 +1,64 @@
+# ~/.config/fish/config.fish
+
+# Aliases
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias minecraft='java -jar ~/bin/SKlauncher-3.2.12.jar'
+alias clock='tty-clock -c -s -b -f "%H:%M:%S" -C 3 -B "#6a2c8d" -t'
+alias cowsay='fortune | command cowsay -f stegosaurus'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias cd='z'
+alias vim='nvim'
+alias pdf='zpdf $(fzf)'
+alias gvim="nvim --listen /tmp/godothost"
+alias gayarch="hyfetch --preset bisexual --ascii-file /home/vmdjavem/neofetch_ascii/arch.txt"
+alias g++="g++ -std=c++23"
+alias cbonsai="cbonsai -l 50 -i -m "
+alias hoi4=" WINEPREFIX=/home/vmdjavem/Games/Heroic/Prefixes/HeartsofIronIV wine '/home/vmdjavem/Games/Heroic/Prefixes/HeartsofIronIV/drive_c/Program Files (x86)/DODI-Repacks/Hearts of Iron IV/dowser.exe'"
+alias xmrig="sudo xmrig -c .config/xmrig.json"
+alias objdump='objdump -M intel'
+alias hd="hexdump -C"
+set EDITOR = nvim
+function fish_greeting
+    echo "hola :3"
+end
+# Prompt customization
+function fish_prompt
+    echo -n " λ "
+    if test (pwd) = $HOME
+        echo -n "~"
+        echo -n " "
+    else
+        echo -n (basename (pwd))
+        set_color normal
+        echo -n " "
+    end
+end
+# Homebrew setup
+eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+# fzf key bindings and fuzzy completion
+fzf --fish | source
+
+# PATH configuration
+set -gx PATH $PATH /home/vmdjavem/.local/bin
+# pdfs
+function zpdf
+    for file in $argv
+        nohup zathura "$file" >/dev/null 2>&1 &
+    end
+end
+function catfetch
+    set stamp (date +%s)
+    kitget --square -o "/tmp/kitget-$stamp"
+    clear
+    fastfetch --kitty "/tmp/kitget-$stamp" $argv
+    rm -f "/tmp/kitget-$stamp"
+end
+#zoxide
+zoxide init fish | source
+#fetch
+fastfetch
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
+set -gx PATH $HOME/.cabal/bin $PATH /home/vmdjavem/.ghcup/bin # ghcup-env
+#command Prompt
+starship init fish | source
