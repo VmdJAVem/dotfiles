@@ -506,3 +506,39 @@
 2026-01-03T16:51:24 exception: Failed to set mixer for "pipewire"; disconnected
 2026-01-03T16:51:24 mixer: Failed to set mixer for "pipewire": disconnected
 2026-01-03T16:51:24 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:53:57 player: played "Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3"
+2026-01-03T16:54:13 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-03T16:54:13 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-03T16:57:50 player: played "Control Machete - Así Son Mis Días.mp3"
+2026-01-03T17:56:02 player: played "Digable Planets - Where I'm From.mp3"
+2026-01-04T16:54:05 player: played "Digable Planets - Where I'm From.mp3"
+2026-01-05T12:39:10 player: played "Digable Planets - Where I'm From.mp3"
+2026-01-05T12:41:43 update: added /Jazz Spastiks, Apani B Fly - Move.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-05T12:42:56 update: added /John Coltrane - Blue Train.mp3
+2026-01-05T12:43:02 update: updating /John Coltrane - Blue Train.mp3
+2026-01-05T12:45:14 update: added /berlioz - jazz is for ordinary people.mp3
+2026-01-05T12:45:55 update: added /John Coltrane - Giant Steps - 2020 Remaster.mp3
+2026-01-05T12:49:25 update: added /Joe Pass - Giant Steps.mp3
+2026-01-05T12:54:13 player: played "Digable Planets - It's Good To Be Here.mp3"
+2026-01-05T14:18:26 player: played "Digable Planets - It's Good To Be Here.mp3"
+2026-01-05T14:22:42 player: played "Chihiro Yamanaka - 乙女の祈り.mp3"
+2026-01-05T14:25:20 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-05T14:25:20 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-05T16:17:15 update: added /Precious (2025 Remaster) [eH7SDjRVH_8].opus
+2026-01-05T16:17:15 update: added /Basil's Kite (2025 Remaster) [L8NdCBa5kbc].opus
+2026-01-05T16:17:15 update: added /Yes, I Am Talking To You (2025 Remaster) [U7aGEWUQCwg].opus
+2026-01-05T16:17:15 update: added /Flashpoint： Catheter (2025 Remaster) [7o2SxI7od18].opus
+2026-01-05T16:17:15 update: added /In The Clear (2025 Remaster) [gZXTECPg2UY].opus
+2026-01-05T16:17:15 update: added /Messy Life (2025 Remaster) [Fe0-C1YneZI].opus
+2026-01-05T16:17:15 update: added /The Sands Have Turned Purple (2025 Remaster) [MrP20tZyhF4].opus
+2026-01-05T16:17:15 update: added /Little League (2025 Remaster) [DnPPgM06xMk].opus
+2026-01-05T16:17:15 update: added /Planet Shhh (2025 Remaster) [gJlOqBu1a0I].opus
+2026-01-05T16:17:15 update: added /Puddle Splashers (2025 Remaster) [6w2bjEmdUDk].opus
+2026-01-05T16:17:15 update: added /Qué Suerté! (2025 Remaster) [zYxp-OgkQtQ].opus
+2026-01-05T16:17:15 update: added /Bluegrassish (2025 Remaster) [mPM7l86tk-I].opus
+2026-01-05T16:32:11 player: played "Basil's Kite (2025 Remaster) [L8NdCBa5kbc].opus"
+2026-01-05T16:32:11 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-05T16:32:11 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-05T16:32:11 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-05T16:32:11 exception: Failed to set mixer for "pipewire"; disconnected
