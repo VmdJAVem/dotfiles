@@ -11,7 +11,7 @@ alias cd='z'
 alias vim='nvim'
 alias pdf='zpdf $(fzf)'
 alias gvim="nvim --listen /tmp/godothost"
-alias gayarch="hyfetch --preset bisexual --ascii-file /home/vmdjavem/neofetch_ascii/arch.txt"
+alias gayarch="hyfetch --preset bisexual --ascii-file $HOME/neofetch_ascii/arch.txt"
 alias g++="g++ -std=c++23"
 alias cbonsai="cbonsai -l 50 -i -m "
 alias hoi4=" WINEPREFIX=/home/vmdjavem/Games/Heroic/Prefixes/HeartsofIronIV wine '/home/vmdjavem/Games/Heroic/Prefixes/HeartsofIronIV/drive_c/Program Files (x86)/DODI-Repacks/Hearts of Iron IV/dowser.exe'"
@@ -20,7 +20,7 @@ alias objdump='objdump -M intel'
 alias hd="hexdump -C"
 set EDITOR = nvim
 function fish_greeting
-    echo "hola :3"
+    fortune -s
 end
 # Prompt customization
 function fish_prompt
@@ -34,17 +34,18 @@ function fish_prompt
         echo -n " "
     end
 end
+
 # Homebrew setup
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 # fzf key bindings and fuzzy completion
 fzf --fish | source
 
 # PATH configuration
-set -gx PATH $PATH /home/vmdjavem/.local/bin
+set -gx PATH $PATH $HOME/.local/bin
 # pdfs
-function zpdf
+function spdf
     for file in $argv
-        nohup zathura "$file" >/dev/null 2>&1 &
+        nohup sioyek "$file" >/dev/null 2>&1 &
     end
 end
 function catfetch
