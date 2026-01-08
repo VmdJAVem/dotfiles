@@ -1099,3 +1099,37 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-01-06T17:40:14 mixer: Failed to set mixer for "pipewire": disconnected
 2026-01-06T17:40:14 exception: Failed to set mixer for "pipewire"; disconnected
 2026-01-06T17:40:23 player: played "cutkolaska - Empty Promise.mp3"
+2026-01-06T17:43:12 output: Failed to play on "pipewire" (pulse): disconnected
+2026-01-06T17:43:12 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-06T17:43:12 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-06T19:48:11 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-01-07T12:34:43 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-01-07T18:34:44 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-01-07T18:39:35 output: Failed to play on "pipewire" (pulse): disconnected
+2026-01-07T18:39:35 player: played "A Tribe Called Quest - Youthful Expression.mp3"
+2026-01-07T20:39:06 output: Failed to play on "pipewire" (pulse): failed to connect the stream: No such entity
+2026-01-07T20:39:07 player: played "A Tribe Called Quest - Youthful Expression.mp3"
+2026-01-07T20:47:22 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-01-07T20:52:15 player: played "A Tribe Called Quest - Youthful Expression.mp3"
+2026-01-08T15:07:18 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-01-08T15:07:18 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-08T15:07:18 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-08T15:07:18 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-08T15:07:18 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-08T15:11:18 player: played "Nujabes - A day by atmosphere supreme.mp3"
+2026-01-08T15:15:55 player: played "Macabre Plaza - Abandoned Plaza.mp3"
+2026-01-08T15:20:18 player: played "Venetian Snares - Abomination Street.mp3"
+2026-01-08T15:24:34 player: played "Alcolirykoz - Aguanilé.mp3"
+2026-01-08T15:28:01 player: played "Pedro Mo - Al Intocable.mp3"
+2026-01-08T15:32:30 player: played "Portavoz - Al Pueblo Le Asusta La Revolución.mp3"
+2026-01-08T15:35:51 player: played "Ralph Weeks, Combo Lulo - Algo Muy Profundo.mp3"
+2026-01-08T15:39:58 player: played "Jimi Hendrix - All Along the Watchtower.mp3"
+2026-01-08T15:42:08 player: played "Madvillain, Madlib, MF DOOM - All Caps.mp3"
+2026-01-08T15:48:43 player: played "Control Machete - Andamos Armados.mp3"
+2026-01-08T15:52:39 player: played "Shaggy, Rayvon - Angel.mp3"
+2026-01-08T15:55:39 player: played "Angel - Silver October.mp3"
+2026-01-08T15:59:06 player: played "King Geedorah, Mr Fantastik - Anti-Matter.mp3"
+2026-01-08T16:03:43 player: played "Nujabes - aruarian dance.mp3"
+2026-01-08T16:07:20 player: played "Control Machete - Así Son Mis Días.mp3"
+2026-01-08T16:09:49 player: played "TiaCorine - ATE.mp3"
+2026-01-08T16:11:24 player: played "Machine Girl - Athoth a Go!! Go!!.mp3"

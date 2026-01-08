@@ -1,9 +1,9 @@
-sw_volume: 60
+sw_volume: 84
 audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
 state: play
-current: 0
-time: 81.71600000000001
+current: 37
+time: 25.108
 random: 0
 repeat: 0
 single: 0
@@ -13,6 +13,459 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:A Tribe Called Quest - Can I Kick It.mp3
-1:A Tribe Called Quest - Youthful Expression.mp3
+0:Rxnde Akozta, Rodesens - 'COSAS DEL QUERER'.mp3
+1:psychoangel - neurodivergence.mp3
+2:JPEGMAFIA - 1539 N. Calvert.mp3
+3:Eddy Mugre - 3 Espinas.mp3
+4:Charli xcx - 360.mp3
+5:Charli xcx - 365.mp3
+6:マドロスMERCURY - 3DS Internet Settings.mp3
+7:Aphex Twin - 4.mp3
+8:A Tribe Called Quest - 8 Million Stories.mp3
+9:Nujabes - A day by atmosphere supreme.mp3
+10:Almendra - A Estos Hombres Tristes.mp3
+11:Macabre Plaza - Abandoned Plaza.mp3
+12:Venetian Snares - Abomination Street.mp3
+13:Canserbero - Advertencia.mp3
+14:Riot Propaganda - Agenda Oculta.mp3
+15:Alcolirykoz - Aguanilé.mp3
+16:archipiélagos - akira.mp3
+17:Pedro Mo - Al Intocable.mp3
+18:Portavoz - Al Pueblo Le Asusta La Revolución.mp3
+19:Ralph Weeks, Combo Lulo - Algo Muy Profundo.mp3
+20:Jimi Hendrix - All Along the Watchtower.mp3
+21:Madvillain, Madlib, MF DOOM - All Caps.mp3
+22:SERAPHINE NOIR, Nona Shipov - All Caps.mp3
+23:Olivia Rodrigo - all-american bitch.mp3
+24:Boards of Canada - An Eagle In Your Mind.mp3
+25:Control Machete - Andamos Armados.mp3
+26:Shaggy, Rayvon - Angel.mp3
+27:Angel - Silver October.mp3
+28:King Geedorah, Mr Fantastik - Anti-Matter.mp3
+29:ZSK - Antifascista.mp3
+30:Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3
+31:hkmori - anybody can find love (except you.).mp3
+32:Alcolirykoz - Aranjuez.mp3
+33:Nujabes - aruarian dance.mp3
+34:Control Machete - Así Son Mis Días.mp3
+35:TiaCorine - ATE.mp3
+36:Machine Girl - Athoth a Go!! Go!!.mp3
+37:A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3
+38:Ayer y Hoy - Julio Jaramillo.mp3
+39:System Of A Down - B.Y.O.B..mp3
+40:Charli xcx - B2b.mp3
+41:wiv - bad days are coming.mp3
+42:Olivia Rodrigo - bad idea right.mp3
+43:JPEGMAFIA - BALD!.mp3
+44:Alcolirykoz - Baldor.mp3
+45:Cap'n Jazz - Basil's Kite - 2025 Remaster.mp3
+46:Oblivion's Mighty Trash - Bastian Laurent.mp3
+47:Nujabes, Shing02 - battlecry.mp3
+48:Alcolirykoz - Baño de Ruda.mp3
+49:Nujabes - Beat laments the world.mp3
+50:Oblivion's Mighty Trash - Bello.mp3
+51:DANGERDOOM, MF DOOM, Danger Mouse, CeeLo Green - Benzi Box.mp3
+52:Hanumankind, Kalmi - Big Dawgs.mp3
+53:Joey Valence & Brae - BILLIE JEAN.mp3
+54:Wu-Tang Clan, RZA, MF DOOM - Biochemical Equation.mp3
+55:Machine Girl - Bitten Twice.mp3
+56:John Coltrane - Blue Train.mp3
+57:Cap'n Jazz - Bluegrassish - 2025 Remaster.mp3
+58:Oblivion's Mighty Trash, Saygi - BluessyShit.mp3
+59:Doechii - BOILED PEANUTS.mp3
+60:Rage Against The Machine - Bombtrack.mp3
+61:A Tribe Called Quest - Bonita Applebum.mp3
+62:JJ DOOM, MF DOOM, Jneiro Jarel - Bookhead.mp3
+63:Vengaboys - Boom, Boom, Boom, Boom!!.mp3
+64:Shaggy - Boombastic.mp3
+65:Ahmed Malek - Bossa.mp3
+66:PinkPantheress - Break It Off - Bonus.mp3
+67:Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3
+68:Elis Regina, Antônio Carlos Jobim - Brigas Nunca Mais.mp3
+69:Canserbero, NicoJP - Buenas Noches - Instrumental.mp3
+70:A Tribe Called Quest - Buggin' Out.mp3
+71:Machine Girl - Bullet Hell.mp3
+72:Rage Against The Machine - Bulls On Parade.mp3
+73:JPEGMAFIA, Danny Brown - Burfict!.mp3
+74:Joey Valence & Brae - BUSSIT.mp3
+75:Joey Valence & Brae, TiaCorine - BUST DOWN feat. TiaCorine.mp3
+76:American Football - But the Regrets Are Killing Me.mp3
+77:2Pac, Roger, Dr. Dre - California Love - Original Version.mp3
+78:A Tribe Called Quest - Can I Kick It.mp3
+79:Canserbero - Canbiate.mp3
+80:Ska-P - Cannabis.mp3
+81:Ilkae - Cappuccino Summit.mp3
+82:Sons of Aguirre, Scila - Carta al Sr.Fiscal.mp3
+83:Nehruviandoom, MF DOOM - Caskets.mp3
+84:Frank Ocean - Chanel.mp3
+85:MF DOOM - Change the Beat.mp3
+86:Oblivion's Mighty Trash - Chaíto.mp3
+87:A Tribe Called Quest - Check the Rhime.mp3
+88:Venetian Snares - Chinaski.mp3
+89:Noiseferatu - Cicuta.mp3
+90:Aphex Twin - CIRCLONT6A [141.98][syrobonkus mix].mp3
+91:Pedro Mo - Ciudadanos de 2da Clase.mp3
+92:Jazz Liberatorz - Clin D'oeil.mp3
+93:Lil Supa, Doktor Rheal - CLOACA.mp3
+94:Charli xcx - Club classics.mp3
+95:The Davitts - Come Out Ye Black and Tans.mp3
+96:Purple Posse, BACKWHEN, 6-6-6 - Cookies.mp3
+97:Jazz Liberatorz - Cool Down - Feat. Raashan Ahmad.mp3
+98:DANGERDOOM, MF DOOM, Danger Mouse - Crosshairs.mp3
+99:Pedro Mo - Cuarto Clavo.mp3
+100:Lil Supa - Culto.mp3
+101:Norman Sann - Dance at a Funeral.mp3
+102:Joey Valence & Brae - DANCE NOW.mp3
+103:Portavoz - Dando Cara.mp3
+104:Bolden. - Dawn in LA..mp3
+105:Canserbero - De Mi Muerte.mp3
+106:Granuja - De Pe a Pa.mp3
+107:Doechii - DEATH ROLL.mp3
+108:Doechii - DENIAL IS A RIVER.mp3
+109:Portavoz, Cidtronyck - Desde.mp3
+110:Canserbero - Despierta.mp3
+111:Cortex - Devil's Dance.mp3
+112:Joey Valence & Brae - DISCO TOMORROW.mp3
+113:Alcolirykoz, N. Hardem, L'Xuasma - Discos Fuentes.mp3
+114:Venetian Snares - Dollmaker.mp3
+115:MF DOOM, Pebbles The Invisible Girl - Doomsday.mp3
+116:Joey Valence & Brae, Terror Reid - DOUGHBOY (feat. Terror Reid).mp3
+117:菊池ひみこ - Ducky Ducky.mp3
+118:Machine Girl - Dumbass!!.mp3
+119:Jazz Liberatorz - Ease My Mind - Feat. Tre Hardson, Fat Lip & Omni.mp3
+120:Woodcamp - Eatin' Good.mp3
+121:Ska-P - El Gato Lopez.mp3
+122:Negroni's Trio, Pedro Capó - El Incomprendido (feat. Pedro Capó).mp3
+123:Portavoz - El Mejor.mp3
+124:Riot Propaganda - El Miedo Va a Cambiar de Bando.mp3
+125:Canserbero, Solo Soul, McKlopedia, IceOD, Primobeatz - El mundito del rap.mp3
+126:Alcolirykoz, Armando Hernandez - El Remate.mp3
+127:Alcolirykoz, Sho-Hai - El Rey del Despecho.mp3
+128:Alcolirykoz, ToteKing - El Tour de Sing Sing.mp3
+129:Ska-P - El Vals del Obrero.mp3
+130:A Tribe Called Quest - Electric Relaxation.mp3
+131:cutkolaska - Empty Promise.mp3
+132:Mime 871, Taxi Dee - En La Identidad.mp3
+133:Pedro Mo - En Qué Estás.mp3
+134:Eddy Mugre - Esas tentaciones.mp3
+135:Oblivion's Mighty Trash - Eso Está Muy Jazzudo.mp3
+136:Buhodermia 夜, El Maese KDS - Estación los Alpes.mp3
+137:Lelio Luttazzi - Estate.mp3
+138:Dean Martin - Everybody Loves Somebody.mp3
+139:Charli xcx - Everything is romantic.mp3
+140:Earl Sweatshirt - exhaust.mp3
+141:Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3
+142:King Geedorah - Fazers.mp3
+143:Feather (feat. Cise Starr & Akin from CYNE) - Nujabes.mp3
+144:Beastie Boys - Fight For Your Right.mp3
+145:A Tribe Called Quest - Find a Way.mp3
+146:Aphex Twin - Fingerbib.mp3
+147:Cap'n Jazz - Flashpoint- Catheter - 2025 Remaster.mp3
+148:Aphex Twin - Flim.mp3
+149:Beastie Boys - Flute Loop.mp3
+150:American Football - For Sure.mp3
+151:TiaCorine, Latto - FreakyT - Remix.mp3
+152:Alcolirykoz - Fruko y Sus Presos (2.018).mp3
+153:Igorrr - Fryzura Konika.mp3
+154:Kordhell, ZWE1HVNDXR - Fuku.mp3
+155:archipiélagos - furioso D.mp3
+156:the wine is ok - gamay.mp3
+157:MF DOOM - Gas Drawls.mp3
+158:MF DOOM, J Dilla - GAZZILLION EAR.mp3
+159:Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3
+160:Venetian Snares - Gentleman.mp3
+161:Machine Girl - Ghost.mp3
+162:Joe Pass - Giant Steps.mp3
+163:John Coltrane - Giant Steps - 2020 Remaster.mp3
+164:Molotov - Gimme Tha Power.mp3
+165:femtanyl - GIRL HELL 1999.mp3
+166:Joey Valence & Brae - GO HARD.mp3
+167:JPEGMAFIA, Danny Brown - God Loves You.mp3
+168:Movimiento Original - Grandes Pasos.mp3
+169:Roland Jones, Mari - GRINDIN.mp3
+170:Joey Valence & Brae - GUMDROP.mp3
+171:菊池ひみこ - GYPSY SONG - from Carmen.mp3
+172:Venetian Snares - Hajnal.mp3
+173:Venetian Snares - Hand Throw.mp3
+174:Harlem Renaissance - Immortal Technique.mp3
+175:Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3
+176:Joey Valence & Brae - HAVE TO CRY.mp3
+177:JPEGMAFIA - HAZARD DUTY PAY!.mp3
+178:Shaggy, Brian & Tony Gold, Sean Paul, Will Smith - Hey Sexy Lady.mp3
+179:Galaxy 2 Galaxy - Hi-Tech Jazz.mp3
+180:Björk - Hidden Place.mp3
+181:Rawayana, Apache - High (feat. Apache).mp3
+182:Nujabes, Cise Starr - Highs 2 Lows (feat. Cise Starr from CYNE).mp3
+183:JPEGMAFIA, Danny Brown - HOE (Heaven on Earth).mp3
+184:American Football - Honestly.mp3
+185:Joey Valence & Brae - HOOLIGANG.mp3
+186:Nujabes - Horn in the middle.mp3
+187:Denzel Curry, TiaCorine, A$AP Ferg - HOT ONE (with TiaCorine & A$AP Ferg).mp3
+188:Joey Valence & Brae - HYPERYOUTH.mp3
+189:Jazz Liberatorz - I Am Hip Hop - Feat. Asheru.mp3
+190:PinkPantheress - I Must Apologise.mp3
+191:JPEGMAFIA - i scream this in the mirror before i interact with anyone.mp3
+192:JPEGMAFIA - I'll Be Right There.mp3
+193:American Football - I'll See You When We're Both Not So Emotional.mp3
+194:Bolden., Mauricesax - I'm here..mp3
+195:if i get it... (outro) - kddezis.mp3
+196:Cap'n Jazz - In The Clear - 2025 Remaster.mp3
+197:Shaggy, Rayvon - In The Summertime.mp3
+198:Jazz Liberatorz - Indonesia - Feat. Tableek.mp3
+199:Earl Sweatshirt - INFATUATION.mp3
+200:Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3
+201:Joey Valence & Brae - IS THIS LOVE.mp3
+202:Machine Girl - It Takes a Nation of Millenials to Destroy a Nation of Millions….mp3
+203:Shaggy, Rik Rok - It Wasn't Me.mp3
+204:JPEGMAFIA - it's dark and hell is hot.mp3
+205:Digable Planets - It's Good To Be Here.mp3
+206:Ska-P - Jaque al Rey.mp3
+207:JARKA _ Ortodòxia.mp3
+208:A Tribe Called Quest - Jazz (We've Got).mp3
+209:berlioz - jazz is for ordinary people.mp3
+210:Machinedrum - Jewlea.mp3
+211:Caparezza - Jodellavitanonhocapitouncazzo.mp3
+212:JPEGMAFIA, Denzel Curry - JPEGULTRA! (feat. Denzel Curry).mp3
+213:Rxnde Akozta, Marrom Fernandez - Juicio  Canserbero.mp3
+214:Kordhell, Anar - JUNBI.mp3
+215:Galaxy 2 Galaxy - Jupiter Jazz.mp3
+216:femtanyl - KATAMARI.mp3
+217:A Tribe Called Quest - Keeping It Moving.mp3
+218:Eddy Mugre - Kid roy (red allen).mp3
+219:JPEGMAFIA, Danny Brown, redveil - Kingdom Hearts Key (ft. redveil).mp3
+220:Machine Girl - Krystle - URL Cyber Palace Mix.mp3
+221:Nujabes - Kumomi.mp3
+222:Alcolirykoz, Junior Zamora - La Caza de Nariño.mp3
+223:Canserbero, Apache - La del Estribillo.mp3
+224:Aerophon, Alcolirykoz - La Esquina del Mariachi.mp3
+225:Ska-P - La Sesera No Va.mp3
+226:Alcolirykoz - La Típica (2.018).mp3
+227:Akapellah - La Vida Es un Freestyle.mp3
+228:Nujabes, Cise Starr - Lady Brown (feat. Cise Starr from CYNE).mp3
+229:Los Prisioneros - Latinoamérica Es un Pueblo al Sur de Estados Unidos.mp3
+230:JPEGMAFIA, Danny Brown - Lean Beef Patty.mp3
+231:Clipse, Nas, Pusha T, Malice - Let God Sort Em OutChandeliers.mp3
+232:Nujabes - Letter from Yokosuka.mp3
+233:CUPIDS OPPRESSION - LIFE IMITATES ART.mp3
+234:Joey Valence & Brae - LIKE A PUNK.mp3
+235:A Tribe Called Quest - Like It Like That.mp3
+236:Joey Valence & Brae - Like What.mp3
+237:Cap'n Jazz - Little League - 2025 Remaster.mp3
+238:Joey Valence & Brae - LIVE RIGHT.mp3
+239:菊池ひみこ - Look Your Back!.mp3
+240:JPEGMAFIA - loop it and leave it.mp3
+241:Jazz Liberatorz - Loop Prisoner.mp3
+242:Oblivion's Mighty Trash - LoveIsInTheAir.mp3
+243:ZWE1HVNDXR, yatashigang - LOVELY BASTARDS.mp3
+244:Kendrick Lamar, SZA - luther (with sza).mp3
+245:Shaggy, Collie Buddz, Sizzla - Mad Mad World (feat. Sizzla Kalonji & Collie Buddz).mp3
+246:Los Prisioneros - Maldito Sudaca.mp3
+247:Sergio Mendes & Brasil '66 - Mas Que Nada.mp3
+248:Ahmed Malek - Maya.mp3
+249:Machine Girl - Mchngrl vs Wlfgrl.mp3
+250:Charli xcx - Mean girls.mp3
+251:Oblivion's Mighty Trash - Medallo Bullies.mp3
+252:Alcolirykoz, Jeronimo - Medellificación.mp3
+253:João Gilberto - Meditação.mp3
+254:Igorrr - Melting Nails.mp3
+255:Cap'n Jazz - Messy Life - 2025 Remaster.mp3
+256:wix9s1xe, SUICIDE KIDDO, Towa - MEXICO HURRICANE.mp3
+257:archipiélagos - minet.mp3
+258:Ska-P - Mis Colegas.mp3
+259:Jazz Spastiks, Apani B Fly - Move.mp3
+260:Towa - Move MF.mp3
+261:Boards of Canada - Music Is Math.mp3
+262:Limp Bizkit - My Generation.mp3
+263:Frank Sinatra - My Way Of Life.mp3
+264:Joey Valence & Brae - MYSELF.mp3
+265:Molotov - Más Vale Cholo.mp3
+266:Limp Bizkit, Method Man - N 2 Gether Now.mp3
+267:Vegyn, JPEGMAFIA - Nauseous  Devilish.mp3
+268:American Football - Never Meant.mp3
+269:Malone the Chemist - NEW CHOP.mp3
+270:Nujabes, Uyama Hiroto - Next view (feat. Uyama Hiroto).mp3
+271:Ska-P - Ni Fu Ni Fa.mp3
+272:Machine Girl - Nine Minutes and Forty Three Seconds.mp3
+273:Alcolirykoz - No Está en Venta.mp3
+274:Joey Valence & Brae, Z-Trip - NO HANDS (feat. Z-Trip).mp3
+275:Molotov - No Manches Mi Vida.mp3
+276:Oblivion's Mighty Trash - No Me Acuerdo.mp3
+277:Oblivion's Mighty Trash - No me soya la playa.mp3
+278:2Pac - No More Pain.mp3
+279:Canserbero, NicoJP - No no - Instrumental.mp3
+280:Penyair, Gabylonia, La Loquera - No Somos Iguales.mp3
+281:rusowsky - no t dejas ver.mp3
+282:Rxnde Akozta, Portavoz, DJ Cidtronyck - No Van Pal Baile.mp3
+283:Molotov - Noko.mp3
+284:Alcolirykoz - Normal.mp3
+285:Doechii - Nosebleeds.mp3
+286:Cidtronyck, Portavoz - Nuevo Comienzo.mp3
+287:berlioz, Ted Jasper - nyc in 1940.mp3
+288:JUNTMANE, BIG PROBLEM MAC - O' LORD.mp3
+289:Hachazo - Ocho horas.mp3
+290:A Tribe Called Quest, Busta Rhymes - Oh My God (feat. Busta Rhymes).mp3
+291:Masayoshi Takanaka - OH! TENGO SUERTE.mp3
+292:Joey Valence & Brae - OMNITRIX.mp3
+293:Gorillaz - On Melancholy Hill.mp3
+294:2 Low Key, Lil Chucky - On That Devil Shit.mp3
+295:Eddy Mugre - One two.mp3
+296:Canserbero, NicoJP - Outro Chavo - Instrumental.mp3
+297:Clipse, Tyler, The Creator, Pusha T, Malice - P.O.V..mp3
+298:Joey Valence & Brae, Danny Brown - PACKAPUNCH (feat. Danny Brown).mp3
+299:PinkPantheress - Pain.mp3
+300:Ska-P - Paramilitar.mp3
+301:Joey Valence & Brae - PARTY'S OVER.mp3
+302:Apache - Pasame la Yesca.mp3
+303:Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3
+304:Nujabes - Peaceland.mp3
+305:Peruvian Cocaine - Immortal Technique.mp3
+306:Tsuneo Imahori - PHILOSOPHY in a Tea Cup.mp3
+307:Oblivion's Mighty Trash - Piqui Blainder.mp3
+308:Cap'n Jazz - Planet Shhh - 2025 Remaster.mp3
+309:Riot Propaganda - Plata o Plomo.mp3
+310:usedcvnt, Eden FM - pls tell me what is ur dream.mp3
+311:Prefuse 73 - Point To B.mp3
+312:Los Prisioneros - Por Qué No Se Van.mp3
+313:Portavoz, Matiah Chinaski, Dj Perez - Por Si Las Moscas (En Otra Versión).mp3
+314:João Gilberto - Pra Que Discutir Com Madame.mp3
+315:Cap'n Jazz - Precious - 2025 Remaster.mp3
+316:Kendrick Lamar - PRIDE..mp3
+317:菊池ひみこ - PRIMAVELA.mp3
+318:Sons of Aguirre, Scila, Dj Plan B, Guaja D - Privilegiados.mp3
+319:Aphex Twin - produk 29 [101].mp3
+320:System Of A Down - Protect The Land.mp3
+321:Cap'n Jazz - Puddle Splashers - 2025 Remaster.mp3
+322:Sadfriendd, Towa - Pumpfake.mp3
+323:Joey Valence & Brae - PUNK TACTICS.mp3
+324:Puro Parcerito - Oblivion's Mighty Trash.mp3
+325:femtanyl - PUSH UR T3MPRR.mp3
+326:Hareton Salvanini - Quarto de Hotel.mp3
+327:Menahan Street Band - Queens Highway.mp3
+328:Canserbero - Quién Eres.mp3
+329:Cap'n Jazz - Qué Suerté! - 2025 Remaster.mp3
+330:Jazz Liberatorz - Qîdar - Feat. Soul Clan.mp3
+331:Canserbero, NicoJP - RA Words - Instrumental.mp3
+332:Proof - Rap da Rap quita.mp3
+333:Proof, Trafikante de Almas - Rap de culto.mp3
+334:MF DOOM, Mr. Fantastik - Rapp Snitch Knishes.mp3
+335:6ix, Joey Valence & Brae, FELIX!, Buddy, KYLE, Blu - Raw.mp3
+336:Joey Valence & Brae - Ready Set.mp3
+337:Portavoz, Zonyko, Cidtronyck - Rebelarte.mp3
+338:Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3
+339:Alcolirykoz, Estee Nack - Reflujo.mp3
+340:Charli xcx - Rewind.mp3
+341:Science Of Sound, A Tribe Called Quest - Rhymery.mp3
+342:MF DOOM, DJ Cucumber Slice - Rhymes Like Dimes.mp3
+343:Beastie Boys - Right Right Now Now.mp3
+344:Ska-P - Romero el Madero.mp3
+345:Apache - Rompiendo el Hielo.mp3
+346:Alcolirykoz - Round 40.mp3
+347:Boards of Canada - Roygbiv.mp3
+348:Cultura Profética - Saca, Prende y Sorprende.mp3
+349:Machine Girl - Sad Claps.mp3
+350:Alcolirykoz - Sancocho en Leña.mp3
+351:JPEGMAFIA, Danny Brown - SCARING THE HOES.mp3
+352:Igorrr - Scarlatti 2.0.mp3
+353:A Tribe Called Quest, Busta Rhymes, Dinco D, Charlie Brown - Scenario (feat. Busta Rhymes, Dinco D & Charlie Brown) - LP Mix.mp3
+354:Shoebill - shitcorebabes.mp3
+355:JPEGMAFIA - SIN MIEDO.mp3
+356:Señor Marrano, Eddy Mugre - Sistema - Remix.mp3
+357:Boards of Canada - Sixtyten.mp3
+358:Doechii - SKIPP.mp3
+359:Clipse, Pusha T, Malice - So Be It.mp3
+360:ooxygen - Soul.mp3
+361:Jazz Liberatorz - Speak The Language - Feat. Lizz Fields.mp3
+362:Earl Sweatshirt - Static.mp3
+363:American Football - Stay Home.mp3
+364:A Tribe Called Quest - Steve Biko (Stir It Up).mp3
+365:Doechii - Stressed - A COLORS SHOW.mp3
+366:Alcolirykoz - Suero Casero.mp3
+367:Nujabes - Summer Gypsy.mp3
+368:Jazz Spastiks, People Without Shoes - Super Fly Funk.mp3
+369:ilysam, Mc Ster - sweet rally.mp3
+370:Venetian Snares - Szerencsétlen.mp3
+371:Jazz Liberatorz - Take A Time - Feat. Buckshot.mp3
+372:Charli xcx - Talk talk.mp3
+373:Alcolirykoz - Tararea.mp3
+374:Chucho Valdés, Royal Quartet - Tatomania.mp3
+375:Ali Primera - Techos de Cartón.mp3
+376:Boards of Canada - Telephasic Workshop.mp3
+377:Shaggy - That's Life.mp3
+378:MF DOOM - THAT'S THAT.mp3
+379:PinkPantheress - The aisle.mp3
+380:j1gggs - the cat from ipanema.mp3
+381:Boards of Canada - The Color Of The Fire.mp3
+382:Nujabes - The Final View.mp3
+383:Stan Getz - The Girl From Ipanema.mp3
+384:The Glass Room - Silver October.mp3
+385:A Tribe Called Quest - The Hop.mp3
+386:Laurindo Almeida - The Lamp Is Low.mp3
+387:American Football - The One With The Wurlitzer.mp3
+388:Joey Valence & Brae - THE PARTY SONG.mp3
+389:Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3
+390:Cap'n Jazz - The Sands Have Turned Purple - 2025 Remaster.mp3
+391:American Football - The Summer Ends.mp3
+392:Nujabes, Substantial - Think Different (feat. Substantial).mp3
+393:Venetian Snares - This Bitter Earth.mp3
+394:Alcolirykoz, Bajo Tierra - TNT.mp3
+395:Sabaton - To Hell and Back.mp3
+396:Alcolirykoz - Todo Lo Bueno Tarda.mp3
+397:PinkPantheress - Tonight.mp3
+398:Earl Sweatshirt - TOURMALINE.mp3
+399:System Of A Down - Toxicity.mp3
+400:Proof - Tratos Con el Diablo.mp3
+401:PinkPantheress - True romance.mp3
+402:Kendrick Lamar, Lefty Gunplay - tv off (feat. lefty gunplay).mp3
+403:Venetian Snares - twelve.mp3
+404:Jazz Liberatorz - U Do - Feat. Stacy Epps.mp3
+405:Venetian Snares - Ultraviolent Junglist.mp3
+406:Garoto - Um Rosto de Mulher.mp3
+407:Penyair, dj spizike - Un Pelito y Un Tamal.mp3
+408:Joey Valence & Brae - Underground Sound.mp3
+409:Canserbero, Apache - Uno por Ellas.mp3
+410:Jazz Liberatorz - Vacation - Feat. J. Live.mp3
+411:Igorrr - Very Long Chicken.mp3
+412:Sons of Aguirre, Scila - Vete a Cuba.mp3
+413:Violadores Del Verso - Vicios y Virtudes.mp3
+414:MF DOOM - Vomitspit.mp3
+415:Charli xcx - Von dutch.mp3
+416:Molotov - Voto Latino.mp3
+417:Eddie Palmieri - Vámonos Pa'l Monte.mp3
+418:Oblivion's Mighty Trash - Wacky.mp3
+419:Doechii - WAIT.mp3
+420:Rage Against The Machine - Wake Up.mp3
+421:Joey Valence & Brae, JPEGMAFIA - WASSUP (feat. JPEGMAFIA).mp3
+422:Chon - Waterslide.mp3
+423:Ska-P - Welcome to Hell.mp3
+424:Earl Sweatshirt - WELL DONE!.mp3
+425:JPEGMAFIA - What the hip hop hell is this .mp3
+426:A Tribe Called Quest - What.mp3
+427:Jazz Liberatorz - When The Clock Ticks - Feat. J. Sands.mp3
+428:Digable Planets - Where I'm From.mp3
+429:Joey Valence & Brae - WHERE U FROM.mp3
+430:Ayesha Erotica - Where You At.mp3
+431:Machine Girl - Xleepy.mp3
+432:Aphex Twin - Xtal.mp3
+433:Oblivion's Mighty Trash - Ya Mismo.mp3
+434:El Cuarteto De Nos - Ya No Sé Que Hacer Conmigo.mp3
+435:Penyair, Alka Produce, Realidad Mental, Eddy Mugre - Ya Verás.mp3
+436:Cap'n Jazz - Yes, I Am Talking To You - 2025 Remaster.mp3
+437:MF DOOM, Raekwon - YESSIR!.mp3
+438:American Football - You Know I Should Be Leaving Soon.mp3
+439:A Tribe Called Quest - Youthful Expression.mp3
+440:Selene, Tatiana Gomez Rap, Eddy Mugre, Arion - ¿Algo Que Decir.mp3
+441:Ska-P - Ñapaes.mp3
+442:Venetian Snares - Öngyilkos Vasárnap.mp3
+443:Anna German - Катюша.mp3
+444:Machine Girl - うずまき.mp3
+445:Tfwamirite - だきしめたい.mp3
+446:CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+447:CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+448:CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+449:CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+450:CASIOPEA - ドミノ・ライン - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+451:CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+452:Chihiro Yamanaka - 乙女の祈り.mp3
+453:CASIOPEA - 朝焼け - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+454:All That Jazz - 空から降ってきた少女.mp3
 playlist_end

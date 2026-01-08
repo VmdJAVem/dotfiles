@@ -5,7 +5,7 @@
 [general]
 
 # Smoothing mode. Can be 'normal', 'scientific' or 'waves'. DEPRECATED as of 0.6.0
-; mode = normal
+ mode = normal
 
 # Accepts only non-negative values.
 ; framerate = 60
@@ -88,8 +88,8 @@
 ; method = alsa
 ; source = hw:Loopback,1
 
-; method = fifo
-; source = /tmp/mpd.fifo
+ method = fifo
+ source = /tmp/mpd.fifo
 
 ; method = shmem
 ; source = /squeezelite-AA:BB:CC:DD:EE:FF
