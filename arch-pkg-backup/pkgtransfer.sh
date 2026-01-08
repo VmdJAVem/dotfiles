@@ -199,8 +199,8 @@ install_aur_helper() {
 	sudo pacman -S --needed --noconfirm git base-devel
 	mkdir -p ~/aur
 	cd ~/aur
-	git clone https://aur.archlinux.org/paru.git
-	cd paru
+	git clone https://aur.archlinux.org/paru-git.git
+	cd paru-git
 	makepkg -si
 }
 
