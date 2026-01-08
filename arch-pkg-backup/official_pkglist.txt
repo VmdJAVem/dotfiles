@@ -19,6 +19,7 @@ bridge-utils
 brightnessctl
 btop
 btrfs-progs
+caligula
 cantarell-fonts
 cava
 chafa
