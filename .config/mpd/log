@@ -1133,3 +1133,992 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-01-08T16:07:20 player: played "Control Machete - Así Son Mis Días.mp3"
 2026-01-08T16:09:49 player: played "TiaCorine - ATE.mp3"
 2026-01-08T16:11:24 player: played "Machine Girl - Athoth a Go!! Go!!.mp3"
+2026-01-08T19:48:19 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3": No such file or directory
+2026-01-08T19:48:19 player: played "A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/psychoangel - neurodivergence.mp3"; Failed to open "/home/arkar/Music/psychoangel - neurodivergence.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "psychoangel - neurodivergence.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/psychoangel - neurodivergence.mp3"; Failed to open "/home/arkar/Music/psychoangel - neurodivergence.mp3": No such file or directory
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - 1539 N. Calvert.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - 1539 N. Calvert.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - 1539 N. Calvert.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Eddy Mugre - 3 Espinas.mp3"; Failed to open "/home/arkar/Music/Eddy Mugre - 3 Espinas.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Eddy Mugre - 3 Espinas.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - 360.mp3"; Failed to open "/home/arkar/Music/Charli xcx - 360.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - 360.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - 365.mp3"; Failed to open "/home/arkar/Music/Charli xcx - 365.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - 365.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/マドロスMERCURY - 3DS Internet Settings.mp3"; Failed to open "/home/arkar/Music/マドロスMERCURY - 3DS Internet Settings.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "マドロスMERCURY - 3DS Internet Settings.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Aphex Twin - 4.mp3"; Failed to open "/home/arkar/Music/Aphex Twin - 4.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Aphex Twin - 4.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - 8 Million Stories.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - 8 Million Stories.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - 8 Million Stories.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - A day by atmosphere supreme.mp3"; Failed to open "/home/arkar/Music/Nujabes - A day by atmosphere supreme.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - A day by atmosphere supreme.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Almendra - A Estos Hombres Tristes.mp3"; Failed to open "/home/arkar/Music/Almendra - A Estos Hombres Tristes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Almendra - A Estos Hombres Tristes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Macabre Plaza - Abandoned Plaza.mp3"; Failed to open "/home/arkar/Music/Macabre Plaza - Abandoned Plaza.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Macabre Plaza - Abandoned Plaza.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Abomination Street.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Abomination Street.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Abomination Street.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero - Advertencia.mp3"; Failed to open "/home/arkar/Music/Canserbero - Advertencia.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero - Advertencia.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Riot Propaganda - Agenda Oculta.mp3"; Failed to open "/home/arkar/Music/Riot Propaganda - Agenda Oculta.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Riot Propaganda - Agenda Oculta.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Aguanilé.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Aguanilé.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Aguanilé.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/archipiélagos - akira.mp3"; Failed to open "/home/arkar/Music/archipiélagos - akira.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "archipiélagos - akira.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Pedro Mo - Al Intocable.mp3"; Failed to open "/home/arkar/Music/Pedro Mo - Al Intocable.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Pedro Mo - Al Intocable.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Portavoz - Al Pueblo Le Asusta La Revolución.mp3"; Failed to open "/home/arkar/Music/Portavoz - Al Pueblo Le Asusta La Revolución.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Portavoz - Al Pueblo Le Asusta La Revolución.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ralph Weeks, Combo Lulo - Algo Muy Profundo.mp3"; Failed to open "/home/arkar/Music/Ralph Weeks, Combo Lulo - Algo Muy Profundo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ralph Weeks, Combo Lulo - Algo Muy Profundo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jimi Hendrix - All Along the Watchtower.mp3"; Failed to open "/home/arkar/Music/Jimi Hendrix - All Along the Watchtower.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jimi Hendrix - All Along the Watchtower.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Madvillain, Madlib, MF DOOM - All Caps.mp3"; Failed to open "/home/arkar/Music/Madvillain, Madlib, MF DOOM - All Caps.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Madvillain, Madlib, MF DOOM - All Caps.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/SERAPHINE NOIR, Nona Shipov - All Caps.mp3"; Failed to open "/home/arkar/Music/SERAPHINE NOIR, Nona Shipov - All Caps.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "SERAPHINE NOIR, Nona Shipov - All Caps.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Olivia Rodrigo - all-american bitch.mp3"; Failed to open "/home/arkar/Music/Olivia Rodrigo - all-american bitch.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Olivia Rodrigo - all-american bitch.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Boards of Canada - An Eagle In Your Mind.mp3"; Failed to open "/home/arkar/Music/Boards of Canada - An Eagle In Your Mind.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Boards of Canada - An Eagle In Your Mind.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Control Machete - Andamos Armados.mp3"; Failed to open "/home/arkar/Music/Control Machete - Andamos Armados.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Control Machete - Andamos Armados.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Shaggy, Rayvon - Angel.mp3"; Failed to open "/home/arkar/Music/Shaggy, Rayvon - Angel.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Shaggy, Rayvon - Angel.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Angel - Silver October.mp3"; Failed to open "/home/arkar/Music/Angel - Silver October.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Angel - Silver October.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/King Geedorah, Mr Fantastik - Anti-Matter.mp3"; Failed to open "/home/arkar/Music/King Geedorah, Mr Fantastik - Anti-Matter.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "King Geedorah, Mr Fantastik - Anti-Matter.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/ZSK - Antifascista.mp3"; Failed to open "/home/arkar/Music/ZSK - Antifascista.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "ZSK - Antifascista.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"; Failed to open "/home/arkar/Music/Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/hkmori - anybody can find love (except you.).mp3"; Failed to open "/home/arkar/Music/hkmori - anybody can find love (except you.).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "hkmori - anybody can find love (except you.).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Aranjuez.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Aranjuez.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Aranjuez.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - aruarian dance.mp3"; Failed to open "/home/arkar/Music/Nujabes - aruarian dance.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - aruarian dance.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Control Machete - Así Son Mis Días.mp3"; Failed to open "/home/arkar/Music/Control Machete - Así Son Mis Días.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Control Machete - Así Son Mis Días.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/TiaCorine - ATE.mp3"; Failed to open "/home/arkar/Music/TiaCorine - ATE.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "TiaCorine - ATE.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Athoth a Go!! Go!!.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Athoth a Go!! Go!!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Athoth a Go!! Go!!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ayer y Hoy - Julio Jaramillo.mp3"; Failed to open "/home/arkar/Music/Ayer y Hoy - Julio Jaramillo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ayer y Hoy - Julio Jaramillo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/System Of A Down - B.Y.O.B..mp3"; Failed to open "/home/arkar/Music/System Of A Down - B.Y.O.B..mp3": No such file or directory
+2026-01-08T19:52:18 player: played "System Of A Down - B.Y.O.B..mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - B2b.mp3"; Failed to open "/home/arkar/Music/Charli xcx - B2b.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - B2b.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/wiv - bad days are coming.mp3"; Failed to open "/home/arkar/Music/wiv - bad days are coming.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "wiv - bad days are coming.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Olivia Rodrigo - bad idea right.mp3"; Failed to open "/home/arkar/Music/Olivia Rodrigo - bad idea right.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Olivia Rodrigo - bad idea right.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - BALD!.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - BALD!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - BALD!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Baldor.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Baldor.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Baldor.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Basil's Kite - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Basil's Kite - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Basil's Kite - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - Bastian Laurent.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - Bastian Laurent.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - Bastian Laurent.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes, Shing02 - battlecry.mp3"; Failed to open "/home/arkar/Music/Nujabes, Shing02 - battlecry.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes, Shing02 - battlecry.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Baño de Ruda.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Baño de Ruda.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Baño de Ruda.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - Beat laments the world.mp3"; Failed to open "/home/arkar/Music/Nujabes - Beat laments the world.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - Beat laments the world.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - Bello.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - Bello.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - Bello.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/DANGERDOOM, MF DOOM, Danger Mouse, CeeLo Green - Benzi Box.mp3"; Failed to open "/home/arkar/Music/DANGERDOOM, MF DOOM, Danger Mouse, CeeLo Green - Benzi Box.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "DANGERDOOM, MF DOOM, Danger Mouse, CeeLo Green - Benzi Box.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Hanumankind, Kalmi - Big Dawgs.mp3"; Failed to open "/home/arkar/Music/Hanumankind, Kalmi - Big Dawgs.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Hanumankind, Kalmi - Big Dawgs.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - BILLIE JEAN.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - BILLIE JEAN.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - BILLIE JEAN.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Wu-Tang Clan, RZA, MF DOOM - Biochemical Equation.mp3"; Failed to open "/home/arkar/Music/Wu-Tang Clan, RZA, MF DOOM - Biochemical Equation.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Wu-Tang Clan, RZA, MF DOOM - Biochemical Equation.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Bitten Twice.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Bitten Twice.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Bitten Twice.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/John Coltrane - Blue Train.mp3"; Failed to open "/home/arkar/Music/John Coltrane - Blue Train.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "John Coltrane - Blue Train.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Bluegrassish - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Bluegrassish - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Bluegrassish - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash, Saygi - BluessyShit.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash, Saygi - BluessyShit.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash, Saygi - BluessyShit.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Doechii - BOILED PEANUTS.mp3"; Failed to open "/home/arkar/Music/Doechii - BOILED PEANUTS.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Doechii - BOILED PEANUTS.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Rage Against The Machine - Bombtrack.mp3"; Failed to open "/home/arkar/Music/Rage Against The Machine - Bombtrack.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Rage Against The Machine - Bombtrack.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Bonita Applebum.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Bonita Applebum.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Bonita Applebum.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JJ DOOM, MF DOOM, Jneiro Jarel - Bookhead.mp3"; Failed to open "/home/arkar/Music/JJ DOOM, MF DOOM, Jneiro Jarel - Bookhead.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JJ DOOM, MF DOOM, Jneiro Jarel - Bookhead.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Vengaboys - Boom, Boom, Boom, Boom!!.mp3"; Failed to open "/home/arkar/Music/Vengaboys - Boom, Boom, Boom, Boom!!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Vengaboys - Boom, Boom, Boom, Boom!!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Shaggy - Boombastic.mp3"; Failed to open "/home/arkar/Music/Shaggy - Boombastic.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Shaggy - Boombastic.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ahmed Malek - Bossa.mp3"; Failed to open "/home/arkar/Music/Ahmed Malek - Bossa.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ahmed Malek - Bossa.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/PinkPantheress - Break It Off - Bonus.mp3"; Failed to open "/home/arkar/Music/PinkPantheress - Break It Off - Bonus.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "PinkPantheress - Break It Off - Bonus.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"; Failed to open "/home/arkar/Music/Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Elis Regina, Antônio Carlos Jobim - Brigas Nunca Mais.mp3"; Failed to open "/home/arkar/Music/Elis Regina, Antônio Carlos Jobim - Brigas Nunca Mais.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Elis Regina, Antônio Carlos Jobim - Brigas Nunca Mais.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero, NicoJP - Buenas Noches - Instrumental.mp3"; Failed to open "/home/arkar/Music/Canserbero, NicoJP - Buenas Noches - Instrumental.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero, NicoJP - Buenas Noches - Instrumental.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Buggin' Out.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Buggin' Out.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Buggin' Out.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Bullet Hell.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Bullet Hell.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Bullet Hell.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Rage Against The Machine - Bulls On Parade.mp3"; Failed to open "/home/arkar/Music/Rage Against The Machine - Bulls On Parade.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Rage Against The Machine - Bulls On Parade.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA, Danny Brown - Burfict!.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA, Danny Brown - Burfict!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA, Danny Brown - Burfict!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - BUSSIT.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - BUSSIT.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - BUSSIT.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae, TiaCorine - BUST DOWN feat. TiaCorine.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae, TiaCorine - BUST DOWN feat. TiaCorine.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae, TiaCorine - BUST DOWN feat. TiaCorine.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - But the Regrets Are Killing Me.mp3"; Failed to open "/home/arkar/Music/American Football - But the Regrets Are Killing Me.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - But the Regrets Are Killing Me.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/2Pac, Roger, Dr. Dre - California Love - Original Version.mp3"; Failed to open "/home/arkar/Music/2Pac, Roger, Dr. Dre - California Love - Original Version.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "2Pac, Roger, Dr. Dre - California Love - Original Version.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Can I Kick It.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Can I Kick It.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero - Canbiate.mp3"; Failed to open "/home/arkar/Music/Canserbero - Canbiate.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero - Canbiate.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - Cannabis.mp3"; Failed to open "/home/arkar/Music/Ska-P - Cannabis.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - Cannabis.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ilkae - Cappuccino Summit.mp3"; Failed to open "/home/arkar/Music/Ilkae - Cappuccino Summit.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ilkae - Cappuccino Summit.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Sons of Aguirre, Scila - Carta al Sr.Fiscal.mp3"; Failed to open "/home/arkar/Music/Sons of Aguirre, Scila - Carta al Sr.Fiscal.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Sons of Aguirre, Scila - Carta al Sr.Fiscal.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nehruviandoom, MF DOOM - Caskets.mp3"; Failed to open "/home/arkar/Music/Nehruviandoom, MF DOOM - Caskets.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nehruviandoom, MF DOOM - Caskets.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Frank Ocean - Chanel.mp3"; Failed to open "/home/arkar/Music/Frank Ocean - Chanel.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Frank Ocean - Chanel.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM - Change the Beat.mp3"; Failed to open "/home/arkar/Music/MF DOOM - Change the Beat.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM - Change the Beat.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - Chaíto.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - Chaíto.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - Chaíto.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Check the Rhime.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Check the Rhime.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Check the Rhime.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Chinaski.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Chinaski.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Chinaski.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Noiseferatu - Cicuta.mp3"; Failed to open "/home/arkar/Music/Noiseferatu - Cicuta.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Noiseferatu - Cicuta.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Aphex Twin - CIRCLONT6A [141.98][syrobonkus mix].mp3"; Failed to open "/home/arkar/Music/Aphex Twin - CIRCLONT6A [141.98][syrobonkus mix].mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Aphex Twin - CIRCLONT6A [141.98][syrobonkus mix].mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Pedro Mo - Ciudadanos de 2da Clase.mp3"; Failed to open "/home/arkar/Music/Pedro Mo - Ciudadanos de 2da Clase.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Pedro Mo - Ciudadanos de 2da Clase.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Clin D'oeil.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Clin D'oeil.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Clin D'oeil.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Lil Supa, Doktor Rheal - CLOACA.mp3"; Failed to open "/home/arkar/Music/Lil Supa, Doktor Rheal - CLOACA.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Lil Supa, Doktor Rheal - CLOACA.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - Club classics.mp3"; Failed to open "/home/arkar/Music/Charli xcx - Club classics.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - Club classics.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/The Davitts - Come Out Ye Black and Tans.mp3"; Failed to open "/home/arkar/Music/The Davitts - Come Out Ye Black and Tans.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "The Davitts - Come Out Ye Black and Tans.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Purple Posse, BACKWHEN, 6-6-6 - Cookies.mp3"; Failed to open "/home/arkar/Music/Purple Posse, BACKWHEN, 6-6-6 - Cookies.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Purple Posse, BACKWHEN, 6-6-6 - Cookies.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Cool Down - Feat. Raashan Ahmad.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Cool Down - Feat. Raashan Ahmad.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Cool Down - Feat. Raashan Ahmad.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/DANGERDOOM, MF DOOM, Danger Mouse - Crosshairs.mp3"; Failed to open "/home/arkar/Music/DANGERDOOM, MF DOOM, Danger Mouse - Crosshairs.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "DANGERDOOM, MF DOOM, Danger Mouse - Crosshairs.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Pedro Mo - Cuarto Clavo.mp3"; Failed to open "/home/arkar/Music/Pedro Mo - Cuarto Clavo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Pedro Mo - Cuarto Clavo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Lil Supa - Culto.mp3"; Failed to open "/home/arkar/Music/Lil Supa - Culto.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Lil Supa - Culto.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Norman Sann - Dance at a Funeral.mp3"; Failed to open "/home/arkar/Music/Norman Sann - Dance at a Funeral.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Norman Sann - Dance at a Funeral.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - DANCE NOW.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - DANCE NOW.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - DANCE NOW.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Portavoz - Dando Cara.mp3"; Failed to open "/home/arkar/Music/Portavoz - Dando Cara.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Portavoz - Dando Cara.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Bolden. - Dawn in LA..mp3"; Failed to open "/home/arkar/Music/Bolden. - Dawn in LA..mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Bolden. - Dawn in LA..mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero - De Mi Muerte.mp3"; Failed to open "/home/arkar/Music/Canserbero - De Mi Muerte.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero - De Mi Muerte.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Granuja - De Pe a Pa.mp3"; Failed to open "/home/arkar/Music/Granuja - De Pe a Pa.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Granuja - De Pe a Pa.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Doechii - DEATH ROLL.mp3"; Failed to open "/home/arkar/Music/Doechii - DEATH ROLL.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Doechii - DEATH ROLL.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Doechii - DENIAL IS A RIVER.mp3"; Failed to open "/home/arkar/Music/Doechii - DENIAL IS A RIVER.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Doechii - DENIAL IS A RIVER.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Portavoz, Cidtronyck - Desde.mp3"; Failed to open "/home/arkar/Music/Portavoz, Cidtronyck - Desde.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Portavoz, Cidtronyck - Desde.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero - Despierta.mp3"; Failed to open "/home/arkar/Music/Canserbero - Despierta.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero - Despierta.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cortex - Devil's Dance.mp3"; Failed to open "/home/arkar/Music/Cortex - Devil's Dance.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cortex - Devil's Dance.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - DISCO TOMORROW.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - DISCO TOMORROW.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - DISCO TOMORROW.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz, N. Hardem, L'Xuasma - Discos Fuentes.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz, N. Hardem, L'Xuasma - Discos Fuentes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz, N. Hardem, L'Xuasma - Discos Fuentes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Dollmaker.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Dollmaker.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Dollmaker.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM, Pebbles The Invisible Girl - Doomsday.mp3"; Failed to open "/home/arkar/Music/MF DOOM, Pebbles The Invisible Girl - Doomsday.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM, Pebbles The Invisible Girl - Doomsday.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae, Terror Reid - DOUGHBOY (feat. Terror Reid).mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae, Terror Reid - DOUGHBOY (feat. Terror Reid).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae, Terror Reid - DOUGHBOY (feat. Terror Reid).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/菊池ひみこ - Ducky Ducky.mp3"; Failed to open "/home/arkar/Music/菊池ひみこ - Ducky Ducky.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "菊池ひみこ - Ducky Ducky.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Dumbass!!.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Dumbass!!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Dumbass!!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Ease My Mind - Feat. Tre Hardson, Fat Lip & Omni.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Ease My Mind - Feat. Tre Hardson, Fat Lip & Omni.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Ease My Mind - Feat. Tre Hardson, Fat Lip & Omni.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Woodcamp - Eatin' Good.mp3"; Failed to open "/home/arkar/Music/Woodcamp - Eatin' Good.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Woodcamp - Eatin' Good.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - El Gato Lopez.mp3"; Failed to open "/home/arkar/Music/Ska-P - El Gato Lopez.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - El Gato Lopez.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Negroni's Trio, Pedro Capó - El Incomprendido (feat. Pedro Capó).mp3"; Failed to open "/home/arkar/Music/Negroni's Trio, Pedro Capó - El Incomprendido (feat. Pedro Capó).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Negroni's Trio, Pedro Capó - El Incomprendido (feat. Pedro Capó).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Portavoz - El Mejor.mp3"; Failed to open "/home/arkar/Music/Portavoz - El Mejor.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Portavoz - El Mejor.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Riot Propaganda - El Miedo Va a Cambiar de Bando.mp3"; Failed to open "/home/arkar/Music/Riot Propaganda - El Miedo Va a Cambiar de Bando.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Riot Propaganda - El Miedo Va a Cambiar de Bando.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero, Solo Soul, McKlopedia, IceOD, Primobeatz - El mundito del rap.mp3"; Failed to open "/home/arkar/Music/Canserbero, Solo Soul, McKlopedia, IceOD, Primobeatz - El mundito del rap.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero, Solo Soul, McKlopedia, IceOD, Primobeatz - El mundito del rap.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz, Armando Hernandez - El Remate.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz, Armando Hernandez - El Remate.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz, Armando Hernandez - El Remate.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz, Sho-Hai - El Rey del Despecho.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz, Sho-Hai - El Rey del Despecho.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz, Sho-Hai - El Rey del Despecho.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz, ToteKing - El Tour de Sing Sing.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz, ToteKing - El Tour de Sing Sing.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz, ToteKing - El Tour de Sing Sing.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - El Vals del Obrero.mp3"; Failed to open "/home/arkar/Music/Ska-P - El Vals del Obrero.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - El Vals del Obrero.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Electric Relaxation.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Electric Relaxation.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Electric Relaxation.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/cutkolaska - Empty Promise.mp3"; Failed to open "/home/arkar/Music/cutkolaska - Empty Promise.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "cutkolaska - Empty Promise.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Mime 871, Taxi Dee - En La Identidad.mp3"; Failed to open "/home/arkar/Music/Mime 871, Taxi Dee - En La Identidad.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Mime 871, Taxi Dee - En La Identidad.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Pedro Mo - En Qué Estás.mp3"; Failed to open "/home/arkar/Music/Pedro Mo - En Qué Estás.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Pedro Mo - En Qué Estás.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Eddy Mugre - Esas tentaciones.mp3"; Failed to open "/home/arkar/Music/Eddy Mugre - Esas tentaciones.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Eddy Mugre - Esas tentaciones.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - Eso Está Muy Jazzudo.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - Eso Está Muy Jazzudo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - Eso Está Muy Jazzudo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Buhodermia 夜, El Maese KDS - Estación los Alpes.mp3"; Failed to open "/home/arkar/Music/Buhodermia 夜, El Maese KDS - Estación los Alpes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Buhodermia 夜, El Maese KDS - Estación los Alpes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Lelio Luttazzi - Estate.mp3"; Failed to open "/home/arkar/Music/Lelio Luttazzi - Estate.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Lelio Luttazzi - Estate.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Dean Martin - Everybody Loves Somebody.mp3"; Failed to open "/home/arkar/Music/Dean Martin - Everybody Loves Somebody.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Dean Martin - Everybody Loves Somebody.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - Everything is romantic.mp3"; Failed to open "/home/arkar/Music/Charli xcx - Everything is romantic.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - Everything is romantic.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Earl Sweatshirt - exhaust.mp3"; Failed to open "/home/arkar/Music/Earl Sweatshirt - exhaust.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Earl Sweatshirt - exhaust.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"; Failed to open "/home/arkar/Music/Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/King Geedorah - Fazers.mp3"; Failed to open "/home/arkar/Music/King Geedorah - Fazers.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "King Geedorah - Fazers.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Feather (feat. Cise Starr & Akin from CYNE) - Nujabes.mp3"; Failed to open "/home/arkar/Music/Feather (feat. Cise Starr & Akin from CYNE) - Nujabes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Feather (feat. Cise Starr & Akin from CYNE) - Nujabes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Beastie Boys - Fight For Your Right.mp3"; Failed to open "/home/arkar/Music/Beastie Boys - Fight For Your Right.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Beastie Boys - Fight For Your Right.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Find a Way.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Find a Way.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Find a Way.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Aphex Twin - Fingerbib.mp3"; Failed to open "/home/arkar/Music/Aphex Twin - Fingerbib.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Aphex Twin - Fingerbib.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Flashpoint- Catheter - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Flashpoint- Catheter - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Flashpoint- Catheter - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Aphex Twin - Flim.mp3"; Failed to open "/home/arkar/Music/Aphex Twin - Flim.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Aphex Twin - Flim.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Beastie Boys - Flute Loop.mp3"; Failed to open "/home/arkar/Music/Beastie Boys - Flute Loop.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Beastie Boys - Flute Loop.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - For Sure.mp3"; Failed to open "/home/arkar/Music/American Football - For Sure.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - For Sure.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/TiaCorine, Latto - FreakyT - Remix.mp3"; Failed to open "/home/arkar/Music/TiaCorine, Latto - FreakyT - Remix.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "TiaCorine, Latto - FreakyT - Remix.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Fruko y Sus Presos (2.018).mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Fruko y Sus Presos (2.018).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Fruko y Sus Presos (2.018).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Igorrr - Fryzura Konika.mp3"; Failed to open "/home/arkar/Music/Igorrr - Fryzura Konika.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Igorrr - Fryzura Konika.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Kordhell, ZWE1HVNDXR - Fuku.mp3"; Failed to open "/home/arkar/Music/Kordhell, ZWE1HVNDXR - Fuku.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Kordhell, ZWE1HVNDXR - Fuku.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/archipiélagos - furioso D.mp3"; Failed to open "/home/arkar/Music/archipiélagos - furioso D.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "archipiélagos - furioso D.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/the wine is ok - gamay.mp3"; Failed to open "/home/arkar/Music/the wine is ok - gamay.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "the wine is ok - gamay.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM - Gas Drawls.mp3"; Failed to open "/home/arkar/Music/MF DOOM - Gas Drawls.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM - Gas Drawls.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM, J Dilla - GAZZILLION EAR.mp3"; Failed to open "/home/arkar/Music/MF DOOM, J Dilla - GAZZILLION EAR.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM, J Dilla - GAZZILLION EAR.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Gentleman.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Gentleman.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Gentleman.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Ghost.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Ghost.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Ghost.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joe Pass - Giant Steps.mp3"; Failed to open "/home/arkar/Music/Joe Pass - Giant Steps.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joe Pass - Giant Steps.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/John Coltrane - Giant Steps - 2020 Remaster.mp3"; Failed to open "/home/arkar/Music/John Coltrane - Giant Steps - 2020 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "John Coltrane - Giant Steps - 2020 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Molotov - Gimme Tha Power.mp3"; Failed to open "/home/arkar/Music/Molotov - Gimme Tha Power.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Molotov - Gimme Tha Power.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/femtanyl - GIRL HELL 1999.mp3"; Failed to open "/home/arkar/Music/femtanyl - GIRL HELL 1999.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "femtanyl - GIRL HELL 1999.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - GO HARD.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - GO HARD.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - GO HARD.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA, Danny Brown - God Loves You.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA, Danny Brown - God Loves You.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA, Danny Brown - God Loves You.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Movimiento Original - Grandes Pasos.mp3"; Failed to open "/home/arkar/Music/Movimiento Original - Grandes Pasos.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Movimiento Original - Grandes Pasos.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Roland Jones, Mari - GRINDIN.mp3"; Failed to open "/home/arkar/Music/Roland Jones, Mari - GRINDIN.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Roland Jones, Mari - GRINDIN.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - GUMDROP.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - GUMDROP.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - GUMDROP.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/菊池ひみこ - GYPSY SONG - from Carmen.mp3"; Failed to open "/home/arkar/Music/菊池ひみこ - GYPSY SONG - from Carmen.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "菊池ひみこ - GYPSY SONG - from Carmen.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Hajnal.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Hajnal.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Hajnal.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Hand Throw.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Hand Throw.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Hand Throw.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Harlem Renaissance - Immortal Technique.mp3"; Failed to open "/home/arkar/Music/Harlem Renaissance - Immortal Technique.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Harlem Renaissance - Immortal Technique.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"; Failed to open "/home/arkar/Music/Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - HAVE TO CRY.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - HAVE TO CRY.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - HAVE TO CRY.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - HAZARD DUTY PAY!.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - HAZARD DUTY PAY!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - HAZARD DUTY PAY!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Shaggy, Brian & Tony Gold, Sean Paul, Will Smith - Hey Sexy Lady.mp3"; Failed to open "/home/arkar/Music/Shaggy, Brian & Tony Gold, Sean Paul, Will Smith - Hey Sexy Lady.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Shaggy, Brian & Tony Gold, Sean Paul, Will Smith - Hey Sexy Lady.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Galaxy 2 Galaxy - Hi-Tech Jazz.mp3"; Failed to open "/home/arkar/Music/Galaxy 2 Galaxy - Hi-Tech Jazz.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Galaxy 2 Galaxy - Hi-Tech Jazz.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Björk - Hidden Place.mp3"; Failed to open "/home/arkar/Music/Björk - Hidden Place.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Björk - Hidden Place.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Rawayana, Apache - High (feat. Apache).mp3"; Failed to open "/home/arkar/Music/Rawayana, Apache - High (feat. Apache).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Rawayana, Apache - High (feat. Apache).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes, Cise Starr - Highs 2 Lows (feat. Cise Starr from CYNE).mp3"; Failed to open "/home/arkar/Music/Nujabes, Cise Starr - Highs 2 Lows (feat. Cise Starr from CYNE).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes, Cise Starr - Highs 2 Lows (feat. Cise Starr from CYNE).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA, Danny Brown - HOE (Heaven on Earth).mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA, Danny Brown - HOE (Heaven on Earth).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA, Danny Brown - HOE (Heaven on Earth).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - Honestly.mp3"; Failed to open "/home/arkar/Music/American Football - Honestly.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - Honestly.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - HOOLIGANG.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - HOOLIGANG.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - HOOLIGANG.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - Horn in the middle.mp3"; Failed to open "/home/arkar/Music/Nujabes - Horn in the middle.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - Horn in the middle.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Denzel Curry, TiaCorine, A$AP Ferg - HOT ONE (with TiaCorine & A$AP Ferg).mp3"; Failed to open "/home/arkar/Music/Denzel Curry, TiaCorine, A$AP Ferg - HOT ONE (with TiaCorine & A$AP Ferg).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Denzel Curry, TiaCorine, A$AP Ferg - HOT ONE (with TiaCorine & A$AP Ferg).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - HYPERYOUTH.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - HYPERYOUTH.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - HYPERYOUTH.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - I Am Hip Hop - Feat. Asheru.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - I Am Hip Hop - Feat. Asheru.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - I Am Hip Hop - Feat. Asheru.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/PinkPantheress - I Must Apologise.mp3"; Failed to open "/home/arkar/Music/PinkPantheress - I Must Apologise.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "PinkPantheress - I Must Apologise.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - i scream this in the mirror before i interact with anyone.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - i scream this in the mirror before i interact with anyone.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - i scream this in the mirror before i interact with anyone.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - I'll Be Right There.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - I'll Be Right There.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - I'll Be Right There.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - I'll See You When We're Both Not So Emotional.mp3"; Failed to open "/home/arkar/Music/American Football - I'll See You When We're Both Not So Emotional.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - I'll See You When We're Both Not So Emotional.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Bolden., Mauricesax - I'm here..mp3"; Failed to open "/home/arkar/Music/Bolden., Mauricesax - I'm here..mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Bolden., Mauricesax - I'm here..mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/if i get it... (outro) - kddezis.mp3"; Failed to open "/home/arkar/Music/if i get it... (outro) - kddezis.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "if i get it... (outro) - kddezis.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - In The Clear - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - In The Clear - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - In The Clear - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Shaggy, Rayvon - In The Summertime.mp3"; Failed to open "/home/arkar/Music/Shaggy, Rayvon - In The Summertime.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Shaggy, Rayvon - In The Summertime.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Indonesia - Feat. Tableek.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Indonesia - Feat. Tableek.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Indonesia - Feat. Tableek.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Earl Sweatshirt - INFATUATION.mp3"; Failed to open "/home/arkar/Music/Earl Sweatshirt - INFATUATION.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Earl Sweatshirt - INFATUATION.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3"; Failed to open "/home/arkar/Music/Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - IS THIS LOVE.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - IS THIS LOVE.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - IS THIS LOVE.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - It Takes a Nation of Millenials to Destroy a Nation of Millions….mp3"; Failed to open "/home/arkar/Music/Machine Girl - It Takes a Nation of Millenials to Destroy a Nation of Millions….mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - It Takes a Nation of Millenials to Destroy a Nation of Millions….mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Shaggy, Rik Rok - It Wasn't Me.mp3"; Failed to open "/home/arkar/Music/Shaggy, Rik Rok - It Wasn't Me.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Shaggy, Rik Rok - It Wasn't Me.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - it's dark and hell is hot.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - it's dark and hell is hot.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - it's dark and hell is hot.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Digable Planets - It's Good To Be Here.mp3"; Failed to open "/home/arkar/Music/Digable Planets - It's Good To Be Here.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Digable Planets - It's Good To Be Here.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - Jaque al Rey.mp3"; Failed to open "/home/arkar/Music/Ska-P - Jaque al Rey.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - Jaque al Rey.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JARKA _ Ortodòxia.mp3"; Failed to open "/home/arkar/Music/JARKA _ Ortodòxia.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JARKA _ Ortodòxia.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Jazz (We've Got).mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Jazz (We've Got).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Jazz (We've Got).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/berlioz - jazz is for ordinary people.mp3"; Failed to open "/home/arkar/Music/berlioz - jazz is for ordinary people.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "berlioz - jazz is for ordinary people.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machinedrum - Jewlea.mp3"; Failed to open "/home/arkar/Music/Machinedrum - Jewlea.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machinedrum - Jewlea.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Caparezza - Jodellavitanonhocapitouncazzo.mp3"; Failed to open "/home/arkar/Music/Caparezza - Jodellavitanonhocapitouncazzo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Caparezza - Jodellavitanonhocapitouncazzo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA, Denzel Curry - JPEGULTRA! (feat. Denzel Curry).mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA, Denzel Curry - JPEGULTRA! (feat. Denzel Curry).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA, Denzel Curry - JPEGULTRA! (feat. Denzel Curry).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Rxnde Akozta, Marrom Fernandez - Juicio Canserbero.mp3"; Failed to open "/home/arkar/Music/Rxnde Akozta, Marrom Fernandez - Juicio Canserbero.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Rxnde Akozta, Marrom Fernandez - Juicio  Canserbero.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Kordhell, Anar - JUNBI.mp3"; Failed to open "/home/arkar/Music/Kordhell, Anar - JUNBI.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Kordhell, Anar - JUNBI.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Galaxy 2 Galaxy - Jupiter Jazz.mp3"; Failed to open "/home/arkar/Music/Galaxy 2 Galaxy - Jupiter Jazz.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Galaxy 2 Galaxy - Jupiter Jazz.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/femtanyl - KATAMARI.mp3"; Failed to open "/home/arkar/Music/femtanyl - KATAMARI.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "femtanyl - KATAMARI.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Keeping It Moving.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Keeping It Moving.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Keeping It Moving.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Eddy Mugre - Kid roy (red allen).mp3"; Failed to open "/home/arkar/Music/Eddy Mugre - Kid roy (red allen).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Eddy Mugre - Kid roy (red allen).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA, Danny Brown, redveil - Kingdom Hearts Key (ft. redveil).mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA, Danny Brown, redveil - Kingdom Hearts Key (ft. redveil).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA, Danny Brown, redveil - Kingdom Hearts Key (ft. redveil).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Krystle - URL Cyber Palace Mix.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Krystle - URL Cyber Palace Mix.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Krystle - URL Cyber Palace Mix.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - Kumomi.mp3"; Failed to open "/home/arkar/Music/Nujabes - Kumomi.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - Kumomi.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz, Junior Zamora - La Caza de Nariño.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz, Junior Zamora - La Caza de Nariño.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz, Junior Zamora - La Caza de Nariño.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero, Apache - La del Estribillo.mp3"; Failed to open "/home/arkar/Music/Canserbero, Apache - La del Estribillo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero, Apache - La del Estribillo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Aerophon, Alcolirykoz - La Esquina del Mariachi.mp3"; Failed to open "/home/arkar/Music/Aerophon, Alcolirykoz - La Esquina del Mariachi.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Aerophon, Alcolirykoz - La Esquina del Mariachi.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Aerophon, Alcolirykoz - La Esquina del Mariachi.mp3"; Failed to open "/home/arkar/Music/Aerophon, Alcolirykoz - La Esquina del Mariachi.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Aerophon, Alcolirykoz - La Esquina del Mariachi.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - La Sesera No Va.mp3"; Failed to open "/home/arkar/Music/Ska-P - La Sesera No Va.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - La Sesera No Va.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - La Típica (2.018).mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - La Típica (2.018).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - La Típica (2.018).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Akapellah - La Vida Es un Freestyle.mp3"; Failed to open "/home/arkar/Music/Akapellah - La Vida Es un Freestyle.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Akapellah - La Vida Es un Freestyle.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes, Cise Starr - Lady Brown (feat. Cise Starr from CYNE).mp3"; Failed to open "/home/arkar/Music/Nujabes, Cise Starr - Lady Brown (feat. Cise Starr from CYNE).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes, Cise Starr - Lady Brown (feat. Cise Starr from CYNE).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Los Prisioneros - Latinoamérica Es un Pueblo al Sur de Estados Unidos.mp3"; Failed to open "/home/arkar/Music/Los Prisioneros - Latinoamérica Es un Pueblo al Sur de Estados Unidos.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Los Prisioneros - Latinoamérica Es un Pueblo al Sur de Estados Unidos.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA, Danny Brown - Lean Beef Patty.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA, Danny Brown - Lean Beef Patty.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA, Danny Brown - Lean Beef Patty.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Clipse, Nas, Pusha T, Malice - Let God Sort Em OutChandeliers.mp3"; Failed to open "/home/arkar/Music/Clipse, Nas, Pusha T, Malice - Let God Sort Em OutChandeliers.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Clipse, Nas, Pusha T, Malice - Let God Sort Em OutChandeliers.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - Letter from Yokosuka.mp3"; Failed to open "/home/arkar/Music/Nujabes - Letter from Yokosuka.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - Letter from Yokosuka.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/CUPIDS OPPRESSION - LIFE IMITATES ART.mp3"; Failed to open "/home/arkar/Music/CUPIDS OPPRESSION - LIFE IMITATES ART.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "CUPIDS OPPRESSION - LIFE IMITATES ART.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - LIKE A PUNK.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - LIKE A PUNK.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - LIKE A PUNK.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Like It Like That.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Like It Like That.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Like It Like That.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - Like What.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - Like What.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - Like What.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Little League - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Little League - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Little League - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - LIVE RIGHT.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - LIVE RIGHT.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - LIVE RIGHT.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/菊池ひみこ - Look Your Back!.mp3"; Failed to open "/home/arkar/Music/菊池ひみこ - Look Your Back!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "菊池ひみこ - Look Your Back!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - loop it and leave it.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - loop it and leave it.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - loop it and leave it.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Loop Prisoner.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Loop Prisoner.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Loop Prisoner.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - LoveIsInTheAir.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - LoveIsInTheAir.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - LoveIsInTheAir.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/ZWE1HVNDXR, yatashigang - LOVELY BASTARDS.mp3"; Failed to open "/home/arkar/Music/ZWE1HVNDXR, yatashigang - LOVELY BASTARDS.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "ZWE1HVNDXR, yatashigang - LOVELY BASTARDS.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Kendrick Lamar, SZA - luther (with sza).mp3"; Failed to open "/home/arkar/Music/Kendrick Lamar, SZA - luther (with sza).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Kendrick Lamar, SZA - luther (with sza).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Shaggy, Collie Buddz, Sizzla - Mad Mad World (feat. Sizzla Kalonji & Collie Buddz).mp3"; Failed to open "/home/arkar/Music/Shaggy, Collie Buddz, Sizzla - Mad Mad World (feat. Sizzla Kalonji & Collie Buddz).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Shaggy, Collie Buddz, Sizzla - Mad Mad World (feat. Sizzla Kalonji & Collie Buddz).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Los Prisioneros - Maldito Sudaca.mp3"; Failed to open "/home/arkar/Music/Los Prisioneros - Maldito Sudaca.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Los Prisioneros - Maldito Sudaca.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Sergio Mendes & Brasil '66 - Mas Que Nada.mp3"; Failed to open "/home/arkar/Music/Sergio Mendes & Brasil '66 - Mas Que Nada.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Sergio Mendes & Brasil '66 - Mas Que Nada.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ahmed Malek - Maya.mp3"; Failed to open "/home/arkar/Music/Ahmed Malek - Maya.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ahmed Malek - Maya.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Mchngrl vs Wlfgrl.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Mchngrl vs Wlfgrl.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Mchngrl vs Wlfgrl.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - Mean girls.mp3"; Failed to open "/home/arkar/Music/Charli xcx - Mean girls.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - Mean girls.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - Medallo Bullies.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - Medallo Bullies.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - Medallo Bullies.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz, Jeronimo - Medellificación.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz, Jeronimo - Medellificación.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz, Jeronimo - Medellificación.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/João Gilberto - Meditação.mp3"; Failed to open "/home/arkar/Music/João Gilberto - Meditação.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "João Gilberto - Meditação.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Igorrr - Melting Nails.mp3"; Failed to open "/home/arkar/Music/Igorrr - Melting Nails.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Igorrr - Melting Nails.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Messy Life - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Messy Life - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Messy Life - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/wix9s1xe, SUICIDE KIDDO, Towa - MEXICO HURRICANE.mp3"; Failed to open "/home/arkar/Music/wix9s1xe, SUICIDE KIDDO, Towa - MEXICO HURRICANE.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "wix9s1xe, SUICIDE KIDDO, Towa - MEXICO HURRICANE.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/archipiélagos - minet.mp3"; Failed to open "/home/arkar/Music/archipiélagos - minet.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "archipiélagos - minet.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - Mis Colegas.mp3"; Failed to open "/home/arkar/Music/Ska-P - Mis Colegas.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - Mis Colegas.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Spastiks, Apani B Fly - Move.mp3"; Failed to open "/home/arkar/Music/Jazz Spastiks, Apani B Fly - Move.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Spastiks, Apani B Fly - Move.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Towa - Move MF.mp3"; Failed to open "/home/arkar/Music/Towa - Move MF.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Towa - Move MF.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Boards of Canada - Music Is Math.mp3"; Failed to open "/home/arkar/Music/Boards of Canada - Music Is Math.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Boards of Canada - Music Is Math.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Limp Bizkit - My Generation.mp3"; Failed to open "/home/arkar/Music/Limp Bizkit - My Generation.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Limp Bizkit - My Generation.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Frank Sinatra - My Way Of Life.mp3"; Failed to open "/home/arkar/Music/Frank Sinatra - My Way Of Life.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Frank Sinatra - My Way Of Life.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - MYSELF.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - MYSELF.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - MYSELF.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Molotov - Más Vale Cholo.mp3"; Failed to open "/home/arkar/Music/Molotov - Más Vale Cholo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Molotov - Más Vale Cholo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Limp Bizkit, Method Man - N 2 Gether Now.mp3"; Failed to open "/home/arkar/Music/Limp Bizkit, Method Man - N 2 Gether Now.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Limp Bizkit, Method Man - N 2 Gether Now.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Vegyn, JPEGMAFIA - Nauseous Devilish.mp3"; Failed to open "/home/arkar/Music/Vegyn, JPEGMAFIA - Nauseous Devilish.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Vegyn, JPEGMAFIA - Nauseous  Devilish.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - Never Meant.mp3"; Failed to open "/home/arkar/Music/American Football - Never Meant.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - Never Meant.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Malone the Chemist - NEW CHOP.mp3"; Failed to open "/home/arkar/Music/Malone the Chemist - NEW CHOP.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Malone the Chemist - NEW CHOP.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes, Uyama Hiroto - Next view (feat. Uyama Hiroto).mp3"; Failed to open "/home/arkar/Music/Nujabes, Uyama Hiroto - Next view (feat. Uyama Hiroto).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes, Uyama Hiroto - Next view (feat. Uyama Hiroto).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - Ni Fu Ni Fa.mp3"; Failed to open "/home/arkar/Music/Ska-P - Ni Fu Ni Fa.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - Ni Fu Ni Fa.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Nine Minutes and Forty Three Seconds.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Nine Minutes and Forty Three Seconds.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Nine Minutes and Forty Three Seconds.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - No Está en Venta.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - No Está en Venta.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - No Está en Venta.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae, Z-Trip - NO HANDS (feat. Z-Trip).mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae, Z-Trip - NO HANDS (feat. Z-Trip).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae, Z-Trip - NO HANDS (feat. Z-Trip).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Molotov - No Manches Mi Vida.mp3"; Failed to open "/home/arkar/Music/Molotov - No Manches Mi Vida.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Molotov - No Manches Mi Vida.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - No Me Acuerdo.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - No Me Acuerdo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - No Me Acuerdo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - No me soya la playa.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - No me soya la playa.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - No me soya la playa.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/2Pac - No More Pain.mp3"; Failed to open "/home/arkar/Music/2Pac - No More Pain.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "2Pac - No More Pain.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero, NicoJP - No no - Instrumental.mp3"; Failed to open "/home/arkar/Music/Canserbero, NicoJP - No no - Instrumental.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero, NicoJP - No no - Instrumental.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Penyair, Gabylonia, La Loquera - No Somos Iguales.mp3"; Failed to open "/home/arkar/Music/Penyair, Gabylonia, La Loquera - No Somos Iguales.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Penyair, Gabylonia, La Loquera - No Somos Iguales.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Penyair, Gabylonia, La Loquera - No Somos Iguales.mp3"; Failed to open "/home/arkar/Music/Penyair, Gabylonia, La Loquera - No Somos Iguales.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Penyair, Gabylonia, La Loquera - No Somos Iguales.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/rusowsky - no t dejas ver.mp3"; Failed to open "/home/arkar/Music/rusowsky - no t dejas ver.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "rusowsky - no t dejas ver.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Rxnde Akozta, Portavoz, DJ Cidtronyck - No Van Pal Baile.mp3"; Failed to open "/home/arkar/Music/Rxnde Akozta, Portavoz, DJ Cidtronyck - No Van Pal Baile.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Rxnde Akozta, Portavoz, DJ Cidtronyck - No Van Pal Baile.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Molotov - Noko.mp3"; Failed to open "/home/arkar/Music/Molotov - Noko.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Molotov - Noko.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Normal.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Normal.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Normal.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Doechii - Nosebleeds.mp3"; Failed to open "/home/arkar/Music/Doechii - Nosebleeds.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Doechii - Nosebleeds.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cidtronyck, Portavoz - Nuevo Comienzo.mp3"; Failed to open "/home/arkar/Music/Cidtronyck, Portavoz - Nuevo Comienzo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cidtronyck, Portavoz - Nuevo Comienzo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/berlioz, Ted Jasper - nyc in 1940.mp3"; Failed to open "/home/arkar/Music/berlioz, Ted Jasper - nyc in 1940.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "berlioz, Ted Jasper - nyc in 1940.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JUNTMANE, BIG PROBLEM MAC - O' LORD.mp3"; Failed to open "/home/arkar/Music/JUNTMANE, BIG PROBLEM MAC - O' LORD.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JUNTMANE, BIG PROBLEM MAC - O' LORD.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Hachazo - Ocho horas.mp3"; Failed to open "/home/arkar/Music/Hachazo - Ocho horas.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Hachazo - Ocho horas.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest, Busta Rhymes - Oh My God (feat. Busta Rhymes).mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest, Busta Rhymes - Oh My God (feat. Busta Rhymes).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest, Busta Rhymes - Oh My God (feat. Busta Rhymes).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Masayoshi Takanaka - OH! TENGO SUERTE.mp3"; Failed to open "/home/arkar/Music/Masayoshi Takanaka - OH! TENGO SUERTE.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Masayoshi Takanaka - OH! TENGO SUERTE.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - OMNITRIX.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - OMNITRIX.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - OMNITRIX.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Gorillaz - On Melancholy Hill.mp3"; Failed to open "/home/arkar/Music/Gorillaz - On Melancholy Hill.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Gorillaz - On Melancholy Hill.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/2 Low Key, Lil Chucky - On That Devil Shit.mp3"; Failed to open "/home/arkar/Music/2 Low Key, Lil Chucky - On That Devil Shit.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "2 Low Key, Lil Chucky - On That Devil Shit.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Eddy Mugre - One two.mp3"; Failed to open "/home/arkar/Music/Eddy Mugre - One two.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Eddy Mugre - One two.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero, NicoJP - Outro Chavo - Instrumental.mp3"; Failed to open "/home/arkar/Music/Canserbero, NicoJP - Outro Chavo - Instrumental.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero, NicoJP - Outro Chavo - Instrumental.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Clipse, Tyler, The Creator, Pusha T, Malice - P.O.V..mp3"; Failed to open "/home/arkar/Music/Clipse, Tyler, The Creator, Pusha T, Malice - P.O.V..mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Clipse, Tyler, The Creator, Pusha T, Malice - P.O.V..mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae, Danny Brown - PACKAPUNCH (feat. Danny Brown).mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae, Danny Brown - PACKAPUNCH (feat. Danny Brown).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae, Danny Brown - PACKAPUNCH (feat. Danny Brown).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/PinkPantheress - Pain.mp3"; Failed to open "/home/arkar/Music/PinkPantheress - Pain.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "PinkPantheress - Pain.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - Paramilitar.mp3"; Failed to open "/home/arkar/Music/Ska-P - Paramilitar.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - Paramilitar.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - PARTY'S OVER.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - PARTY'S OVER.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - PARTY'S OVER.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Apache - Pasame la Yesca.mp3"; Failed to open "/home/arkar/Music/Apache - Pasame la Yesca.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Apache - Pasame la Yesca.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3"; Failed to open "/home/arkar/Music/Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - Peaceland.mp3"; Failed to open "/home/arkar/Music/Nujabes - Peaceland.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - Peaceland.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Peruvian Cocaine - Immortal Technique.mp3"; Failed to open "/home/arkar/Music/Peruvian Cocaine - Immortal Technique.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Peruvian Cocaine - Immortal Technique.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Tsuneo Imahori - PHILOSOPHY in a Tea Cup.mp3"; Failed to open "/home/arkar/Music/Tsuneo Imahori - PHILOSOPHY in a Tea Cup.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Tsuneo Imahori - PHILOSOPHY in a Tea Cup.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - Piqui Blainder.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - Piqui Blainder.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - Piqui Blainder.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Planet Shhh - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Planet Shhh - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Planet Shhh - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Riot Propaganda - Plata o Plomo.mp3"; Failed to open "/home/arkar/Music/Riot Propaganda - Plata o Plomo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Riot Propaganda - Plata o Plomo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/usedcvnt, Eden FM - pls tell me what is ur dream.mp3"; Failed to open "/home/arkar/Music/usedcvnt, Eden FM - pls tell me what is ur dream.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "usedcvnt, Eden FM - pls tell me what is ur dream.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Prefuse 73 - Point To B.mp3"; Failed to open "/home/arkar/Music/Prefuse 73 - Point To B.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Prefuse 73 - Point To B.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Los Prisioneros - Por Qué No Se Van.mp3"; Failed to open "/home/arkar/Music/Los Prisioneros - Por Qué No Se Van.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Los Prisioneros - Por Qué No Se Van.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Portavoz, Matiah Chinaski, Dj Perez - Por Si Las Moscas (En Otra Versión).mp3"; Failed to open "/home/arkar/Music/Portavoz, Matiah Chinaski, Dj Perez - Por Si Las Moscas (En Otra Versión).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Portavoz, Matiah Chinaski, Dj Perez - Por Si Las Moscas (En Otra Versión).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/João Gilberto - Pra Que Discutir Com Madame.mp3"; Failed to open "/home/arkar/Music/João Gilberto - Pra Que Discutir Com Madame.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "João Gilberto - Pra Que Discutir Com Madame.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Precious - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Precious - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Precious - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Kendrick Lamar - PRIDE..mp3"; Failed to open "/home/arkar/Music/Kendrick Lamar - PRIDE..mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Kendrick Lamar - PRIDE..mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/菊池ひみこ - PRIMAVELA.mp3"; Failed to open "/home/arkar/Music/菊池ひみこ - PRIMAVELA.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "菊池ひみこ - PRIMAVELA.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Sons of Aguirre, Scila, Dj Plan B, Guaja D - Privilegiados.mp3"; Failed to open "/home/arkar/Music/Sons of Aguirre, Scila, Dj Plan B, Guaja D - Privilegiados.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Sons of Aguirre, Scila, Dj Plan B, Guaja D - Privilegiados.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Aphex Twin - produk 29 [101].mp3"; Failed to open "/home/arkar/Music/Aphex Twin - produk 29 [101].mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Aphex Twin - produk 29 [101].mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/System Of A Down - Protect The Land.mp3"; Failed to open "/home/arkar/Music/System Of A Down - Protect The Land.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "System Of A Down - Protect The Land.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Puddle Splashers - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Puddle Splashers - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Puddle Splashers - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Sadfriendd, Towa - Pumpfake.mp3"; Failed to open "/home/arkar/Music/Sadfriendd, Towa - Pumpfake.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Sadfriendd, Towa - Pumpfake.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - PUNK TACTICS.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - PUNK TACTICS.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - PUNK TACTICS.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Puro Parcerito - Oblivion's Mighty Trash.mp3"; Failed to open "/home/arkar/Music/Puro Parcerito - Oblivion's Mighty Trash.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Puro Parcerito - Oblivion's Mighty Trash.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/femtanyl - PUSH UR T3MPRR.mp3"; Failed to open "/home/arkar/Music/femtanyl - PUSH UR T3MPRR.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "femtanyl - PUSH UR T3MPRR.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Hareton Salvanini - Quarto de Hotel.mp3"; Failed to open "/home/arkar/Music/Hareton Salvanini - Quarto de Hotel.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Hareton Salvanini - Quarto de Hotel.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Menahan Street Band - Queens Highway.mp3"; Failed to open "/home/arkar/Music/Menahan Street Band - Queens Highway.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Menahan Street Band - Queens Highway.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero - Quién Eres.mp3"; Failed to open "/home/arkar/Music/Canserbero - Quién Eres.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero - Quién Eres.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Qué Suerté! - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Qué Suerté! - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Qué Suerté! - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Qîdar - Feat. Soul Clan.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Qîdar - Feat. Soul Clan.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Qîdar - Feat. Soul Clan.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero, NicoJP - RA Words - Instrumental.mp3"; Failed to open "/home/arkar/Music/Canserbero, NicoJP - RA Words - Instrumental.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero, NicoJP - RA Words - Instrumental.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Proof - Rap da Rap quita.mp3"; Failed to open "/home/arkar/Music/Proof - Rap da Rap quita.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Proof - Rap da Rap quita.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Proof, Trafikante de Almas - Rap de culto.mp3"; Failed to open "/home/arkar/Music/Proof, Trafikante de Almas - Rap de culto.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Proof, Trafikante de Almas - Rap de culto.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM, Mr. Fantastik - Rapp Snitch Knishes.mp3"; Failed to open "/home/arkar/Music/MF DOOM, Mr. Fantastik - Rapp Snitch Knishes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM, Mr. Fantastik - Rapp Snitch Knishes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/6ix, Joey Valence & Brae, FELIX!, Buddy, KYLE, Blu - Raw.mp3"; Failed to open "/home/arkar/Music/6ix, Joey Valence & Brae, FELIX!, Buddy, KYLE, Blu - Raw.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "6ix, Joey Valence & Brae, FELIX!, Buddy, KYLE, Blu - Raw.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/6ix, Joey Valence & Brae, FELIX!, Buddy, KYLE, Blu - Raw.mp3"; Failed to open "/home/arkar/Music/6ix, Joey Valence & Brae, FELIX!, Buddy, KYLE, Blu - Raw.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "6ix, Joey Valence & Brae, FELIX!, Buddy, KYLE, Blu - Raw.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - Ready Set.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - Ready Set.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - Ready Set.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Portavoz, Zonyko, Cidtronyck - Rebelarte.mp3"; Failed to open "/home/arkar/Music/Portavoz, Zonyko, Cidtronyck - Rebelarte.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Portavoz, Zonyko, Cidtronyck - Rebelarte.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3"; Failed to open "/home/arkar/Music/Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz, Estee Nack - Reflujo.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz, Estee Nack - Reflujo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz, Estee Nack - Reflujo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - Rewind.mp3"; Failed to open "/home/arkar/Music/Charli xcx - Rewind.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - Rewind.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Science Of Sound, A Tribe Called Quest - Rhymery.mp3"; Failed to open "/home/arkar/Music/Science Of Sound, A Tribe Called Quest - Rhymery.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Science Of Sound, A Tribe Called Quest - Rhymery.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM, DJ Cucumber Slice - Rhymes Like Dimes.mp3"; Failed to open "/home/arkar/Music/MF DOOM, DJ Cucumber Slice - Rhymes Like Dimes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM, DJ Cucumber Slice - Rhymes Like Dimes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Beastie Boys - Right Right Now Now.mp3"; Failed to open "/home/arkar/Music/Beastie Boys - Right Right Now Now.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Beastie Boys - Right Right Now Now.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - Romero el Madero.mp3"; Failed to open "/home/arkar/Music/Ska-P - Romero el Madero.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - Romero el Madero.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Apache - Rompiendo el Hielo.mp3"; Failed to open "/home/arkar/Music/Apache - Rompiendo el Hielo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Apache - Rompiendo el Hielo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Round 40.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Round 40.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Round 40.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Boards of Canada - Roygbiv.mp3"; Failed to open "/home/arkar/Music/Boards of Canada - Roygbiv.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Boards of Canada - Roygbiv.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cultura Profética - Saca, Prende y Sorprende.mp3"; Failed to open "/home/arkar/Music/Cultura Profética - Saca, Prende y Sorprende.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cultura Profética - Saca, Prende y Sorprende.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Sad Claps.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Sad Claps.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Sad Claps.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Sancocho en Leña.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Sancocho en Leña.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Sancocho en Leña.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA, Danny Brown - SCARING THE HOES.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA, Danny Brown - SCARING THE HOES.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA, Danny Brown - SCARING THE HOES.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Igorrr - Scarlatti 2.0.mp3"; Failed to open "/home/arkar/Music/Igorrr - Scarlatti 2.0.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Igorrr - Scarlatti 2.0.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest, Busta Rhymes, Dinco D, Charlie Brown - Scenario (feat. Busta Rhymes, Dinco D & Charlie Brown) - LP Mix.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest, Busta Rhymes, Dinco D, Charlie Brown - Scenario (feat. Busta Rhymes, Dinco D & Charlie Brown) - LP Mix.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest, Busta Rhymes, Dinco D, Charlie Brown - Scenario (feat. Busta Rhymes, Dinco D & Charlie Brown) - LP Mix.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Shoebill - shitcorebabes.mp3"; Failed to open "/home/arkar/Music/Shoebill - shitcorebabes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Shoebill - shitcorebabes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - SIN MIEDO.mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - SIN MIEDO.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - SIN MIEDO.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Señor Marrano, Eddy Mugre - Sistema - Remix.mp3"; Failed to open "/home/arkar/Music/Señor Marrano, Eddy Mugre - Sistema - Remix.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Señor Marrano, Eddy Mugre - Sistema - Remix.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Boards of Canada - Sixtyten.mp3"; Failed to open "/home/arkar/Music/Boards of Canada - Sixtyten.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Boards of Canada - Sixtyten.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Doechii - SKIPP.mp3"; Failed to open "/home/arkar/Music/Doechii - SKIPP.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Doechii - SKIPP.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Clipse, Pusha T, Malice - So Be It.mp3"; Failed to open "/home/arkar/Music/Clipse, Pusha T, Malice - So Be It.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Clipse, Pusha T, Malice - So Be It.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/ooxygen - Soul.mp3"; Failed to open "/home/arkar/Music/ooxygen - Soul.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "ooxygen - Soul.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Speak The Language - Feat. Lizz Fields.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Speak The Language - Feat. Lizz Fields.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Speak The Language - Feat. Lizz Fields.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Earl Sweatshirt - Static.mp3"; Failed to open "/home/arkar/Music/Earl Sweatshirt - Static.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Earl Sweatshirt - Static.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - Stay Home.mp3"; Failed to open "/home/arkar/Music/American Football - Stay Home.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - Stay Home.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Steve Biko (Stir It Up).mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Steve Biko (Stir It Up).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Steve Biko (Stir It Up).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Doechii - Stressed - A COLORS SHOW.mp3"; Failed to open "/home/arkar/Music/Doechii - Stressed - A COLORS SHOW.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Doechii - Stressed - A COLORS SHOW.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Suero Casero.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Suero Casero.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Suero Casero.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - Summer Gypsy.mp3"; Failed to open "/home/arkar/Music/Nujabes - Summer Gypsy.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - Summer Gypsy.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Spastiks, People Without Shoes - Super Fly Funk.mp3"; Failed to open "/home/arkar/Music/Jazz Spastiks, People Without Shoes - Super Fly Funk.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Spastiks, People Without Shoes - Super Fly Funk.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/ilysam, Mc Ster - sweet rally.mp3"; Failed to open "/home/arkar/Music/ilysam, Mc Ster - sweet rally.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "ilysam, Mc Ster - sweet rally.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Szerencsétlen.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Szerencsétlen.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Szerencsétlen.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Take A Time - Feat. Buckshot.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Take A Time - Feat. Buckshot.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Take A Time - Feat. Buckshot.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - Talk talk.mp3"; Failed to open "/home/arkar/Music/Charli xcx - Talk talk.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - Talk talk.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Tararea.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Tararea.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Tararea.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Chucho Valdés, Royal Quartet - Tatomania.mp3"; Failed to open "/home/arkar/Music/Chucho Valdés, Royal Quartet - Tatomania.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Chucho Valdés, Royal Quartet - Tatomania.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ali Primera - Techos de Cartón.mp3"; Failed to open "/home/arkar/Music/Ali Primera - Techos de Cartón.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ali Primera - Techos de Cartón.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ali Primera - Techos de Cartón.mp3"; Failed to open "/home/arkar/Music/Ali Primera - Techos de Cartón.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ali Primera - Techos de Cartón.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Boards of Canada - Telephasic Workshop.mp3"; Failed to open "/home/arkar/Music/Boards of Canada - Telephasic Workshop.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Boards of Canada - Telephasic Workshop.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Shaggy - That's Life.mp3"; Failed to open "/home/arkar/Music/Shaggy - That's Life.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Shaggy - That's Life.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM - THAT'S THAT.mp3"; Failed to open "/home/arkar/Music/MF DOOM - THAT'S THAT.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM - THAT'S THAT.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/PinkPantheress - The aisle.mp3"; Failed to open "/home/arkar/Music/PinkPantheress - The aisle.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "PinkPantheress - The aisle.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/j1gggs - the cat from ipanema.mp3"; Failed to open "/home/arkar/Music/j1gggs - the cat from ipanema.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "j1gggs - the cat from ipanema.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Boards of Canada - The Color Of The Fire.mp3"; Failed to open "/home/arkar/Music/Boards of Canada - The Color Of The Fire.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Boards of Canada - The Color Of The Fire.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes - The Final View.mp3"; Failed to open "/home/arkar/Music/Nujabes - The Final View.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes - The Final View.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Stan Getz - The Girl From Ipanema.mp3"; Failed to open "/home/arkar/Music/Stan Getz - The Girl From Ipanema.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Stan Getz - The Girl From Ipanema.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/The Glass Room - Silver October.mp3"; Failed to open "/home/arkar/Music/The Glass Room - Silver October.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "The Glass Room - Silver October.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - The Hop.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - The Hop.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - The Hop.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Laurindo Almeida - The Lamp Is Low.mp3"; Failed to open "/home/arkar/Music/Laurindo Almeida - The Lamp Is Low.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Laurindo Almeida - The Lamp Is Low.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - The One With The Wurlitzer.mp3"; Failed to open "/home/arkar/Music/American Football - The One With The Wurlitzer.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - The One With The Wurlitzer.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - THE PARTY SONG.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - THE PARTY SONG.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - THE PARTY SONG.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - The Sands Have Turned Purple - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - The Sands Have Turned Purple - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - The Sands Have Turned Purple - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - The Summer Ends.mp3"; Failed to open "/home/arkar/Music/American Football - The Summer Ends.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - The Summer Ends.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Nujabes, Substantial - Think Different (feat. Substantial).mp3"; Failed to open "/home/arkar/Music/Nujabes, Substantial - Think Different (feat. Substantial).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Nujabes, Substantial - Think Different (feat. Substantial).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - This Bitter Earth.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - This Bitter Earth.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - This Bitter Earth.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz, Bajo Tierra - TNT.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz, Bajo Tierra - TNT.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz, Bajo Tierra - TNT.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Sabaton - To Hell and Back.mp3"; Failed to open "/home/arkar/Music/Sabaton - To Hell and Back.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Sabaton - To Hell and Back.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Alcolirykoz - Todo Lo Bueno Tarda.mp3"; Failed to open "/home/arkar/Music/Alcolirykoz - Todo Lo Bueno Tarda.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Alcolirykoz - Todo Lo Bueno Tarda.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/PinkPantheress - Tonight.mp3"; Failed to open "/home/arkar/Music/PinkPantheress - Tonight.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "PinkPantheress - Tonight.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Earl Sweatshirt - TOURMALINE.mp3"; Failed to open "/home/arkar/Music/Earl Sweatshirt - TOURMALINE.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Earl Sweatshirt - TOURMALINE.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/System Of A Down - Toxicity.mp3"; Failed to open "/home/arkar/Music/System Of A Down - Toxicity.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "System Of A Down - Toxicity.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Proof - Tratos Con el Diablo.mp3"; Failed to open "/home/arkar/Music/Proof - Tratos Con el Diablo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Proof - Tratos Con el Diablo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/PinkPantheress - True romance.mp3"; Failed to open "/home/arkar/Music/PinkPantheress - True romance.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "PinkPantheress - True romance.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Kendrick Lamar, Lefty Gunplay - tv off (feat. lefty gunplay).mp3"; Failed to open "/home/arkar/Music/Kendrick Lamar, Lefty Gunplay - tv off (feat. lefty gunplay).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Kendrick Lamar, Lefty Gunplay - tv off (feat. lefty gunplay).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - twelve.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - twelve.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - twelve.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - U Do - Feat. Stacy Epps.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - U Do - Feat. Stacy Epps.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - U Do - Feat. Stacy Epps.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Ultraviolent Junglist.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Ultraviolent Junglist.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Ultraviolent Junglist.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Garoto - Um Rosto de Mulher.mp3"; Failed to open "/home/arkar/Music/Garoto - Um Rosto de Mulher.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Garoto - Um Rosto de Mulher.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Penyair, dj spizike - Un Pelito y Un Tamal.mp3"; Failed to open "/home/arkar/Music/Penyair, dj spizike - Un Pelito y Un Tamal.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Penyair, dj spizike - Un Pelito y Un Tamal.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - Underground Sound.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - Underground Sound.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - Underground Sound.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Canserbero, Apache - Uno por Ellas.mp3"; Failed to open "/home/arkar/Music/Canserbero, Apache - Uno por Ellas.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Canserbero, Apache - Uno por Ellas.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - Vacation - Feat. J. Live.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - Vacation - Feat. J. Live.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - Vacation - Feat. J. Live.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Igorrr - Very Long Chicken.mp3"; Failed to open "/home/arkar/Music/Igorrr - Very Long Chicken.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Igorrr - Very Long Chicken.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Sons of Aguirre, Scila - Vete a Cuba.mp3"; Failed to open "/home/arkar/Music/Sons of Aguirre, Scila - Vete a Cuba.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Sons of Aguirre, Scila - Vete a Cuba.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Violadores Del Verso - Vicios y Virtudes.mp3"; Failed to open "/home/arkar/Music/Violadores Del Verso - Vicios y Virtudes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Violadores Del Verso - Vicios y Virtudes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM - Vomitspit.mp3"; Failed to open "/home/arkar/Music/MF DOOM - Vomitspit.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM - Vomitspit.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Charli xcx - Von dutch.mp3"; Failed to open "/home/arkar/Music/Charli xcx - Von dutch.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Charli xcx - Von dutch.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Molotov - Voto Latino.mp3"; Failed to open "/home/arkar/Music/Molotov - Voto Latino.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Molotov - Voto Latino.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Eddie Palmieri - Vámonos Pa'l Monte.mp3"; Failed to open "/home/arkar/Music/Eddie Palmieri - Vámonos Pa'l Monte.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Eddie Palmieri - Vámonos Pa'l Monte.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - Wacky.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - Wacky.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - Wacky.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Doechii - WAIT.mp3"; Failed to open "/home/arkar/Music/Doechii - WAIT.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Doechii - WAIT.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Rage Against The Machine - Wake Up.mp3"; Failed to open "/home/arkar/Music/Rage Against The Machine - Wake Up.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Rage Against The Machine - Wake Up.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae, JPEGMAFIA - WASSUP (feat. JPEGMAFIA).mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae, JPEGMAFIA - WASSUP (feat. JPEGMAFIA).mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae, JPEGMAFIA - WASSUP (feat. JPEGMAFIA).mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Chon - Waterslide.mp3"; Failed to open "/home/arkar/Music/Chon - Waterslide.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Chon - Waterslide.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - Welcome to Hell.mp3"; Failed to open "/home/arkar/Music/Ska-P - Welcome to Hell.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - Welcome to Hell.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Earl Sweatshirt - WELL DONE!.mp3"; Failed to open "/home/arkar/Music/Earl Sweatshirt - WELL DONE!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Earl Sweatshirt - WELL DONE!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/JPEGMAFIA - What the hip hop hell is this .mp3"; Failed to open "/home/arkar/Music/JPEGMAFIA - What the hip hop hell is this .mp3": No such file or directory
+2026-01-08T19:52:18 player: played "JPEGMAFIA - What the hip hop hell is this .mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - What.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - What.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - What.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Jazz Liberatorz - When The Clock Ticks - Feat. J. Sands.mp3"; Failed to open "/home/arkar/Music/Jazz Liberatorz - When The Clock Ticks - Feat. J. Sands.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Jazz Liberatorz - When The Clock Ticks - Feat. J. Sands.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Digable Planets - Where I'm From.mp3"; Failed to open "/home/arkar/Music/Digable Planets - Where I'm From.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Digable Planets - Where I'm From.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Joey Valence & Brae - WHERE U FROM.mp3"; Failed to open "/home/arkar/Music/Joey Valence & Brae - WHERE U FROM.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Joey Valence & Brae - WHERE U FROM.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ayesha Erotica - Where You At.mp3"; Failed to open "/home/arkar/Music/Ayesha Erotica - Where You At.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ayesha Erotica - Where You At.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - Xleepy.mp3"; Failed to open "/home/arkar/Music/Machine Girl - Xleepy.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - Xleepy.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Aphex Twin - Xtal.mp3"; Failed to open "/home/arkar/Music/Aphex Twin - Xtal.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Aphex Twin - Xtal.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Oblivion's Mighty Trash - Ya Mismo.mp3"; Failed to open "/home/arkar/Music/Oblivion's Mighty Trash - Ya Mismo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Oblivion's Mighty Trash - Ya Mismo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/El Cuarteto De Nos - Ya No Sé Que Hacer Conmigo.mp3"; Failed to open "/home/arkar/Music/El Cuarteto De Nos - Ya No Sé Que Hacer Conmigo.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "El Cuarteto De Nos - Ya No Sé Que Hacer Conmigo.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Penyair, Alka Produce, Realidad Mental, Eddy Mugre - Ya Verás.mp3"; Failed to open "/home/arkar/Music/Penyair, Alka Produce, Realidad Mental, Eddy Mugre - Ya Verás.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Penyair, Alka Produce, Realidad Mental, Eddy Mugre - Ya Verás.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Cap'n Jazz - Yes, I Am Talking To You - 2025 Remaster.mp3"; Failed to open "/home/arkar/Music/Cap'n Jazz - Yes, I Am Talking To You - 2025 Remaster.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Cap'n Jazz - Yes, I Am Talking To You - 2025 Remaster.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/MF DOOM, Raekwon - YESSIR!.mp3"; Failed to open "/home/arkar/Music/MF DOOM, Raekwon - YESSIR!.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "MF DOOM, Raekwon - YESSIR!.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/American Football - You Know I Should Be Leaving Soon.mp3"; Failed to open "/home/arkar/Music/American Football - You Know I Should Be Leaving Soon.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "American Football - You Know I Should Be Leaving Soon.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/A Tribe Called Quest - Youthful Expression.mp3"; Failed to open "/home/arkar/Music/A Tribe Called Quest - Youthful Expression.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "A Tribe Called Quest - Youthful Expression.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Selene, Tatiana Gomez Rap, Eddy Mugre, Arion - ¿Algo Que Decir.mp3"; Failed to open "/home/arkar/Music/Selene, Tatiana Gomez Rap, Eddy Mugre, Arion - ¿Algo Que Decir.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Selene, Tatiana Gomez Rap, Eddy Mugre, Arion - ¿Algo Que Decir.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Ska-P - Ñapaes.mp3"; Failed to open "/home/arkar/Music/Ska-P - Ñapaes.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Ska-P - Ñapaes.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Venetian Snares - Öngyilkos Vasárnap.mp3"; Failed to open "/home/arkar/Music/Venetian Snares - Öngyilkos Vasárnap.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Venetian Snares - Öngyilkos Vasárnap.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Anna German - Катюша.mp3"; Failed to open "/home/arkar/Music/Anna German - Катюша.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Anna German - Катюша.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Machine Girl - うずまき.mp3"; Failed to open "/home/arkar/Music/Machine Girl - うずまき.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Machine Girl - うずまき.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Tfwamirite - だきしめたい.mp3"; Failed to open "/home/arkar/Music/Tfwamirite - だきしめたい.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Tfwamirite - だきしめたい.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"; Failed to open "/home/arkar/Music/CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"; Failed to open "/home/arkar/Music/CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"; Failed to open "/home/arkar/Music/CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"; Failed to open "/home/arkar/Music/CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/CASIOPEA - ドミノ・ライン - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"; Failed to open "/home/arkar/Music/CASIOPEA - ドミノ・ライン - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "CASIOPEA - ドミノ・ライン - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"; Failed to open "/home/arkar/Music/CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/Chihiro Yamanaka - 乙女の祈り.mp3"; Failed to open "/home/arkar/Music/Chihiro Yamanaka - 乙女の祈り.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "Chihiro Yamanaka - 乙女の祈り.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/CASIOPEA - 朝焼け - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"; Failed to open "/home/arkar/Music/CASIOPEA - 朝焼け - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "CASIOPEA - 朝焼け - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-01-08T19:52:18 exception: Failed to decode "/home/arkar/Music/All That Jazz - 空から降ってきた少女.mp3"; Failed to open "/home/arkar/Music/All That Jazz - 空から降ってきた少女.mp3": No such file or directory
+2026-01-08T19:52:18 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-01-08T20:30:59 player: played "Aphex Twin - 4.mp3"
+2026-01-08T20:35:20 player: played "A Tribe Called Quest - 8 Million Stories.mp3"
+2026-01-08T20:39:19 player: played "Nujabes - A day by atmosphere supreme.mp3"
+2026-01-08T20:39:26 player: played "Nujabes - A day by atmosphere supreme.mp3"
+2026-01-08T20:40:11 player: played "Almendra - A Estos Hombres Tristes.mp3"
+2026-01-08T20:45:43 player: played "Almendra - A Estos Hombres Tristes.mp3"
+2026-01-08T20:47:19 player: played "Macabre Plaza - Abandoned Plaza.mp3"
+2026-01-08T20:54:13 player: played "archipiélagos - akira.mp3"
+2026-01-08T20:54:31 player: played "Pedro Mo - Al Intocable.mp3"
+2026-01-08T20:58:46 player: played "Pedro Mo - Al Intocable.mp3"
+2026-01-08T21:03:15 player: played "Portavoz - Al Pueblo Le Asusta La Revolución.mp3"
+2026-01-08T21:06:36 player: played "Ralph Weeks, Combo Lulo - Algo Muy Profundo.mp3"
+2026-01-08T21:09:52 output: Failed to play on "pipewire" (pulse): disconnected
+2026-01-08T21:09:52 player: played "Jimi Hendrix - All Along the Watchtower.mp3"
+2026-01-08T21:12:01 output: Failed to play on "pipewire" (pulse): disconnected
+2026-01-08T21:12:01 player: played "Jimi Hendrix - All Along the Watchtower.mp3"
+2026-01-08T21:12:45 player: played "Jimi Hendrix - All Along the Watchtower.mp3"
+2026-01-09T14:08:27 player: played "Madvillain, Madlib, MF DOOM - All Caps.mp3"
+2026-01-09T14:11:10 player: played "SERAPHINE NOIR, Nona Shipov - All Caps.mp3"
+2026-01-09T14:13:30 output: Failed to play on "pipewire" (pulse): disconnected
+2026-01-09T14:13:30 player: played "Boards of Canada - An Eagle In Your Mind.mp3"
+2026-01-09T14:18:39 player: played "Boards of Canada - An Eagle In Your Mind.mp3"
+2026-01-09T14:22:35 player: played "Control Machete - Andamos Armados.mp3"
+2026-01-09T14:27:52 player: played "Angel - Silver October.mp3"
+2026-01-09T14:31:19 player: played "King Geedorah, Mr Fantastik - Anti-Matter.mp3"
+2026-01-09T14:33:40 player: played "ZSK - Antifascista.mp3"
+2026-01-09T14:37:26 player: played "hkmori - anybody can find love (except you.).mp3"
+2026-01-09T14:44:28 player: played "Nujabes - aruarian dance.mp3"
+2026-01-09T14:48:05 player: played "Control Machete - Así Son Mis Días.mp3"
+2026-01-09T14:50:34 player: played "TiaCorine - ATE.mp3"
+2026-01-09T14:52:09 player: played "Machine Girl - Athoth a Go!! Go!!.mp3"
+2026-01-09T14:55:56 player: played "A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3"
+2026-01-09T15:05:48 player: played "Ayer y Hoy - Julio Jaramillo.mp3"
+2026-01-09T15:10:11 player: played "System Of A Down - B.Y.O.B..mp3"
+2026-01-09T15:13:09 player: played "Charli xcx - B2b.mp3"
+2026-01-09T15:15:36 player: played "wiv - bad days are coming.mp3"
+2026-01-09T15:20:12 player: played "JPEGMAFIA - BALD!.mp3"
+2026-01-09T15:23:40 player: played "Alcolirykoz - Baldor.mp3"
+2026-01-09T15:26:18 player: played "Cap'n Jazz - Basil's Kite - 2025 Remaster.mp3"
+2026-01-09T15:30:18 player: played "Oblivion's Mighty Trash - Bastian Laurent.mp3"
+2026-01-09T15:33:40 player: played "Nujabes, Shing02 - battlecry.mp3"
+2026-01-09T15:40:12 player: played "Nujabes - Beat laments the world.mp3"
+2026-01-09T15:44:00 player: played "Ahmed Malek - Bossa.mp3"
+2026-01-09T15:45:36 player: played "PinkPantheress - Break It Off - Bonus.mp3"
+2026-01-09T15:53:03 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
+2026-01-09T15:54:45 player: played "Elis Regina, Antônio Carlos Jobim - Brigas Nunca Mais.mp3"
+2026-01-09T15:58:42 player: played "Canserbero, NicoJP - Buenas Noches - Instrumental.mp3"
+2026-01-09T16:02:20 player: played "A Tribe Called Quest - Buggin' Out.mp3"
+2026-01-09T16:05:05 player: played "Machine Girl - Bullet Hell.mp3"
+2026-01-09T16:09:19 player: played "Rage Against The Machine - Bulls On Parade.mp3"
+2026-01-09T21:01:39 player: played "American Football - But the Regrets Are Killing Me.mp3"
+2026-01-09T21:13:07 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-01-09T21:16:58 player: played "Canserbero - Canbiate.mp3"
+2026-01-09T21:22:35 player: played "Ilkae - Cappuccino Summit.mp3"
+2026-01-09T21:24:17 output: Failed to play on "pipewire" (pulse): disconnected
+2026-01-09T21:24:17 player: played "Aphex Twin - CIRCLONT6A [141.98][syrobonkus mix].mp3"
+2026-01-09T21:30:44 player: played "Aphex Twin - CIRCLONT6A [141.98][syrobonkus mix].mp3"
+2026-01-09T21:33:39 player: played "Pedro Mo - Ciudadanos de 2da Clase.mp3"
+2026-01-09T21:40:43 player: played "Jazz Liberatorz - Clin D'oeil.mp3"
+2026-01-09T21:43:42 player: played "Lil Supa, Doktor Rheal - CLOACA.mp3"
+2026-01-09T21:48:18 player: played "Charli xcx - Club classics.mp3"
+2026-01-09T21:49:39 output: Failed to play on "pipewire" (pulse): disconnected
+2026-01-09T21:49:39 player: played "The Davitts - Come Out Ye Black and Tans.mp3"
+2026-01-09T21:55:09 player: played "The Davitts - Come Out Ye Black and Tans.mp3"
+2026-01-09T21:57:51 player: played "Purple Posse, BACKWHEN, 6-6-6 - Cookies.mp3"
+2026-01-09T22:03:13 player: played "Jazz Liberatorz - Cool Down - Feat. Raashan Ahmad.mp3"
+2026-01-09T22:05:39 player: played "DANGERDOOM, MF DOOM, Danger Mouse - Crosshairs.mp3"
+2026-01-09T22:08:38 player: played "Joey Valence & Brae - DANCE NOW.mp3"
+2026-01-09T22:13:57 player: played "Bolden. - Dawn in LA..mp3"
+2026-01-09T22:17:16 player: played "Cortex - Devil's Dance.mp3"
