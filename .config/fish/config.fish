@@ -63,3 +63,6 @@ if test $(math $fetch % 2) = 0
 else
     hyfetch
 end
+if not set -q SSH_AUTH_SOCK
+    set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+end

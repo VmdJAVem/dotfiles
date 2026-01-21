@@ -3,7 +3,6 @@ alsa-firmware
 alsa-plugins
 alsa-utils
 amd-ucode
-apt
 aspell
 aspell-es
 b43-fwcutter
@@ -40,8 +39,6 @@ dmidecode
 dmraid
 dnsmasq
 dosfstools
-downgrade
-dracut
 duf
 dunst
 e2fsprogs
@@ -100,24 +97,17 @@ hyprutils
 i2c-tools
 inetutils
 inxi
-iptables-nft
 iwd
 java-runtime-common
 jdk21-openjdk
 jfsutils
 just
-kernel-install-for-dracut
 kimageformats
 kio-fuse
 kitty
 kvantum
 kwayland-integration
 less
-lib32-giflib
-lib32-libpulse
-lib32-openal
-lib32-sdl2-compat
-lib32-vulkan-radeon
 libao
 libappindicator
 libcddb
@@ -175,7 +165,6 @@ nwg-look
 openrgb
 openssh
 pacman-contrib
-paru
 pavucontrol
 perl
 pipewire-alsa
@@ -213,7 +202,6 @@ raylib
 reaper
 rebuild-detector
 reflector
-reflector-simple
 rmpc
 rocm-opencl-runtime
 rofi
@@ -229,7 +217,6 @@ sof-firmware
 soundfont-fluid
 splix
 starship
-steam
 sudo
 swaync
 swww

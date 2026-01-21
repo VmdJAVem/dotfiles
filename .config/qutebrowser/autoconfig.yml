@@ -9,15 +9,24 @@ settings:
   colors.webpage.darkmode.enabled:
     global: true
   content.headers.user_agent:
-    https://accounts.google.com/*: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36
-      (KHTML, like Gecko) Falkon/3.1.0 Chrome/83.0.4103.122 Safari/537.36
+    https://accounts.google.com/*: Mozilla/5.0 ({os_info}; rv:135.0) Gecko/20100101
+      Firefox/135
   content.javascript.clipboard:
     https://chat.deepseek.com: access-paste
+    https://github.com: access-paste
+    https://itsfoss.gitlab.io: access-paste
   content.javascript.enabled:
     global: true
+  content.notifications.enabled:
+    https://mail.proton.me: true
+    https://www.chess.com: true
+    https://www.laestrella.com.pa: false
+  content.register_protocol_handler:
+    https://mail.proton.me#mailto=%25s: true
+    https://outlook.live.com?mailtouri=%25s: false
   statusbar.show:
     global: never
   tabs.show:
-    global: always
+    global: never
   url.start_pages:
-    global: file:///home/vmdjavem/.startpage/index.html
+    global: file:///home/arkar/.startpage/index.html

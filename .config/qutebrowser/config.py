@@ -15,7 +15,8 @@ c.fonts.statusbar = '11pt "CaskaydiaCove NFM"'
 config.bind("xb", "config-cycle statusbar.show always never")
 config.bind("xt", "config-cycle tabs.show always never")
 config.bind(
-    "xx", "config-cycle status.show always never;; config-cycle tab.show always never"
+    "xx",
+    "config-cycle statusbar.show always never;; config-cycle tabs.show always never",
 )
 config.bind("xd", "config-cycle colors.webpage.darkmode.enabled True False")
 
@@ -26,6 +27,7 @@ c.url.searchengines = {
     "!aw": "https://wiki.archlinux.org/index.php?search={}",
     "!pkg": "https://archlinux.org/packages/?sort=&q={}",
     "!yt": "https://www.youtube.com/results?search_query={}",
+    "!r": "https://www.reddit.com/search/?q={}",
 }
 config.load_autoconfig()
 config.bind("M", "hint links spawn mpv {hint-url}")

@@ -2,3 +2,5 @@
 require("config.lazy")
 
 vim.g.godot_executable = "/usr/bin/godot"
+vim.cmd("filetype plugin on")
+vim.cmd("syntax on")

@@ -6,3 +6,15 @@ vim.o.tabstop = 8 -- Each TAB character displays as 4 columns
 vim.o.expandtab = false -- Insert TAB characters instead of spaces
 vim.o.softtabstop = 0 -- Disable space/TAB hybrid behavior
 vim.o.shiftwidth = 8 -- Number of columns for auto-indent and >>/<< operations
+Keymap = { preset = "super-tab" }
+vim.opt.sessionoptions = {
+	"buffers",
+	"curdir",
+	"tabpages",
+	"winsize",
+	"help",
+	"globals",
+	"skiprtp",
+	"folds",
+	"localoptions",
+}
