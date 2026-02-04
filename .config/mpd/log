@@ -2277,3 +2277,176 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-01-20T17:00:40 player: played "Madvillain, Madlib, MF DOOM - All Caps.mp3"
 2026-01-20T17:01:55 output: Failed to play on "pipewire" (pulse): disconnected
 2026-01-20T17:01:55 player: played "SERAPHINE NOIR, Nona Shipov - All Caps.mp3"
+2026-01-21T15:53:06 player: played "SERAPHINE NOIR, Nona Shipov - All Caps.mp3"
+2026-01-21T17:51:19 player: played "SERAPHINE NOIR, Nona Shipov - All Caps.mp3"
+2026-01-21T17:54:04 player: played "Olivia Rodrigo - all-american bitch.mp3"
+2026-01-21T18:00:29 player: played "Boards of Canada - An Eagle In Your Mind.mp3"
+2026-01-21T18:04:32 player: played "Angel - Silver October.mp3"
+2026-01-21T18:10:03 player: played "King Geedorah, Mr Fantastik - Anti-Matter.mp3"
+2026-01-21T18:12:23 player: played "ZSK - Antifascista.mp3"
+2026-01-21T18:14:40 player: played "hkmori - anybody can find love (except you.).mp3"
+2026-01-21T18:18:34 player: played "Alcolirykoz - Aranjuez.mp3"
+2026-01-21T18:22:44 player: played "Nujabes - aruarian dance.mp3"
+2026-01-21T18:26:20 player: played "Control Machete - Así Son Mis Días.mp3"
+2026-01-21T18:28:49 player: played "TiaCorine - ATE.mp3"
+2026-01-21T18:30:24 player: played "Machine Girl - Athoth a Go!! Go!!.mp3"
+2026-01-21T18:34:10 player: played "A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3"
+2026-01-21T18:37:13 player: played "Ayer y Hoy - Julio Jaramillo.mp3"
+2026-01-21T18:41:29 player: played "System Of A Down - B.Y.O.B..mp3"
+2026-01-21T18:44:27 player: played "Charli xcx - B2b.mp3"
+2026-01-21T18:46:54 player: played "wiv - bad days are coming.mp3"
+2026-01-21T18:49:58 player: played "Olivia Rodrigo - bad idea right.mp3"
+2026-01-21T18:52:31 player: played "JPEGMAFIA - BALD!.mp3"
+2026-01-21T18:55:59 player: played "Alcolirykoz - Baldor.mp3"
+2026-01-21T20:01:42 player: played "Cap'n Jazz - Basil's Kite - 2025 Remaster.mp3"
+2026-01-22T16:27:40 player: played "Oblivion's Mighty Trash - Bastian Laurent.mp3"
+2026-01-22T16:31:02 player: played "Nujabes, Shing02 - battlecry.mp3"
+2026-01-22T16:31:54 player: played "Alcolirykoz - Baño de Ruda.mp3"
+2026-01-22T16:35:32 player: played "Alcolirykoz - Fruko y Sus Presos (2.018).mp3"
+2026-01-22T16:36:06 player: played "Alcolirykoz - La Típica (2.018).mp3"
+2026-01-22T16:36:19 player: played "Pedro Mo - Al Intocable.mp3"
+2026-01-22T16:42:09 player: played "Eddy Mugre - Esas tentaciones.mp3"
+2026-01-22T16:42:09 exception: Number too large: -1
+2026-01-22T16:42:23 player: played "Eddy Mugre - 3 Espinas.mp3"
+2026-01-22T16:42:28 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-22T16:42:28 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-22T16:42:28 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-22T16:42:28 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-22T16:45:32 player: played "Eddy Mugre - 3 Espinas.mp3"
+2026-01-22T16:48:53 player: played "Eddy Mugre - Esas tentaciones.mp3"
+2026-01-22T16:52:18 player: played "Eddy Mugre - Kid roy (red allen).mp3"
+2026-01-22T16:55:38 player: played "Eddy Mugre - One two.mp3"
+2026-01-22T20:11:47 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-23T16:01:54 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-23T17:51:48 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-24T20:16:41 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-24T23:25:21 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-25T17:22:03 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-25T18:29:09 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-26T12:57:39 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-26T12:57:56 player: played "Señor Marrano, Eddy Mugre - Sistema - Remix.mp3"
+2026-01-26T12:58:04 exception: Not playing
+2026-01-26T13:01:15 player: played "Eddy Mugre - 3 Espinas.mp3"
+2026-01-26T14:02:11 player: played "Eddy Mugre - Esas tentaciones.mp3"
+2026-01-26T14:05:36 player: played "Eddy Mugre - Kid roy (red allen).mp3"
+2026-01-26T14:08:55 player: played "Eddy Mugre - One two.mp3"
+2026-01-26T14:11:32 player: played "Sr Pablo, Eddy Mugre - Hattori Hanzo.mp3"
+2026-01-26T14:14:20 player: played "Señor Marrano, Eddy Mugre - Sistema - Remix.mp3"
+2026-01-26T14:14:27 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-26T14:14:27 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-26T14:14:27 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-26T14:14:27 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-26T14:17:55 player: played "Alcolirykoz - Aguanilé.mp3"
+2026-01-26T14:21:24 player: played "archipiélagos - akira.mp3"
+2026-01-26T14:24:31 player: played "Pedro Mo - Al Intocable.mp3"
+2026-01-26T14:28:59 player: played "Portavoz - Al Pueblo Le Asusta La Revolución.mp3"
+2026-01-26T14:32:20 player: played "Ralph Weeks, Combo Lulo - Algo Muy Profundo.mp3"
+2026-01-26T14:36:27 player: played "Jimi Hendrix - All Along the Watchtower.mp3"
+2026-01-26T14:38:37 player: played "Madvillain, Madlib, MF DOOM - All Caps.mp3"
+2026-01-26T14:41:19 player: played "SERAPHINE NOIR, Nona Shipov - All Caps.mp3"
+2026-01-26T14:44:05 player: played "Olivia Rodrigo - all-american bitch.mp3"
+2026-01-26T14:50:30 player: played "Boards of Canada - An Eagle In Your Mind.mp3"
+2026-01-26T14:54:27 player: played "Control Machete - Andamos Armados.mp3"
+2026-01-26T14:58:22 player: played "Shaggy, Rayvon - Angel.mp3"
+2026-01-26T15:01:22 player: played "Angel - Silver October.mp3"
+2026-01-26T15:04:44 output: Failed to play on "pipewire" (pulse): disconnected
+2026-01-26T15:04:44 player: played "King Geedorah, Mr Fantastik - Anti-Matter.mp3"
+2026-01-26T17:00:38 player: played "King Geedorah, Mr Fantastik - Anti-Matter.mp3"
+2026-01-26T17:51:01 player: played "ZSK - Antifascista.mp3"
+2026-01-26T18:11:06 player: played "Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"
+2026-01-26T18:47:18 player: played "Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"
+2026-01-27T15:37:22 player: played "Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"
+2026-01-27T20:05:37 player: played "Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"
+2026-01-28T14:47:43 player: played "Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"
+2026-01-28T17:07:51 player: played "Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"
+2026-01-29T15:19:16 player: played "Sleepy Hallow, Doechii - ANXIETY (feat. Doechii).mp3"
+2026-01-29T21:46:06 player: played "Rage Against The Machine - Bombtrack.mp3"
+2026-01-30T15:02:25 player: played "Rage Against The Machine - Bombtrack.mp3"
+2026-01-30T15:06:02 player: played "A Tribe Called Quest - Bonita Applebum.mp3"
+2026-01-30T15:08:00 player: played "JJ DOOM, MF DOOM, Jneiro Jarel - Bookhead.mp3"
+2026-01-30T15:11:23 player: played "Vengaboys - Boom, Boom, Boom, Boom!!.mp3"
+2026-01-30T15:15:30 player: played "Shaggy - Boombastic.mp3"
+2026-01-30T15:18:12 player: played "Ahmed Malek - Bossa.mp3"
+2026-01-30T15:19:48 player: played "PinkPantheress - Break It Off - Bonus.mp3"
+2026-01-30T15:30:17 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
+2026-01-30T15:35:31 player: played "Canserbero, NicoJP - Buenas Noches - Instrumental.mp3"
+2026-01-30T15:39:09 player: played "A Tribe Called Quest - Buggin' Out.mp3"
+2026-01-30T15:41:55 player: played "JPEGMAFIA, Danny Brown - Burfict!.mp3"
+2026-01-30T15:44:30 player: played "Joey Valence & Brae - BUSSIT.mp3"
+2026-01-30T15:47:16 player: played "Joey Valence & Brae, TiaCorine - BUST DOWN feat. TiaCorine.mp3"
+2026-01-30T15:51:11 player: played "American Football - But the Regrets Are Killing Me.mp3"
+2026-01-30T15:55:56 player: played "2Pac, Roger, Dr. Dre - California Love - Original Version.mp3"
+2026-01-30T16:00:07 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-01-30T16:06:34 player: played "Ska-P - Cannabis.mp3"
+2026-01-30T16:08:13 player: played "Ilkae - Cappuccino Summit.mp3"
+2026-01-30T16:10:26 player: played "Nehruviandoom, MF DOOM - Caskets.mp3"
+2026-01-30T18:09:35 player: played "Frank Ocean - Chanel.mp3"
+2026-01-30T18:12:50 player: played "MF DOOM - Change the Beat.mp3"
+2026-01-30T18:15:58 player: played "Oblivion's Mighty Trash - Chaíto.mp3"
+2026-01-30T18:19:34 player: played "A Tribe Called Quest - Check the Rhime.mp3"
+2026-01-30T18:23:55 player: played "Venetian Snares - Chinaski.mp3"
+2026-01-30T18:26:04 player: played "Noiseferatu - Cicuta.mp3"
+2026-01-30T18:32:04 player: played "Aphex Twin - CIRCLONT6A [141.98][syrobonkus mix].mp3"
+2026-01-30T18:57:39 player: played "Jazz Liberatorz - Clin D'oeil.mp3"
+2026-01-30T19:05:24 player: played "Jazz Liberatorz - Clin D'oeil.mp3"
+2026-01-31T20:21:58 player: played "Jazz Liberatorz - Clin D'oeil.mp3"
+2026-01-31T20:22:06 player: played "Feather (feat. Cise Starr & Akin from CYNE) - Nujabes.mp3"
+2026-01-31T20:22:23 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-31T20:22:23 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-31T20:22:23 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-31T20:22:23 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-31T20:28:09 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-01-31T20:28:19 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-31T20:28:19 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-31T20:28:19 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-31T20:28:19 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-31T20:56:46 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-01-31T20:57:35 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-31T20:57:35 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-31T21:01:07 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-01-31T21:01:50 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-31T21:01:50 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-31T21:05:21 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-01-31T21:07:24 mixer: Failed to set mixer for "pipewire": disconnected
+2026-01-31T21:07:24 exception: Failed to set mixer for "pipewire"; disconnected
+2026-01-31T21:10:56 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-02-03T13:32:33 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-02-03T14:36:20 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-02-03T14:36:22 mixer: Failed to set mixer for "pipewire": disconnected
+2026-02-03T14:36:22 exception: Failed to set mixer for "pipewire"; disconnected
+2026-02-03T14:36:22 mixer: Failed to set mixer for "pipewire": disconnected
+2026-02-03T14:36:22 exception: Failed to set mixer for "pipewire"; disconnected
+2026-02-03T14:39:17 player: played "Feather (feat. Cise Starr & Akin from CYNE) - Nujabes.mp3"
+2026-02-03T14:43:26 player: played "Nujabes - Horn in the middle.mp3"
+2026-02-03T14:49:13 player: played "Nujabes, Cise Starr - Lady Brown (feat. Cise Starr from CYNE).mp3"
+2026-02-03T14:53:06 player: played "Nujabes - Kumomi.mp3"
+2026-02-03T14:57:44 player: played "Nujabes, Cise Starr - Highs 2 Lows (feat. Cise Starr from CYNE).mp3"
+2026-02-03T15:02:08 player: played "Nujabes - Beat laments the world.mp3"
+2026-02-03T15:05:17 player: played "Nujabes - Letter from Yokosuka.mp3"
+2026-02-03T15:08:34 player: played "Nujabes, Substantial - Think Different (feat. Substantial).mp3"
+2026-02-03T15:12:34 player: played "Nujabes - A day by atmosphere supreme.mp3"
+2026-02-03T15:17:09 player: played "Nujabes, Uyama Hiroto - Next view (feat. Uyama Hiroto).mp3"
+2026-02-03T15:20:41 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-02-03T15:25:00 player: played "Nujabes - Summer Gypsy.mp3"
+2026-02-03T16:40:03 player: played "Nujabes - The Final View.mp3"
+2026-02-03T17:56:40 player: played "Nujabes - The Final View.mp3"
+2026-02-03T18:04:59 player: played "Nujabes - Peaceland.mp3"
+2026-02-03T19:12:15 player: played "Nujabes, Shing02 - battlecry.mp3"
+2026-02-04T16:34:08 player: played "Nujabes, Shing02 - battlecry.mp3"
+2026-02-04T17:10:21 player: played "CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-02-04T17:10:52 player: played "Nujabes - Peaceland.mp3"
+2026-02-04T17:11:07 mixer: Failed to set mixer for "pipewire": disconnected
+2026-02-04T17:11:07 exception: Failed to set mixer for "pipewire"; disconnected
+2026-02-04T17:11:07 mixer: Failed to set mixer for "pipewire": disconnected
+2026-02-04T17:11:07 exception: Failed to set mixer for "pipewire"; disconnected
+2026-02-04T17:11:07 mixer: Failed to set mixer for "pipewire": disconnected
+2026-02-04T17:11:07 exception: Failed to set mixer for "pipewire"; disconnected
+2026-02-04T17:13:13 player: played "CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-02-04T17:13:45 mixer: Failed to set mixer for "pipewire": disconnected
+2026-02-04T17:13:45 exception: Failed to set mixer for "pipewire"; disconnected
+2026-02-04T17:13:45 mixer: Failed to set mixer for "pipewire": disconnected
+2026-02-04T17:13:45 exception: Failed to set mixer for "pipewire"; disconnected
+2026-02-04T17:17:17 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-02-04T17:20:58 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-02-04T17:26:19 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-02-04T17:30:19 player: played "Nujabes - A day by atmosphere supreme.mp3"
