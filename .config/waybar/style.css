@@ -2,14 +2,14 @@
   border: none;
   border-radius: 0px;
   font-size: 16px;
-  font-family: "CaskaydiaCove Nerd Font Mono", "CaskaydiaCove Nerd Font", sans-serif;
+  font-family: "CaskaydiaCove Nerd Font", "CaskaydiaCove Nerd Font", sans-serif;
   min-height: 0;
   margin: 1px;
   padding: 0px;
 }
 
 window#waybar {
-  background: rgba(40, 40, 40, 0.95);
+  background: rgba(40, 40, 40, 1);
   border-bottom: 0px;
   color: #ebdbb2;
 }

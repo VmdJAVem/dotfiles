@@ -57,8 +57,8 @@ set -gx PATH $HOME/.cabal/bin $PATH /home/vmdjavem/.ghcup/bin # ghcup-env
 #command Prompt
 starship init fish | source
 #fetch
-set fetch $(math $(random 1 100) + 1)
-if test $(math $fetch % 2) = 0
+set fetch (math (random 1 100) + 1)
+if test (math $fetch % 2) = 0
     fastfetch
 else
     hyfetch
