@@ -1,9 +1,9 @@
-sw_volume: 74
+sw_volume: 95
 audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
-state: pause
+state: play
 current: 0
-time: 173.052
+time: 95.73700000000001
 random: 0
 repeat: 0
 single: 0
@@ -13,5 +13,5 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3
+0:Chon - Waterslide.mp3
 playlist_end
