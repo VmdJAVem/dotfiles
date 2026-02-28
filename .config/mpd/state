@@ -1,9 +1,9 @@
-sw_volume: 95
+sw_volume: 65
 audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
 state: play
-current: 0
-time: 95.73700000000001
+current: 7
+time: 42.338
 random: 0
 repeat: 0
 single: 0
@@ -13,5 +13,12 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Chon - Waterslide.mp3
+0:PinkPantheress - Break It Off - Bonus.mp3
+1:PinkPantheress - I Must Apologise.mp3
+2:PinkPantheress - Pain.mp3
+3:PinkPantheress - The aisle.mp3
+4:PinkPantheress - Tonight.mp3
+5:PinkPantheress - True romance.mp3
+6:Shaggy, Rayvon - Angel.mp3
+7:Angel - Silver October.mp3
 playlist_end

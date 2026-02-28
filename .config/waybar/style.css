@@ -2,7 +2,7 @@
   border: none;
   border-radius: 0px;
   font-size: 16px;
-  font-family: "CaskaydiaCove Nerd Font", "CaskaydiaCove Nerd Font", sans-serif;
+  font-family: "CaskaydiaCove Nerd Font", "CaskaydiaCove Nerd Font", monospace;
   min-height: 0;
   margin: 1px;
   padding: 0px;
@@ -29,10 +29,8 @@ window#waybar {
   padding: 0 8px;
   margin: 0 2px;
   min-width: 0;
-  /* Remove circle/dot indicators */
   border: none;
   border-radius: 0;
-  /* Style for number display */
   font-family: monospace;
   font-size: 14px;
   font-weight: bold;
@@ -61,10 +59,17 @@ window#waybar {
   padding: 0 15px;
   background: transparent;
   font-weight: bold;
+  border-left: 1px solid rgba(168, 153, 132, 0.4);
 }
 
+#window {
+  padding: 0 15px;
+  background: transparent;
+  font-weight: bold;
+}
+
+
 /* Right side modules */
-#custom-media,
 #pulseaudio,
 #memory,
 #cpu,

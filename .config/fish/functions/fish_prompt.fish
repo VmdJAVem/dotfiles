@@ -1,14 +1,19 @@
-function fish_prompt
-        if test -n "$SSH_TTY"
-                echo -n (set_color brred)"$USER"(set_color white)'@'(set_color yellow)(prompt_hostname)' '
-        end
-    
-        echo -n (set_color blue)(prompt_pwd)' '
-    
-        set_color -o
-        if fish_is_root_user
-                echo -n (set_color red)'# '
-        end
-        echo -n (set_color red)'❯'(set_color yellow)'❯'(set_color green)'❯ '
-        set_color normal
+function fish_prompt --description 'Write out the prompt'
+    set -l color_cwd
+    set -l suffix
+    switch "$USER"
+        case root toor
+            if set -q fish_color_cwd_root
+                set color_cwd $fish_color_cwd_root
+            else
+                set color_cwd $fish_color_cwd
+            end
+            set suffix '#'
+        case '*'
+            set color_cwd $fish_color_cwd
+            set suffix λ
+    end
+
+    echo -n -s (set_color brgreen) "$USER" (set_color normal) @ (set_color blue) (prompt_hostname) ' ' (set_color $color_cwd) (prompt_pwd) (set_color brgreen) " $suffix "
+    set_color normal
 end
