@@ -2897,3 +2897,7 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-02-28T18:45:31 exception: Failed to set mixer for "pipewire"; disconnected
 2026-02-28T18:46:06 output: Failed to play on "pipewire" (pulse): disconnected
 2026-02-28T18:46:06 player: played "Portavoz - Al Pueblo Le Asusta La Revolución.mp3"
+2026-03-01T11:11:06 player: played "Ralph Weeks, Combo Lulo - Algo Muy Profundo.mp3"
+2026-03-01T13:05:47 player: played "Jimi Hendrix - All Along the Watchtower.mp3"
+2026-03-01T13:07:15 player: played "Madvillain, Madlib, MF DOOM - All Caps.mp3"
+2026-03-01T13:14:15 player: played "Madvillain, Madlib, MF DOOM - All Caps.mp3"
