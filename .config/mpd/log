@@ -2892,3 +2892,8 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-02-28T18:38:25 player: played "PinkPantheress - Tonight.mp3"
 2026-02-28T18:39:18 output: Failed to play on "pipewire" (pulse): failed to connect the stream: No such entity
 2026-02-28T18:39:57 player: played "PinkPantheress - Tonight.mp3"
+2026-02-28T18:45:16 player: played "Angel - Silver October.mp3"
+2026-02-28T18:45:31 mixer: Failed to set mixer for "pipewire": disconnected
+2026-02-28T18:45:31 exception: Failed to set mixer for "pipewire"; disconnected
+2026-02-28T18:46:06 output: Failed to play on "pipewire" (pulse): disconnected
+2026-02-28T18:46:06 player: played "Portavoz - Al Pueblo Le Asusta La Revolución.mp3"
