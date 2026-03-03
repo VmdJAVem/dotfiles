@@ -55,14 +55,12 @@ zoxide init fish | source
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
 #command Prompt
 #fetch
-set fetch (math (random 1 100) + 1)
-if test (math $fetch % 2) = 0
-    fastfetch
-else
-    hyfetch
-end
+hyfetch
 if not set -q SSH_AUTH_SOCK
     set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 end
+fish_vi_key_bindings
+set -g fish_cursor_insert line
 
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/arkar/.ghcup/bin # ghcup-env
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
+set -gx PATH $HOME/.cabal/bin $PATH /home/arkar/.ghcup/bin # ghcup-env
