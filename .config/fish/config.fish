@@ -64,4 +64,5 @@ set -g fish_cursor_insert line
 function fish_mode_prompt
 end
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
-set -gx PATH $HOME/.cabal/bin $PATH /home/arkar/.ghcup/bin # ghcup-env
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/arkar/.ghcup/bin # ghcup-env
