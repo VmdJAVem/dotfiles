@@ -17,3 +17,12 @@ vim.opt.sessionoptions = {
 	"folds",
 	"localoptions",
 }
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = "haskell",
+	callback = function()
+		vim.opt_local.expandtab = true -- insert spaces when you press Tab
+		vim.opt_local.shiftwidth = 2 -- indent width (common: 2 or 4)
+		vim.opt_local.softtabstop = 2 -- makes Tab key insert 2 spaces
+		vim.opt_local.tabstop = 2 -- optional: how a TAB character displays
+	end,
+})
