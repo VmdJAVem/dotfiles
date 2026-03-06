@@ -1,5 +1,4 @@
 return {
-	-- Configure gruvbox with transparency disabled
 	{
 		"ellisonleao/gruvbox.nvim",
 		opts = {
@@ -10,7 +9,6 @@ return {
 		priority = 1000,
 	},
 
-	-- Configure LazyVim (no transparency options needed here)
 	{
 		"LazyVim/LazyVim",
 		opts = {

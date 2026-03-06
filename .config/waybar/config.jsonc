@@ -15,8 +15,7 @@
 		"network",
 		"custom/brightness",
 		"custom/notifications",
-		"pulseaudio",
-		"custom/power"
+		"pulseaudio"
 	],
 	"margin-left": 0,
 	"margin-right": 0,
@@ -58,11 +57,6 @@
 		"format-ethernet": "\uf796",
 		"format-disconnected": "\uf127 ⚠",
 		"on-click": "kitty -e nmtui"
-	},
-	"custom/power": {
-		"format": "\uf011",
-		"tooltip": false,
-		"on-click": "~/.config/waybar/scripts/power-menu.sh"
 	},
 	"custom/brightness": {
 		"format": "\uf108 {}%",

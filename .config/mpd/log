@@ -2929,3 +2929,6 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-03-04T17:26:25 player: played "American Football - But the Regrets Are Killing Me.mp3"
 2026-03-04T17:30:57 player: played "A Tribe Called Quest - Can I Kick It.mp3"
 2026-03-04T17:32:40 player: played "Ilkae - Cappuccino Summit.mp3"
+2026-03-04T17:33:41 output: Failed to play on "pipewire" (pulse): disconnected
+2026-03-04T17:33:41 player: played "Nehruviandoom, MF DOOM - Caskets.mp3"
+2026-03-04T21:12:10 player: played "Nehruviandoom, MF DOOM - Caskets.mp3"

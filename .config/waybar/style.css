@@ -76,8 +76,7 @@ window#waybar {
 #network,
 #custom-brightness,
 #tray,
-#custom-notifications,
-#custom-power {
+#custom-notifications{
   padding: 0 12px;
   background: transparent;
   border-left: 1px solid rgba(168, 153, 132, 0.4);
