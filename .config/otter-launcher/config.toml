@@ -76,7 +76,12 @@ case $1 in
 esac fi }
 power $(echo -e 'reboot\\nshutdown\\nlogout\\nsuspend\\nhibernate' | fzf --reverse --no-scrollbar --padding 1,3 --prompt 'Power Menu: ' | tail -1)
 """
-
+[[modules]]
+description = "choose wallpaper"
+prefix = "wp"
+cmd = """
+bash ~/scripts/wallpaper.sh ~/Wallpapers/
+"""
 [[modules]]
 description = "run command in terminal"
 prefix = "s"
