@@ -3,7 +3,6 @@ default_module = "app"
 empty_module = "a"
 exec_cmd = "sh -c"
 vi_mode = true
-esc_to_abort = true
 cheatsheet_entry = "?"
 cheatsheet_viewer = "less -R; clear"
 clear_screen_after_execution = false
@@ -62,6 +61,11 @@ cmd = "fsel -vv -r -d -p {}"
 with_argument = true
 
 [[modules]]
+description = "evaluate basic arithmetic"
+prefix = "m"
+cmd = "notify-send 'Result' \"$(echo '{}' | bc -l)\""
+with_argument = true
+[[modules]]
 description = "power menu with fzf"
 prefix = "p"
 cmd = """
@@ -77,12 +81,6 @@ esac fi }
 power $(echo -e 'reboot\\nshutdown\\nlogout\\nsuspend\\nhibernate' | fzf --reverse --no-scrollbar --padding 1,3 --prompt 'Power Menu: ' | tail -1)
 """
 [[modules]]
-description = "choose wallpaper"
-prefix = "wp"
-cmd = """
-bash ~/scripts/wallpaper.sh ~/Wallpapers/
-"""
-[[modules]]
 description = "run command in terminal"
 prefix = "s"
 cmd = """
@@ -93,13 +91,13 @@ with_argument = true
 [[modules]]
 description = "search archwiki"
 prefix = "w"
-cmd = "setsid -f xdg-open https://wiki.archlinux.org/index.php?search='{}'"
+cmd = "setsid -f xdg-open https://wiki.archlinux.org/index.php?search='{}' && disown"
 with_argument = true
 url_encode = true
 
 [[modules]]
 description = "RAE"
 prefix = "ra"
-cmd = "setsid -f xdg-open 'https://dle.rae.es/{}?m=form'"
+cmd = "setsid -f xdg-open 'https://dle.rae.es/{}?m=form' && disown"
 with_argument = true
 url_encode = true
