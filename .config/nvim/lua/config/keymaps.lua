@@ -5,19 +5,36 @@ vim.keymap.set("n", "<leader>mb", function()
 	vim.opt.spelllang = "en,es"
 	vim.cmd("echo 'Español y Ingles'")
 end, { desc = "[P] Español y Ingles" })
+
 vim.keymap.set("n", "<leader>me", function()
 	vim.opt.spelllang = "en"
 	vim.cmd("echo 'Ingles'")
 end, { desc = "[P]Ingles" })
+
 vim.keymap.set("n", "<leader>ms", function()
 	vim.opt.spelllang = "es"
 	vim.cmd("echo 'Español'")
 end, { desc = "[P] Español" })
+
 vim.keymap.set("n", "<leader>mc", function()
-	vim.cmd("normal! 1z=")
-end, { desc = "[P]Corrector" })
+	local word = vim.fn.expand("<cword>") -- word under cursor
+	local suggestions = vim.fn.spellsuggest(word)
+	if #suggestions == 0 then
+		print("No spelling suggestions")
+		return
+	end
+	vim.ui.select(suggestions, {
+		prompt = "Spelling suggestions:",
+	}, function(choice)
+		if choice then
+			-- replace the word under cursor with the chosen one
+			vim.cmd("normal! ciw" .. choice)
+		end
+	end)
+end, { desc = "[P] Corrector (pick)" })
+
 vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true })
+
 vim.keymap.set("n", "<leader>qS", function()
 	require("persistence").select()
 end)
-vim.keymap.set("i", "<F12>", "<Cmd>Inspect<CR>", { desc = "Inspect highlight under cursor (stay in insert)" })
