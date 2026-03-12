@@ -34,9 +34,6 @@ alias xmrig='sudo xmrig -c .config/xmrig.json'
 alias objdump='objdump -M intel'
 alias hd='hexdump -C'
 bindkey -v
-#prompt
-zinit ice depth=1; zinit light romkatv/powerlevel10k
-
 # plugins
 zinit ice depth=1; zinit light zsh-users/zsh-syntax-highlighting
 zinit ice depth=1; zinit light zsh-users/zsh-completions
@@ -53,5 +50,4 @@ if [[ -o interactive ]]; then
     fi
 fi
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+eval "$(starship init zsh)"
