@@ -51,3 +51,5 @@ if [[ -o interactive ]]; then
 fi
 
 eval "$(starship init zsh)"
+
+[ -f "/home/arkar/.ghcup/env" ] && . "/home/arkar/.ghcup/env" # ghcup-env

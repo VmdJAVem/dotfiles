@@ -26,3 +26,4 @@ vim.api.nvim_create_autocmd("FileType", {
 		vim.opt_local.tabstop = 2 -- how a literal TAB character displays (optional)
 	end,
 })
+vim.opt.clipboard = "unnamedplus"   -- use the system clipboard for yank/paste

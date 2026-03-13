@@ -1,13 +1,44 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
-require("config.lazy")
-vim.g.godot_executable = "/usr/bin/godot"
-vim.cmd("filetype plugin on")
-vim.cmd("syntax on")
-vim.opt.conceallevel = 2
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
-vim.cmd([[
-hi Normal ctermbg=NONE
-hi NonText ctermbg=NONE
-hi Normal guibg=NONE
-hi NormalNC guibg=NONE
-]])
+require("config.lazy")
+require("config.keymaps")
+require("config.options")
+vim.api.nvim_create_autocmd("ColorScheme", {
+	callback = function()
+		local groups = {
+			"Normal",
+			"NormalNC",
+			"NormalFloat",
+			"FloatBorder",
+			"SignColumn",
+			"EndOfBuffer",
+			"MsgArea",
+			"WinSeparator",
+			"StatusLine",
+			"StatusLineNC",
+		}
+
+		for _, group in ipairs(groups) do
+			vim.api.nvim_set_hl(0, group, { bg = "none" })
+		end
+
+		-- diagnostics
+		vim.api.nvim_set_hl(0, "DiagnosticSignError", { bg = "none" })
+		vim.api.nvim_set_hl(0, "DiagnosticSignWarn", { bg = "none" })
+		vim.api.nvim_set_hl(0, "DiagnosticSignInfo", { bg = "none" })
+		vim.api.nvim_set_hl(0, "DiagnosticSignHint", { bg = "none" })
+		vim.api.nvim_set_hl(0, "NotifyBackground", { bg = "#000000" })
+	end,
+})
+
+vim.cmd.colorscheme("gruvbox")
+vim.opt.fillchars:append({ eob = " " })
+vim.api.nvim_create_autocmd("VimEnter", {
+	callback = function(data)
+		if vim.fn.isdirectory(data.file) == 1 then
+			require("neo-tree.command").execute({ dir = data.file })
+		end
+	end,
+})
+vim.treesitter.language.register('markdown', 'vimwiki')

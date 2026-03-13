@@ -9,7 +9,6 @@ $haskell\
 $cmd_duration\
 $line_break\
 $character"""
-
 [fill]
 symbol = ' '
 [lua]
@@ -86,4 +85,7 @@ Zorin = " "
 [cmd_duration]
 min_time = 0
 show_milliseconds = true
+style = "blue"
 format = 'took [$duration]($style) '
+
+
