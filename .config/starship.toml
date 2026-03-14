@@ -85,7 +85,7 @@ Zorin = " "
 [cmd_duration]
 min_time = 0
 show_milliseconds = true
-style = "blue"
+style = "green"
 format = 'took [$duration]($style) '
 
 

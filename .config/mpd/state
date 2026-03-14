@@ -1,9 +1,9 @@
 sw_volume: 60
 audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
-state: pause
-current: 2
-time: 21.272000000000002
+state: play
+current: 5
+time: 24.374
 random: 0
 repeat: 1
 single: 0
@@ -19,4 +19,5 @@ playlist_begin
 3:PinkPantheress - I Must Apologise.mp3
 4:PinkPantheress - Break It Off - Bonus.mp3
 5:PinkPantheress - Tonight.mp3
+6:John Coltrane - Blue Train.mp3
 playlist_end
