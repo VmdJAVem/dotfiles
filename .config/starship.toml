@@ -22,7 +22,7 @@ symbol = 'λ'
 format = '[$symbol ($version) ]($style)'
 [os]
 disabled = false
-style = "bold blue"
+style = "bold yellow"
 [os.symbols]
 AIX = " "
 Alpaquita = " "
@@ -32,7 +32,7 @@ ALTLinux = " "
 Amazon = " "
 Android = " "
 AOSC = " "
-Arch = " "
+Arch = "☭ "
 Artix = " "
 Bluefin = " "
 CachyOS = " "

@@ -2,8 +2,6 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 require("config.lazy")
-require("config.keymaps")
-require("config.options")
 vim.api.nvim_create_autocmd("ColorScheme", {
 	callback = function()
 		local groups = {
@@ -42,3 +40,12 @@ vim.api.nvim_create_autocmd("VimEnter", {
 	end,
 })
 vim.treesitter.language.register('markdown', 'vimwiki')
+require("config.keymaps")
+require("config.options")
+vim.g.haskell_tools = {
+	tools = {
+		log = {
+			level = vim.log.levels.DEBUG,
+		},
+	},
+}

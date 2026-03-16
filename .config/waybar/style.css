@@ -83,9 +83,6 @@ window#waybar {
 }
 
 /* Individual module colors */
-#custom-media {
-  color: #d79921;
-}
 
 #pulseaudio {
   color: #b16286;
@@ -137,8 +134,7 @@ window#waybar {
 #cpu:hover,
 #network:hover,
 #custom-brightness:hover,
-#tray:hover,
-#custom-media:hover {
+#tray:hover {
   background: rgba(80, 80, 80, 0.8);
 }
 
