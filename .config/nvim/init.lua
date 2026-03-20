@@ -7,11 +7,11 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 		local groups = {
 			"Normal",
 			"NormalNC",
+			"MsgArea",
 			"NormalFloat",
 			"FloatBorder",
 			"SignColumn",
 			"EndOfBuffer",
-			"MsgArea",
 			"WinSeparator",
 			"StatusLine",
 			"StatusLineNC",
@@ -21,8 +21,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 			vim.api.nvim_set_hl(0, group, { bg = "none" })
 		end
 
-		-- diagnostics
-		vim.api.nvim_set_hl(0, "DiagnosticSignError", { bg = "none" })
+		-- diagnostics vim.api.nvim_set_hl(0, "DiagnosticSignError", { bg = "none" })
 		vim.api.nvim_set_hl(0, "DiagnosticSignWarn", { bg = "none" })
 		vim.api.nvim_set_hl(0, "DiagnosticSignInfo", { bg = "none" })
 		vim.api.nvim_set_hl(0, "DiagnosticSignHint", { bg = "none" })
@@ -42,10 +41,3 @@ vim.api.nvim_create_autocmd("VimEnter", {
 vim.treesitter.language.register('markdown', 'vimwiki')
 require("config.keymaps")
 require("config.options")
-vim.g.haskell_tools = {
-	tools = {
-		log = {
-			level = vim.log.levels.DEBUG,
-		},
-	},
-}

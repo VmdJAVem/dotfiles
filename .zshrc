@@ -51,6 +51,7 @@ if [[ -o interactive ]]; then
 fi
 
 eval "$(starship init zsh)"
-
-
+# PATH
+export PATH="$HOME/.npm-global/bin:$PATH"
+export GI_TYPELIB_PATH=/usr/local/lib/girepository-1.0
 [ -f "/home/arkar/.ghcup/env" ] && . "/home/arkar/.ghcup/env" # ghcup-env

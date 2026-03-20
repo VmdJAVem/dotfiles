@@ -71,8 +71,6 @@ window#waybar {
 
 /* Right side modules */
 #pulseaudio,
-#memory,
-#cpu,
 #network,
 #custom-brightness,
 #tray,

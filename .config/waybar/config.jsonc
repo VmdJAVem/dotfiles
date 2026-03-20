@@ -9,11 +9,9 @@
 		"hyprland/window"
 	],
 	"modules-right": [
-		"cpu",
-		"memory",
+		"custom/media",
 		"tray",
 		"network",
-		"custom/brightness",
 		"custom/notifications",
 		"pulseaudio"
 	],
@@ -36,17 +34,8 @@
 		"format": "{:%I:%M %p - %b %d}"
 	},
 	"hyprland/window": {
-		"format": "{title} - {class}",
-		"icon": "true",
+		"format": "{title}",
 		"max-length": 75
-	},
-	"cpu": {
-		"format": "\uf2db {usage}%",
-		"on-click": "kitty -e btop"
-	},
-	"memory": {
-		"interval": 30,
-		"format": "\uf1b2 {percentage}%"
 	},
 	"tray": {
 		"icon-size": 16,
