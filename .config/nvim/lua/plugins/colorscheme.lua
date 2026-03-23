@@ -1,0 +1,1 @@
+/home/arkar/.config/theme_switcher/themes/catppuccin/nvim/colorscheme.lua

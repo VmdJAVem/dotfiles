@@ -33,10 +33,10 @@ alias cbonsai='cbonsai -l 50 -i -m '
 alias xmrig='sudo xmrig -c .config/xmrig.json'
 alias objdump='objdump -M intel'
 alias hd='hexdump -C'
-bindkey -v
 # plugins
 zinit ice depth=1; zinit light zsh-users/zsh-syntax-highlighting
 zinit ice depth=1; zinit light zsh-users/zsh-completions
+zinit ice depth=1; zinit light jeffreytse/zsh-vi-mode
 
 if [[ -z $SSH_AUTH_SOCK ]]; then
     export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
@@ -55,3 +55,6 @@ eval "$(starship init zsh)"
 export PATH="$HOME/.npm-global/bin:$PATH"
 export GI_TYPELIB_PATH=/usr/local/lib/girepository-1.0
 [ -f "/home/arkar/.ghcup/env" ] && . "/home/arkar/.ghcup/env" # ghcup-env
+
+# Created by `pipx` on 2026-03-20 01:51:31
+export PATH="$PATH:/home/arkar/.local/bin"

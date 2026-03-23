@@ -29,3 +29,6 @@ vim.api.nvim_create_autocmd("FileType", {
 	end,
 })
 vim.opt.clipboard = "unnamedplus" -- use the system clipboard for yank/paste
+vim.diagnostic.config({
+	signs = false,
+})

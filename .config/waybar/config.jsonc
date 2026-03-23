@@ -11,7 +11,6 @@
 	"modules-right": [
 		"custom/media",
 		"tray",
-		"network",
 		"custom/notifications",
 		"pulseaudio"
 	],
@@ -42,9 +41,8 @@
 		"spacing": 8
 	},
 	"network": {
-		"format-wifi": "\uf1eb",
-		"format-ethernet": "\uf796",
-		"format-disconnected": "\uf127 ⚠",
+		"format-wifi": "",
+		"format-disconnected": "󱚼",
 		"on-click": "kitty -e nmtui"
 	},
 	"custom/brightness": {
@@ -55,16 +53,10 @@
 	},
 	"custom/notifications": {
 		"tooltip": true,
-		"format": "<span size='16pt'>{icon}</span>",
+		"format": "{icon}",
 		"format-icons": {
-			"notification": "󱅫",
-			"none": "󰂜",
-			"dnd-notification": "󰂠",
-			"dnd-none": "󰪓",
-			"inhibited-notification": "󰂛",
-			"inhibited-none": "󰪑",
-			"dnd-inhibited-notification": "󰂛",
-			"dnd-inhibited-none": "󰪑"
+			"notification": "",
+			"none": "",
 		},
 		"return-type": "json",
 		"exec-if": "which swaync-client",
@@ -74,7 +66,7 @@
 		"escape": true
 	},
 	"custom/media": {
-		"format": "\uf001 {}",
+		"format": " \uf001  {} ",
 		"max-length": 25,
 		"exec": "~/.config/waybar/scripts/scroll-media.sh",
 		"interval": 1,
