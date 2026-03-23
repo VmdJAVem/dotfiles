@@ -44,9 +44,9 @@ return {
 
 		return {
 			options = {
-				theme = custom_gruvbox_hard,
-				section_separators = { left = "", right = "" },
-				component_separators = { left = "", right = "" },
+				theme                = custom_gruvbox_hard,
+				section_separators   = { left = '', right = '' },
+				component_separators = { left = '', right = '' },
 			},
 
 			sections = {
