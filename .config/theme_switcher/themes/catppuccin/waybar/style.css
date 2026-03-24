@@ -35,7 +35,7 @@
 }
 
 window#waybar {
-  background: rgba(30, 30, 46, 0);   /* base with opacity */
+  background: rgba(30, 30, 46, 1);   /* base with opacity */
   border-bottom: 0px;
   color: @text;
 }

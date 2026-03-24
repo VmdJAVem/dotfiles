@@ -67,9 +67,11 @@ return {
 				vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
 				vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
 				vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)
-				vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
-				vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts)
-				vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, opts)
+				vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename, { desc = 'rename something' })
+				vim.keymap.set("n", "<leader>c", vim.lsp.buf.code_action,
+					{ desc = "fix diagnostic" })
+				vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float,
+					{ desc = "Open diagnostic", buffer = ev.buf })
 
 				-- Navigate diagnostics
 				-- Go to next diagnostic (forward)
@@ -85,7 +87,7 @@ return {
 
 				vim.keymap.set("n", "<leader>F", function()
 					vim.lsp.buf.format({ async = true })
-				end, opts)
+				end, { buffer = ev.buf, desc = "format buffer" })
 
 				vim.api.nvim_create_autocmd("BufWritePre", {
 					buffer = ev.buf,
