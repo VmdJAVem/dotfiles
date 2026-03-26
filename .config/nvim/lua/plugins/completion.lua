@@ -10,6 +10,7 @@ return {
 	},
 
 	opts = {
+		-- Start with a base config (or use the provided opts if any)
 		snippets = {
 			preset = "luasnip",
 		},
@@ -23,14 +24,28 @@ return {
 		completion = {
 			menu = {
 				border = "none",
-				winblend = 40,
-				winhighlight = "Normal:BlinkCmpMenu,FloatBorder:BlinkCmpMenuBorder",
+				winhighlight =
+				"Normal:BlinkCmpMenu,FloatBorder:BlinkCmpMenuBorder,CursorLine:BlinkCmpMenuSelection",
+				draw = {
+					cursorline_priority = 0,
+
+					components = {
+						kind_icon = {
+							highlight = function(ctx)
+								if ctx.selected then
+									return { fg = ctx.kind_hl_fg } -- no bg, inherits selection
+								end
+								return { fg = ctx.kind_hl_fg } -- no bg for normal too
+							end,
+						},
+					},
+				}
+
 			},
 			documentation = {
 				auto_show = true,
 				window = {
 					border = "none",
-					winblend = 30,
 					winhighlight = "Normal:CmpDoc,FloatBorder:CmpDocBorder"
 				},
 			},
@@ -44,5 +59,6 @@ return {
 		sources = {
 			default = { "lsp", "snippets", "buffer", "path" },
 		},
-	},
+	}
+
 }

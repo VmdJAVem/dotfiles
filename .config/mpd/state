@@ -1,9 +1,9 @@
-sw_volume: 70
+sw_volume: 0
 audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
-state: pause
-current: 57
-time: 26.365000000000002
+state: play
+current: 0
+time: 39.296
 random: 1
 repeat: 1
 single: 0
@@ -13,103 +13,5 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:SERAPHINE NOIR, Nona Shipov - All Caps.mp3
-1:A Tribe Called Quest - The Hop.mp3
-2:A Tribe Called Quest - Keeping It Moving.mp3
-3:John Coltrane - Blue Train.mp3
-4:Laurindo Almeida - The Lamp Is Low.mp3
-5:Jazz Liberatorz - Clin D'oeil.mp3
-6:Jazz Liberatorz - Ease My Mind - Feat. Tre Hardson, Fat Lip & Omni.mp3
-7:Jazz Liberatorz - I Am Hip Hop - Feat. Asheru.mp3
-8:Jazz Liberatorz - When The Clock Ticks - Feat. J. Sands.mp3
-9:Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3
-10:Jazz Liberatorz - Indonesia - Feat. Tableek.mp3
-11:Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3
-12:Jazz Liberatorz - U Do - Feat. Stacy Epps.mp3
-13:Jazz Liberatorz - Cool Down - Feat. Raashan Ahmad.mp3
-14:Jazz Liberatorz - Take A Time - Feat. Buckshot.mp3
-15:Jazz Liberatorz - Vacation - Feat. J. Live.mp3
-16:Jazz Liberatorz - Speak The Language - Feat. Lizz Fields.mp3
-17:Jazz Liberatorz - Qîdar - Feat. Soul Clan.mp3
-18:Cortex - Devil's Dance.mp3
-19:Chucho Valdés, Royal Quartet - Tatomania.mp3
-20:Bolden. - Dawn in LA..mp3
-21:菊池ひみこ - Look Your Back!.mp3
-22:菊池ひみこ - Ducky Ducky.mp3
-23:Jazz Liberatorz - Loop Prisoner.mp3
-24:Eddy Mugre - 3 Espinas.mp3
-25:Eddy Mugre - Esas tentaciones.mp3
-26:Eddy Mugre - Kid roy (red allen).mp3
-27:Eddy Mugre - One two.mp3
-28:Galaxy 2 Galaxy - Jupiter Jazz.mp3
-29:Galaxy 2 Galaxy - Hi-Tech Jazz.mp3
-30:the wine is ok - gamay.mp3
-31:John Coltrane - Giant Steps - 2020 Remaster.mp3
-32:Jazz Spastiks, People Without Shoes - Super Fly Funk.mp3
-33:Bolden., Mauricesax - I'm here..mp3
-34:berlioz - jazz is for ordinary people.mp3
-35:Lelio Luttazzi - Estate.mp3
-36:Oblivion's Mighty Trash - Eso Está Muy Jazzudo.mp3
-37:Nujabes - Horn in the middle.mp3
-38:Nujabes, Cise Starr - Lady Brown (feat. Cise Starr from CYNE).mp3
-39:Nujabes - Kumomi.mp3
-40:Nujabes, Cise Starr - Highs 2 Lows (feat. Cise Starr from CYNE).mp3
-41:Nujabes - Beat laments the world.mp3
-42:Nujabes - Letter from Yokosuka.mp3
-43:Nujabes, Substantial - Think Different (feat. Substantial).mp3
-44:Nujabes - A day by atmosphere supreme.mp3
-45:Nujabes, Uyama Hiroto - Next view (feat. Uyama Hiroto).mp3
-46:Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3
-47:Nujabes - Summer Gypsy.mp3
-48:Nujabes - The Final View.mp3
-49:Nujabes - Peaceland.mp3
-50:A Tribe Called Quest - Steve Biko (Stir It Up).mp3
-51:A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3
-52:A Tribe Called Quest - 8 Million Stories.mp3
-53:A Tribe Called Quest, Busta Rhymes - Oh My God (feat. Busta Rhymes).mp3
-54:CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
-55:CASIOPEA - 朝焼け - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
-56:CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
-57:CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
-58:CASIOPEA - ドミノ・ライン - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
-59:CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
-60:CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
-61:Negroni's Trio, Pedro Capó - El Incomprendido (feat. Pedro Capó).mp3
-62:berlioz, Ted Jasper - nyc in 1940.mp3
-63:A Tribe Called Quest - Can I Kick It.mp3
-64:A Tribe Called Quest - Youthful Expression.mp3
-65:Digable Planets - It's Good To Be Here.mp3
-66:Digable Planets - Where I'm From.mp3
-67:Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3
-68:Nujabes, Shing02 - battlecry.mp3
-69:Nujabes - aruarian dance.mp3
-70:菊池ひみこ - PRIMAVELA.mp3
-71:菊池ひみこ - GYPSY SONG - from Carmen.mp3
-72:Masayoshi Takanaka - OH! TENGO SUERTE.mp3
-73:Cap'n Jazz - Little League - 2025 Remaster.mp3
-74:Cap'n Jazz - Messy Life - 2025 Remaster.mp3
-75:Cap'n Jazz - Puddle Splashers - 2025 Remaster.mp3
-76:Cap'n Jazz - Flashpoint- Catheter - 2025 Remaster.mp3
-77:Cap'n Jazz - In The Clear - 2025 Remaster.mp3
-78:Cap'n Jazz - Yes, I Am Talking To You - 2025 Remaster.mp3
-79:Cap'n Jazz - Basil's Kite - 2025 Remaster.mp3
-80:Cap'n Jazz - Bluegrassish - 2025 Remaster.mp3
-81:Cap'n Jazz - Planet Shhh - 2025 Remaster.mp3
-82:Cap'n Jazz - The Sands Have Turned Purple - 2025 Remaster.mp3
-83:Cap'n Jazz - Precious - 2025 Remaster.mp3
-84:Cap'n Jazz - Qué Suerté! - 2025 Remaster.mp3
-85:A Tribe Called Quest - Bonita Applebum.mp3
-86:A Tribe Called Quest - Electric Relaxation.mp3
-87:A Tribe Called Quest - Find a Way.mp3
-88:A Tribe Called Quest - Like It Like That.mp3
-89:A Tribe Called Quest - Buggin' Out.mp3
-90:A Tribe Called Quest - Check the Rhime.mp3
-91:A Tribe Called Quest - Jazz (We've Got).mp3
-92:A Tribe Called Quest - What.mp3
-93:A Tribe Called Quest, Busta Rhymes, Dinco D, Charlie Brown - Scenario (feat. Busta Rhymes, Dinco D & Charlie Brown) - LP Mix.mp3
-94:Jazz Spastiks, Apani B Fly - Move.mp3
-95:Eddie Palmieri - Vámonos Pa'l Monte.mp3
-96:Joe Pass - Giant Steps.mp3
-97:All That Jazz - 空から降ってきた少女.mp3
-98:Chihiro Yamanaka - 乙女の祈り.mp3
+0:Hareton Salvanini - Quarto de Hotel.mp3
 playlist_end

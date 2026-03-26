@@ -1,7 +1,7 @@
 [general]
 default_module = "app"
 empty_module = "a"
-exec_cmd = "sh -c"
+exec_cmd = "zsh -c"
 vi_mode = true
 cheatsheet_entry = "?"
 cheatsheet_viewer = "less -R; clear"
@@ -69,6 +69,8 @@ with_argument = true
 description = "power menu with fzf"
 prefix = "p"
 cmd = """
+FZF_DEFAULT_OPTS="$(tr '\n' ' ' < ~/.config/fzf/current 2>/dev/null)"
+export FZF_DEFAULT_OPTS
 function power {
 if [[ -n $1 ]]; then
 case $1 in

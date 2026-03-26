@@ -14,7 +14,9 @@ vim.api.nvim_create_autocmd("VimEnter", {
 })
 
 vim.treesitter.language.register("markdown", "vimwiki")
-
+vim.diagnostic.config({
+	virtual_text = true,
+})
 require("config.keymaps")
 require("config.options")
 require("config.theme")

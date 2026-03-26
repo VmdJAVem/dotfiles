@@ -3132,3 +3132,76 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-03-23T18:23:31 output: Failed to play on "pipewire" (pulse): disconnected
 2026-03-23T18:23:31 player: played "CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
 2026-03-24T16:16:12 player: played "CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-03-24T19:06:09 update: added /NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3
+2026-03-24T19:06:24 player: played "CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-03-24T19:12:37 player: played "NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3"
+[src/libmpg123/lfs_wrap.c:INT123_wrap_open():851] error: Cannot open file /home/arkar/Music/NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3: No such file or directory
+2026-03-25T15:50:47 mpg123: libmpg123 failed to open /home/arkar/Music/NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3: A generic mpg123 error.
+2026-03-25T15:50:47 exception: Failed to open "/home/arkar/Music/NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3": No such file or directory
+[src/libmpg123/lfs_wrap.c:INT123_wrap_open():851] error: Cannot open file /home/arkar/Music/NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3: No such file or directory
+2026-03-25T15:50:47 mpg123: libmpg123 failed to open /home/arkar/Music/NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3: A generic mpg123 error.
+2026-03-25T15:50:47 exception: Failed to open "/home/arkar/Music/NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3": No such file or directory
+2026-03-25T15:50:48 update: removing NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3
+2026-03-25T15:50:51 player: played "NA - pinkpantheress - Do you miss me？ (alt version) [ascYGO7PcSs].mp3"
+2026-03-25T15:53:34 player: played "Ahmed Malek - Maya.mp3"
+2026-03-25T16:05:11 player: played "Canserbero, NicoJP - Outro Chavo - Instrumental.mp3"
+2026-03-25T16:06:56 player: played "cutkolaska - Empty Promise.mp3"
+2026-03-25T16:09:36 player: played "Jazz Spastiks, People Without Shoes - Super Fly Funk.mp3"
+2026-03-25T16:13:04 player: played "Alcolirykoz - Baldor.mp3"
+2026-03-25T16:15:38 player: played "Oblivion's Mighty Trash - Eso Está Muy Jazzudo.mp3"
+2026-03-25T16:19:11 player: played "Laurindo Almeida - The Lamp Is Low.mp3"
+2026-03-25T16:21:56 player: played "Roland Jones, Mari - GRINDIN.mp3"
+2026-03-25T16:24:20 player: played "Joey Valence & Brae - PUNK TACTICS.mp3"
+2026-03-25T16:29:39 player: played "MF DOOM, Pebbles The Invisible Girl - Doomsday.mp3"
+2026-03-25T16:35:05 player: played "Los Prisioneros - Latinoamérica Es un Pueblo al Sur de Estados Unidos.mp3"
+2026-03-25T16:39:33 player: played "Venetian Snares - Abomination Street.mp3"
+2026-03-25T16:42:14 player: played "JPEGMAFIA, Danny Brown - SCARING THE HOES.mp3"
+2026-03-25T16:47:43 player: played "Machine Girl - It Takes a Nation of Millenials to Destroy a Nation of Millions….mp3"
+2026-03-25T16:50:04 player: played "ZSK - Antifascista.mp3"
+2026-03-25T16:54:24 player: played "JARKA _ Ortodòxia.mp3"
+2026-03-25T16:57:21 player: played "PinkPantheress - Tonight.mp3"
+2026-03-25T17:02:14 player: played "Aphex Twin - Xtal.mp3"
+2026-03-25T17:05:13 player: played "Joey Valence & Brae - HAVE TO CRY.mp3"
+2026-03-25T17:07:58 player: played "PinkPantheress - The aisle.mp3"
+2026-03-25T17:09:47 exception: Number too large: 110
+2026-03-25T17:09:48 exception: Number too large: 110
+2026-03-25T17:09:48 exception: Number too large: 110
+2026-03-25T17:09:48 exception: Number too large: 110
+2026-03-25T17:09:48 exception: Number too large: 110
+2026-03-25T17:12:08 player: played "A Tribe Called Quest - Jazz (We've Got).mp3"
+2026-03-25T17:18:08 player: played "Aphex Twin - CIRCLONT6A [141.98][syrobonkus mix].mp3"
+2026-03-25T17:21:45 player: played "Aphex Twin - 4.mp3"
+2026-03-25T17:23:31 exception: No such directory
+2026-03-25T17:24:27 player: played "Charli xcx - Talk talk.mp3"
+2026-03-25T17:45:45 player: played "Sons of Aguirre, Scila - Carta al Sr.Fiscal.mp3"
+2026-03-25T17:45:45 mixer: Failed to set mixer for "pipewire": disconnected
+2026-03-25T17:45:45 exception: Failed to set mixer for "pipewire"; disconnected
+2026-03-25T17:48:17 player: played "Machine Girl - Dumbass!!.mp3"
+2026-03-25T17:50:49 player: played "Machine Girl - Dumbass!!.mp3"
+2026-03-25T17:53:21 player: played "Machine Girl - Dumbass!!.mp3"
+2026-03-25T17:55:27 player: played "Machine Girl - Dumbass!!.mp3"
+2026-03-25T18:02:32 player: played "John Coltrane - Blue Train.mp3"
+2026-03-25T18:03:07 output: Failed to play on "pipewire" (pulse): disconnected
+2026-03-25T18:03:07 player: played "American Football - Never Meant.mp3"
+2026-03-26T15:58:06 output: Failed to play on "pipewire" (pulse): suspended
+2026-03-26T16:09:08 player: played "American Football - Never Meant.mp3"
+2026-03-26T16:13:36 player: played "American Football - Never Meant.mp3"
+2026-03-26T16:18:04 player: played "American Football - Never Meant.mp3"
+2026-03-26T16:22:32 player: played "American Football - Never Meant.mp3"
+2026-03-26T16:27:01 player: played "American Football - Never Meant.mp3"
+2026-03-26T16:31:29 player: played "American Football - Never Meant.mp3"
+2026-03-26T16:32:53 player: played "American Football - Never Meant.mp3"
+2026-03-26T16:36:45 player: played "Machine Girl - うずまき.mp3"
+2026-03-26T16:37:02 player: played "Machine Girl - うずまき.mp3"
+2026-03-26T16:40:15 player: played "Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3"
+2026-03-26T16:43:02 player: played "Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3"
+2026-03-26T16:43:18 player: played "Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3"
+2026-03-26T16:47:52 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-03-26T17:02:53 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-03-26T17:07:28 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-03-26T17:12:02 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-03-26T17:16:37 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-03-26T17:21:12 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-03-26T17:25:46 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-03-26T17:27:07 player: played "All That Jazz - 空から降ってきた少女.mp3"
+2026-03-26T17:29:49 player: played "Hareton Salvanini - Quarto de Hotel.mp3"

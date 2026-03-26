@@ -2,10 +2,13 @@
 return {
 	-- gruvbox
 	{
-		'datsfilipe/gruvbox.nvim',
-		opts = {
-			transparency = true,
-		}
+		"ellisonleao/gruvbox.nvim",
+		priority = 1000,
+		config = function()
+			require("gruvbox").setup({
+				transparent_mode = true, -- built-in option
+			})
+		end,
 	},
 	-- catppuccin
 	{
