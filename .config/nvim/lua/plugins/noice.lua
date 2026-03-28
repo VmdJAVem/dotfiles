@@ -1,25 +1,19 @@
 return {
-	"folke/noice.nvim",
-	event = "VeryLazy",
-	opts = {
-		cmdline = {
-			enabled = true,
-			view = "cmdline",
+	{
+		"folke/noice.nvim",
+		event = "VeryLazy",
+		dependencies = {
+			"folke/snacks.nvim",
 		},
-		messages = {
-			enabled = true,
+		opts = {
+			cmdline = {
+				enabled = true,
+				view = "cmdline"
+			},
+			notify = {
+				enabled = true,
+				view = "notify",
+			},
 		},
-		popupmenu = {
-			enabled = false,
-		},
-		-- Disable select/input overrides so Telescope handles them
-		ui = {
-			select = false,
-			input = false,
-		},
-		lsp = {
-			signature = { enabled = false } -- 添加此行 - deepseek
-		}
-		-- other options...
 	},
 }

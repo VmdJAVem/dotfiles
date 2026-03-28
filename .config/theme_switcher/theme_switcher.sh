@@ -110,7 +110,10 @@ if [ -f "$FZF_THEME_FILE" ]; then
     ln -sf "$FZF_THEME_FILE" ~/.config/fzf/current
 fi
 
-
+# sioyek
+	ln -sf "$BASE_DIR/sioyek/prefs_user.config" ~/.config/sioyek/
+# startpage
+	ln -sf "$BASE_DIR/startpage/colors.css" ~/startpage/colors.css
 # ------------------------
 # HYPRLAND reload
 # ------------------------

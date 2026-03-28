@@ -66,3 +66,6 @@ export GI_TYPELIB_PATH=/usr/local/lib/girepository-1.0
 
 # Created by `pipx` on 2026-03-20 01:51:31
 export PATH="$PATH:/home/arkar/.local/bin"
+
+
+export PATH="$HOME/.cargo/bin:$PATH"

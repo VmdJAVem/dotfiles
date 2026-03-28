@@ -3,8 +3,7 @@ return {
 	dependencies = {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
-		"saghen/blink.cmp",
-	},
+		"saghen/blink.cmp", },
 	config = function()
 		local capabilities = require("blink.cmp").get_lsp_capabilities()
 		vim.lsp.config("*", { capabilities = capabilities })
@@ -44,19 +43,52 @@ return {
 			},
 		}
 		vim.lsp.config["tsserver"] = {
-			cmd = { 'typescript-language-server', '--stdio' },
-			filetypes = { 'typescript', 'javascript', 'typescriptreact' },
-			root_dir = vim.fs.root(0, { 'package.json', '.git' }),
-			on_attach = on_attach,
-			capabilities = capabilities
+			cmd = { "typescript-language-server", "--stdio" },
+			filetypes = {
+				"typescript",
+				"javascript",
+				"typescriptreact",
+				"javascriptreact",
+			},
+			root_dir = vim.fs.root(0, { "package.json", ".git" }),
+			capabilities = capabilities,
+			on_attach = function(client)
+				-- disable LSP formatting (use prettier instead)
+				client.server_capabilities.documentFormattingProvider = false
+			end,
+		}
+		-- HTML
+		vim.lsp.config["html"] = {
+			cmd = { "vscode-html-language-server", "--stdio" },
+			filetypes = { "html" },
 		}
 
+		-- CSS
+		vim.lsp.config["cssls"] = {
+			cmd = { "vscode-css-language-server", "--stdio" },
+			filetypes = { "css", "scss", "less" },
+		}
+
+		-- Emmet
+		vim.lsp.config["emmet_ls"] = {
+			cmd = { "emmet-ls", "--stdio" },
+			filetypes = {
+				"html",
+				"css",
+				"scss",
+				"javascript",
+				"javascriptreact",
+				"typescriptreact",
+			},
+		}
 
 		-- Enable servers
 		vim.lsp.enable("lua_ls")
 		vim.lsp.enable("clangd")
 		vim.lsp.enable("tsserver")
-
+		vim.lsp.enable("html")
+		vim.lsp.enable("cssls")
+		vim.lsp.enable("emmet_ls")
 		-- LspAttach: keymaps and formatting
 		vim.api.nvim_create_autocmd("LspAttach", {
 			group = vim.api.nvim_create_augroup("UserLspConfig", {}),
@@ -86,13 +118,13 @@ return {
 
 
 				vim.keymap.set("n", "<leader>F", function()
-					vim.lsp.buf.format({ async = true })
-				end, { buffer = ev.buf, desc = "format buffer" })
+					require("conform").format({ async = true, lsp_fallback = true })
+				end, { buffer = ev.buf })
 
 				vim.api.nvim_create_autocmd("BufWritePre", {
 					buffer = ev.buf,
 					callback = function()
-						vim.lsp.buf.format({ async = false })
+						require("conform").format({ async = false, lsp_fallback = true })
 					end,
 				})
 			end,
