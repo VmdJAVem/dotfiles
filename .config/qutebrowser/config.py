@@ -1,6 +1,6 @@
-config.load_autoconfig()
 from colors import *
-
+import os
+config.load_autoconfig()
 
 c.fonts.default_family = "Iosevka Nerd Font Mono"
 c.fonts.default_size = "11pt"
@@ -9,18 +9,18 @@ c.fonts.statusbar = "11pt Iosevka Nerd Font Mono"
 c.fonts.prompts = "11pt Iosevka Nerd Font Mono"
 c.fonts.debug_console = "11pt Iosevka Nerd Font Mono"
 
-c.fonts.web.family.standard = "Iosevka"
+c.fonts.web.family.standard = "Iosevka Nerd Font Mono"
 c.fonts.web.family.fixed = "Iosevka Nerd Font Mono"
 c.fonts.web.family.sans_serif = "Iosevka"
 c.fonts.web.family.serif = "Iosevka"
-
 c.completion.shrink = True
 
 config.bind("xb", "config-cycle statusbar.show always never")
 config.bind("xt", "config-cycle tabs.show always never")
 config.bind("xx", "config-cycle statusbar.show always never;; config-cycle tabs.show always never")
 config.bind("xd", "config-cycle colors.webpage.darkmode.enabled True False")
-config.bind("M", "hint links spawn mpv {hint-url}")
+#config.bind(" v", "hint links spawn --userscript v.sh {hint-url}")
+config.bind(" v", "hint links spawn mpv --ytdl-format=best {hint-url} &")
 
 c.url.searchengines = {
     "DEFAULT": "http://localhost:8087/search?q={}",
@@ -28,6 +28,41 @@ c.url.searchengines = {
     "!yt": "https://www.youtube.com/results?search_query={}",
     "!r": "https://www.reddit.com/search/?q={}",
 }
+
+config.bind(' a', 'config-cycle content.user_stylesheets "" ~/.config/qutebrowser/all-cites.css')
+
+
+# Generate CSS content with colors and font
+css_content = f"""
+* {{
+    background-color: {bg0} !important;
+    color: {fg0} !important;
+    font-family: "Iosevka NFM" !important;
+}}
+a {{
+    color: {accent} !important;
+}}
+a:visited {{
+    color: {bright_purple} !important;
+}}
+input, textarea, select, button {{
+    background-color: {bg1} !important;
+    color: {fg0} !important;
+    border-color: {bg2} !important;
+}}
+::selection {{
+    background-color: {accent} !important;
+    color: {bg0} !important;
+}}
+"""
+
+# Write the CSS file to your config directory
+css_path = os.path.join(os.path.dirname(__file__), "all-cites.css")
+with open(css_path, "w") as f:
+    f.write(css_content)
+
+
+# colors
 
 c.colors.webpage.bg = bg0
 

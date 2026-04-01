@@ -24,6 +24,8 @@ settings:
   content.register_protocol_handler:
     https://mail.proton.me#mailto=%25s: true
     https://outlook.live.com?mailtouri=%25s: false
+  content.user_stylesheets:
+    global: null
   statusbar.show:
     global: never
   tabs.show:
