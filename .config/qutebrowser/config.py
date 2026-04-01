@@ -20,7 +20,7 @@ config.bind("xt", "config-cycle tabs.show always never")
 config.bind("xx", "config-cycle statusbar.show always never;; config-cycle tabs.show always never")
 config.bind("xd", "config-cycle colors.webpage.darkmode.enabled True False")
 #config.bind(" v", "hint links spawn --userscript v.sh {hint-url}")
-config.bind(" v", "hint links spawn mpv --ytdl-format=best {hint-url} &")
+config.bind(",v", "hint links spawn mpv --ytdl-format=best {hint-url} &")
 
 c.url.searchengines = {
     "DEFAULT": "http://localhost:8087/search?q={}",
@@ -29,15 +29,14 @@ c.url.searchengines = {
     "!r": "https://www.reddit.com/search/?q={}",
 }
 
-config.bind(' a', 'config-cycle content.user_stylesheets "" ~/.config/qutebrowser/all-cites.css')
-
-
+config.bind(',a', 'config-cycle content.user_stylesheets [] ["~/.config/qutebrowser/all-cites.css"]')
 # Generate CSS content with colors and font
 css_content = f"""
 * {{
     background-color: {bg0} !important;
     color: {fg0} !important;
     font-family: "Iosevka NFM" !important;
+    border-radius: 0px;
 }}
 a {{
     color: {accent} !important;
@@ -122,3 +121,4 @@ c.colors.tabs.even.fg = fg2
 
 c.colors.tabs.indicator.start = accent
 c.colors.tabs.indicator.stop = accent
+

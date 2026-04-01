@@ -116,6 +116,14 @@ fi
 	ln -sf "$BASE_DIR/startpage/colors.css" ~/.config/omnisearch/static/
 # qutebrowser
  	ln -sf "$BASE_DIR/qutebrowser/colors.py" ~/.config/qutebrowser/
+
+# ------------------------
+# QT6CT
+# ------------------------
+	ln -sf "$BASE_DIR/qt/colors.conf" ~/.config/qt6ct/colors/colors.conf
+
+# Make sure Qt apps see the override
+export QT_STYLE_OVERRIDE="fusion"
 # ------------------------
 # HYPRLAND reload
 # ------------------------

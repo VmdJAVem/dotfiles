@@ -25,7 +25,7 @@ settings:
     https://mail.proton.me#mailto=%25s: true
     https://outlook.live.com?mailtouri=%25s: false
   content.user_stylesheets:
-    global: null
+    global: []
   statusbar.show:
     global: never
   tabs.show:
