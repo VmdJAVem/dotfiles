@@ -1,0 +1,1 @@
+/home/arkar/.config/theme_switcher/themes/catppuccin/qutebrowser/colors.py

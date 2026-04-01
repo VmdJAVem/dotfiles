@@ -1,12 +1,5 @@
 return {
 	{
-		"folke/which-key.nvim",
-		event = "VeryLazy",
-		opts = {
-			preset = "helix",
-		},
-	},
-	{
 		"lukas-reineke/indent-blankline.nvim",
 		main = "ibl",
 		--@module "ibl"

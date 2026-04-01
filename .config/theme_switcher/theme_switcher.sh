@@ -61,7 +61,7 @@ hyprctl dispatch exec waybar
 case "$THEME" in
     catppuccin)
         GTK_THEME="catppuccin-mocha-lavender-standard+default"
-	gsettings set org.gnome.desktop.interface icon-theme "Colloid-Purple-Catppuccin-Dark"
+	gsettings set org.gnome.desktop.interface icon-theme "catppuccin-mocha-pink-standard+default"
         ;;
     gruvbox)
         GTK_THEME="Gruvbox-Green-Dark"
@@ -112,8 +112,10 @@ fi
 
 # sioyek
 	ln -sf "$BASE_DIR/sioyek/prefs_user.config" ~/.config/sioyek/
-# startpage
-	ln -sf "$BASE_DIR/startpage/colors.css" ~/startpage/colors.css
+# startpage 
+	ln -sf "$BASE_DIR/startpage/colors.css" ~/.config/omnisearch/static/
+# qutebrowser
+ 	ln -sf "$BASE_DIR/qutebrowser/colors.py" ~/.config/qutebrowser/
 # ------------------------
 # HYPRLAND reload
 # ------------------------

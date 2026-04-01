@@ -1,1 +1,44 @@
-@import 'colors.css';
+@import "colors.css";
+/* Force all widgets to have sharp corners */
+* {
+	border-radius: 0 !important;
+}
+
+/* Buttons, entries, comboboxes, sliders */
+button,
+entry,
+combobox,
+spinbutton,
+scale,
+slider {
+	border-radius: 0 !important;
+}
+
+/* Windows, dialogs, popovers, menus */
+window,
+dialog,
+popover,
+menu,
+tooltip,
+popup {
+	border-radius: 0 !important;
+}
+
+/* Scrollbars */
+scrollbar,
+scrollbar slider {
+	border-radius: 0 !important;
+}
+
+/* Tabs */
+notebook tab,
+tab label {
+	border-radius: 0 !important;
+}
+
+/* Checkboxes & switches */
+checkbutton,
+radiobutton,
+switch {
+	border-radius: 0 !important;
+}

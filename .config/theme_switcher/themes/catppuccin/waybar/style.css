@@ -23,6 +23,7 @@
 @define-color base #1e1e2e;
 @define-color mantle #181825;
 @define-color crust #11111b;
+@define-color accent #b4befe;
 
 * {
 	border: none;
@@ -67,9 +68,9 @@ window#waybar {
 }
 
 #workspaces button.active {
-	color: @green;
+	color: @accent;
 	background: rgba(69, 71, 90, 0.2); /* surface1 with opacity */
-	box-shadow: inset 0 -2px 0 @green;
+	box-shadow: inset 0 -2px 0 @accent;
 }
 
 #workspaces button.urgent {
@@ -116,7 +117,7 @@ window#waybar {
 }
 
 #cpu {
-	color: @green;
+	color: @accent;
 }
 
 #network {

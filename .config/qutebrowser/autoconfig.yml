@@ -7,7 +7,7 @@
 config_version: 2
 settings:
   colors.webpage.darkmode.enabled:
-    global: false
+    global: true
   content.headers.user_agent:
     https://accounts.google.com/*: Mozilla/5.0 ({os_info}; rv:135.0) Gecko/20100101
       Firefox/135
@@ -25,8 +25,10 @@ settings:
     https://mail.proton.me#mailto=%25s: true
     https://outlook.live.com?mailtouri=%25s: false
   statusbar.show:
-    global: always
+    global: never
   tabs.show:
     global: always
+  url.default_page:
+    global: http://localhost:8087/
   url.start_pages:
-    global: file:///home/arkar/.startpage/index.html
+    global: http://localhost:8087/

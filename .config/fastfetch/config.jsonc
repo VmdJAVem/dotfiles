@@ -11,7 +11,8 @@
 		"source": "~/.config/fastfetch/lenin_PNG17.png",
 		"padding": {
 			"top": 1,
-			"right": 2
+			"right": 3,
+			"left": 2
 		}
 	},
 	"display": {

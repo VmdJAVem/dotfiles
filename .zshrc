@@ -69,3 +69,6 @@ export PATH="$PATH:/home/arkar/.local/bin"
 
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# opencode
+export PATH=/home/arkar/.opencode/bin:$PATH
