@@ -32,6 +32,8 @@ vim.keymap.set("n", "<leader>mc", function()
 end, { desc = "[P] Corrector (pick)" })
 
 vim.keymap.set('n', '<leader>s', ':set spell!<CR>', { desc = 'Toggle spell' })
+
 vim.keymap.set("n", "H", ":bprevious<CR>", { desc = "Previous buffer" })
 vim.keymap.set("n", "L", ":bnext<CR>", { desc = "Next buffer" })
+vim.keymap.set("n", "bd", ":bd<CR>", { desc = "Close buffer" })
 vim.keymap.set("n", "<leader>e", ":Neotree<CR>", { desc = "File explorer" })
