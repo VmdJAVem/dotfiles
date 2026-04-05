@@ -27,7 +27,7 @@ settings:
   content.user_stylesheets:
     global: square.css
   statusbar.show:
-    global: never
+    global: always
   tabs.show:
     global: always
   url.default_page:
