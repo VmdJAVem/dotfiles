@@ -1,0 +1,12 @@
+[Unit]
+Description=Omnisearch
+
+[Service]
+ExecStart=/usr/bin/omnisearch
+Restart=always
+
+# Optional but safe:
+Environment="XDG_CONFIG_HOME=%h/.config"
+
+[Install]
+WantedBy=default.target

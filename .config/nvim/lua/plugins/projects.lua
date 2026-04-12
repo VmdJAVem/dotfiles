@@ -1,9 +1,13 @@
 return {
-	"ahmedkhalf/project.nvim",
-	lazy = false,
-	config = function()
-		require("project_nvim").setup({
-			detection_methods = { "lsp", "pattern" },
-		})
-	end,
+	'DrKJeff16/project.nvim',
+	dependencies = { -- OPTIONAL. Choose any of the following
+		{
+			'nvim-telescope/telescope.nvim',
+			dependencies = { 'nvim-lua/plenary.nvim' },
+		},
+		'wsdjeg/picker.nvim',
+		'folke/snacks.nvim',
+		'ibhagwan/fzf-lua',
+	},
+	opts = {},
 }

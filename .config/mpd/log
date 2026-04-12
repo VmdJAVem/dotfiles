@@ -3404,3 +3404,21 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-04-03T21:09:42 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
 2026-04-04T11:05:30 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
 2026-04-04T11:59:17 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-05T18:10:13 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-07T06:41:36 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-07T18:04:22 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-08T17:24:06 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-08T18:36:19 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-08T20:26:29 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-09T17:29:01 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-09T18:33:06 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-09T19:59:51 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-09T21:14:19 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-09T22:31:16 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-09T22:43:55 player: played "Jazz Liberatorz - The Process - Feat. Apani B Fly.mp3"
+2026-04-10T16:17:49 output: Failed to play on "pipewire" (pulse): disconnected
+2026-04-10T16:17:49 player: played "Portavoz, Matiah Chinaski, Dj Perez - Por Si Las Moscas (En Otra Versión).mp3"
+2026-04-10T16:23:23 output: Failed to play on "pipewire" (pulse): failed to connect the stream: No such entity
+2026-04-10T16:33:11 player: played "Masayoshi Takanaka - OH! TENGO SUERTE.mp3"
+2026-04-10T16:37:06 output: Failed to play on "pipewire" (pulse): disconnected
+2026-04-10T16:37:06 player: played "Venetian Snares - Szerencsétlen.mp3"

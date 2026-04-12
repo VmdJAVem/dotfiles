@@ -84,10 +84,10 @@ cp ~/.config/gtk-3.0/settings.ini ~/.config/gtk-4.0/settings.ini
 #
 case "$THEME" in
 	catppuccin)
-		awww img ~/Wallpapers/Cowboy_Bebop.jpg
+		awww img ~/Wallpapers/Wallpapers/Cowboy_Bebop.jpg
 		;;
 	gruvbox)
-		awww img ~/Wallpapers/gruvbox-meadow.jpg
+		awww img ~/Wallpapers/Wallpapers/gruvbox-meadow.jpg
 		;;
 	esac
 

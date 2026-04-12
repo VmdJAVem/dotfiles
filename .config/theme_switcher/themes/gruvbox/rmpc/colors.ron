@@ -180,11 +180,11 @@ cava: (
     orientation: Bottom,
     bar_width: 2,
     bar_color: Gradient({
-          0: "#665C55",
-	  10: "#82A397",
-	  25: "#8DBF7B",
-	  50: "#D2859A",
-         75: "#CB2922",
+          0: "#fbf1c7",
+	  10: "#fbf1c7",
+	  25: "#fbf1c7",
+	  50: "#fbf1c7",
+         75: "#fbf1c7",
     })
 ),
 )

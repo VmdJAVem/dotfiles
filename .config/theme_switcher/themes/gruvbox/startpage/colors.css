@@ -1,0 +1,33 @@
+/* gruvbox-hard.css */
+/* Gruvbox Hard palette - Dark variant */
+
+:root {
+	/* Backgrounds */
+	--bg-dark: #1d2021; /* dark background */
+	--bg-light: #32302f; /* lighter dark for panels */
+	--bg-dim: #3c3836; /* dimmed background */
+
+	/* Foregrounds */
+	--fg-light: #fbf1c7; /* default text */
+	--fg-medium: #ebdbb2; /* secondary text */
+	--fg-dark: #bdae93; /* comments / subtle text */
+
+	/* Bright colors */
+	--red: #fb4934;
+	--green: #b8bb26;
+	--yellow: #fabd2f;
+	--blue: #83a598;
+	--purple: #d3869b;
+	--aqua: #8ec07c;
+	--orange: #fe8019;
+
+	/* Neutral colors */
+	--gray: #928374;
+	--dark-gray: #7c6f64;
+	--light-gray: #a89984;
+
+	/* Accent / Highlights */
+	--accent-color: #b8bb26;
+	--bg-accent: #504945; /* for active panels */
+	--fg-accent: #fabd2f; /* for highlights */
+}

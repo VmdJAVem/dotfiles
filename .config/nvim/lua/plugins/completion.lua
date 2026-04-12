@@ -25,29 +25,11 @@ return {
 		completion = {
 			menu = {
 				border = "none",
-				winhighlight =
-				"Normal:BlinkCmpMenu,FloatBorder:BlinkCmpMenuBorder,CursorLine:BlinkCmpMenuSelection",
-				draw = {
-					cursorline_priority = 0,
-
-					components = {
-						kind_icon = {
-							highlight = function(ctx)
-								if ctx.selected then
-									return { fg = ctx.kind_hl_fg } -- no bg, inherits selection
-								end
-								return { fg = ctx.kind_hl_fg } -- no bg for normal too
-							end,
-						},
-					},
-				}
-
 			},
 			documentation = {
 				auto_show = true,
 				window = {
 					border = "none",
-					winhighlight = "Normal:CmpDoc,FloatBorder:CmpDocBorder"
 				},
 			},
 		},

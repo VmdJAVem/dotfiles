@@ -44,6 +44,5 @@ return {
 		-- Note: pcall is used to avoid errors if an extension isn't installed
 		pcall(require("telescope").load_extension, "fzf")
 		pcall(require("telescope").load_extension, "ui-select")
-		require("telescope").load_extension("projects")
 	end,
 }

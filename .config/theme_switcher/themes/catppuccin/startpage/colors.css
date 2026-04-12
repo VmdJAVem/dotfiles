@@ -1,0 +1,33 @@
+/* catppuccin-mocha.css */
+/* Catppuccin Mocha palette */
+
+:root {
+	/* Backgrounds */
+	--bg-dark: #11111b; /* dark background - base */
+	--bg-light: #1e1e2e; /* lighter dark for panels - mantle */
+	--bg-dim: #181825; /* dimmed background - crust */
+
+	/* Foregrounds */
+	--fg-light: #cdd6f4; /* default text - text */
+	--fg-medium: #bac2de; /* secondary text - subtext0 */
+	--fg-dark: #a6adc8; /* comments / subtle text - subtext1 */
+
+	/* Bright colors */
+	--red: #f38ba8;
+	--green: #a6e3a1;
+	--yellow: #f9e2af;
+	--blue: #89b4fa;
+	--purple: #cba6f7;
+	--aqua: #94e2d5;
+	--orange: #fab387;
+
+	/* Neutral colors */
+	--gray: #6c7086; /* surface2 */
+	--dark-gray: #585b70; /* surface1 */
+	--light-gray: #7f849c; /* overlay0 */
+
+	/* Accent / Highlights */
+	--accent-color: #f5c2e7;
+	--bg-accent: #313244; /* for active panels - surface0 */
+	--fg-accent: #f9e2af; /* for highlights - yellow */
+}
