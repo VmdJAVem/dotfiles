@@ -3,45 +3,46 @@ return {
 	version = "*",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
-		-- Optional: better performance for certain pickers
 		{ "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
-		-- The ui-select extension
 		"nvim-telescope/telescope-ui-select.nvim",
 	},
 	opts = function()
-		-- You can define your Telescope options here.
-		-- This function will be called when the plugin loads.
 		local actions = require("telescope.actions")
+		-- Sharp border characters table
+		local sharp_border = {
+			"─", -- left
+			"│", -- right
+			"─", -- top
+			"│", -- bottom
+			"┌", -- top-left
+			"┐", -- top-right
+			"┘", -- bottom-right
+			"└", -- bottom-left
+		}
 
 		return {
 			defaults = {
-				-- Your default configuration
 				mappings = {
 					i = {
 						["<C-j>"] = actions.move_selection_next,
 						["<C-k>"] = actions.move_selection_previous,
 					},
 				},
+				borderchars = sharp_border, -- explicit table avoids string conversion issues
+				border = true, -- required when using borderchars
 			},
 			extensions = {
-				-- Configure the ui-select extension
 				["ui-select"] = {
-					-- Use the dropdown theme (or any other theme you like)
 					require("telescope.themes").get_dropdown({
-						-- Additional theme options go here
-						-- e.g., winblend = 10, border = true, etc.
+						borderchars = sharp_border,
+						border = true,
 					}),
 				},
 			},
 		}
 	end,
 	config = function(_, opts)
-		-- This is the standard way to set up Telescope with opts.
-		-- It will merge your opts with the default config.
 		require("telescope").setup(opts)
-
-		-- Load the extensions (including ui-select)
-		-- Note: pcall is used to avoid errors if an extension isn't installed
 		pcall(require("telescope").load_extension, "fzf")
 		pcall(require("telescope").load_extension, "ui-select")
 	end,
