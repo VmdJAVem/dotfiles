@@ -8,6 +8,7 @@ selection=$(mpc listall | fzf -m \
     --height 100% \
     --layout reverse \
     --prompt="queue > " \
+    --border=sharp \
 )
 [ -z "$selection" ] && exit 0
 

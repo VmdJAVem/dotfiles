@@ -10,7 +10,7 @@ THEMES_DIR="$HOME/.config/theme_switcher/themes"
 THEME=$(find "$THEMES_DIR" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | \
     fzf --height 40% \
         --layout reverse \
-        --border \
+        --border=sharp \
         --prompt 'Theme: ' \
         --preview "ls -l $THEMES_DIR/{}" \
         --preview-window=right:60%:wrap)

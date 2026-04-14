@@ -52,7 +52,8 @@ alias ytdow='yt-dlp -x --audio-format mp3 \
     --add-metadata \
     --embed-thumbnail \
     --parse-metadata "%(artist)s - %(title)s:%(title)s"'
-
+alias ls='ls --color=auto -l'
+alias grep='grep --color=auto'
 # plugins
 zinit ice depth=1; zinit light zsh-users/zsh-syntax-highlighting
 zinit ice depth=1; zinit light zsh-users/zsh-completions

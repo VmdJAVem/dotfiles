@@ -19,7 +19,6 @@ window#waybar {
 #workspaces {
 	padding: 0 10px;
 	background: transparent;
-	border-right: 1px solid rgba(168, 153, 132, 0.4);
 	margin-left: 1px;
 }
 
@@ -37,7 +36,7 @@ window#waybar {
 	min-width: 20px;
 }
 
-#workspaces button:hover {
+#s button:hover {
 	background: rgba(80, 80, 80, 0.8);
 }
 
@@ -54,7 +53,8 @@ window#waybar {
 }
 
 /* Clock */
-#clock {
+#clock,
+#submap {
 	padding: 0 15px;
 	background: transparent;
 	font-weight: bold;

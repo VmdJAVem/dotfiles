@@ -1,3 +1,4 @@
+vim.g.mapleader = ' '
 require("config.lazy")
 
 vim.opt.fillchars:append({ eob = " " })

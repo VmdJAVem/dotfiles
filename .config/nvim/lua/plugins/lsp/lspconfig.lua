@@ -93,17 +93,18 @@ return {
 		vim.api.nvim_create_autocmd("LspAttach", {
 			group = vim.api.nvim_create_augroup("UserLspConfig", {}),
 			callback = function(ev)
-				local opts = { buffer = ev.buf }
+				local opts = { buffer = ev.buf, silent = true }
 
 				vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
 				vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
 				vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
 				vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)
-				vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename, { desc = 'rename something' })
+				vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename,
+					{ desc = 'rename something', silent = true })
 				vim.keymap.set("n", "<leader>c", vim.lsp.buf.code_action,
-					{ desc = "fix diagnostic" })
+					{ desc = "fix diagnostic", silent = true })
 				vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float,
-					{ desc = "Open diagnostic", buffer = ev.buf })
+					{ desc = "Open diagnostic", buffer = ev.buf, silent = true })
 
 				-- Navigate diagnostics
 				-- Go to next diagnostic (forward)
@@ -119,7 +120,7 @@ return {
 
 				vim.keymap.set("n", "<leader>F", function()
 					require("conform").format({ async = true, lsp_fallback = true })
-				end, { buffer = ev.buf })
+				end, { buffer = ev.buf, desc = 'format buffer', silent = true })
 
 				vim.api.nvim_create_autocmd("BufWritePre", {
 					buffer = ev.buf,

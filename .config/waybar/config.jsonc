@@ -3,7 +3,8 @@
 	"position": "top",
 	"modules-left": [
 		"hyprland/workspaces",
-		"clock"
+		"clock",
+		"hyprland/submap"
 	],
 	"modules-center": [
 		"hyprland/window"
