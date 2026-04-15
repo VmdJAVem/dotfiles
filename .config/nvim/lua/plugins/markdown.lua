@@ -2,13 +2,13 @@ return {
 	"MeanderingProgrammer/render-markdown.nvim",
 	dependencies = {
 		"nvim-treesitter/nvim-treesitter",
-		"echasnovski/mini.icons", -- clean, modern icon provider
+		"echasnovski/mini.icons",
 	},
 	ft = { "markdown", "vimwiki" },
 	opts = {
 		link = {
 			-- Turn on / off inline link icon rendering.
-			enabled = true,
+			enabled = false,
 			-- Additional modes to render links.
 			render_modes = false,
 			-- How to handle footnote links, start with a '^'.
@@ -138,10 +138,13 @@ return {
 			--   dash, bullet, check_icon, check_scope, quote, table_border, callout, link, sign
 			ignore = {
 				code_background = true,
-				sign = true,
+				sign = false,
 			},
 			above = 0,
 			below = 0,
+		},
+		sign = {
+			enabled = false, -- Turn off all signs
 		},
 	}
 }
