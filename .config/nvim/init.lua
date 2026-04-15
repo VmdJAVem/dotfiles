@@ -38,3 +38,5 @@ vim.api.nvim_set_hl(0, 'MiniHipatternsNote', {
 	underline = true,
 	fg = char.fg
 })
+vim.opt.spell = true
+vim.opt.spelllang = 'es,en'
