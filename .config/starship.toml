@@ -12,7 +12,7 @@ $character"""
 [fill]
 symbol = ' '
 [lua]
-symbol = '  '
+symbol = ''
 format = '[$symbol ($version) ]($style)'
 [c]
 symbol = 'ℂ'

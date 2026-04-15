@@ -10,46 +10,31 @@ vim.diagnostic.config({
 require("config.keymaps")
 require("config.options")
 require("config.theme")
+require("config.cmdline")
 vim.opt.runtimepath:append("~/.local/share/nvim/site")
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
-
-local cmdGrp = vim.api.nvim_create_augroup("cmdline_height", { clear = true })
-
-local function set_cmdheight(val)
-	if vim.opt.cmdheight:get() ~= val then
-		vim.opt.cmdheight = val
-		vim.cmd.redrawstatus()
-	end
-end
-
-vim.api.nvim_create_autocmd("CmdlineEnter", {
-	group = cmdGrp,
-	callback = function()
-		if vim.fn.getcmdtype() == ":" then
-			set_cmdheight(1)
-		end
-	end,
+local err = vim.api.nvim_get_hl(0, { name = 'ErrorMsg' })
+vim.api.nvim_set_hl(0, 'MiniHipatternsFixme', {
+	italic = true,
+	underline = true,
+	fg = err.bg
 })
-
-vim.api.nvim_create_autocmd("CmdlineChanged", {
-	group = cmdGrp,
-	callback = function()
-		if vim.fn.getcmdtype() == ":" and vim.fn.getcmdline() == "" then
-			set_cmdheight(0)
-		end
-	end,
+local yell = vim.api.nvim_get_hl(0, { name = 'Search' })
+vim.api.nvim_set_hl(0, 'MiniHipatternsHack', {
+	italic = true,
+	underline = true,
+	fg = yell.fg
 })
-
-vim.api.nvim_create_autocmd("CmdlineLeave", {
-	group = cmdGrp,
-	callback = function()
-		set_cmdheight(0)
-	end,
+local con = vim.api.nvim_get_hl(0, { name = 'Include', link = false })
+vim.api.nvim_set_hl(0, 'MiniHipatternsTodo', {
+	italic = true,
+	underline = true,
+	fg = con.fg
 })
-vim.api.nvim_create_autocmd("VimEnter", {
-	group = cmdGrp, -- your existing group
-	callback = function()
-		set_cmdheight(0)
-	end,
+local char = vim.api.nvim_get_hl(0, { name = 'Title', link = false })
+vim.api.nvim_set_hl(0, 'MiniHipatternsNote', {
+	italic = true,
+	underline = true,
+	fg = char.fg
 })
