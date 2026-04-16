@@ -24,3 +24,16 @@ vim.api.nvim_set_hl(0, 'MiniHipatternsNote', {
 	underline = true,
 	fg = char.fg
 })
+
+vim.api.nvim_set_hl(0, 'RenderMarkdownH1Bg', {
+	link = 'RenderMarkdownH2Bg'
+})
+vim.api.nvim_set_hl(0, 'RenderMarkdownH4Bg', {
+	link = 'RenderMarkdownH2Bg'
+})
+vim.api.nvim_set_hl(0, 'RenderMarkdownH5Bg', {
+	link = 'RenderMarkdownH2Bg'
+})
+vim.api.nvim_set_hl(0, 'RenderMarkdownH6Bg', {
+	link = 'RenderMarkdownH2Bg'
+})
