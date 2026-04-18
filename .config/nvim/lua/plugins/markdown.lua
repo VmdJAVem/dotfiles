@@ -8,7 +8,7 @@ return {
 	config = function()
 		require('render-markdown').setup({
 			blink = { enabled = true },
-			heading = { position = 'inline' },
+			-- heading = { position = 'inline' },
 			render_modes = { 'n', 'v', 'c', 'i', 't' },
 			link = {
 				enabled = false,

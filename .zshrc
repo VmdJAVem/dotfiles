@@ -5,8 +5,6 @@ SAVEHIST=1000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH"
-
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/arkar/.zshrc'
 autoload -Uz compinit
@@ -80,12 +78,10 @@ if [[ -f "$FZF_THEME_FILE" ]]; then
     export FZF_DEFAULT_OPTS="$(tr '\n' ' ' < "$FZF_THEME_FILE")"
 fi
 
-# PATH additions
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH"
+export PATH="$HOME/.ghcup/bin:$PATH"
 export PATH="$HOME/.npm-global/bin:$PATH"
 export GI_TYPELIB_PATH=/usr/local/lib/girepository-1.0
-if [[ -f "/home/arkar/.ghcup/env" ]]; then
-    . "/home/arkar/.ghcup/env"   # ghcup-env
-fi
 # Created by `pipx` on 2026-03-20 01:51:31
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$HOME/projects/cmv:$PATH"

@@ -42,6 +42,17 @@ return {
 				clangdFileStatus = true,
 			},
 		}
+		vim.lsp.config["haskell-language-server"] = {
+			cmd = { "haskell-language-server-wrapper", "--lsp" },
+			filetype = { "haskell", "lhaskell" },
+			root_markers = { "*.cabal", "stack.yaml", "hie.yaml", "hls.yaml", ".git" },
+			settings = {
+				haskell = {
+					formattingProvider = "ormolu", -- or "fourmolu"
+					-- Add other HLS-specific settings here
+				}
+			}
+		}
 		vim.lsp.config["tsserver"] = {
 			cmd = { "typescript-language-server", "--stdio" },
 			filetypes = {
@@ -82,6 +93,7 @@ return {
 			},
 		}
 
+
 		-- Enable servers
 		vim.lsp.enable("lua_ls")
 		vim.lsp.enable("clangd")
@@ -89,6 +101,7 @@ return {
 		vim.lsp.enable("html")
 		vim.lsp.enable("cssls")
 		vim.lsp.enable("emmet_ls")
+		vim.lsp.enable("haskell-language-server")
 		-- LspAttach: keymaps and formatting
 		vim.api.nvim_create_autocmd("LspAttach", {
 			group = vim.api.nvim_create_augroup("UserLspConfig", {}),
