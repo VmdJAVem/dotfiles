@@ -3425,3 +3425,40 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-04-11T20:48:05 player: played "Venetian Snares - Szerencsétlen.mp3"
 2026-04-11T21:31:53 player: played "Venetian Snares - Szerencsétlen.mp3"
 2026-04-12T19:27:47 player: played "Venetian Snares - Szerencsétlen.mp3"
+2026-04-20T18:00:02 player: played "Rxnde Akozta, Rodesens - 'COSAS DEL QUERER'.mp3"
+2026-04-20T18:00:22 output: Failed to play on "pipewire" (pulse): disconnected
+2026-04-20T18:00:22 player: played "JPEGMAFIA - 1539 N. Calvert.mp3"
+2026-04-21T16:00:02 output: Failed to play on "pipewire" (pulse): failed to connect the stream: No such entity
+2026-04-21T17:28:17 player: played "JPEGMAFIA - 1539 N. Calvert.mp3"
+2026-04-21T18:12:10 player: played "JPEGMAFIA - 1539 N. Calvert.mp3"
+2026-04-21T18:57:16 player: played "JPEGMAFIA - 1539 N. Calvert.mp3"
+2026-04-21T19:00:34 player: played "Kordhell, ZWE1HVNDXR - Fuku.mp3"
+2026-04-21T19:00:42 player: played "Stan Getz - The Girl From Ipanema.mp3"
+2026-04-21T19:01:04 mixer: Failed to set mixer for "pipewire": disconnected
+2026-04-21T19:01:04 exception: Failed to set mixer for "pipewire"; disconnected
+2026-04-21T19:03:57 player: played "Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3"
+2026-04-21T19:09:00 player: played "Riot Propaganda - Plata o Plomo.mp3"
+2026-04-21T19:13:28 player: played "American Football - Never Meant.mp3"
+2026-04-21T19:15:11 player: played "Paul Wall, Mike Jones, Slim Thug - Still Tippin' (RND1 remix).mp3"
+2026-04-21T19:15:18 mixer: Failed to set mixer for "pipewire": disconnected
+2026-04-21T19:15:18 exception: Failed to set mixer for "pipewire"; disconnected
+2026-04-21T19:15:18 mixer: Failed to set mixer for "pipewire": disconnected
+2026-04-21T19:15:18 exception: Failed to set mixer for "pipewire"; disconnected
+2026-04-21T19:18:00 player: played "SERAPHINE NOIR, Nona Shipov - All Caps.mp3"
+2026-04-21T19:20:43 player: played "Bolden. - Dawn in LA..mp3"
+2026-04-21T19:26:46 player: played "Jazz Liberatorz - Qîdar - Feat. Soul Clan.mp3"
+2026-04-21T19:30:03 player: played "Jazz Spastiks, Apani B Fly - Move.mp3"
+2026-04-21T19:35:25 player: played "Jazz Liberatorz - Cool Down - Feat. Raashan Ahmad.mp3"
+2026-04-21T19:39:46 player: played "Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3"
+2026-04-21T19:43:23 player: played "A Tribe Called Quest - Buggin' Out.mp3"
+2026-04-21T19:54:06 player: played "John Coltrane - Blue Train.mp3"
+2026-04-21T19:59:04 player: played "菊池ひみこ - Look Your Back!.mp3"
+2026-04-21T20:04:36 player: played "菊池ひみこ - GYPSY SONG - from Carmen.mp3"
+2026-04-21T20:09:34 player: played "CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-04-21T20:19:44 player: played "Jazz Liberatorz - I Am Hip Hop - Feat. Asheru.mp3"
+2026-04-22T15:57:30 player: played "Jazz Liberatorz - I Am Hip Hop - Feat. Asheru.mp3"
+2026-04-22T16:03:42 player: played "A Tribe Called Quest - Find a Way.mp3"
+2026-04-22T17:37:46 player: played "A Tribe Called Quest - Find a Way.mp3"
+2026-04-22T17:41:39 player: played "Nujabes - Kumomi.mp3"
+2026-04-22T17:47:39 player: played "Jazz Liberatorz - Speak The Language - Feat. Lizz Fields.mp3"
+2026-04-22T17:49:18 player: played "the wine is ok - gamay.mp3"

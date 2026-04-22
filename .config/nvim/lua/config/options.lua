@@ -20,13 +20,13 @@ vim.opt.sessionoptions = {
 	"localoptions",
 }
 vim.api.nvim_create_autocmd("FileType", {
-	pattern = "haskell",
-	callback = function()
-		vim.opt_local.expandtab = true -- use spaces for indentation
-		vim.opt_local.shiftwidth = 1 -- indent width for >>, <<, etc.
-		vim.opt_local.softtabstop = 1 -- make Tab key insert 2 spaces
-		vim.opt_local.tabstop = 1 -- how a literal TAB character displays (optional)
-	end,
+    pattern = "haskell",
+    callback = function()
+        vim.opt_local.expandtab = true    -- Use spaces, not tabs
+        vim.opt_local.shiftwidth = 2      -- Ormolu uses 2 spaces per indent block
+        vim.opt_local.softtabstop = 2     -- Tab key inserts 2 spaces
+        vim.opt_local.tabstop = 2         -- If a tab sneaks in, display it as 2 spaces wide
+    end,
 })
 vim.opt.clipboard = "unnamedplus" -- use the system clipboard for yank/paste
 vim.diagnostic.config({

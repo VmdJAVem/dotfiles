@@ -114,7 +114,6 @@ c.colors.statusbar.url.hover.fg = accent
 c.colors.tabs.bar.bg = bg1
 c.colors.tabs.selected.odd.bg = bg0_hard
 c.colors.tabs.selected.even.bg = bg0_hard
-
 c.colors.tabs.odd.bg = bg2
 c.colors.tabs.even.bg = bg3
 

@@ -44,7 +44,7 @@ return {
 		}
 		vim.lsp.config["haskell-language-server"] = {
 			cmd = { "haskell-language-server-wrapper", "--lsp" },
-			filetype = { "haskell", "lhaskell" },
+			filetypes = { "haskell", "lhaskell" },
 			root_markers = { "*.cabal", "stack.yaml", "hie.yaml", "hls.yaml", ".git" },
 			settings = {
 				haskell = {
@@ -53,54 +53,9 @@ return {
 				}
 			}
 		}
-		vim.lsp.config["tsserver"] = {
-			cmd = { "typescript-language-server", "--stdio" },
-			filetypes = {
-				"typescript",
-				"javascript",
-				"typescriptreact",
-				"javascriptreact",
-			},
-			root_dir = vim.fs.root(0, { "package.json", ".git" }),
-			capabilities = capabilities,
-			on_attach = function(client)
-				-- disable LSP formatting (use prettier instead)
-				client.server_capabilities.documentFormattingProvider = false
-			end,
-		}
-		-- HTML
-		vim.lsp.config["html"] = {
-			cmd = { "vscode-html-language-server", "--stdio" },
-			filetypes = { "html" },
-		}
-
-		-- CSS
-		vim.lsp.config["cssls"] = {
-			cmd = { "vscode-css-language-server", "--stdio" },
-			filetypes = { "css", "scss", "less" },
-		}
-
-		-- Emmet
-		vim.lsp.config["emmet_ls"] = {
-			cmd = { "emmet-ls", "--stdio" },
-			filetypes = {
-				"html",
-				"css",
-				"scss",
-				"javascript",
-				"javascriptreact",
-				"typescriptreact",
-			},
-		}
-
-
 		-- Enable servers
 		vim.lsp.enable("lua_ls")
 		vim.lsp.enable("clangd")
-		vim.lsp.enable("tsserver")
-		vim.lsp.enable("html")
-		vim.lsp.enable("cssls")
-		vim.lsp.enable("emmet_ls")
 		vim.lsp.enable("haskell-language-server")
 		-- LspAttach: keymaps and formatting
 		vim.api.nvim_create_autocmd("LspAttach", {
