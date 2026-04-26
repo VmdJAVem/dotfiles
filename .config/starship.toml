@@ -20,6 +20,7 @@ format = '[$symbol ($version) ]($style)'
 [haskell]
 symbol = 'λ'
 format = '[$symbol ($version) ]($style)'
+
 [os]
 disabled = false
 style = "bold yellow"

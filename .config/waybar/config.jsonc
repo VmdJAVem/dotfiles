@@ -85,6 +85,6 @@
 				"\uf028"
 			]
 		},
-		"on-click": "pavucontrol"
+		"on-click": "kitty -e pulsemixer"
 	}
 }

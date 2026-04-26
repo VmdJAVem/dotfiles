@@ -35,7 +35,7 @@ return {
 				"--completion-style=detailed",
 				"--function-arg-placeholders=false",
 			},
-			filetypes = { "c", "cpp", "objc", "objcpp" },
+			filetypes = { "c", "cpp" },
 			init_options = {
 				usePlaceholders = true,
 				completeUnimported = true,
