@@ -10895,3 +10895,36 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-04-26T13:29:04 exception: Failed to set mixer for "pipewire"; disconnected
 2026-04-26T13:34:12 player: played "System Of A Down - Protect The Land.mp3"
 2026-04-26T13:37:50 player: played "System Of A Down - Toxicity.mp3"
+2026-04-26T13:43:29 player: played "Jazz Liberatorz - U Do - Feat. Stacy Epps.mp3"
+2026-04-26T13:44:11 player: played "System Of A Down - B.Y.O.B..mp3"
+2026-04-26T13:47:48 player: played "Aphex Twin - 4.mp3"
+2026-04-26T13:50:34 player: played "Olivia Rodrigo - all-american bitch.mp3"
+2026-04-26T14:07:16 player: played "Sons of Aguirre, Scila, Dj Plan B, Guaja D - Privilegiados.mp3"
+2026-04-26T14:08:58 player: played "Machine Girl - It Takes a Nation of Millenials to Destroy a Nation of Millions….mp3"
+2026-04-26T20:06:16 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-26T20:06:18 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-26T20:10:44 player: played "Machine Girl - It Takes a Nation of Millenials to Destroy a Nation of Millions….mp3"
+2026-04-26T20:10:44 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-09T05:50:40 player: played "Limp Bizkit, Method Man - N 2 Gether Now.mp3"
+2026-04-09T05:51:54 output: Failed to pause "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T05:54:50 player: played "Rxnde Akozta, Rodesens - 'COSAS DEL QUERER'.mp3"
+2026-04-09T05:54:53 output: Failed to play on "pipewire" (pulse): suspended
+2026-04-09T05:55:34 output: Failed to pause "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T05:55:42 output: Failed to play on "pipewire" (pulse): suspended
+2026-04-09T05:55:58 output: Failed to play on "pipewire" (pulse): suspended
+2026-04-09T05:59:16 output: Failed to play on "pipewire" (pulse): suspended
+2026-04-09T05:59:57 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T06:00:37 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T06:01:17 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T06:01:58 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T06:02:38 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T06:03:18 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T06:03:59 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T06:04:40 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-09T06:04:56 output: Failed to play on "pipewire" (pulse): suspended
+2026-04-09T06:04:57 player: played "Nujabes - The Final View.mp3"
+2026-04-26T20:36:47 player: played "Jimi Hendrix - All Along the Watchtower.mp3"
+2026-04-26T20:41:45 player: played "Joey Valence & Brae - DISCO TOMORROW.mp3"
+2026-04-26T20:45:22 player: played "Aphex Twin - 4.mp3"
+2026-04-26T20:48:10 client: [127.0.0.1:43208] command "close" during idle
+2026-04-26T20:52:21 player: played "Negroni's Trio, Pedro Capó - El Incomprendido (feat. Pedro Capó).mp3"

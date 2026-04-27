@@ -1,22 +1,22 @@
 
 * {
-    background-color: #1d2021 !important;
-    color: #fbf1c7 !important;
+    background-color: #1e1e2e !important;
+    color: #cdd6f4 !important;
 	border-radius: 0px !important;
 	font-family: "Iosevka NFM" !important;
 }
 a {
-    color: #b8bb26 !important;
+    color: #f5c2e7 !important;
 }
 a:visited {
-    color: #d3869b !important;
+    color: #f5c2e7 !important;
 }
 input, textarea, select, button {
-    background-color: #1b1b1b !important;
-    color: #fbf1c7 !important;
-    border-color: #3c3836 !important;
+    background-color: #181825 !important;
+    color: #cdd6f4 !important;
+    border-color: #313244 !important;
 }
 ::selection {
-    background-color: #b8bb26 !important;
-    color: #1d2021 !important;
+    background-color: #f5c2e7 !important;
+    color: #1e1e2e !important;
 }

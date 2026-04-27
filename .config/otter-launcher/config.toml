@@ -77,8 +77,8 @@ case $1 in
 "logout") session=`loginctl session-status | head -n 1 | awk '{print $1}'`; loginctl terminate-session $session ;;
 "suspend") hyprlock ;;
 "hibernate") systemctl hibernate ;;
-"reboot") systemctl reboot ;;
-"shutdown") systemctl poweroff ;;
+"reboot") reboot ;;
+"shutdown") poweroff ;;
 esac fi }
 power $(echo -e 'reboot\\nshutdown\\nlogout\\nsuspend\\nhibernate' | fzf --reverse --no-scrollbar --padding 1,3 --prompt 'Power Menu: ' | tail -1)
 """

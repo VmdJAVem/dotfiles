@@ -23,7 +23,7 @@ format = '[$symbol ($version) ]($style)'
 
 [os]
 disabled = false
-style = "bold yellow"
+style = "blue"
 [os.symbols]
 AIX = " "
 Alpaquita = " "
