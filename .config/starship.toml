@@ -6,7 +6,6 @@ $fill\
 $lua\
 $c\
 $haskell\
-$cmd_duration\
 $line_break\
 $character"""
 [fill]
@@ -20,74 +19,13 @@ format = '[$symbol ($version) ]($style)'
 [haskell]
 symbol = 'λ'
 format = '[$symbol ($version) ]($style)'
-
 [os]
 disabled = false
 style = "blue"
+format = "[$symbol ]($style) "
 [os.symbols]
-AIX = " "
-Alpaquita = " "
-AlmaLinux = " "
-Alpine = " "
-ALTLinux = " "
-Amazon = " "
-Android = " "
-AOSC = " "
 Arch = "☭ "
 Artix = " "
-Bluefin = " "
-CachyOS = " "
-CentOS = " "
-Debian = " "
-DragonFly = " "
-Elementary = " "
-Emscripten = " "
-EndeavourOS = " "
-Fedora = " "
-FreeBSD = " "
-Garuda = " "
-Gentoo = " "
-HardenedBSD = " "
-Illumos = " "
-Ios = " "
-InstantOS = " "
-Kali = " "
-Linux = " "
-Mabox = " "
-Macos = " "
-Manjaro = " "
-Mariner = " "
-MidnightBSD = " "
-Mint = " "
-NetBSD = " "
-NixOS = " "
-Nobara = " "
-OpenBSD = " "
-OpenCloudOS = " "
-openEuler = " "
-openSUSE = " "
-OracleLinux = " "
-PikaOS = " "
-Pop = " "
-Raspbian = " "
-Redhat = " "
-RedHatEnterprise = " "
-RockyLinux = " "
-Redox = " "
-Solus = " "
-SUSE = " "
-Ubuntu = " "
-Ultramarine = " "
-Unknown = " "
-Uos = " "
-Void = " "
-Windows = " "
-Zorin = " "
-[cmd_duration]
-min_time = 0
-show_milliseconds = true
-style = "green"
-format = 'took [$duration]($style) '
 [character]
 success_symbol = "[λ ](bold)"
 error_symbol = "[󱃠 ](red)"

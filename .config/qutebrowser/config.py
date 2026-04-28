@@ -11,8 +11,8 @@ c.fonts.debug_console = "11pt Iosevka Nerd Font Mono"
 
 c.fonts.web.family.standard = "Iosevka Nerd Font Mono"
 c.fonts.web.family.fixed = "Iosevka Nerd Font Mono"
-c.fonts.web.family.sans_serif = "Iosevka"
-c.fonts.web.family.serif = "Iosevka"
+c.fonts.web.family.sans_serif = "Iosevka Nerd Font Mono"
+c.fonts.web.family.serif = "Iosevka Nerd Font Mono"
 c.completion.shrink = True
 
 config.bind("xb", "config-cycle statusbar.show always never")
@@ -39,7 +39,7 @@ css_content = f"""
     background-color: {bg0} !important;
     color: {fg0} !important;
 	border-radius: 0px !important;
-	font-family: "Iosevka NFM" !important;
+	font-family: "Iosevka Nerd Font Mono" !important;
 }}
 a {{
     color: {accent} !important;

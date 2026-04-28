@@ -86,3 +86,4 @@ export GI_TYPELIB_PATH=/usr/local/lib/girepository-1.0
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$HOME/projects/cmv:$PATH"
 export PATH="$HOME/.opencode/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"

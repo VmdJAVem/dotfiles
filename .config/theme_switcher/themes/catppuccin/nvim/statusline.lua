@@ -36,11 +36,11 @@ return {
 				},
 			},
 			section_separators   = { left = '', right = '' },
-			component_separators = { left = '', right = '' },
+			component_separators = { left = ' ', right = ' ' },
 		},
 		sections = {
 			lualine_a = {
-				{ function() return '  ' end, separator = '', padding = 0 },
+				{ function() return ' ' end, separator = '', padding = 0 },
 				'mode'
 			},
 			lualine_b = {

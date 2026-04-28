@@ -10928,3 +10928,71 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-04-26T20:45:22 player: played "Aphex Twin - 4.mp3"
 2026-04-26T20:48:10 client: [127.0.0.1:43208] command "close" during idle
 2026-04-26T20:52:21 player: played "Negroni's Trio, Pedro Capó - El Incomprendido (feat. Pedro Capó).mp3"
+2026-04-26T20:55:38 output: Failed to play on "pipewire" (pulse): disconnected
+2026-04-26T20:55:39 player: played "Chucho Valdés, Royal Quartet - Tatomania.mp3"
+2026-04-26T20:56:23 output: Failed to play on "pipewire" (pulse): failed to connect the stream: No such entity
+2026-04-27T15:26:49 player: played "Chucho Valdés, Royal Quartet - Tatomania.mp3"
+2026-04-27T15:29:39 player: played "PinkPantheress - The aisle.mp3"
+2026-04-27T15:31:18 player: played "PinkPantheress - Pain.mp3"
+2026-04-27T15:32:54 player: played "PinkPantheress - Break It Off - Bonus.mp3"
+2026-04-27T15:34:42 player: played "PinkPantheress - I Must Apologise.mp3"
+2026-04-27T15:34:51 player: played "PinkPantheress - I Must Apologise.mp3"
+2026-04-27T15:37:05 player: played "Charli xcx - 360.mp3"
+2026-04-27T15:39:57 player: played "A Tribe Called Quest - What.mp3"
+2026-04-27T15:41:36 player: played "PinkPantheress - Pain.mp3"
+2026-04-27T15:45:56 player: played "Pedro Mo - En Qué Estás.mp3"
+2026-04-27T15:49:49 player: played "Machine Girl - うずまき.mp3"
+2026-04-27T15:53:49 player: played "Nujabes - A day by atmosphere supreme.mp3"
+2026-04-27T15:57:04 player: played "Clipse, Pusha T, Malice - So Be It.mp3"
+2026-04-27T15:59:52 player: played "MF DOOM - Vomitspit.mp3"
+2026-04-27T16:03:38 player: played "A Tribe Called Quest, Trugoy The Dove - Award Tour (feat. Trugoy The Dove).mp3"
+2026-04-27T16:06:23 player: played "Tfwamirite - だきしめたい.mp3"
+2026-04-27T16:10:05 player: played "Oblivion's Mighty Trash - No Me Acuerdo.mp3"
+2026-04-27T16:15:39 player: played "Violadores Del Verso - Vicios y Virtudes.mp3"
+2026-04-27T16:20:21 player: played "Harlem Renaissance - Immortal Technique.mp3"
+2026-04-27T16:24:33 player: played "Ska-P - Welcome to Hell.mp3"
+2026-04-27T16:35:16 player: played "John Coltrane - Blue Train.mp3"
+2026-04-27T16:38:45 player: played "archipiélagos - akira.mp3"
+2026-04-27T16:39:13 output: Failed to play on "pipewire" (pulse): disconnected
+2026-04-27T16:39:14 player: played "JARKA _ Ortodòxia.mp3"
+2026-04-27T18:04:58 player: played "CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-04-27T18:08:17 player: played "The Davitts - Come Out Ye Black and Tans.mp3"
+2026-04-27T18:14:21 player: played "Nujabes, Cise Starr - Highs 2 Lows (feat. Cise Starr from CYNE).mp3"
+2026-04-27T18:17:18 player: played "Kendrick Lamar, SZA - luther (with sza).mp3"
+2026-04-27T18:18:56 player: played "Mime 871, Taxi Dee - En La Identidad.mp3"
+2026-04-27T18:26:58 output: Failed to play on "pipewire" (pulse): disconnected
+2026-04-27T18:26:59 player: played "Nujabes - Beat laments the world.mp3"
+2026-04-27T18:32:22 player: played "Nujabes - Beat laments the world.mp3"
+2026-04-27T18:42:57 player: played "Alcolirykoz - Todo Lo Bueno Tarda.mp3"
+2026-04-27T18:45:50 player: played "MF DOOM, Mr. Fantastik - Rapp Snitch Knishes.mp3"
+2026-04-27T18:49:07 player: played "Joey Valence & Brae - MYSELF.mp3"
+2026-04-27T18:53:26 player: played "Nujabes - Summer Gypsy.mp3"
+2026-04-27T19:05:51 player: played "Nujabes - Peaceland.mp3"
+2026-04-27T19:09:31 output: Failed to play on "pipewire" (pulse): disconnected
+2026-04-27T19:09:32 player: played "Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-04-27T22:44:09 player: played "Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3"
+2026-04-28T13:39:39 player: played "Clipse, Ab Liva, Pusha T, Malice - Inglorious Bastards.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
