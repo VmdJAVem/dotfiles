@@ -27,7 +27,7 @@ style = "blue"
 format = "[$symbol ]($style) "
 [os.symbols]
 Arch = "☭ "
-Artix = " "
+Artix = ""
 [character]
 success_symbol = "[λ ](bold)"
 error_symbol = "[󱃠 ](red)"
