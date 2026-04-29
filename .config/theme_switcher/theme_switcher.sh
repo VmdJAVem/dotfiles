@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+#set -e
 
 FZF_DEFAULT_OPTS="$(tr '\n' ' ' < ~/.config/fzf/current 2>/dev/null)"
 export FZF_DEFAULT_OPTS
@@ -116,7 +116,8 @@ fi
 	ln -sf "$BASE_DIR/startpage/colors.css" ~/.config/omnisearch/static/
 # qutebrowser
  	ln -sf "$BASE_DIR/qutebrowser/colors.py" ~/.config/qutebrowser/
-
+#  fsel
+	ln -sf "$BASE_DIR/fsel/config.toml" ~/.config/fsel/
 # ------------------------
 # QT6CT
 # ------------------------

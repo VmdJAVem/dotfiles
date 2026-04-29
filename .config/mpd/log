@@ -10996,3 +10996,16 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-04-28T17:00:43 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-28T17:30:30 player: played "Cap'n Jazz - Puddle Splashers - 2025 Remaster.mp3"
+2026-04-28T18:23:50 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-28T18:37:55 player: played "Cap'n Jazz - Puddle Splashers - 2025 Remaster.mp3"
+2026-04-28T18:41:14 exception: Not playing
+2026-04-28T18:41:43 exception: Not playing
+2026-04-28T18:42:37 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-28T18:42:46 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-28T18:43:29 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-28T18:47:02 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
+2026-04-28T18:47:59 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-28T18:49:14 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
+2026-04-28T19:09:03 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused

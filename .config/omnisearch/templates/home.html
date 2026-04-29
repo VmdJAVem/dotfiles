@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{__locale_id}}" dir="{{__locale_direction}}">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+        <title>
+            OmniSearch
+        </title>
+        <link rel="stylesheet" href="static/main.css">
+        {{if theme == "light"}}<link rel="preload" href="static/theme-light.css" as="style"><link rel="stylesheet" href="static/theme-light.css">{{endif}}
+        {{if theme == "dark"}}<link rel="preload" href="static/theme-dark.css" as="style"><link rel="stylesheet" href="static/theme-dark.css">{{endif}}
+        <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+        <link rel="search" 
+        type="application/opensearchdescription+xml" 
+        title="OmniSearch" href="/opensearch.xml">
+    </head>
+    
+    <body>
+        <div class="view-home">
+            <div class="container">
+                <h1 class="hero-logo">
+                    Omni<span>Search</span>
+                </h1>
+                <form action="/search" class="home-search-form">
+                    <div class="search-input-wrapper">
+                        <input name="q" type="text" class="search-box" placeholder="{{l("search_placeholder")}}"
+                        autofocus autocomplete="off">
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="btn-primary">
+                            {{l("search_button")}}
+                        </button>
+                        <button type="submit" name="btnI" value="1" class="btn-secondary">
+                            {{l("surprise_me_button")}}
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a href="/settings" class="home-settings-btn" title="{{l("settings_tab")}}"></a>
+        <footer class="home-footer">
+            <a href="{{git_remote}}" class="version-link" target="_blank" rel="noopener noreferrer">{{version}}</a>
+        </footer>
+    </body>
+
+</html>

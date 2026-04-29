@@ -1,0 +1,10 @@
+:root {
+    --bg-main: #121212;
+    --bg-card: #1e1e1e;
+    --border: #333333;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+    --text-muted: #d1d1d1;
+    --accent: #e2e2e2;
+    --accent-glow: rgba(255,255,255,0.1);
+}

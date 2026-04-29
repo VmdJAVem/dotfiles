@@ -1,0 +1,6 @@
+--style minimal
+--color=fg:#ebdbb2,hl:#b8bb26
+--color=bg+:#3c3836,fg+:#fbf1c7,hl+:#b8bb26
+--color=info:#83a598,prompt:#b8bb26,pointer:#b8bb26
+--color=marker:#b8bb26,spinner:#b8bb26,header:#83a598
+--color=gutter:-1,border:#3c3836

@@ -13,7 +13,7 @@
 		"custom/media",
 		"tray",
 		"custom/notifications",
-		"pipewire"
+		"pulseaudio"
 	],
 	"margin-left": 0,
 	"margin-right": 0,
@@ -73,7 +73,7 @@
 		"interval": 1,
 		"on-click": "playerctl play-pause"
 	},
-	"pipewire": {
+	"pulseaudio": {
 		"format": "{icon} {volume}%",
 		"format-bluetooth": "{icon} {volume}%",
 		"format-muted": "\uf026",
