@@ -3,4 +3,5 @@
 --color=bg+:#313244,fg+:#f5e0dc,hl+:#f5c2e7
 --color=info:#89b4fa,prompt:#f5c2e7,pointer:#f5c2e7
 --color=marker:#f5c2e7,spinner:#f5c2e7,header:#89b4fa
---color=gutter:-1,border:#313244
+--color=border:#313244
+--gutter ' '

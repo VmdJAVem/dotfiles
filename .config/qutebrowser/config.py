@@ -1,5 +1,6 @@
 from colors import *
 import os
+from qutebrowser.api import hook
 config.load_autoconfig()
 
 c.fonts.default_family = "Iosevka Nerd Font Mono"
@@ -31,8 +32,11 @@ c.url.searchengines = {
 
 c.content.user_stylesheets = ["square.css"]
 
-config.bind('xa', "config-cycle content.user_stylesheets 'square.css' 'all-cites.css'")
+config.bind('xa', "config-cycle content.user_stylesheets 'square.css' 'all-cites.css';; config-cycle colors.webpage.darkmode.enabled False True")
 config.bind('xg', "set content.user_stylesheets ''")
+
+config.set("colors.webpage.darkmode.enabled", False, "http://localhost:8087/*")
+
 # Generate CSS content with colors and font
 css_content = f"""
 * {{

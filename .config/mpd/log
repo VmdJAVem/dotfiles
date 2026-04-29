@@ -11009,3 +11009,21 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-04-28T18:47:59 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
 2026-04-28T18:49:14 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
 2026-04-28T19:09:03 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-28T19:58:28 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
+2026-04-28T22:09:08 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-28T22:11:56 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
+2026-04-29T15:25:25 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-29T15:56:30 player: played "Vertigoaway, Schizoscriptures - Break This The Breaking Point 2.mp3"
+2026-04-29T15:59:12 player: played "Sergio Mendes & Brasil '66 - Mas Que Nada.mp3"
+2026-04-29T16:02:06 player: played "A Tribe Called Quest - What.mp3"
+2026-04-29T16:02:35 player: played "Jazz Liberatorz - Indonesia - Feat. Tableek.mp3"
+2026-04-29T16:10:46 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-04-29T16:12:22 player: played "Macabre Plaza - Abandoned Plaza.mp3"
+2026-04-29T16:15:59 player: played "Aphex Twin - 4.mp3"
+2026-04-29T16:16:56 player: played "Canserbero, NicoJP - RA Words - Instrumental.mp3"
+2026-04-29T16:19:38 player: played "Roland Jones, Mari - GRINDIN.mp3"
+2026-04-29T16:26:26 player: played "American Football - The Summer Ends.mp3"
+2026-04-29T16:30:32 player: played "Ali Primera - Techos de Cartón.mp3"
+2026-04-29T16:32:18 player: played "cutkolaska - Empty Promise.mp3"
+2026-04-29T16:36:19 player: played "Prefuse 73 - Point To B.mp3"
+2026-04-29T16:40:40 player: played "Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3"

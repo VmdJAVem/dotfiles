@@ -12,9 +12,7 @@ THEME=$(find "$THEMES_DIR" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | \
         --layout reverse \
         --border=sharp \
         --prompt 'Theme: ' \
-        --preview "ls -l $THEMES_DIR/{}" \
-        --preview-window=right:60%:wrap)
-
+)
 [ -z "$THEME" ] && exit 0
 
 BASE_DIR="$THEMES_DIR/$THEME"
