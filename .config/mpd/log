@@ -11118,3 +11118,31 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-04-30T21:36:42 player: played "usedcvnt, Eden FM - pls tell me what is ur dream.mp3"
 2026-04-30T21:39:40 player: played "Joey Valence & Brae - Ready Set.mp3"
 2026-04-30T21:43:55 player: played "System Of A Down - B.Y.O.B..mp3"
+2026-04-30T21:48:42 player: played "Portavoz - Dando Cara.mp3"
+2026-04-30T21:53:46 output: Failed to play on "pipewire" (pulse): suspended
+2026-04-30T21:53:47 player: played "Aphex Twin - produk 29 [101].mp3"
+2026-05-01T12:03:47 player: played "Aphex Twin - produk 29 [101].mp3"
+2026-05-01T12:11:27 player: played "ooxygen - Soul.mp3"
+2026-05-01T12:13:05 player: played "Canserbero, NicoJP - Outro Chavo - Instrumental.mp3"
+2026-05-01T12:22:21 player: played "Boards of Canada - An Eagle In Your Mind.mp3"
+2026-05-01T12:28:24 player: played "Jazz Liberatorz - Indonesia - Feat. Tableek.mp3"
+2026-05-01T12:32:34 player: played "A Tribe Called Quest - Jazz (We've Got).mp3"
+2026-05-01T12:34:24 output: Failed to play on "pipewire" (pulse): suspended
+2026-05-01T12:34:25 player: played "A Tribe Called Quest - 8 Million Stories.mp3"
+2026-05-01T14:56:15 output: Failed to play on "pipewire" (pulse): suspended
+2026-05-01T14:56:22 player: played "A Tribe Called Quest - 8 Million Stories.mp3"
+2026-05-01T14:57:42 client: [127.0.0.1:55256] command "close" during idle
+2026-05-01T15:03:29 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-05-01T15:07:28 player: played "Cap'n Jazz - Little League - 2025 Remaster.mp3"
+2026-05-01T15:12:09 player: played "A Tribe Called Quest - Buggin' Out.mp3"
+2026-05-01T15:14:33 player: played "Anna German - Катюша.mp3"
+2026-05-01T15:19:27 player: played "Clipse, Tyler, The Creator, Pusha T, Malice - P.O.V..mp3"
+2026-05-01T15:24:00 player: played "Joey Valence & Brae - HOOLIGANG.mp3"
+2026-05-01T15:27:17 output: Failed to play on "pipewire" (pulse): suspended
+2026-05-01T15:27:18 player: played "Jazz Liberatorz - Clin D'oeil.mp3"
+2026-05-01T15:32:21 player: played "Jazz Liberatorz - Clin D'oeil.mp3"
+2026-05-01T15:35:18 player: played "Aphex Twin - Flim.mp3"
+2026-05-01T15:37:55 player: played "Igorrr - Melting Nails.mp3"
+2026-05-01T15:41:54 player: played "Shaggy, Rayvon - In The Summertime.mp3"
+2026-05-01T15:46:45 player: played "CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-01T16:33:04 player: played "Jazz Liberatorz - Ease My Mind - Feat. Tre Hardson, Fat Lip & Omni.mp3"

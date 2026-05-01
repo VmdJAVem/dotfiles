@@ -8,11 +8,10 @@ export FZF_DEFAULT_OPTS
 THEMES_DIR="$HOME/.config/theme_switcher/themes"
 
 THEME=$(find "$THEMES_DIR" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | \
-    fzf --height 40% \
-        --layout reverse \
-        --border=sharp \
-        --prompt 'Theme: ' \
+    tofi \
+        --prompt-text "Theme: "
 )
+
 [ -z "$THEME" ] && exit 0
 
 BASE_DIR="$THEMES_DIR/$THEME"
@@ -113,8 +112,6 @@ fi
 	ln -sf "$BASE_DIR/startpage/colors.css" ~/.config/omnisearch/static/
 # qutebrowser
  	ln -sf "$BASE_DIR/qutebrowser/colors.py" ~/.config/qutebrowser/
-#  fsel
-	ln -sf "$BASE_DIR/fsel/config.toml" ~/.config/fsel/
 # ------------------------
 # QT6CT
 # ------------------------
@@ -124,6 +121,8 @@ fi
 	pkill qs 2>/dev/null || true
 	sleep 0.3
 	qs -d
+# tofi
+	ln -sf "$BASE_DIR/tofi/theme" ~/.config/tofi/
 # Make sure Qt apps see the override
 export QT_STYLE_OVERRIDE="fusion"
 # ------------------------
