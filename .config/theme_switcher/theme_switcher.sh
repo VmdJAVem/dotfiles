@@ -43,15 +43,6 @@ ln -sf "$BASE_DIR/nvim/theme.lua" ~/.config/nvim/lua/config/theme.lua
 ln -sf "$BASE_DIR/tmux/colors.conf" ~/.config/tmux/colors.conf
 
 tmux source-file ~/.config/tmux/tmux.conf 2>/dev/null || true
-
-# ------------------------
-# WAYBAR
-# ------------------------
-ln -sf "$BASE_DIR/waybar/style.css" ~/.config/waybar/style.css
-
-# pkill waybar 2>/dev/null || true
-# sleep 0.3
-# hyprctl dispatch exec waybar
 # ------------------------
 # GTK
 # ------------------------
@@ -90,11 +81,9 @@ case "$THEME" in
 
 #rmpc
 		ln -sf "$BASE_DIR/rmpc/colors.ron" ~/.config/rmpc/themes/colors.ron
-# swaync
-		ln -sf "$BASE_DIR/swaync/style.css" ~/.config/swaync/style.css
-		pkill swaync 2>/dev/null || true
-		sleep 0.2
-		swaync >/dev/null 2>&1 &
+# dunst
+		ln -sf "$BASE_DIR/dunst/00-colors.conf" ~/.config/dunst/dunstrc.d/
+		dunstctl reload
 echo "$THEME" > "$HOME/.config/theme_switcher/.current"
 # ------------------------
 # FZF
