@@ -1,0 +1,9 @@
+include = theme
+border-width = 0
+outline-width = 0
+fuzzy-match=true
+font= "Iosevka Nerd Font Propo"
+
+width = 40%
+height = 40%
+
