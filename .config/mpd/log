@@ -11028,3 +11028,93 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-04-29T16:36:19 player: played "Prefuse 73 - Point To B.mp3"
 2026-04-29T16:40:40 player: played "Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3"
 2026-04-29T16:45:00 player: played "JARKA _ Ortodòxia.mp3"
+2026-04-29T16:45:58 output: Failed to play on "pipewire" (pulse): disconnected
+2026-04-29T16:45:59 player: played "Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3"
+2026-04-29T20:04:35 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-29T20:04:35 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-29T20:07:53 player: played "Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3"
+2026-04-29T20:12:26 player: played "Jazz Liberatorz - Genius At Work - Feat. Fat Lip & T. Love.mp3"
+2026-04-29T20:14:05 player: played "the wine is ok - gamay.mp3"
+2026-04-29T20:17:58 player: played "Nujabes - Kumomi.mp3"
+2026-04-29T20:24:53 player: played "Boards of Canada - Telephasic Workshop.mp3"
+2026-04-29T20:29:47 player: played "Aphex Twin - Xtal.mp3"
+2026-04-29T20:36:26 player: played "Shaggy, Rayvon - Angel.mp3"
+2026-04-29T20:39:14 player: played "JPEGMAFIA - I'll Be Right There.mp3"
+2026-04-29T20:43:00 player: played "archipiélagos - furioso D.mp3"
+2026-04-29T20:46:34 player: played "Laurindo Almeida - The Lamp Is Low.mp3"
+2026-04-29T20:49:40 player: played "Los Prisioneros - Por Qué No Se Van.mp3"
+2026-04-29T20:54:52 player: played "Jazz Liberatorz - Take A Time - Feat. Buckshot.mp3"
+2026-04-29T21:00:31 player: played "Jazz Liberatorz - U Do - Feat. Stacy Epps.mp3"
+2026-04-29T21:07:53 player: played "Eddy Mugre - One two.mp3"
+2026-04-30T15:45:39 exception: Failed to enable output "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T16:00:23 output: Failed to play on "pipewire" (pulse): failed to connect the stream: No such entity
+2026-04-30T16:00:28 player: played "Eddy Mugre - One two.mp3"
+2026-04-30T16:31:03 player: played "hkmori - anybody can find love (except you.).mp3"
+2026-04-30T16:35:28 player: played "A Tribe Called Quest - 8 Million Stories.mp3"
+2026-04-30T16:38:16 player: played "Igorrr - Fryzura Konika.mp3"
+2026-04-30T16:39:52 player: played "Towa - Move MF.mp3"
+2026-04-30T16:46:22 player: played "Boards of Canada - An Eagle In Your Mind.mp3"
+2026-04-30T16:49:08 player: played "PinkPantheress - The aisle.mp3"
+2026-04-30T16:52:40 player: played "Joe Pass - Giant Steps.mp3"
+2026-04-30T16:59:28 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-04-30T17:03:38 player: played "Nujabes - aruarian dance.mp3"
+2026-04-30T17:06:04 client: [127.0.0.1:49096] command "close" during idle
+2026-04-30T17:06:51 client: [127.0.0.1:35894] command "close" during idle
+2026-04-30T17:06:55 player: played "King Geedorah - Fazers.mp3"
+2026-04-30T17:07:46 output: Failed to play on "pipewire" (pulse): suspended
+2026-04-30T17:07:57 output: Failed to play on "pipewire" (pulse): failed to connect the stream: No such entity
+2026-04-30T17:08:37 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-30T17:09:18 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-30T17:09:58 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-30T17:10:38 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-30T17:10:49 player: played "Cap'n Jazz - In The Clear - 2025 Remaster.mp3"
+2026-04-30T17:11:19 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Timeout
+2026-04-30T17:11:37 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Connection terminated
+2026-04-30T17:13:13 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Connection terminated
+2026-04-30T17:13:23 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:13:33 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:13:43 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:13:53 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:13:59 player: played "Jazz Liberatorz - Loop Prisoner.mp3"
+2026-04-30T17:13:59 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:14:10 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:14:20 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:14:31 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:14:41 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:14:51 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:15:01 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:15:11 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:15:21 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:15:32 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:15:42 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:15:52 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:16:02 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:16:12 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:16:22 exception: Failed to open "pipewire" (pulse); pa_context_connect() has failed: Connection refused
+2026-04-30T17:21:01 player: played "JPEGMAFIA, Denzel Curry - JPEGULTRA! (feat. Denzel Curry).mp3"
+2026-04-30T17:22:56 player: played "JPEGMAFIA, Denzel Curry - JPEGULTRA! (feat. Denzel Curry).mp3"
+2026-04-30T17:27:17 player: played "Digable Planets - Rebirth Of Slick (Cool Like Dat).mp3"
+2026-04-30T17:29:34 player: played "Los Prisioneros - Maldito Sudaca.mp3"
+2026-04-30T17:30:56 player: played "Earl Sweatshirt - Static.mp3"
+2026-04-30T17:32:08 player: played "ilysam, Mc Ster - sweet rally.mp3"
+2026-04-30T17:35:36 player: played "Alcolirykoz - Aguanilé.mp3"
+2026-04-30T17:40:28 player: played "Nehruviandoom, MF DOOM - Caskets.mp3"
+2026-04-30T17:45:36 player: played "A Tribe Called Quest - Like It Like That.mp3"
+2026-04-30T17:49:06 player: played "Joey Valence & Brae - WHERE U FROM.mp3"
+2026-04-30T17:52:46 player: played "Joe Pass - Giant Steps.mp3"
+2026-04-30T17:54:37 player: played "Earl Sweatshirt - WELL DONE!.mp3"
+2026-04-30T17:58:35 player: played "Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3"
+2026-04-30T18:01:58 output: Failed to play on "pipewire" (pulse): suspended
+2026-04-30T18:01:59 player: played "Shaggy, Rayvon - In The Summertime.mp3"
+2026-04-30T21:13:18 client: [127.0.0.1:57006] command "close" during idle
+2026-04-30T21:13:23 client: [127.0.0.1:38126] command "close" during idle
+2026-04-30T21:14:14 player: played "Shaggy, Rayvon - In The Summertime.mp3"
+2026-04-30T21:17:31 player: played "King Geedorah - Fazers.mp3"
+2026-04-30T21:18:45 client: [127.0.0.1:44044] command "close" during idle
+2026-04-30T21:22:20 player: played "Oblivion's Mighty Trash - Piqui Blainder.mp3"
+2026-04-30T21:23:38 player: played "菊池ひみこ - Look Your Back!.mp3"
+2026-04-30T21:28:03 player: played "菊池ひみこ - Look Your Back!.mp3"
+2026-04-30T21:34:04 player: played "菊池ひみこ - PRIMAVELA.mp3"
+2026-04-30T21:36:42 player: played "usedcvnt, Eden FM - pls tell me what is ur dream.mp3"
+2026-04-30T21:39:40 player: played "Joey Valence & Brae - Ready Set.mp3"
+2026-04-30T21:43:55 player: played "System Of A Down - B.Y.O.B..mp3"

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#set -e
+set -e
 
 FZF_DEFAULT_OPTS="$(tr '\n' ' ' < ~/.config/fzf/current 2>/dev/null)"
 export FZF_DEFAULT_OPTS
@@ -50,9 +50,9 @@ tmux source-file ~/.config/tmux/tmux.conf 2>/dev/null || true
 # ------------------------
 ln -sf "$BASE_DIR/waybar/style.css" ~/.config/waybar/style.css
 
-pkill waybar 2>/dev/null || true
-sleep 0.3
-hyprctl dispatch exec waybar
+# pkill waybar 2>/dev/null || true
+# sleep 0.3
+# hyprctl dispatch exec waybar
 # ------------------------
 # GTK
 # ------------------------
@@ -96,7 +96,6 @@ case "$THEME" in
 		pkill swaync 2>/dev/null || true
 		sleep 0.2
 		swaync >/dev/null 2>&1 &
-echo "REACHED CURRENT WRITE"
 echo "$THEME" > "$HOME/.config/theme_switcher/.current"
 # ------------------------
 # FZF
@@ -120,7 +119,11 @@ fi
 # QT6CT
 # ------------------------
 	ln -sf "$BASE_DIR/qt/colors.conf" ~/.config/qt6ct/colors/colors.conf
-
+# QS
+	ln -sf "$BASE_DIR/quickshell/Colors.qml" ~/.config/quickshell/Colors.qml
+	pkill qs 2>/dev/null || true
+	sleep 0.3
+	qs -d
 # Make sure Qt apps see the override
 export QT_STYLE_OVERRIDE="fusion"
 # ------------------------

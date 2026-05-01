@@ -3,7 +3,7 @@
 
 :root {
 	/* Backgrounds */
-	--bg-dark: #11111b; /* dark background - base */
+	--bg-dark: #1e1e2e; /* dark background - base */
 	--bg-light: #1e1e2e; /* lighter dark for panels - mantle */
 	--bg-dim: #181825; /* dimmed background - crust */
 
