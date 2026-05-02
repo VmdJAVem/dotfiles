@@ -21,7 +21,7 @@ config.bind("xt", "config-cycle tabs.show always never")
 config.bind("xx", "config-cycle statusbar.show always never;; config-cycle tabs.show always never")
 config.bind("xd", "config-cycle colors.webpage.darkmode.enabled True False")
 #config.bind(" v", "hint links spawn --userscript v.sh {hint-url}")
-config.bind("xv", "hint links spawn mpv --ytdl-format=best {hint-url} &")
+config.bind("xv", "hint links spawn mpv {hint-url}")
 
 c.url.searchengines = {
     "DEFAULT": "http://localhost:8087/search?q={}",
