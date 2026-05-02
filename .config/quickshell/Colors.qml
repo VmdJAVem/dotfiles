@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/gruvbox/quickshell/Colors.qml
+/home/arkar/.config/theme_switcher/themes/catppuccin/quickshell/Colors.qml

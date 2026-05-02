@@ -75,7 +75,7 @@ case "$THEME" in
 		awww img ~/Wallpapers/Wallpapers/Cowboy_Bebop.jpg
 		;;
 	gruvbox)
-		awww img ~/Wallpapers/Wallpapers/gruvbox-meadow.jpg
+		awww img ~/Wallpapers/Wallpapers/trees.png
 		;;
 	esac
 
