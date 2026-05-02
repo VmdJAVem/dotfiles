@@ -1,12 +1,28 @@
-vim.o.background = "dark"
 vim.cmd.colorscheme("gruvbox")
+
+local groups = {
+	"MiniClueTitle"
+}
+
+for _, group in ipairs(groups) do
+	local old = vim.api.nvim_get_hl(0, { name = group })
+
+	local hl = vim.tbl_extend("force", old, {
+		bg = "none",
+	})
+
+	vim.api.nvim_set_hl(0, group, hl)
+end
+vim.api.nvim_set_hl(0, "DashboardHeader", {
+	link = "String"
+})
 local err = vim.api.nvim_get_hl(0, { name = 'ErrorMsg' })
 vim.api.nvim_set_hl(0, 'MiniHipatternsFixme', {
 	italic = true,
 	underline = true,
-	fg = err.bg
+	fg = err.fg
 })
-local yell = vim.api.nvim_get_hl(0, { name = 'Search' })
+local yell = vim.api.nvim_get_hl(0, { name = 'Question' })
 vim.api.nvim_set_hl(0, 'MiniHipatternsHack', {
 	italic = true,
 	underline = true,
@@ -24,16 +40,16 @@ vim.api.nvim_set_hl(0, 'MiniHipatternsNote', {
 	underline = true,
 	fg = char.fg
 })
-
+-- NOTE TODO HACK FIXME
 vim.api.nvim_set_hl(0, 'RenderMarkdownH1Bg', {
 	link = 'RenderMarkdownH2Bg'
 })
-vim.api.nvim_set_hl(0, 'RenderMarkdownH4Bg', {
-	link = 'RenderMarkdownH2Bg'
-})
-vim.api.nvim_set_hl(0, 'RenderMarkdownH5Bg', {
-	link = 'RenderMarkdownH2Bg'
-})
-vim.api.nvim_set_hl(0, 'RenderMarkdownH6Bg', {
-	link = 'RenderMarkdownH2Bg'
-})
+-- vim.api.nvim_set_hl(0, 'RenderMarkdownH4Bg', {
+-- 	link = 'RenderMarkdownH2Bg'
+-- })
+-- vim.api.nvim_set_hl(0, 'RenderMarkdownH5Bg', {
+-- 	link = 'RenderMarkdownH2Bg'
+-- })
+-- vim.api.nvim_set_hl(0, 'RenderMarkdownH6Bg', {
+-- 	link = 'RenderMarkdownH2Bg'
+-- })
