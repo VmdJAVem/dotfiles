@@ -47,14 +47,24 @@ tmux source-file ~/.config/tmux/tmux.conf 2>/dev/null || true
 # GTK
 # ------------------------
 case "$THEME" in
-    catppuccin)
-        GTK_THEME="catppuccin-mocha-lavender-standard+default"
-	gsettings set org.gnome.desktop.interface icon-theme "catppuccin-mocha-pink-standard+default"
-        ;;
-    gruvbox)
-        GTK_THEME="Gruvbox-Green-Dark"
-	gsettings set org.gnome.desktop.interface icon-theme  "Colloid-Green-Gruvbox-Dark"
-        ;;
+	catppuccin)
+		GTK_THEME="catppuccin-mocha-lavender-standard+default"
+		gsettings set org.gnome.desktop.interface icon-theme \
+			"catppuccin-mocha-pink-standard+default"
+
+		rm -rf ~/.config/gtk-4.0/*
+		cp -r /usr/share/themes/catppuccin-mocha-lavender-standard+default/gtk-4.0/* \
+			~/.config/gtk-4.0/
+		;;
+	gruvbox)
+		GTK_THEME="BetterGruvbox"
+		gsettings set org.gnome.desktop.interface icon-theme \
+			"Colloid-Green-Gruvbox-Dark"
+
+		rm -rf ~/.config/gtk-4.0/*
+		cp -r /usr/share/themes/Gruvbox-Green-Dark/gtk-4.0/* \
+			~/.config/gtk-4.0/
+		;;
 esac
 
 gsettings set org.gnome.desktop.interface gtk-theme "$GTK_THEME" 2>/dev/null || true
@@ -105,6 +115,20 @@ fi
 # QT6CT
 # ------------------------
 	ln -sf "$BASE_DIR/qt/colors.conf" ~/.config/qt6ct/colors/colors.conf
+# ------------------------
+# QT5CT
+# ------------------------
+mkdir -p ~/.config/qt5ct/colors
+
+ln -sf "$BASE_DIR/qt/colors.conf" \
+    ~/.config/qt5ct/colors/colors.conf
+
+cat > ~/.config/qt5ct/qt5ct.conf <<EOF
+[Appearance]
+color_scheme_path=$HOME/.config/qt5ct/colors/colors.conf
+style=Fusion
+icon_theme=$(gsettings get org.gnome.desktop.interface icon-theme | tr -d "'")
+EOF
 # QS
 	ln -sf "$BASE_DIR/quickshell/Colors.qml" ~/.config/quickshell/Colors.qml
 	pkill qs 2>/dev/null || true
@@ -112,8 +136,6 @@ fi
 	qs -d
 # tofi
 	ln -sf "$BASE_DIR/tofi/theme" ~/.config/tofi/
-# Make sure Qt apps see the override
-export QT_STYLE_OVERRIDE="fusion"
 # ------------------------
 # HYPRLAND reload
 # ------------------------

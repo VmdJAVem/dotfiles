@@ -11157,3 +11157,17 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-05-01T18:51:25 player: played "Joey Valence & Brae - WHERE U FROM.mp3"
 2026-05-01T18:58:52 player: played "Tsuneo Imahori - PHILOSOPHY in a Tea Cup.mp3"
 2026-05-01T19:13:18 player: played "Joey Valence & Brae - OMNITRIX.mp3"
+2026-05-02T00:11:12 player: played "Joey Valence & Brae - OMNITRIX.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-05-02T17:30:02 player: played "Joey Valence & Brae - OMNITRIX.mp3"
+2026-05-02T17:36:25 player: played "Joey Valence & Brae - OMNITRIX.mp3"
+2026-05-02T18:12:04 player: played "Joey Valence & Brae - OMNITRIX.mp3"
+2026-05-02T18:25:37 player: played "Nujabes - Horn in the middle.mp3"
+2026-05-02T18:30:32 player: played "A Tribe Called Quest - Can I Kick It.mp3"
+2026-05-02T18:32:33 player: played "Machine Girl - Xleepy.mp3"
+2026-05-02T18:35:30 player: played "Kendrick Lamar, SZA - luther (with sza).mp3"
+2026-05-02T18:39:16 player: played "archipiélagos - minet.mp3"
+2026-05-02T18:42:43 player: played "King Geedorah, Mr Fantastik - Anti-Matter.mp3"
+2026-05-02T20:03:37 player: played "Canserbero, Apache - La del Estribillo.mp3"
