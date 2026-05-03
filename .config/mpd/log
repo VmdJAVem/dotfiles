@@ -11171,3 +11171,5 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-05-02T18:39:16 player: played "archipiélagos - minet.mp3"
 2026-05-02T18:42:43 player: played "King Geedorah, Mr Fantastik - Anti-Matter.mp3"
 2026-05-02T20:03:37 player: played "Canserbero, Apache - La del Estribillo.mp3"
+2026-05-02T22:55:36 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Connection terminated
+2026-05-02T22:57:35 player: played "JPEGMAFIA - loop it and leave it.mp3"

@@ -57,7 +57,7 @@ case "$THEME" in
 			~/.config/gtk-4.0/
 		;;
 	gruvbox)
-		GTK_THEME="BetterGruvbox"
+		GTK_THEME="Gruvbox-Green-Dark"
 		gsettings set org.gnome.desktop.interface icon-theme \
 			"Colloid-Green-Gruvbox-Dark"
 

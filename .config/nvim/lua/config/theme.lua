@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/catppuccin/nvim/theme.lua
+/home/arkar/.config/theme_switcher/themes/gruvbox/nvim/theme.lua
