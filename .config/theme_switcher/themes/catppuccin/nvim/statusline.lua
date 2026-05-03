@@ -35,7 +35,7 @@ return {
 					c = { fg = "#cdd6f4", bg = "#1e1e2e" },
 				},
 			},
-			section_separators   = { left = '', right = '' },
+			section_separators   = { left = '', right = ' ' },
 			component_separators = { left = ' ', right = ' ' },
 		},
 		sections = {
