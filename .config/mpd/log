@@ -11173,3 +11173,47 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-05-02T20:03:37 player: played "Canserbero, Apache - La del Estribillo.mp3"
 2026-05-02T22:55:36 output: Failed to play on "pipewire" (pulse): failed to connect the stream: Connection terminated
 2026-05-02T22:57:35 player: played "JPEGMAFIA - loop it and leave it.mp3"
+2026-05-02T23:01:51 player: played "Chihiro Yamanaka - 乙女の祈り.mp3"
+2026-05-02T23:03:41 update: added /04. Nujabes - Spiral.mp3
+2026-05-02T23:03:41 update: added /09. Nujabes - Rainyway Back Home.mp3
+2026-05-02T23:03:41 update: added /10. Nujabes - Far Fowls.mp3
+2026-05-02T23:03:41 update: added /03. Nujabes - Gone Are The Days (ft. Uyama Hiroto).mp3
+2026-05-02T23:03:41 update: added /14. Nujabes - Island (ft. Uyama Hiroto & haruka nakamura).mp3
+2026-05-02T23:03:41 update: added /01. Nujabes - Spiritual State (ft. Uyama Hiroto).mp3
+2026-05-02T23:03:41 update: added /06. Nujabes - Color of Autumn.mp3
+2026-05-02T23:03:41 update: added /08. Nujabes - Yes (ft. Pase Rock).mp3
+2026-05-02T23:03:41 update: added /11. Nujabes - Fellows.mp3
+2026-05-02T23:03:41 update: added /05. Nujabes - City Lights (ft. Pase Rock & Substantial).mp3
+2026-05-02T23:03:41 update: added /07. Nujabes - Dawn on the Side.mp3
+2026-05-02T23:03:41 update: added /12. Nujabes - Waiting For The Clouds (ft. Substantial).mp3
+2026-05-02T23:03:41 update: added /02. Nujabes - Sky is Tumbling (ft. Cise Star).mp3
+2026-05-02T23:03:41 update: added /13. Nujabes - Prayer.mp3
+2026-05-02T23:04:45 player: played "JPEGMAFIA - I'll Be Right There.mp3"
+2026-05-02T23:04:50 player: played "Alcolirykoz - Todo Lo Bueno Tarda.mp3"
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 09 trender bender.mp3
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 04 absolute desperation.mp3
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 07 unpopular opinion.mp3
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 08 c.hild o.n a p.owertrip.mp3
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 06 frosted flakes.mp3
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 02 high off your own supply.mp3
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 03 liquor store porn selection.mp3
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 01 beavis & butthurt.mp3
+2026-05-02T23:06:05 update: added Demo (2017)/bummer - demo 2017 - 05 carabiner.mp3
+2026-05-02T23:06:29 player: played "01. Nujabes - Spiritual State (ft. Uyama Hiroto).mp3"
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 09 trender bender.mp3
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 08 c.hild o.n a p.owertrip.mp3
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 07 unpopular opinion.mp3
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 06 frosted flakes.mp3
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 05 carabiner.mp3
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 04 absolute desperation.mp3
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 03 liquor store porn selection.mp3
+2026-05-02T23:08:03 exception: Failed to decode "/home/arkar/Music/Demo (2017)/bummer - demo 2017 - 03 liquor store porn selection.mp3"; Failed to open "/home/arkar/Music/Demo (2017)/bummer - demo 2017 - 03 liquor store porn selection.mp3": No such file or directory
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 02 high off your own supply.mp3
+2026-05-02T23:08:03 exception: Failed to decode "/home/arkar/Music/Demo (2017)/bummer - demo 2017 - 02 high off your own supply.mp3"; Failed to open "/home/arkar/Music/Demo (2017)/bummer - demo 2017 - 02 high off your own supply.mp3": No such file or directory
+2026-05-02T23:08:03 update: removing Demo (2017)/bummer - demo 2017 - 01 beavis & butthurt.mp3
+2026-05-02T23:08:03 exception: Failed to decode "/home/arkar/Music/Demo (2017)/bummer - demo 2017 - 01 beavis & butthurt.mp3"; Failed to open "/home/arkar/Music/Demo (2017)/bummer - demo 2017 - 01 beavis & butthurt.mp3": No such file or directory
+2026-05-02T23:08:26 player: played "Demo (2017)/bummer - demo 2017 - 01 beavis & butthurt.mp3"
+2026-05-03T15:55:24 player: played "Machine Girl - Ghost.mp3"
+2026-05-03T15:59:22 player: played "Science Of Sound, A Tribe Called Quest - Rhymery.mp3"
+2026-05-03T16:06:25 player: played "Jazz Spastiks, Apani B Fly - Move.mp3"
+2026-05-03T16:10:18 player: played "Aphex Twin - Fingerbib.mp3"

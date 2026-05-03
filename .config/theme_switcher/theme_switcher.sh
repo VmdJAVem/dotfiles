@@ -65,6 +65,15 @@ case "$THEME" in
 		cp -r /usr/share/themes/Gruvbox-Green-Dark/gtk-4.0/* \
 			~/.config/gtk-4.0/
 		;;
+	everforest)
+		GTK_THEME="Everforest-Green-Dark"
+		gsettings set org.gnome.desktop.interface icon-theme \
+			"Colloid-Green-Everforest-Dark"
+
+		rm -rf ~/.config/gtk-4.0/*
+		cp -r /usr/share/themes/Everforest-Green-Dark/gtk-4.0/* \
+			~/.config/gtk-4.0/
+		;;
 esac
 
 gsettings set org.gnome.desktop.interface gtk-theme "$GTK_THEME" 2>/dev/null || true
@@ -82,11 +91,13 @@ cp ~/.config/gtk-3.0/settings.ini ~/.config/gtk-4.0/settings.ini
 #
 case "$THEME" in
 	catppuccin)
-		awww img ~/Wallpapers/Wallpapers/Cowboy_Bebop.jpg
+		awww img ~/Wallpapers/Wallpapers/catppuccin/Cowboy_Bebop.jpg
 		;;
 	gruvbox)
-		awww img ~/Wallpapers/Wallpapers/trees.png
+		awww img ~/Wallpapers/Wallpapers/gruvbox/trees.png
 		;;
+	everforest)
+		awww img ~/Wallpapers/Wallpapers/everforest/wallpaper.jpg
 	esac
 
 #rmpc

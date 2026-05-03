@@ -2,7 +2,7 @@ return {
 	"nvim-lualine/lualine.nvim",
 	opts = {
 		options = {
-			-- theme                = custom_gruvbox_hard,
+			theme                = "gruvbox",
 			section_separators   = { left = ' ', right = ' ' },
 			component_separators = { left = ' ', right = ' ' },
 		},

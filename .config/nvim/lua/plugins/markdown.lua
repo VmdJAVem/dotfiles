@@ -4,7 +4,7 @@ return {
 		"nvim-treesitter/nvim-treesitter",
 		"echasnovski/mini.icons",
 	},
-	ft = { "markdown", "vimwiki" },
+	-- ft = { "markdown", "vimwiki" },
 	config = function()
 		require('render-markdown').setup({
 			blink = { enabled = true },

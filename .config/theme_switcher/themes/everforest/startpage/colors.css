@@ -1,0 +1,31 @@
+/* everforest-dark-hard.css */
+/* Everforest Dark Hard palette */
+
+:root {
+	/* Backgrounds */
+	--bg-dark: #272e33; /* main dark background */
+	--bg-light: #2e383c; /* lighter dark for panels */
+	--bg-dim: #374145; /* dimmed background */
+
+	/* Foregrounds */
+	--fg-light: #d3c6aa; /* default text */
+	--fg-medium: #c5b9a1; /* secondary text */
+	--fg-dark: #859289; /* comments / subtle text */
+
+	/* Bright colors */
+	--red: #e67e80;
+	--green: #a7c080;
+	--yellow: #dbbc7f;
+	--blue: #7fbbb3;
+	--purple: #d699b6;
+	--aqua: #83c092;
+	--orange: #e69875;
+
+	/* Neutral colors */
+	--gray: #7a8478;
+	--dark-gray: #5c6a72;
+	--light-gray: #9da9a0;
+
+	/* Accent / Highlights */
+	--accent-color: #a7c080;
+}
