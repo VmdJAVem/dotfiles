@@ -15,6 +15,7 @@ THEME=$(find "$THEMES_DIR" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | \
 [ -z "$THEME" ] && exit 0
 
 BASE_DIR="$THEMES_DIR/$THEME"
+WALLPAPER_DIR="$HOME/Wallpapers/Wallpapers/"
 
 echo "Switching to theme: $THEME"
 
@@ -89,17 +90,15 @@ cp ~/.config/gtk-3.0/settings.ini ~/.config/gtk-4.0/settings.ini
 
 # Wallpaper
 #
-case "$THEME" in
-	catppuccin)
-		awww img ~/Wallpapers/Wallpapers/catppuccin/Cowboy_Bebop.jpg
-		;;
-	gruvbox)
-		awww img ~/Wallpapers/Wallpapers/gruvbox/trees.png
-		;;
-	everforest)
-		awww img ~/Wallpapers/Wallpapers/everforest/wallpaper.jpg
-	esac
+# Wallpaper
+WALL=$(find "$WALLPAPER_DIR/$THEME" \
+    -mindepth 1 -maxdepth 1 -type f -printf "%f\n" | \
+    tofi --prompt-text "wall: "
+)
 
+[ -z "$WALL" ] && exit 0
+
+awww img "$WALLPAPER_DIR/$THEME/$WALL"
 #rmpc
 		ln -sf "$BASE_DIR/rmpc/colors.ron" ~/.config/rmpc/themes/colors.ron
 # dunst

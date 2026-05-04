@@ -1,6 +1,6 @@
 return {
 	"nvimdev/dashboard-nvim",
-	event = "VimEnter",
+	event = { "BufEnter", "BufRead", pattern = "*" },
 	dependencies = {
 		-- Replace nvim-web-devicons with mini.icons
 		"echasnovski/mini.icons",
