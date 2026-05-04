@@ -7,7 +7,11 @@ return {
 	-- ft = { "markdown", "vimwiki" },
 	config = function()
 		require('render-markdown').setup({
-			blink = { enabled = true },
+			completions = {
+				lsp = {
+					enabled = true
+				}
+			},
 			-- heading = { position = 'inline' },
 			render_modes = { 'n', 'v', 'c', 'i', 't' },
 			link = {

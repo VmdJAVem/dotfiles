@@ -1,6 +1,8 @@
 vim.api.nvim_create_autocmd("ColorScheme", {
 	pattern = "gruvbox",
 	callback = function()
+		vim.api.nvim_set_hl(0, 'DashboardHeader', { link = 'String'
+		})
 		local err = vim.api.nvim_get_hl(0, { name = "ErrorMsg" })
 		vim.api.nvim_set_hl(0, "MiniHipatternsFixme", {
 			italic = true,

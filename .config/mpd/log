@@ -11217,3 +11217,6 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-05-03T15:59:22 player: played "Science Of Sound, A Tribe Called Quest - Rhymery.mp3"
 2026-05-03T16:06:25 player: played "Jazz Spastiks, Apani B Fly - Move.mp3"
 2026-05-03T16:10:18 player: played "Aphex Twin - Fingerbib.mp3"
+2026-05-03T16:12:03 player: played "cutkolaska - Empty Promise.mp3"
+2026-05-03T16:12:39 output: Failed to play on "pipewire" (pulse): suspended
+2026-05-03T16:12:40 player: played "Alcolirykoz, Junior Zamora - La Caza de Nariño.mp3"
