@@ -45,7 +45,7 @@ Item {
 	}
 
 	Timer {
-		interval: 10000
+		interval: 50000
 		running: root.imageFiles.length > 0 && !parent.visible
 		repeat: true
 		onTriggered: img.source = root.imageFiles[Math.floor(Math.random() * root.imageFiles.length)]
