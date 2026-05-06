@@ -1,5 +1,6 @@
 return {
 	"mason-org/mason.nvim",
+	event = "VeryLazy",
 	opts = {
 		ui               = {
 			backdrop = 50,

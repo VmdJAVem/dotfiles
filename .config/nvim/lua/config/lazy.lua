@@ -33,4 +33,19 @@ require("lazy").setup({
 	install = { colorscheme = { "" } },
 	-- automatically check for plugin updates
 	checker = { enabled = true },
+	-- Performance options
+	performance = {
+		rtp = {
+			disabled_plugins = {
+				"gzip",
+				"matchit",
+				"matchparen",
+				"netrwPlugin",
+				"tarPlugin",
+				"tohtml",
+				"tutor",
+				"zipPlugin",
+			},
+		},
+	},
 })

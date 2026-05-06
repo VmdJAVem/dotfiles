@@ -21,5 +21,5 @@ QtObject {
 	readonly property color grayLight: "#9da9a0"
 
 	readonly property color accent: green
-	readonly property color seccondAccent: yellow
+	readonly property color seccondAccent: aqua
 }

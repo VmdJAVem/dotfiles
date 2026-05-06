@@ -5,7 +5,9 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 			link = 'String'
 		})
 	end
-}
+})
 
-)
-vim.cmd.colorscheme("everforest")
+-- Defer colorscheme loading to improve startup time
+vim.defer_fn(function()
+	vim.cmd.colorscheme("everforest")
+end, 100)

@@ -32,4 +32,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 		})
 	end,
 })
-vim.cmd.colorscheme("gruvbox")
+
+vim.defer_fn(function()
+	vim.cmd.colorscheme("gruvbox")
+end, 100)

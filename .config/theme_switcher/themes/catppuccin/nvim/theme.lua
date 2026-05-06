@@ -27,4 +27,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 		})
 	end
 })
-vim.cmd.colorscheme("catppuccin-mocha")
+
+vim.defer_fn(function()
+	vim.cmd.colorscheme("catppuccin-mocha")
+end, 100)
