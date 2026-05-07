@@ -111,7 +111,7 @@ PanelWindow {
 			horizontalCenter: parent.horizontalCenter
 			topMargin: 20
 		}
-		implicitWidth: parent.width * 0.8
+		implicitWidth: parent.width * 0.7
 		implicitHeight: parent.height * 0.5
 	}
 

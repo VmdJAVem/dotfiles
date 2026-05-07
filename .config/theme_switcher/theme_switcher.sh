@@ -58,12 +58,12 @@ case "$THEME" in
 			~/.config/gtk-4.0/
 		;;
 	gruvbox)
-		GTK_THEME="Gruvbox-Green-Dark"
+		GTK_THEME="Colloid-Dark-Gruvbox"
 		gsettings set org.gnome.desktop.interface icon-theme \
 			"Colloid-Green-Gruvbox-Dark"
 
 		rm -rf ~/.config/gtk-4.0/*
-		cp -r /usr/share/themes/Gruvbox-Green-Dark/gtk-4.0/* \
+		cp -r  ~/.local/share/themes/Colloid-Dark-Gruvbox/gtk-4.0/* \
 			~/.config/gtk-4.0/
 		;;
 	everforest)
