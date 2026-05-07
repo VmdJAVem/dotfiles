@@ -1,14 +1,14 @@
 # colors.py
 
-bg0_hard = "#1d2021"
-bg0_soft = "#32302f"
 bg0_normal = "#282828"
+bg0_hard = bg0_normal
+bg0_soft = "#32302f"
 
-bg0 = bg0_hard
-bg1 = "#1b1b1b"
-bg2 = "#3c3836"
-bg3 = "#504945"
-bg4 = "#665c54"
+bg0 = bg0_normal
+bg1 = "#3c3836"
+bg2 = "#504945"
+bg3 = "#665c54"
+bg4 = "#7c6f64"
 
 fg0 = "#fbf1c7"
 fg1 = "#ebdbb2"
@@ -31,6 +31,7 @@ dark_yellow = "#d79921"
 dark_blue = "#458588"
 dark_purple = "#b16286"
 dark_aqua = "#689d6a"
-dark_gray = "#7c6f64"
+dark_gray = "#665c54"
 dark_orange = "#d65d0e"
+
 accent = bright_green

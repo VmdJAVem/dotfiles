@@ -14,7 +14,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 			vim.api.nvim_set_hl(0, "MiniHipatternsFixme", {
 				italic = true,
 				underline = true,
-				fg = err.fg,
+				fg = err.bg,
 			})
 
 			local yell = vim.api.nvim_get_hl(0, {
@@ -52,7 +52,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 		end)
 	end,
 })
-
+-- NOTE: TODO: HACK: FIXME:
 vim.cmd.colorscheme("gruvbox")
 vim.defer_fn(function()
 	vim.cmd.colorscheme("gruvbox")
