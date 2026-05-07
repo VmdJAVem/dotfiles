@@ -88,17 +88,9 @@ EOF
 
 cp ~/.config/gtk-3.0/settings.ini ~/.config/gtk-4.0/settings.ini
 
-# Wallpaper
-#
-# Wallpaper
-WALL=$(find "$WALLPAPER_DIR/$THEME" \
-    -mindepth 1 -maxdepth 1 -type f -printf "%f\n" | \
-    tofi --prompt-text "wall: "
-)
+# Wallpaper picker
+source ./wall_switcher.sh "$WALLPAPER_DIR" "$THEME" awww img
 
-[ -z "$WALL" ] && exit 0
-
-awww img "$WALLPAPER_DIR/$THEME/$WALL"
 #rmpc
 		ln -sf "$BASE_DIR/rmpc/colors.ron" ~/.config/rmpc/themes/colors.ron
 # dunst

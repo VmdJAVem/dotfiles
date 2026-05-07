@@ -164,51 +164,5 @@ PanelWindow {
 				`<span style="color:${Colors.fgLight}">${cpuUsage}%</span>`
 			}
 		}
-
-		Column {
-			anchors {
-				right: parent.right
-				verticalCenter: parent.verticalCenter
-				rightMargin: 12
-			}
-			spacing: 8
-			
-			Rectangle {
-				color: Colors.red
-				implicitWidth: 44
-				implicitHeight: 44
-
-				Text {
-					anchors.centerIn: parent
-					text: "⏻"
-					font.pixelSize: 28
-					color: Colors.bg
-					font.family: Globals.font
-					MouseArea {
-						anchors.fill: parent
-						onClicked: poweroffProc.running = true
-					}
-				}
-			}
-			Rectangle {
-				color: Colors.yellow
-				implicitWidth: 44
-				implicitHeight: 44
-				radius: 0
-
-				Text {
-					anchors.centerIn: parent
-					text: "↺"
-					font.pixelSize: 28
-					color: Colors.bg
-					font.family: Globals.font
-					MouseArea {
-						anchors.fill: parent
-						onClicked: rebootProc.running = true
-					}
-				}
-
-			}
-		}
 	}
 }

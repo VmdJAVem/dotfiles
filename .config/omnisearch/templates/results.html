@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
         <title>
-            OmniSearch - {{query}}
+            interweb - {{query}}
         </title>
         <link rel="stylesheet" href="static/main.css">
         {{if theme == "light"}}<link rel="preload" href="static/theme-light.css" as="style"><link rel="stylesheet" href="static/theme-light.css">{{endif}}
@@ -13,13 +13,13 @@
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
         <link rel="search" 
         type="application/opensearchdescription+xml" 
-        title="OmniSearch" href="/opensearch.xml">
+        title="interweb" href="/opensearch.xml">
     </head>
     
     <body class="results-view">
         <header>
             <a href="/" class="logo-link"><h1>
-                Omni<span>Search</span>
+                interweb<span></span>
             </h1></a>
             <form action="/search" method="GET" class="search-form">
                 <input name="engine" type="hidden" value="{{selected_engine}}">
