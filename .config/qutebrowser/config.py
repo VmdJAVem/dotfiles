@@ -69,26 +69,90 @@ with open(css_path, "w") as f:
 
 
 # colors
-
 c.colors.webpage.bg = bg0
 
+# =========================
+# Completion
+# =========================
 c.colors.completion.fg = [fg1, bright_green, accent]
+
 c.colors.completion.odd.bg = bg0
 c.colors.completion.even.bg = bg0
-
-c.colors.completion.item.selected.bg = bg0
-c.colors.completion.item.selected.fg = fg0
-
-c.colors.completion.match.fg = accent
-c.colors.completion.item.selected.border.top = accent
-c.colors.completion.item.selected.border.bottom = accent
 
 c.colors.completion.category.bg = bg0
 c.colors.completion.category.fg = accent
 c.colors.completion.category.border.top = bg0
 c.colors.completion.category.border.bottom = bg0
 
-c.colors.statusbar.normal.bg = bg0_hard
+c.colors.completion.item.selected.bg = bg1
+c.colors.completion.item.selected.fg = fg0
+c.colors.completion.item.selected.border.top = accent
+c.colors.completion.item.selected.border.bottom = accent
+
+c.colors.completion.match.fg = accent
+
+c.colors.completion.scrollbar.bg = bg0
+c.colors.completion.scrollbar.fg = bg2
+
+# =========================
+# Downloads
+# =========================
+c.colors.downloads.bar.bg = bg0
+
+c.colors.downloads.start.bg = dark_blue
+c.colors.downloads.start.fg = fg0
+
+c.colors.downloads.stop.bg = bright_green
+c.colors.downloads.stop.fg = bg0
+
+c.colors.downloads.error.bg = bright_red
+c.colors.downloads.error.fg = bg0
+
+# =========================
+# Hints
+# =========================
+c.colors.hints.bg = accent
+c.colors.hints.fg = bg0
+
+c.colors.hints.match.fg = bright_yellow
+
+# =========================
+# Keyhint widget
+# =========================
+c.colors.keyhint.bg = bg0
+c.colors.keyhint.fg = fg2
+
+c.colors.keyhint.suffix.fg = accent
+
+# =========================
+# Messages
+# =========================
+c.colors.messages.error.bg = bright_red
+c.colors.messages.error.fg = bg0
+c.colors.messages.error.border = bright_red
+
+c.colors.messages.warning.bg = bright_yellow
+c.colors.messages.warning.fg = bg0
+c.colors.messages.warning.border = bright_yellow
+
+c.colors.messages.info.bg = bg0
+c.colors.messages.info.fg = fg1
+c.colors.messages.info.border = bg0
+
+# =========================
+# Prompts
+# =========================
+c.colors.prompts.bg = bg0
+c.colors.prompts.fg = fg1
+
+c.colors.prompts.border = f"1px solid {bg2}"
+
+c.colors.prompts.selected.bg = bg2
+
+# =========================
+# Statusbar
+# =========================
+c.colors.statusbar.normal.bg = bg0
 c.colors.statusbar.normal.fg = fg2
 
 c.colors.statusbar.insert.bg = accent
@@ -97,10 +161,13 @@ c.colors.statusbar.insert.fg = bg0
 c.colors.statusbar.command.bg = bg0
 c.colors.statusbar.command.fg = fg1
 
+c.colors.statusbar.command.private.bg = bg0
+c.colors.statusbar.command.private.fg = bright_purple
+
 c.colors.statusbar.passthrough.bg = dark_blue
 c.colors.statusbar.passthrough.fg = bg0
 
-c.colors.statusbar.private.bg = bg0_hard
+c.colors.statusbar.private.bg = bg0
 c.colors.statusbar.private.fg = bright_purple
 
 c.colors.statusbar.caret.bg = dark_purple
@@ -109,22 +176,77 @@ c.colors.statusbar.caret.fg = bg0
 c.colors.statusbar.caret.selection.bg = bright_purple
 c.colors.statusbar.caret.selection.fg = bg0
 
+c.colors.statusbar.progress.bg = accent
+
 c.colors.statusbar.url.fg = fg4
-c.colors.statusbar.url.success.https.fg = fg0
 c.colors.statusbar.url.error.fg = bright_red
 c.colors.statusbar.url.hover.fg = accent
 
-# -------- Tabs --------
+c.colors.statusbar.url.success.http.fg = bright_yellow
+c.colors.statusbar.url.success.https.fg = bright_green
+
+c.colors.statusbar.url.warn.fg = bright_yellow
+
+# =========================
+# Tabs
+# =========================
 c.colors.tabs.bar.bg = bg1
-c.colors.tabs.selected.odd.bg = bg0_hard
-c.colors.tabs.selected.even.bg = bg0_hard
+
+# inactive
 c.colors.tabs.odd.bg = bg2
 c.colors.tabs.even.bg = bg3
 
 c.colors.tabs.odd.fg = fg2
 c.colors.tabs.even.fg = fg2
 
+# selected
+c.colors.tabs.selected.odd.bg = bg0
+c.colors.tabs.selected.even.bg = bg0
 
+c.colors.tabs.selected.odd.fg = fg0
+c.colors.tabs.selected.even.fg = fg0
+
+# pinned
+c.colors.tabs.pinned.odd.bg = dark_blue
+c.colors.tabs.pinned.even.bg = dark_blue
+
+c.colors.tabs.pinned.odd.fg = fg0
+c.colors.tabs.pinned.even.fg = fg0
+
+c.colors.tabs.pinned.selected.odd.bg = accent
+c.colors.tabs.pinned.selected.even.bg = accent
+
+c.colors.tabs.pinned.selected.odd.fg = bg0
+c.colors.tabs.pinned.selected.even.fg = bg0
+
+# indicators
 c.colors.tabs.indicator.start = accent
 c.colors.tabs.indicator.stop = accent
 
+c.colors.tabs.indicator.error = bright_red
+
+c.colors.tabs.indicator.system = "none"
+
+# =========================
+# Context menu
+# =========================
+c.colors.contextmenu.menu.bg = bg0
+c.colors.contextmenu.menu.fg = fg1
+
+c.colors.contextmenu.disabled.bg = bg0
+c.colors.contextmenu.disabled.fg = fg4
+
+c.colors.contextmenu.selected.bg = bg2
+c.colors.contextmenu.selected.fg = fg0
+
+# =========================
+# Tooltips
+# =========================
+c.colors.tooltip.bg = bg0
+c.colors.tooltip.fg = fg1
+
+# =========================
+# Scrollbars
+# =========================
+c.colors.completion.scrollbar.bg = bg0
+c.colors.completion.scrollbar.fg = bg2

@@ -23,7 +23,6 @@ Scope {
 			color: "transparent"
 			implicitHeight: 37
 
-			HyprlandWindow.opacity: 1.0
 
 			anchors {
 				top: true

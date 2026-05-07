@@ -89,7 +89,7 @@ EOF
 cp ~/.config/gtk-3.0/settings.ini ~/.config/gtk-4.0/settings.ini
 
 # Wallpaper picker
-source ./wall_switcher.sh "$WALLPAPER_DIR" "$THEME" awww img
+source  ~/.config/theme_switcher/wall_switcher.sh "$WALLPAPER_DIR" "$THEME" awww img
 
 #rmpc
 		ln -sf "$BASE_DIR/rmpc/colors.ron" ~/.config/rmpc/themes/colors.ron
