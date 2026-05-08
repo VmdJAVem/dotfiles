@@ -36,32 +36,84 @@ config.bind('xa', "config-cycle content.user_stylesheets 'square.css' 'all-cites
 config.bind('xg', "set content.user_stylesheets ''")
 
 config.set("colors.webpage.darkmode.enabled", False, "http://localhost:8087/*")
-
+config.set("colors.webpage.darkmode.enabled", True, "https://redsails.org/*")
 # Generate CSS content with colors and font
+# Generate CSS content with colors, fonts, spacing and full webpage theming
 css_content = f"""
-* {{
-    background-color: {bg0} !important;
-    color: {fg0} !important;
-	border-radius: 0px !important;
-	font-family: "Iosevka Nerd Font Mono" !important;
+:root {{
+    color-scheme: dark;
 }}
+
+html,
+body {{
+    background: {bg0} !important;
+    color: {fg0} !important;
+    font-family: "Iosevka Nerd Font Mono";
+}}
+
+/* text */
+p,
+span,
+li,
+td,
+th {{
+    color: {fg1};
+}}
+
+h1,h2,h3,h4,h5,h6 {{
+    color: {accent};
+}}
+
+/* links */
 a {{
     color: {accent} !important;
 }}
+
 a:visited {{
     color: {bright_purple} !important;
 }}
-input, textarea, select, button {{
-    background-color: {bg1} !important;
+
+/* forms */
+input,
+textarea,
+select,
+button {{
+    background: {bg1} !important;
     color: {fg0} !important;
-    border-color: {bg2} !important;
+    border: 1px solid {bg2} !important;
 }}
+
+/* code */
+pre,
+code {{
+    background: {bg1} !important;
+}}
+
+pre {{
+    padding: 1em !important;
+    overflow-x: auto !important;
+}}
+
+/* selection */
 ::selection {{
-    background-color: {accent} !important;
+    background: {accent} !important;
     color: {bg0} !important;
 }}
-"""
 
+/* scrollbar */
+::-webkit-scrollbar {{
+    width: 10px;
+    height: 10px;
+}}
+
+::-webkit-scrollbar-track {{
+    background: {bg0};
+}}
+
+::-webkit-scrollbar-thumb {{
+    background: {bg2};
+}}
+"""
 # Write the CSS file to your config directory
 css_path = os.path.join(os.path.dirname(__file__), "all-cites.css")
 with open(css_path, "w") as f:

@@ -1,22 +1,74 @@
 
-* {
-    background-color: #24273a !important;
-    color: #cad3f5 !important;
-	border-radius: 0px !important;
-	font-family: "Iosevka Nerd Font Mono" !important;
+:root {
+    color-scheme: dark;
 }
+
+html,
+body {
+    background: #282828 !important;
+    color: #fbf1c7 !important;
+    font-family: "Iosevka Nerd Font Mono";
+}
+
+/* text */
+p,
+span,
+li,
+td,
+th {
+    color: #ebdbb2;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #b8bb26;
+}
+
+/* links */
 a {
-    color: #f5bde6 !important;
+    color: #b8bb26 !important;
 }
+
 a:visited {
-    color: #f5bde6 !important;
+    color: #d3869b !important;
 }
-input, textarea, select, button {
-    background-color: #1e2030 !important;
-    color: #cad3f5 !important;
-    border-color: #363a4f !important;
+
+/* forms */
+input,
+textarea,
+select,
+button {
+    background: #3c3836 !important;
+    color: #fbf1c7 !important;
+    border: 1px solid #504945 !important;
 }
+
+/* code */
+pre,
+code {
+    background: #3c3836 !important;
+}
+
+pre {
+    padding: 1em !important;
+    overflow-x: auto !important;
+}
+
+/* selection */
 ::selection {
-    background-color: #f5bde6 !important;
-    color: #24273a !important;
+    background: #b8bb26 !important;
+    color: #282828 !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #282828;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #504945;
 }

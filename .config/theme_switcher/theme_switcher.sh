@@ -143,6 +143,10 @@ EOF
 # ------------------------
 hyprctl reload 2>/dev/null || true
 
+# Bash reload
+for pid in $(pgrep -t pts/0,pts/1 bash); do
+    kill -USR1 "$pid"
+done
 echo "$THEME" > "$HOME/.config/theme_switcher/.current"
 
 echo "Theme applied: $THEME"
