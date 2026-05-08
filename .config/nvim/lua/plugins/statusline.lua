@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/gruvbox/nvim/statusline.lua
+/home/arkar/.config/theme_switcher/themes/catppuccin/nvim/statusline.lua

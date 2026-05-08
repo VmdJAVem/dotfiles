@@ -1,5 +1,5 @@
 vim.api.nvim_create_autocmd("ColorScheme", {
-	pattern = "catppuccin-mocha",
+	pattern = "catppuccin-macchiato",
 	callback = function()
 		local err = vim.api.nvim_get_hl(0, { name = 'ErrorMsg' })
 		vim.api.nvim_set_hl(0, 'MiniHipatternsFixme', {
@@ -29,5 +29,5 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 })
 
 vim.defer_fn(function()
-	vim.cmd.colorscheme("catppuccin-mocha")
+	vim.cmd.colorscheme("catppuccin-macchiato")
 end, 100)

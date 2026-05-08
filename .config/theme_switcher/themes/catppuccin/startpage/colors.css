@@ -1,31 +1,31 @@
-/* catppuccin-mocha.css */
-/* Catppuccin Mocha palette */
+/* catppuccin-macchiato.css */
+/* Catppuccin Macchiato palette */
 
 :root {
 	/* Backgrounds */
-	--bg-dark: #1e1e2e; /* dark background - base */
-	--bg-light: #1e1e2e; /* lighter dark for panels - mantle */
-	--bg-dim: #181825; /* dimmed background - crust */
+	--bg-dark: #24273a; /* dark background - base */
+	--bg-light: #1e2030; /* lighter dark for panels - mantle */
+	--bg-dim: #181926; /* dimmed background - crust */
 
 	/* Foregrounds */
-	--fg-light: #cdd6f4; /* default text - text */
-	--fg-medium: #bac2de; /* secondary text - subtext0 */
-	--fg-dark: #a6adc8; /* comments / subtle text - subtext1 */
+	--fg-light: #cad3f5; /* default text - text */
+	--fg-medium: #a6adc8; /* secondary text - subtext0 */
+	--fg-dark: #9399b2; /* comments / subtle text - subtext1 */
 
 	/* Bright colors */
-	--red: #f38ba8;
-	--green: #a6e3a1;
-	--yellow: #f9e2af;
-	--blue: #89b4fa;
-	--purple: #cba6f7;
-	--aqua: #94e2d5;
+	--red: #ed8796;
+	--green: #a6da95;
+	--yellow: #f5a97f;
+	--blue: #8aadf4;
+	--purple: #c6a0f6;
+	--aqua: #8bd5ca;
 	--orange: #fab387;
 
 	/* Neutral colors */
-	--gray: #6c7086; /* surface2 */
-	--dark-gray: #585b70; /* surface1 */
-	--light-gray: #7f849c; /* overlay0 */
+	--gray: #7c7f93; /* surface2 */
+	--dark-gray: #6e7191; /* surface1 */
+	--light-gray: #8a8faa; /* overlay0 */
 
 	/* Accent / Highlights */
-	--accent-color: #f5c2e7;
+	--accent-color: #f5bde6;
 }

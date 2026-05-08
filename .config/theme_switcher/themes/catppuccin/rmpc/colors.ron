@@ -7,21 +7,21 @@
     draw_borders: true,
     format_tag_separator: " | ",
     browser_column_widths: [20, 38, 42],
-    background_color: "#1e1e2e",        // Base
-    text_color: "#cdd6f4",              // Text
-    header_background_color: "#1e1e2e", // Base
-    modal_background_color: "#1e1e2e",  // Base
+    background_color: "#24273a",        // Base
+    text_color: "#cad3f5",              // Text
+    header_background_color: "#24273a", // Base
+    modal_background_color: "#24273a",  // Base
     modal_backdrop: false,
-    preview_label_style: (fg: "#f9e2af"),                // Yellow
-    preview_metadata_group_style: (fg: "#f9e2af", modifiers: "Bold"), // Yellow Bold
+    preview_label_style: (fg: "#f5a97f"),                // Yellow
+    preview_metadata_group_style: (fg: "#f5a97f", modifiers: "Bold"), // Yellow Bold
     tab_bar: (
-        active_style: (fg: "#cdd6f4", bg: "#1e1e2e", modifiers: "Bold"),   // Text, Base
-        inactive_style: (fg: "#585b70", bg: "#1e1e2e"),                    // Surface2, Base
+        active_style: (fg: "#cad3f5", bg: "#24273a", modifiers: "Bold"),   // Text, Base
+        inactive_style: (fg: "#6e7191", bg: "#24273a"),                    // Surface2, Base
     ),
-    highlighted_item_style: (fg: "#94e2d5", modifiers: "Bold"), // Teal
-    current_item_style: (fg: "#cdd6f4", bg: "#313244", modifiers: "Bold"), // Text, Surface0
-    borders_style: (fg: "#313244"),                             // Surface0
-    highlight_border_style: (fg: "#94e2d5"),                    // Teal
+    highlighted_item_style: (fg: "#8bd5ca", modifiers: "Bold"), // Teal
+    current_item_style: (fg: "#cad3f5", bg: "#363a4f", modifiers: "Bold"), // Text, Surface0
+    borders_style: (fg: "#363a4f"),                             // Surface0
+    highlight_border_style: (fg: "#8bd5ca"),                    // Teal
     symbols: (
         song: "S",
         dir: "D",
@@ -33,24 +33,24 @@
         playlist_style: None,
     ),
     level_styles: (
-        info: (fg: "#89b4fa", bg: "#1e1e2e"),  // Blue
-        warn: (fg: "#f9e2af", bg: "#1e1e2e"),  // Yellow
-        error: (fg: "#f38ba8", bg: "#1e1e2e"), // Red
-        debug: (fg: "#a6e3a1", bg: "#1e1e2e"), // Green
-        trace: (fg: "#f5c2e7", bg: "#1e1e2e"), // Pink
+        info: (fg: "#8aadf4", bg: "#24273a"),  // Blue
+        warn: (fg: "#f5a97f", bg: "#24273a"),  // Yellow
+        error: (fg: "#ed8796", bg: "#24273a"), // Red
+        debug: (fg: "#a6da95", bg: "#24273a"), // Green
+        trace: (fg: "#f5bde6", bg: "#24273a"), // Pink
     ),
     progress_bar: (
         symbols: ["[", "-", ">", " ", "]"],
-        track_style: (fg: "#313244"),        // Surface0
-        elapsed_style: (fg: "#94e2d5"),      // Teal
-        thumb_style: (fg: "#f5c2e7", bg: "#313244"), // Pink, Surface0
+        track_style: (fg: "#363a4f"),        // Surface0
+        elapsed_style: (fg: "#8bd5ca"),      // Teal
+        thumb_style: (fg: "#f5bde6", bg: "#363a4f"), // Pink, Surface0
         use_track_when_empty: false,
     ),
     scrollbar: (
         symbols: ["│", "█", "▲", "▼"],
-        track_style: (fg: "#313244"),        // Surface0
-        ends_style: (fg: "#7f849c"),         // Overlay1
-        thumb_style: (fg: "#94e2d5"),        // Teal
+        track_style: (fg: "#363a4f"),        // Surface0
+        ends_style: (fg: "#7c7f93"),         // Overlay1
+        thumb_style: (fg: "#8bd5ca"),        // Teal
     ),
     song_table_format: [
         (
@@ -104,17 +104,17 @@
         rows: [
             (
                 left: [
-                    (kind: Text("["), style: (fg: "#f9e2af", modifiers: "Bold")),      // Yellow
-                    (kind: Property(Status(StateV2(playing_label: "▶ Playing", paused_label: "⏸ Paused", stopped_label: "⏹ Stopped"))), style: (fg: "#f9e2af", modifiers: "Bold")),
-                    (kind: Text("]"), style: (fg: "#f9e2af", modifiers: "Bold")),
+                    (kind: Text("["), style: (fg: "#f5a97f", modifiers: "Bold")),      // Yellow
+                    (kind: Property(Status(StateV2(playing_label: "▶ Playing", paused_label: "⏸ Paused", stopped_label: "⏹ Stopped"))), style: (fg: "#f5a97f", modifiers: "Bold")),
+                    (kind: Text("]"), style: (fg: "#f5a97f", modifiers: "Bold")),
                 ],
                 center: [
-                    (kind: Property(Song(Title)), style: (fg: "#cdd6f4", modifiers: "Bold"), // Text
-                        default: (kind: Text("No Song"), style: (fg: "#cdd6f4", modifiers: "Bold")))
+                    (kind: Property(Song(Title)), style: (fg: "#cad3f5", modifiers: "Bold"), // Text
+                        default: (kind: Text("No Song"), style: (fg: "#cad3f5", modifiers: "Bold")))
                 ],
                 right: [
-                    (kind: Property(Widget(ScanStatus)), style: (fg: "#94e2d5")), // Teal
-                    (kind: Property(Widget(Volume)), style: (fg: "#94e2d5")),     // Teal
+                    (kind: Property(Widget(ScanStatus)), style: (fg: "#8bd5ca")), // Teal
+                    (kind: Property(Widget(Volume)), style: (fg: "#8bd5ca")),     // Teal
                 ]
             ),
             (
@@ -127,8 +127,8 @@
                     (kind: Text(" kbps)"))
                 ],
                 center: [
-                    (kind: Property(Song(Artist)), style: (fg: "#a6e3a1", modifiers: "Bold"), // Green
-                        default: (kind: Text("Unknown"), style: (fg: "#a6e3a1", modifiers: "Bold"))
+                    (kind: Property(Song(Artist)), style: (fg: "#a6da95", modifiers: "Bold"), // Green
+                        default: (kind: Text("Unknown"), style: (fg: "#a6da95", modifiers: "Bold"))
                     ),
                     (kind: Text(" - ")),
                     (kind: Property(Song(Album)),
@@ -138,10 +138,10 @@
                 right: [
                     (
                         kind: Property(Widget(States(
-                            active_style: (fg: "#cdd6f4", modifiers: "Bold"), // Text
-                            separator_style: (fg: "#6c7086")))                 // Overlay0
+                            active_style: (fg: "#cad3f5", modifiers: "Bold"), // Text
+                            separator_style: (fg: "#5c5f77")))                 // Overlay0
                         ),
-                        style: (fg: "#6c7086")                                // Overlay0
+                        style: (fg: "#5c5f77")                                // Overlay0
                     ),
                 ]
             ),
@@ -168,17 +168,16 @@
     ),
 
     cava: (
-        // Catppuccin Mocha gradient
         bar_symbols: ['▁', '▂', '▃', '▄', '▅', '▆', '▇', '█'],
         inverted_bar_symbols: ['▔', '🮂', '🮃', '▀', '🮄', '🮅', '🮆', '█'],
         orientation: Bottom,
         bar_width: 2,
         bar_color: Gradient({
-              0: "#313244",  // Surface0
-             10: "#94e2d5",  // Teal
-             25: "#a6e3a1",  // Green
-             50: "#f5c2e7",  // Pink
-             75: "#f38ba8",  // Red
+              0: "#363a4f",  // Surface0
+             10: "#8bd5ca",  // Teal
+             25: "#a6da95",  // Green
+             50: "#f5bde6",  // Pink
+             75: "#ed8796",  // Red
         })
     ),
 )

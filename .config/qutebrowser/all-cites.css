@@ -1,22 +1,22 @@
 
 * {
-    background-color: #282828 !important;
-    color: #fbf1c7 !important;
+    background-color: #24273a !important;
+    color: #cad3f5 !important;
 	border-radius: 0px !important;
 	font-family: "Iosevka Nerd Font Mono" !important;
 }
 a {
-    color: #b8bb26 !important;
+    color: #f5bde6 !important;
 }
 a:visited {
-    color: #d3869b !important;
+    color: #f5bde6 !important;
 }
 input, textarea, select, button {
-    background-color: #3c3836 !important;
-    color: #fbf1c7 !important;
-    border-color: #504945 !important;
+    background-color: #1e2030 !important;
+    color: #cad3f5 !important;
+    border-color: #363a4f !important;
 }
 ::selection {
-    background-color: #b8bb26 !important;
-    color: #282828 !important;
+    background-color: #f5bde6 !important;
+    color: #24273a !important;
 }

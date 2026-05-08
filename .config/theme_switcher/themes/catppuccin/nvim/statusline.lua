@@ -2,37 +2,36 @@ return {
 	"nvim-lualine/lualine.nvim",
 	opts = {
 		options = {
-			-- Inline custom Catppuccin Mocha theme
 			theme                = {
 				normal = {
-					a = { fg = "#1e1e2e", bg = "#cba6f7", gui = "bold" },
-					b = { fg = "#cdd6f4", bg = "#313244" },
-					c = { fg = "#cdd6f4", bg = "#1e1e2e" },
+					a = { fg = "#24273a", bg = "#f5bde6", gui = "bold" },
+					b = { fg = "#cad3f5", bg = "#363a4f" },
+					c = { fg = "#cad3f5", bg = "#24273a" },
 				},
 				insert = {
-					a = { fg = "#1e1e2e", bg = "#89b4fa", gui = "bold" },
-					b = { fg = "#cdd6f4", bg = "#313244" },
-					c = { fg = "#cdd6f4", bg = "#1e1e2e" },
+					a = { fg = "#24273a", bg = "#8aadf4", gui = "bold" },
+					b = { fg = "#cad3f5", bg = "#363a4f" },
+					c = { fg = "#cad3f5", bg = "#24273a" },
 				},
 				visual = {
-					a = { fg = "#1e1e2e", bg = "#cba6f7", gui = "bold" },
-					b = { fg = "#cdd6f4", bg = "#313244" },
-					c = { fg = "#cdd6f4", bg = "#1e1e2e" },
+					a = { fg = "#24273a", bg = "#f5bde6", gui = "bold" },
+					b = { fg = "#cad3f5", bg = "#363a4f" },
+					c = { fg = "#cad3f5", bg = "#24273a" },
 				},
 				replace = {
-					a = { fg = "#1e1e2e", bg = "#f38ba8", gui = "bold" },
-					b = { fg = "#cdd6f4", bg = "#313244" },
-					c = { fg = "#cdd6f4", bg = "#1e1e2e" },
+					a = { fg = "#24273a", bg = "#ed8796", gui = "bold" },
+					b = { fg = "#cad3f5", bg = "#363a4f" },
+					c = { fg = "#cad3f5", bg = "#24273a" },
 				},
 				command = {
-					a = { fg = "#1e1e2e", bg = "#fab387", gui = "bold" },
-					b = { fg = "#cdd6f4", bg = "#313244" },
-					c = { fg = "#cdd6f4", bg = "#1e1e2e" },
+					a = { fg = "#24273a", bg = "#f5a97f", gui = "bold" },
+					b = { fg = "#cad3f5", bg = "#363a4f" },
+					c = { fg = "#cad3f5", bg = "#24273a" },
 				},
 				inactive = {
-					a = { fg = "#cdd6f4", bg = "#1e1e2e", gui = "bold" },
-					b = { fg = "#cdd6f4", bg = "#1e1e2e" },
-					c = { fg = "#cdd6f4", bg = "#1e1e2e" },
+					a = { fg = "#cad3f5", bg = "#24273a", gui = "bold" },
+					b = { fg = "#cad3f5", bg = "#24273a" },
+					c = { fg = "#cad3f5", bg = "#24273a" },
 				},
 			},
 			section_separators   = { left = '', right = ' ' },
