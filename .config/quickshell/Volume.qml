@@ -80,7 +80,7 @@ Row {
 			import Quickshell.Io
 
 			Process {
-				command: ["kitty", "-e", "pulsemixer"]
+				command: ["pavucontrol"]
 				running: true
 			}
 			`, root)

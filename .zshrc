@@ -34,8 +34,6 @@ zinit light-mode for \
 ### End of Zinit's installer chunk
 
 # --- Aliases ---
-alias ls="ls --color=auto"
-alias grep="grep --color=auto"
 alias clock="tty-clock -c -s -b -f '%H:%M:%S' -C 3 -B '#6a2c8d' -t"
 alias cowsay="fortune | command cowsay -f stegosaurus"
 alias dots="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
@@ -44,12 +42,9 @@ alias cbonsai="cbonsai -l 50 -i -m "
 alias objdump="objdump -M intel"
 alias hd="hexdump -C"
 alias v="nvim"
-alias ytdow='yt-dlp -x --audio-format mp3 \
-    --add-metadata \
-    --embed-thumbnail \
-    --parse-metadata "%(artist)s - %(title)s:%(title)s"'
 alias ls='ls --color=auto -l'
 alias grep='grep --color=auto'
+alias sudo='doas'
 # plugins
 zinit ice depth=1; zinit light zsh-users/zsh-syntax-highlighting
 zinit ice depth=1; zinit light zsh-users/zsh-completions
@@ -79,7 +74,6 @@ if [[ -f "$FZF_THEME_FILE" ]]; then
 fi
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH"
-export PATH="$HOME/.ghcup/bin:$PATH"
 export PATH="$HOME/.npm-global/bin:$PATH"
 export GI_TYPELIB_PATH=/usr/local/lib/girepository-1.0
 # Created by `pipx` on 2026-03-20 01:51:31

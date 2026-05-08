@@ -55,28 +55,9 @@ return {
 			},
 		}
 
-		-- haskell-language-server
-		vim.lsp.config.hls = {
-			cmd = { "haskell-language-server-wrapper", "--lsp" },
-			filetypes = { "haskell", "lhaskell" },
-			root_markers = {
-				"*.cabal",
-				"stack.yaml",
-				"hie.yaml",
-				"hls.yaml",
-				".git",
-			},
-			settings = {
-				haskell = {
-					formattingProvider = "ormolu",
-				},
-			},
-		}
-
 		-- enable servers
 		vim.lsp.enable("lua_ls")
 		vim.lsp.enable("clangd")
-		vim.lsp.enable("hls")
 
 		vim.api.nvim_create_autocmd("LspAttach", {
 			group = vim.api.nvim_create_augroup("UserLspConfig", {}),
