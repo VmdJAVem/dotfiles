@@ -70,8 +70,27 @@ if [[ -f "$FZF_THEME_FILE" ]]; then
 fi
 
 # Interactive shell greeting
-if (( RANDOM % 2 == 0 )); then
-	fastfetch
-else
-	hyfetch
-fi
+# if (( RANDOM % 2 == 0 )); then
+# 	fastfetch
+# else
+# 	hyfetch
+# fi
+
+theme="$(< ~/.config/theme_switcher/.current)"
+case "$theme" in
+	everforest)
+		FG1='\x1b[38;2;230;126;128m'; FG2='\x1b[38;2;163;190;140m'; FG3='\x1b[38;2;127;187;179m'
+		BG='\x1b[48;2;55;66;57m'; R='\033[0m'
+		echo -e "\n${FG1}${BG} it's $(date '+%-I:%M%P') ${FG2}${BG} up: $(uptime -p | cut -c 4-) ${FG3}${BG} $(uname -r) ${R}"
+		;;
+	catppuccin)
+		FG1='\x1b[38;2;238;153;160m'; FG2='\x1b[38;2;198;160;246m'; FG3='\x1b[38;2;125;196;228m'
+		BG='\x1b[48;2;54;58;79m'; R='\033[0m'
+		echo -e "\n${FG1}${BG} it's $(date '+%-I:%M%P') ${FG2}${BG} up: $(uptime -p | cut -c 4-) ${FG3}${BG} $(uname -r) ${R}"
+		;;
+	gruvbox)
+		FG1='\x1b[38;2;204;143;143m'; FG2='\x1b[38;2;168;153;132m'; FG3='\x1b[38;2;131;165;152m'
+		BG='\x1b[48;2;60;56;54m'; R='\033[0m'
+		echo -e "\n${FG1}${BG} it's $(date '+%-I:%M%P') ${FG2}${BG} up: $(uptime -p | cut -c 4-) ${FG3}${BG} $(uname -r) ${R}"
+		;;
+esac
