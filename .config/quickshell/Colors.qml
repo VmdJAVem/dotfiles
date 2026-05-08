@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/catppuccin/quickshell/Colors.qml
+/home/arkar/.config/theme_switcher/themes/everforest/quickshell/Colors.qml

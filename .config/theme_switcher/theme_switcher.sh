@@ -49,12 +49,12 @@ tmux source-file ~/.config/tmux/tmux.conf 2>/dev/null || true
 # ------------------------
 case "$THEME" in
 	catppuccin)
-		GTK_THEME="catppuccin-mocha-lavender-standard+default"
+		GTK_THEME="catppuccin-macchiato-pink-standard+default"
 		gsettings set org.gnome.desktop.interface icon-theme \
-			"catppuccin-mocha-pink-standard+default"
+			"Colloid-Pink-Catppuccin-Dark"
 
 		rm -rf ~/.config/gtk-4.0/*
-		cp -r /usr/share/themes/catppuccin-mocha-lavender-standard+default/gtk-4.0/* \
+		cp -r /usr/share/themes/catppuccin-macchiato-pink-standard+default/gtk-4.0/* \
 			~/.config/gtk-4.0/
 		;;
 	gruvbox)
