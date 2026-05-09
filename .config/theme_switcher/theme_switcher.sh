@@ -88,9 +88,6 @@ EOF
 
 cp ~/.config/gtk-3.0/settings.ini ~/.config/gtk-4.0/settings.ini
 
-# Wallpaper picker
-source  ~/.config/theme_switcher/wall_switcher.sh "$WALLPAPER_DIR" "$THEME" awww img
-
 #rmpc
 		ln -sf "$BASE_DIR/rmpc/colors.ron" ~/.config/rmpc/themes/colors.ron
 # dunst
@@ -111,6 +108,8 @@ fi
 	ln -sf "$BASE_DIR/sioyek/prefs_user.config" ~/.config/sioyek/
 # startpage 
 	ln -sf "$BASE_DIR/startpage/colors.css" ~/.config/omnisearch/static/
+# Vesktop
+	ln -sf "$BASE_DIR/startpage/colors.css" ~/.config/vesktop/themes/
 # qutebrowser
  	ln -sf "$BASE_DIR/qutebrowser/colors.py" ~/.config/qutebrowser/
 # ------------------------
@@ -147,6 +146,11 @@ hyprctl reload 2>/dev/null || true
 for pid in $(pgrep -t pts/0,pts/1 bash); do
     kill -USR1 "$pid"
 done
+
+# Wallpaper picker
+source  ~/.config/theme_switcher/wall_switcher.sh "$WALLPAPER_DIR" "$THEME" awww img
+
+
 echo "$THEME" > "$HOME/.config/theme_switcher/.current"
 
 echo "Theme applied: $THEME"

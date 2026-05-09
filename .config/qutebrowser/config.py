@@ -43,6 +43,12 @@ css_content = f"""
 :root {{
     color-scheme: dark;
 }}
+* {{
+    font-family: "Iosevka Nerd Font Mono" !important;
+    border-radius: 0px !important;
+    background-color: {bg0} !important;
+    color: {fg0} !important;
+}}
 
 html,
 body {{

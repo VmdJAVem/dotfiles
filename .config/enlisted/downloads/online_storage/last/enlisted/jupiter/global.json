@@ -1,0 +1,313 @@
+{
+    "content": {
+        "selectedClusters": {
+            "EU": true
+        },
+        "markedArmyBundlesSeenTime": {
+            "usa": 1756001885,
+            "ussr": 1756001876,
+            "ger": 1755922690,
+            "jap": 1755922763
+        },
+        "seen/soldierSlots": {
+            "150827731972": {
+                "primary": 0
+            },
+            "150827731900": {
+                "primary": 0
+            },
+            "150827731948": {
+                "primary": 0
+            },
+            "162506278318": {
+                "primary": 0
+            },
+            "162506278364": {
+                "primary": 0
+            },
+            "150827731878": {
+                "primary": 0
+            },
+            "150827731852": {
+                "primary": 0
+            }
+        },
+        "seen/squads/promoTime": {
+            "jap": 1746574764,
+            "ussr": 1756007474,
+            "ger": 1746398633,
+            "usa": 1746400627
+        },
+        "acceptedEULA": 11,
+        "ui/steamAccountMsgBoxSeen": 1746398649,
+        "seen/eventPromo": 1777813200,
+        "steamEventsSeen": {},
+        "gameplay/camera_fov": 100.0,
+        "seen/researches": {
+            "usa": {
+                "allies_pacific_rifle_1": 4,
+                "allies_tunisia_sniper_1": 4
+            },
+            "ussr": {
+                "allies_stalingrad_medic_1": 2,
+                "ussr_moscow_tank_1": 1,
+                "ussr_moscow_rifle_1": 6
+            }
+        },
+        "user/notNewbiePlayer": true,
+        "nextTimeToWarnPremium": 1778440524,
+        "seenData/soldiers": {
+            "ussr": {
+                "162506278364": true,
+                "150827731900": true,
+                "150827731993": true,
+                "162608822219": true,
+                "162608825866": true,
+                "150827731948": true,
+                "162506278341": true,
+                "150827732011": true,
+                "150827731972": true,
+                "150827732031": true,
+                "150827732049": true,
+                "162506278318": true,
+                "150827731925": true,
+                "150827731852": true,
+                "150827731878": true
+            }
+        },
+        "sound/battle_music_enabled": false,
+        "seen/rank_stage_idx": {
+            "seen": 0,
+            "opened": 0
+        },
+        "sessionsCount": 5,
+        "seen/soldierPerks": {
+            "150827731900": true,
+            "162506278341": true,
+            "162608822219": true,
+            "162608825866": true,
+            "150827731948": true,
+            "150827731878": true,
+            "150827732011": true,
+            "150827731925": true,
+            "150827732031": true,
+            "150827732049": true,
+            "162506278318": true,
+            "150827731852": true,
+            "150827731993": true,
+            "150827731972": true
+        },
+        "battleTutorial": {
+            "basic": 3
+        },
+        "playerSelectedSquads": {
+            "ger": "ger_moscow_rifle_1",
+            "ussr": "ussr_moscow_sniper_1"
+        },
+        "user/steamReview": 1746400581,
+        "seenMissionHints": {
+            "tutorial_select_grenade": true,
+            "tutorial_change_soldier": true
+        },
+        "seen/unlocks": {
+            "achievement_tank_commander_kills": 1,
+            "achievement_grenade_kills": 1,
+            "achievement_team_score_top_30_percent": 1,
+            "achievement_desperado": 1,
+            "achievement_rifle_kills": 1,
+            "achievement_melee_kill": 1,
+            "achievement_headshots": 1,
+            "achievement_campaign_lvl_2": 1,
+            "achievement_first_blood": 1,
+            "achievement_submachine_gun_kills": 1
+        },
+        "common": "common",
+        "ui/hud/lie_down_to_shoot": 5,
+        "curArmies": {
+            "common": "ussr"
+        },
+        "ui/lastSeenVersionId": 357,
+        "onlinePersistentFlags": {
+            "hasShopOrdersUsed": true
+        },
+        "tutorial/tank_tutorial_seen": true,
+        "gameplay/vehicle_camera_fov": 100.0,
+        "spawnedSquads": {
+            "ussr_moscow_rifle_1": true,
+            "axis_pacific_rifle_1": true,
+            "ussr_moscow_tank_1": true,
+            "ussr_moscow_sniper_1": true,
+            "allies_pacific_rifle_1": true,
+            "allies_pacific_tank_1": true,
+            "axis_pacific_sniper_1": true,
+            "axis_pacific_medic_1": true,
+            "allies_pacific_medic_1": true,
+            "allies_tunisia_sniper_1": true,
+            "axis_pacific_tank_1": true,
+            "allies_stalingrad_medic_1": true
+        },
+        "hasFirstPurchases": {
+            "weapon": false,
+            "soldier": false
+        },
+        "seen/gamemodes": {
+            "enlisted_usa_ger_newbies": 2,
+            "practice": 2
+        },
+        "seen/squads": {
+            "usa": {
+                "allies_pacific_medic_1": true
+            },
+            "ussr": {
+                "allies_stalingrad_medic_1": true
+            }
+        },
+        "seen/shopItems": {
+            "ussr": {
+                "ussr_flametrooper_2": 2,
+                "ussr_flametrooper": 2,
+                "ussr_explosion_pack": 2,
+                "ussr_anti_tank_2": 2,
+                "shop_squad_ussr_radioman_2_premium_2": 1,
+                "ussr_radioman_2": 2,
+                "ussr_molotov_grenade": 2,
+                "ussr_weapon_group_ptrs_41": 2,
+                "shop_squad_ussr_tanker_3_premium_8": 1,
+                "ussr_weapon_group_m1_bazooka_trophy": 2,
+                "ussr_weapon_group_hanyang_type_88_rifle": 1,
+                "shop_shop_gold_currency_13500": 1,
+                "ussr_weapon_group_bm_42_mortar": 2,
+                "ussr_weapon_group_avt_40": 2,
+                "ussr_weapon_group_avs_36": 2,
+                "ussr_partisan_2": 2,
+                "shop_squad_ch_partisan_2_premium_2": 1,
+                "ussr_mgun_2": 2,
+                "ussr_big_ammo_pouch": 2,
+                "squads_berlin_allies_assault_premium_1_pc": 1,
+                "ussr_weapon_group_panzerfaust_100_trophy": 2,
+                "shop_shop_gold_currency_500": 1,
+                "ussr_weapon_group_ppsh_41_box": 2,
+                "ussr_pilot_assaulter": 2,
+                "ussr_small_ammo_pouch": 2,
+                "ussr_pilot_fighter_2": 2,
+                "appearance_order_100_offer": 1,
+                "ussr_sniper_2": 2,
+                "ussr_flask": 2,
+                "ussr_pilot_fighter_3": 2,
+                "ussr_big_bag": 2,
+                "ussr_weapon_group_tk_26": 2,
+                "shop_squad_ussr_apc_driver_2_premium_1": 1,
+                "ussr_radioman": 2,
+                "shop_squad_ussr_biker_2_premium_1": 1,
+                "ussr_tanker_2": 2,
+                "ussr_weapon_group_mosin_m91": 2,
+                "squads_ussr_moscow_prem_mgun_2_pc": 1,
+                "ussr_weapon_group_rm_38": 2,
+                "ussr_weapon_group_mauser_c96": 2,
+                "ussr_sniper": 2,
+                "shop_squad_ussr_flametrooper_2_premium_2": 1,
+                "ussr_weapon_group_mortar_rm_40": 2,
+                "ussr_weapon_group_sniper_avs_36": 2,
+                "ussr_weapon_group_mosin_m44": 2,
+                "ussr_weapon_group_mosin_m91_30_vpgs": 2,
+                "ussr_weapon_group_ppsh_41": 2,
+                "ussr_weapon_group_pps_42": 2,
+                "ussr_binoculars": 2,
+                "ussr_anti_tank": 2,
+                "ussr_weapon_group_rd_44": 2,
+                "shop_shop_gold_currency_2800": 1,
+                "ussr_pilot_fighter": 2,
+                "shop_shop_gold_currency_1000": 1,
+                "ussr_mgun_3": 2,
+                "ussr_weapon_group_ppsh_41_obrez_ussr": 2,
+                "ussr_weapon_group_dp_27": 2,
+                "ussr_tnt_block_exploder": 2,
+                "enlisted_silver_currency_4": 2,
+                "ussr_engineer_2": 2,
+                "ussr_rifle_3": 2,
+                "ussr_weapon_group_mosin_m91_30": 2,
+                "ussr_weapon_group_ppd_3438": 2,
+                "ussr_assault_2": 2,
+                "enlisted_silver_currency_2": 2,
+                "shop_squad_ussr_partisan_2_premium_1": 1,
+                "ussr_apc_driver_2": 2,
+                "shop_allies_stalingrad_prem_tank_2": 1,
+                "ussr_weapon_group_roks_3": 2,
+                "ussr_medkit": 2,
+                "starter_pack_ussr": 1,
+                "ussr_weapon_group_svt_38": 2,
+                "ussr_weapon_group_dt_29": 2,
+                "ussr_weapon_group_nagant_m1895": 2,
+                "ussr_rifle_2": 2,
+                "ussr_weapon_group_winchester_1895": 2,
+                "ussr_big_grenade_pouch": 2,
+                "ussr_weapon_group_sniper_svt_40": 2,
+                "ussr_smoke_grenade": 2,
+                "ussr_biker": 2,
+                "ussr_weapon_group_sniper_svt_38": 2,
+                "ussr_weapon_group_fedorov_avtomat": 2,
+                "ussr_weapon_group_dpm": 2,
+                "ussr_assault_3": 2,
+                "ussr_weapon_group_pps_43": 2,
+                "ussr_repair_kit": 2,
+                "shop_ussr_berlin_prem_mgun_1": 1,
+                "shop_allies_stalingrad_prem_tank_1_pc": 1,
+                "ussr_antitank_mine": 2,
+                "ussr_weapon_group_toz_b": 2,
+                "ussr_weapon_group_ppd_40": 2,
+                "shop_ussr_moscow_prem_tank_3": 1,
+                "ussr_weapon_group_tt_33": 2,
+                "ussr_weapon_group_avs_36_20_rounds": 1,
+                "squads_ussr_berlin_prem_tank_2_gold": 1,
+                "ussr_weapon_group_berezin_smg": 2,
+                "ussr_tanker_3": 2,
+                "ussr_tanker": 2,
+                "ussr_engineer": 2,
+                "ussr_weapon_group_roks_2": 2,
+                "ussr_grenade": 2,
+                "ussr_mgun": 2,
+                "ussr_weapon_group_mosin_m38": 2,
+                "ussr_pilot_assaulter_3": 2,
+                "ussr_medic": 2,
+                "ussr_weapon_group_madsen": 2,
+                "ussr_mortarman": 2,
+                "ussr_rifle": 2,
+                "ussr_axe": 2,
+                "ussr_weapon_group_mosin_1928_grenade_launcher": 2,
+                "ussr_weapon_group_ppd_3438_box": 2,
+                "ussr_weapon_group_panzerfaust_60_trophy": 2,
+                "ussr_weapon_group_mosin_dragoon": 2,
+                "enlisted_silver_currency_3": 2,
+                "ussr_weapon_group_maxim_tokarev": 2,
+                "shop_squad_ussr_mortarman_2_premium_1": 1,
+                "enlisted_silver_currency_1": 2,
+                "ussr_weapon_group_as_44_late": 2,
+                "shop_shop_gold_currency_6250": 1,
+                "ussr_weapon_group_avt_40_20_rounds": 1,
+                "shop_ussr_moscow_prem_tank_4": 2,
+                "ussr_small_bag": 2,
+                "ussr_assault_4": 2,
+                "ussr_shovel": 2,
+                "shop_allies_stalingrad_prem_medic_1": 1,
+                "ussr_antipersonnel_mine": 2,
+                "ussr_sniper_3": 2,
+                "ussr_weapon_group_svt_40": 2,
+                "enlisted_silver_currency_5": 2,
+                "ussr_weapon_group_ptrd_41": 2,
+                "shop_squad_ch_assault_2_premium_3": 1,
+                "ussr_weapon_group_fedorov_rifle_5_rounds": 2,
+                "ussr_small_grenade_pouch": 2,
+                "squads_moscow_allies_pilot_fighter_premium_1_gold": 1,
+                "ussr_pilot_assaulter_2": 2
+            }
+        },
+        "seen/events": {},
+        "seen/offers": {
+            "162369224569": 1756064302,
+            "154828952662": 1749589461,
+            "168606521549": 1761427742,
+            "187496078171": 1777853700
+        }
+    },
+    "version": 89
+}

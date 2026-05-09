@@ -1,0 +1,13 @@
+[Default Applications]
+x-scheme-handler/discord=vesktop.desktop
+text/html=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
+text/plain=nvim.desktop
+image/png=org.gnome.eog.desktop
+application/pdf=sioyek.desktop
+
+[Added Associations]
+image/jpeg=org.gnome.eog.desktop;
+image/png=org.gnome.eog.desktop;
+application/pdf=sioyek.desktop;

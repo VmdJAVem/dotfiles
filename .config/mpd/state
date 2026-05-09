@@ -1,9 +1,9 @@
-sw_volume: 49
+sw_volume: 44
 audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
-state: play
-current: 15
-time: 120.07000000000001
+state: pause
+current: 1
+time: 180.786
 random: 1
 repeat: 1
 single: 0
@@ -13,34 +13,6 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Feather (feat. Cise Starr & Akin from CYNE) - Nujabes.mp3
-1:Nujabes - Horn in the middle.mp3
-2:Nujabes, Cise Starr - Lady Brown (feat. Cise Starr from CYNE).mp3
-3:Nujabes - Kumomi.mp3
-4:Nujabes, Cise Starr - Highs 2 Lows (feat. Cise Starr from CYNE).mp3
-5:Nujabes - Beat laments the world.mp3
-6:Nujabes - Letter from Yokosuka.mp3
-7:Nujabes, Substantial - Think Different (feat. Substantial).mp3
-8:Nujabes - A day by atmosphere supreme.mp3
-9:Nujabes, Uyama Hiroto - Next view (feat. Uyama Hiroto).mp3
-10:Nujabes, Shing02 - F.I.L.O. (feat. Shing02).mp3
-11:Nujabes - Summer Gypsy.mp3
-12:Nujabes - The Final View.mp3
-13:Nujabes - Peaceland.mp3
-14:Nujabes, Shing02 - battlecry.mp3
-15:Nujabes - aruarian dance.mp3
-16:01. Nujabes - Spiritual State (ft. Uyama Hiroto).mp3
-17:02. Nujabes - Sky is Tumbling (ft. Cise Star).mp3
-18:03. Nujabes - Gone Are The Days (ft. Uyama Hiroto).mp3
-19:04. Nujabes - Spiral.mp3
-20:05. Nujabes - City Lights (ft. Pase Rock & Substantial).mp3
-21:06. Nujabes - Color of Autumn.mp3
-22:07. Nujabes - Dawn on the Side.mp3
-23:08. Nujabes - Yes (ft. Pase Rock).mp3
-24:09. Nujabes - Rainyway Back Home.mp3
-25:10. Nujabes - Far Fowls.mp3
-26:11. Nujabes - Fellows.mp3
-27:12. Nujabes - Waiting For The Clouds (ft. Substantial).mp3
-28:13. Nujabes - Prayer.mp3
-29:14. Nujabes - Island (ft. Uyama Hiroto & haruka nakamura).mp3
+0:Charli xcx - 360.mp3
+1:Charli xcx - 365.mp3
 playlist_end

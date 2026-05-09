@@ -1,0 +1,78 @@
+    OpenRGB v0.9+ (git1932)
+    Commit: 0be01dde190c26b3f6c2cb370e815ae62b96205f from 2026-04-24 07:35:53 -0500
+    Launched: 20260504_181302
+====================================================================================================
+
+1     |Info:    [ProfileManager] Found file: sdsd.orp attempting to validate header
+3     |Info:    [ProfileManager] Valid v5 profile found for sdsd
+3     |Info:    [ProfileManager] Found file: Green.orp attempting to validate header
+3     |Info:    [ProfileManager] Valid v5 profile found for Green
+3     |Info:    [ProfileManager] Found file: Blue.orp attempting to validate header
+4     |Info:    [ProfileManager] Valid v5 profile found for Blue
+75    |Info:    [ResourceManager] Initializing HID interfaces: Success
+75    |Info:    ------------------------------------------------------
+75    |Info:    |               Start device detection               |
+75    |Info:    ------------------------------------------------------
+86    |Info:    ------------------------------------------------------
+86    |Info:    |             Detecting I2C interfaces               |
+86    |Info:    ------------------------------------------------------
+86    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 1 (/dev/i2c-3) Device 1002:747E Subsystem: 1DA2:F475
+86    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 1 (/dev/i2c-10) Device 1002:164E Subsystem: 1462:7E26
+86    |Info:    [ResourceManager] Registering I2C interface: AMDGPU SMU 1 (/dev/i2c-1) Device 1002:747E Subsystem: 1DA2:F475
+86    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 2 at 0b00 (/dev/i2c-17) Device 1022:790B Subsystem: 1462:7E26
+86    |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 1 (/dev/i2c-8) Device 0000:0000 Subsystem: 0000:0000
+87    |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 3 (/dev/i2c-15) Device 0000:0000 Subsystem: 0000:0000
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c OEM bus (/dev/i2c-6) Device 1002:747E Subsystem: 1DA2:F475
+87    |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 1 (/dev/i2c-13) Device 0000:0000 Subsystem: 0000:0000
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 2 (/dev/i2c-4) Device 1002:747E Subsystem: 1DA2:F475
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 2 (/dev/i2c-11) Device 1002:164E Subsystem: 1462:7E26
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 0 (/dev/i2c-2) Device 1002:747E Subsystem: 1DA2:F475
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU SMU 0 (/dev/i2c-0) Device 1002:747E Subsystem: 1DA2:F475
+87    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 1 at 0b20 (/dev/i2c-18) Device 1022:790B Subsystem: 1462:7E26
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 0 (/dev/i2c-9) Device 1002:164E Subsystem: 1462:7E26
+87    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-16) Device 1022:790B Subsystem: 1462:7E26
+87    |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 0 (/dev/i2c-7) Device 0000:0000 Subsystem: 0000:0000
+87    |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 2 (/dev/i2c-14) Device 0000:0000 Subsystem: 0000:0000
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 3 (/dev/i2c-5) Device 1002:747E Subsystem: 1DA2:F475
+87    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 3 (/dev/i2c-12) Device 1002:164E Subsystem: 1462:7E26
+87    |Info:    ------------------------------------------------------
+87    |Info:    |               Detecting I2C devices                |
+87    |Info:    ------------------------------------------------------
+395   |Info:    [ENE DRAM] Registering RGB controller
+641   |Info:    [ENE DRAM] Registering RGB controller
+1267  |Info:    ------------------------------------------------------
+1267  |Info:    |            Detecting I2C DIMM modules              |
+1267  |Info:    ------------------------------------------------------
+2353  |Info:    [ResourceManager] Detected occupied slot 2, bus 14, type DDR5
+3343  |Info:    [ResourceManager] Detected occupied slot 4, bus 14, type DDR5
+3361  |Info:    ------------------------------------------------------
+3361  |Info:    |               Detecting I2C PCI devices            |
+3361  |Info:    ------------------------------------------------------
+3368  |Info:    [Sapphire Radeon RX 7700 XT Nitro+] Registering RGB controller
+3369  |Info:    ------------------------------------------------------
+3369  |Info:    |               Detecting HID devices                |
+3369  |Info:    ------------------------------------------------------
+3370  |Info:    [Redragon M914 NIX] Registering RGB controller
+3436  |Info:    [MSI B650 GAMING PLUS WIFI (MS-7E26)] Registering RGB controller
+3437  |Info:    [Redragon M914 NIX (Wireless)] Registering RGB controller
+3437  |Info:    ------------------------------------------------------
+3437  |Info:    |            Detecting libusb HID devices            |
+3437  |Info:    ------------------------------------------------------
+3517  |Info:    ------------------------------------------------------
+3517  |Info:    |              Detecting other devices               |
+3517  |Info:    ------------------------------------------------------
+3535  |Info:    [ResourceManager] Calling Post-detection callbacks
+3535  |Info:    ------------------------------------------------------
+3535  |Info:    |                Detection completed                 |
+3535  |Info:    ------------------------------------------------------
+3536  |Info:    [ProfileManager] Profile loading: Succeeded for ENE DRAM @ I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-16), address 0x71
+3536  |Info:    [ProfileManager] Profile loading: Succeeded for ENE DRAM @ I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-16), address 0x73
+3536  |Info:    [ProfileManager] Profile loading: Succeeded for Sapphire Radeon RX 7700 XT Nitro+ @ I2C: AMDGPU DM i2c OEM bus (/dev/i2c-6), address 0x28
+3536  |Info:    [ProfileManager] Profile loading: Succeeded for Redragon M914 NIX @ HID: /dev/hidraw7
+3536  |Info:    [ProfileManager] Profile loading: Succeeded for MSI B650 GAMING PLUS WIFI (MS-7E26) @ HID: /dev/hidraw5
+3536  |Info:    [ProfileManager] Profile loading: Succeeded for Redragon M914 NIX (Wireless) @ HID: /dev/hidraw2

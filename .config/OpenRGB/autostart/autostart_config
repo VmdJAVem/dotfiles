@@ -1,0 +1,7 @@
+#This is the config file read by OpenRGB autostart script. You may manually change the settings here, or change it via the autostart script (see: https://github.com/JiayuanWen/openrgb-startup-script?tab=readme-ov-file#usage)
+
+#This setting determines the lighting profile OpenRGB will open
+openrgb_autostart_profile=sdsd
+
+#This setting tells script rather to close OpenRGB after opening lighting profile
+openrgb_autostart_close_after=T
