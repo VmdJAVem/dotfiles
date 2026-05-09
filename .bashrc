@@ -62,7 +62,7 @@ theme_color() {
 	esac
 }
 
-PS1=' [\[$(theme_color)\]\u\[\e[0m\]@\H] $(git_prompt)[\w]\n ~> '
+PS1=' [\[$(theme_color)\]\u\[\e[0m\]@\H] $(git_prompt)[\w]\n λ '
 
 FZF_THEME_FILE="$HOME/.config/fzf/themes/$(cat ~/.config/theme_switcher/.current 2>/dev/null)"
 if [[ -f "$FZF_THEME_FILE" ]]; then
