@@ -69,28 +69,51 @@ if [[ -f "$FZF_THEME_FILE" ]]; then
 	export FZF_DEFAULT_OPTS="$(tr '\n' ' ' < "$FZF_THEME_FILE")"
 fi
 
-# Interactive shell greeting
-# if (( RANDOM % 2 == 0 )); then
-# 	fastfetch
-# else
-# 	hyfetch
-# fi
-
 theme="$(< ~/.config/theme_switcher/.current)"
+
 case "$theme" in
-	everforest)
-		FG1='\x1b[38;2;230;126;128m'; FG2='\x1b[38;2;163;190;140m'; FG3='\x1b[38;2;127;187;179m'
-		BG='\x1b[48;2;55;66;57m'; R='\033[0m'
-		echo -e "\n${FG1}${BG} it's $(date '+%-I:%M%P') ${FG2}${BG} up: $(uptime -p | cut -c 4-) ${FG3}${BG} $(uname -r) ${R}"
-		;;
 	catppuccin)
-		FG1='\x1b[38;2;238;153;160m'; FG2='\x1b[38;2;198;160;246m'; FG3='\x1b[38;2;125;196;228m'
-		BG='\x1b[48;2;54;58;79m'; R='\033[0m'
-		echo -e "\n${FG1}${BG} it's $(date '+%-I:%M%P') ${FG2}${BG} up: $(uptime -p | cut -c 4-) ${FG3}${BG} $(uname -r) ${R}"
+		# bg -> purple -> accent
+
+		C1=$'\x1b[48;2;36;39;58m'
+		C2=$'\x1b[48;2;198;160;246m'
+		C3=$'\x1b[48;2;245;189;230m'
+
+		FG1=$'\x1b[38;2;202;211;245m'
+		FG2=$'\x1b[38;2;36;39;58m'
+		FG3=$'\x1b[38;2;36;39;58m'
+
+		R=$'\x1b[0m'
 		;;
+
+	everforest)
+		# bg -> aqua -> green accent
+
+		C1=$'\x1b[48;2;39;46;51m'
+		C2=$'\x1b[48;2;127;187;179m'
+		C3=$'\x1b[48;2;167;192;128m'
+
+		FG1=$'\x1b[38;2;211;198;170m'
+		FG2=$'\x1b[38;2;39;46;51m'
+		FG3=$'\x1b[38;2;39;46;51m'
+
+		R=$'\x1b[0m'
+		;;
+
 	gruvbox)
-		FG1='\x1b[38;2;204;143;143m'; FG2='\x1b[38;2;168;153;132m'; FG3='\x1b[38;2;131;165;152m'
-		BG='\x1b[48;2;60;56;54m'; R='\033[0m'
-		echo -e "\n${FG1}${BG} it's $(date '+%-I:%M%P') ${FG2}${BG} up: $(uptime -p | cut -c 4-) ${FG3}${BG} $(uname -r) ${R}"
+		# bg -> aqua -> green accent
+
+		C1=$'\x1b[48;2;40;40;40m'
+		C2=$'\x1b[48;2;104;157;106m'
+		C3=$'\x1b[48;2;152;151;26m'
+
+		FG1=$'\x1b[38;2;251;241;199m'
+		FG2=$'\x1b[38;2;40;40;40m'
+		FG3=$'\x1b[38;2;40;40;40m'
+
+		R=$'\x1b[0m'
 		;;
 esac
+
+echo -e "\n${C1}${FG1} it's $(date '+%-I:%M%P')  ${C2}${FG2} has been awake for: $(uptime -p | cut -c 4-) ${C3}${FG3} running: $(uname -r) ${R}"
+printf "\n"
