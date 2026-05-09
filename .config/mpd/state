@@ -1,9 +1,9 @@
 sw_volume: 44
 audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
-state: pause
-current: 1
-time: 180.786
+state: play
+current: 5
+time: 120.07000000000001
 random: 1
 repeat: 1
 single: 0
@@ -13,6 +13,11 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Charli xcx - 360.mp3
-1:Charli xcx - 365.mp3
+0:CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+1:CASIOPEA - 朝焼け - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+2:CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+3:CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+4:CASIOPEA - ドミノ・ライン - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+5:CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
+6:CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3
 playlist_end
