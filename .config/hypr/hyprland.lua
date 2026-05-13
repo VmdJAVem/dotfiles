@@ -51,7 +51,7 @@ hl.config({
 
 		col = {
 			active_border = c.border_active,
-			inactive_border = c.border_active,
+			inactive_border = c.border_inactive,
 		},
 	},
 	decoration = {
@@ -104,7 +104,7 @@ hl.animation({
 	speed = 2,
 	curve = "fast",
 	style = "popin 96%",
-	bezier = "fast"
+	bezier = "smooth"
 })
 
 hl.animation({
