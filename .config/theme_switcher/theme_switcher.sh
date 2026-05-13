@@ -23,7 +23,7 @@ echo "Switching to theme: $THEME"
 # ------------------------
 # HYPRLAND
 # ------------------------
-ln -sf "$BASE_DIR/hypr/colors.conf" ~/.config/hypr/colors.conf
+ln -sf "$BASE_DIR/hypr/colors.lua" ~/.config/hypr/colors.lua
 ln -sf "$BASE_DIR/hypr/hyprtoolkit.conf" ~/.config/hypr/hyprtoolkit.conf
 
 # ------------------------
