@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+
+set -e
+
+players=$(playerctl -l 2>/dev/null || true)
+
+get_player_by_status() {
+	target="$1"
+	for p in $players; do
+		status=$(playerctl -p "$p" status 2>/dev/null || true)
+		if [ "$status" = "$target" ]; then
+			echo "$p"
+			return
+		fi
+	done
+}
+
+# Priority:
+# 1. Playing
+# 2. Paused
+# 3. MPD
+# 4. First available
+active="$(get_player_by_status Playing)"
+
+if [ -z "$active" ]; then
+	active="$(get_player_by_status Paused)"
+fi
+
+if [ -z "$active" ]; then
+	if echo "$players" | grep -q "^mpd"; then
+		active=$(echo "$players" | grep "^mpd" | head -n1)
+	else
+		active=$(echo "$players" | head -n1)
+	fi
+fi
+
+# Route commands
+if echo "$active" | grep -q "^mpd"; then
+	case "$1" in
+		volume) mpc volume "$2" ;;
+		play) mpc play ;;
+		pause) mpc pause ;;
+		toggle) mpc toggle ;;
+		next) mpc next ;;
+		previous) mpc prev ;;
+		status) mpc status ;;
+		*) echo "Unsupported command"; exit 1 ;;
+	esac
+else
+	playerctl -p "$active" "$@" 2>/dev/null || {
+		if [ "$1" = "volume" ]; then
+			wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+		else
+			exit 1
+		fi
+	}
+fi
