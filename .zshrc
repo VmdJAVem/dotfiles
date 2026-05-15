@@ -14,8 +14,12 @@ alias cbonsai='cbonsai -l 50 -i -m'
 alias objdump='objdump -M intel'
 alias hd='hexdump -C'
 alias v='nvim'
-alias ls='ls --color=always -l'
+alias ls='ls -lah --color=always --group-directories-first'
 alias grep='grep --color=auto'
+alias cd ..='cd ..'
+
+# Plugins
+source ~/.zplugins/vi-mode/zsh-vi-mode.zsh
 
 # Misc
 TRAPUSR1() {
@@ -24,9 +28,6 @@ TRAPUSR1() {
 
 export EDITOR=nvim
 export VISUAL=nvim
-
-# vi mode
-bindkey -v
 
 function zle-keymap-select {
 	if [[ ${KEYMAP} == vicmd ]] ||
