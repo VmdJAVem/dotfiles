@@ -15,7 +15,7 @@ THEME=$(find "$THEMES_DIR" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | \
 [ -z "$THEME" ] && exit 0
 
 BASE_DIR="$THEMES_DIR/$THEME"
-WALLPAPER_DIR="$HOME/Wallpapers/Wallpapers/"
+WALLPAPER_DIR="$HOME/Wallpapers/"
 
 echo "Switching to theme: $THEME"
 
