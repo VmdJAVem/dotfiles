@@ -12,6 +12,9 @@ return {
 					enabled = true
 				}
 			},
+			latex = {
+				enabled = true,
+			},
 			-- heading = { position = 'inline' },
 			render_modes = { 'n', 'v', 'c', 'i', 't' },
 			link = {

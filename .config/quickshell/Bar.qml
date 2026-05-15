@@ -45,6 +45,20 @@ Scope {
 
 					// LEFT
 					ModuleGroup {
+						Text {
+							text: ""
+							font.pixelSize: 15
+							color: Colors.accent
+							font.family: Globals.font
+							MouseArea {
+								anchors.fill: parent
+								onClicked: {
+									panelInstance.visible = !panelInstance.visible
+								}
+							}
+						}
+					}
+					ModuleGroup {
 						Layout.alignment: Qt.AlignLeft
 
 						Workspaces {}
@@ -81,21 +95,6 @@ Scope {
 					}
 					ModuleGroup {
 						Volume {}
-					}
-
-					ModuleGroup {
-						Text {
-							text: ""
-							font.pixelSize: 15
-							color: Colors.accent
-							font.family: Globals.font
-							MouseArea {
-								anchors.fill: parent
-								onClicked: {
-									panelInstance.visible = !panelInstance.visible
-								}
-							}
-						}
 					}
 				}
 

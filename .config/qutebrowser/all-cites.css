@@ -5,14 +5,12 @@
 * {
     font-family: "Iosevka Nerd Font Mono" !important;
     border-radius: 0px !important;
-    background-color: #272e33 !important;
-    color: #d3c6aa !important;
 }
 
 html,
 body {
-    background: #272e33 !important;
-    color: #d3c6aa !important;
+    background: #282828 !important;
+    color: #fbf1c7 !important;
     font-family: "Iosevka Nerd Font Mono";
 }
 
@@ -22,20 +20,20 @@ span,
 li,
 td,
 th {
-    color: #c5b9a1;
+    color: #ebdbb2;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #a7c080;
+    color: #b8bb26;
 }
 
 /* links */
 a {
-    color: #a7c080 !important;
+    color: #b8bb26 !important;
 }
 
 a:visited {
-    color: #d699b6 !important;
+    color: #d3869b !important;
 }
 
 /* forms */
@@ -43,15 +41,15 @@ input,
 textarea,
 select,
 button {
-    background: #232a2e !important;
-    color: #d3c6aa !important;
-    border: 1px solid #374145 !important;
+    background: #3c3836 !important;
+    color: #fbf1c7 !important;
+    border: 1px solid #504945 !important;
 }
 
 /* code */
 pre,
 code {
-    background: #232a2e !important;
+    background: #3c3836 !important;
 }
 
 pre {
@@ -61,8 +59,8 @@ pre {
 
 /* selection */
 ::selection {
-    background: #a7c080 !important;
-    color: #272e33 !important;
+    background: #b8bb26 !important;
+    color: #282828 !important;
 }
 
 /* scrollbar */
@@ -72,9 +70,9 @@ pre {
 }
 
 ::-webkit-scrollbar-track {
-    background: #272e33;
+    background: #282828;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #374145;
+    background: #504945;
 }

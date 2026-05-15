@@ -57,8 +57,26 @@ hl.bind(MainMod .. "s", Exec("~/.config/theme_switcher/theme_switcher.sh"))
 hl.bind(MainMod .. "f", hl.dsp.window.fullscreen({ action = "toggle" }))
 hl.bind(MainMod .. "b", Exec(Play))
 hl.bind(MainMod .. "w", Exec(Wall_change))
-hl.bind(MainMod .. "p", Exec("~/.config/hypr/power.sh"))
+hl.bind(MainMod .. "p", function()
+	os.execute([[
+	sh -c '
+	chosen=$(printf "󰐥 Shutdown\n󰜉 Reboot\n󰍃 Logout\n" | \
+	tofi --prompt-text "power:" --width 20% --height 30%)
 
+	case "$chosen" in
+	"󰍃 Logout")
+	hyprctl dispatch exit
+	;;
+	"󰜉 Reboot")
+	sudo reboot
+	;;
+	"󰐥 Shutdown")
+	sudo poweroff
+	;;
+	esac
+	' &
+	]])
+end)
 
 -- SUBMAP: resize
 hl.bind(MainMod .. "i", hl.dsp.submap("resize"))

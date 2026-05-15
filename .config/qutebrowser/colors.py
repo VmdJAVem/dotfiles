@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/everforest/qutebrowser/colors.py
+/home/arkar/.config/theme_switcher/themes/gruvbox/qutebrowser/colors.py

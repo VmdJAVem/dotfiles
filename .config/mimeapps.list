@@ -10,4 +10,5 @@ application/pdf=sioyek.desktop
 [Added Associations]
 image/jpeg=org.gnome.eog.desktop;
 image/png=org.gnome.eog.desktop;
-application/pdf=sioyek.desktop;
+application/pdf=libreoffice-draw.desktop;sioyek.desktop;
+application/vnd.oasis.opendocument.text=emacs.desktop;libreoffice-writer.desktop;org.freesmlauncher.FreesmLauncher.desktop;

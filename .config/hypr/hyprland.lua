@@ -1,6 +1,6 @@
 Terminal = "kitty"
 FileManager = "thunar"
-Menu = 'tofi-drun | while read -r cmd; do hyprctl dispatch exec "$cmd"; done'
+Menu = '$(tofi-drun)'
 Player = "cmus"
 Browser = "qutebrowser"
 TextEditor = "nvim"
@@ -95,7 +95,7 @@ hl.animation({
 	speed = 3,
 	curve = "smooth",
 	style = "popin 96%",
-	bezier = "fast"
+	bezier = "smooth"
 })
 
 hl.animation({
@@ -121,5 +121,5 @@ hl.animation({
 	speed = 3,
 	curve = "smooth",
 	style = "slidefade 8%",
-	bezier = "fast"
+	bezier = "smooth"
 })

@@ -18,10 +18,10 @@ PanelWindow {
 	height: 700
 	anchors {
 		top: true
-		right: true
+		left: true
 	}
 	margins {
-		right: 15
+		left: 5
 		top: 25
 	}
 

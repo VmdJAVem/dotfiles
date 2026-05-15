@@ -11427,3 +11427,46 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-05-09T18:30:29 player: played "CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
 2026-05-09T18:33:07 player: played "CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
 2026-05-09T18:37:38 player: played "CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-09T18:39:06 output: Failed to play on "pipewire" (pulse): suspended
+2026-05-09T18:39:07 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-09T20:18:27 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-09T22:02:58 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-05-09T23:28:37 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-05-10T13:54:06 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-10T14:10:43 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-10T19:40:00 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-11T20:34:37 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-12T19:36:47 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-12T21:05:19 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-13T16:11:51 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-13T16:18:11 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-13T16:26:22 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-05-13T20:36:08 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T15:33:19 player: played "CASIOPEA - テイク・ミー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T15:38:17 player: played "CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T15:42:48 player: played "CASIOPEA - ティアーズ・オブ・ザ・スター - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T15:45:27 player: played "CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T15:50:26 player: played "CASIOPEA - 朝焼け - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T15:57:49 player: played "CASIOPEA - ドミノ・ライン - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T16:00:28 player: played "CASIOPEA - タイム・リミット - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T16:05:27 player: played "CASIOPEA - 朝焼け - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T16:10:25 player: played "CASIOPEA - ミッドナイト・ランデブー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T16:48:50 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T19:37:02 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-14T23:25:24 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
+2026-05-15T14:12:27 player: played "CASIOPEA - スウェアー - Live at Chuo Kaikan Hall, Tokyo, Feb. 1982.mp3"
