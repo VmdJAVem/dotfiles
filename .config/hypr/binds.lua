@@ -47,11 +47,11 @@ hl.bind(MainModShift .. "9", hl.dsp.window.move({ workspace = 9 }))
 hl.bind(MainModShift .. "0", hl.dsp.window.move({ workspace = 10 }))
 
 
-hl.bind(MainModShift .. "n", Exec("player previous"))
-hl.bind(MainModShift .. "m", Exec("player next"))
-hl.bind(MainMod .. "period", Exec("player toggle"))
-hl.bind(MainMod .. "n", Exec("player volume -5"))
-hl.bind(MainMod .. "m", Exec("player volume +5"))
+hl.bind(MainModShift .. "n", Exec("mpc previous"))
+hl.bind(MainModShift .. "m", Exec("mpc next"))
+hl.bind(MainMod .. "period", Exec("mpc toggle"))
+hl.bind(MainMod .. "n", Exec("mpc volume -5"))
+hl.bind(MainMod .. "m", Exec("mpc volume +5"))
 
 hl.bind(MainMod .. "s", Exec("~/.config/theme_switcher/theme_switcher.sh"))
 hl.bind(MainMod .. "f", hl.dsp.window.fullscreen({ action = "toggle" }))
