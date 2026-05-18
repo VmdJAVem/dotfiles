@@ -2,7 +2,7 @@
 MainMod = "SUPER + "
 MainModShift = MainMod .. "SHIFT + "
 
-hl.bind(MainMod .. "q", Exec(Terminal))
+hl.bind(MainMod .. "Return", Exec(Terminal))
 hl.bind(MainMod .. "c", hl.dsp.window.close())
 hl.bind(MainMod .. "x", Exec(FileManager))
 hl.bind(MainMod .. "e", Exec(Terminal .. " -e " .. TextEditor))
@@ -55,7 +55,6 @@ hl.bind(MainMod .. "m", Exec("mpc volume +5"))
 
 hl.bind(MainMod .. "s", Exec("~/.config/theme_switcher/theme_switcher.sh"))
 hl.bind(MainMod .. "f", hl.dsp.window.fullscreen({ action = "toggle" }))
-hl.bind(MainMod .. "b", Exec(Play))
 hl.bind(MainMod .. "w", Exec(Wall_change))
 hl.bind(MainMod .. "p", function()
 	os.execute([[

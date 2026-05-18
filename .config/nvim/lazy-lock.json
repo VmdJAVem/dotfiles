@@ -13,7 +13,7 @@
   "mason.nvim": { "branch": "main", "commit": "8e921c2b68571e978db5d4d3fef9c9a7f8755473" },
   "mini.icons": { "branch": "main", "commit": "9c7b1b90b15bdd69c52f6e31889dbc9987c30ec4" },
   "mini.nvim": { "branch": "main", "commit": "18797ed18f347d0d0da27fec28a67979b1207f70" },
-  "nvim-lspconfig": { "branch": "master", "commit": "8f7e64066e2641d5e7d494962a9c7051e3d38dd5" },
+  "nvim-lspconfig": { "branch": "master", "commit": "f9349d4d99e7d66403ae8bf4fbd357b154dca7a7" },
   "nvim-treesitter": { "branch": "main", "commit": "4916d6592ede8c07973490d9322f187e07dfefac" },
   "plenary.nvim": { "branch": "master", "commit": "74b06c6c75e4eeb3108ec01852001636d85a932b" },
   "project.nvim": { "branch": "main", "commit": "8c6bad7d22eef1b71144b401c9f74ed01526a4fb" },

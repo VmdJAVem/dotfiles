@@ -4,12 +4,8 @@ Menu = '$(tofi-drun)'
 Player = "cmus"
 Browser = "qutebrowser"
 TextEditor = "nvim"
-Play = [[
-selected="$(mpc listall | tofi --prompt-text 'play:')";
-[ -n "$selected" ] && mpc add "$selected" && mpc play
-]]
 Wall_change =
-"~/.config/theme_switcher/wall_switcher.sh ~/Wallpapers/Wallpapers $(cat ~/.config/theme_switcher/.current) awww img"
+"~/.config/theme_switcher/wall_switcher.sh ~/Wallpapers/ $(cat ~/.config/theme_switcher/.current) awww img"
 PdfReader = "sioyek"
 
 Exec = hl.dsp.exec_cmd
@@ -72,6 +68,10 @@ hl.config({
 		}
 
 	},
+	input = {
+		kb_options = "compose:ralt"
+
+	}
 })
 hl.curve("smooth", {
 	type = "bezier",

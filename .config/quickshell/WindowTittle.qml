@@ -7,8 +7,8 @@ Text {
 		? Hyprland.activeToplevel.title
 		: "-"
 
-		return title.length > 80
-		? title.slice(0, 77) + "..."
+		return title.length > 50
+		? title.slice(0, 47) + "..."
 		: title
 	}
 }

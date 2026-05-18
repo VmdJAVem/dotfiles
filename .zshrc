@@ -91,7 +91,7 @@ theme_color() {
 
 setopt PROMPT_SUBST
 
-PROMPT=' [$(theme_color)%n%f@%m] $(git_prompt)[%~]
+PROMPT=' [$(which $SHELL)] [$(theme_color)%n%f@%m] $(git_prompt)[%~]
  λ '
 
 FZF_THEME_FILE="$HOME/.config/fzf/themes/$(cat ~/.config/theme_switcher/.current 2>/dev/null)"

@@ -148,7 +148,7 @@ for pid in $(pgrep -t pts/0,pts/1 zsh); do
 done
 
 # Wallpaper picker
-source  ~/.config/theme_switcher/wall_switcher.sh "$WALLPAPER_DIR" "$THEME" awww img
+~/.config/theme_switcher/wall_switcher.sh "$WALLPAPER_DIR" "$THEME" awww img
 
 
 echo "$THEME" > "$HOME/.config/theme_switcher/.current"
