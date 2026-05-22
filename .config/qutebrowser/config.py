@@ -20,8 +20,7 @@ config.bind("xb", "config-cycle statusbar.show always never")
 config.bind("xt", "config-cycle tabs.show always never")
 config.bind("xx", "config-cycle statusbar.show always never;; config-cycle tabs.show always never")
 config.bind("xd", "config-cycle colors.webpage.darkmode.enabled True False")
-#config.bind(" v", "hint links spawn --userscript v.sh {hint-url}")
-config.bind("xv", "hint links spawn mpv {hint-url}")
+config.bind("xv", "hint links spawn --detach mpv {hint-url}")
 
 c.url.searchengines = {
     "DEFAULT": "http://localhost:8087/search?q={}",
@@ -39,85 +38,7 @@ config.set("colors.webpage.darkmode.enabled", False, "http://localhost:8087/*")
 config.set("colors.webpage.darkmode.enabled", True, "https://redsails.org/*")
 # Generate CSS content with colors and font
 # Generate CSS content with colors, fonts, spacing and full webpage theming
-css_content = f"""
-:root {{
-    color-scheme: dark;
-}}
-* {{
-    font-family: "Iosevka Nerd Font Mono" !important;
-    border-radius: 0px !important;
-}}
-
-html,
-body {{
-    background: {bg0} !important;
-    color: {fg0} !important;
-    font-family: "Iosevka Nerd Font Mono";
-}}
-
-/* text */
-p,
-span,
-li,
-td,
-th {{
-    color: {fg1};
-}}
-
-h1,h2,h3,h4,h5,h6 {{
-    color: {accent};
-}}
-
-/* links */
-a {{
-    color: {accent} !important;
-}}
-
-a:visited {{
-    color: {bright_purple} !important;
-}}
-
-/* forms */
-input,
-textarea,
-select,
-button {{
-    background: {bg1} !important;
-    color: {fg0} !important;
-    border: 1px solid {bg2} !important;
-}}
-
-/* code */
-pre,
-code {{
-    background: {bg1} !important;
-}}
-
-pre {{
-    padding: 1em !important;
-    overflow-x: auto !important;
-}}
-
-/* selection */
-::selection {{
-    background: {accent} !important;
-    color: {bg0} !important;
-}}
-
-/* scrollbar */
-::-webkit-scrollbar {{
-    width: 10px;
-    height: 10px;
-}}
-
-::-webkit-scrollbar-track {{
-    background: {bg0};
-}}
-
-::-webkit-scrollbar-thumb {{
-    background: {bg2};
-}}
-"""
+css_content = f""" * {{ background-color: {bg0} !important; color: {fg0} !important; border-radius: 0px !important; font-family: "Iosevka Nerd Font Mono" !important; }} a {{ color: {accent} !important; }} a:visited {{ color: {bright_purple} !important; }} input, textarea, select, button {{ background-color: {bg1} !important; color: {fg0} !important; border-color: {bg2} !important; }} ::selection {{ background-color: {accent} !important; color: {bg0} !important; }} """ # Write the CSS file to your config directory css_path = os.path.join(os.path.dirname(__file__), "all-cites.css") with open(css_path, "w") as f: f.write(css_content)
 # Write the CSS file to your config directory
 css_path = os.path.join(os.path.dirname(__file__), "all-cites.css")
 with open(css_path, "w") as f:

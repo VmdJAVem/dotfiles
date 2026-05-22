@@ -17,6 +17,7 @@ alias v='nvim'
 alias ls='ls -lah --color=always --group-directories-first'
 alias grep='grep --color=auto'
 alias cd ..='cd ..'
+alias mountusb='sudo mount -t exfat -o uid=$(id -u),gid=$(id -g)'
 
 # Plugins
 source ~/.zplugins/vi-mode/zsh-vi-mode.zsh

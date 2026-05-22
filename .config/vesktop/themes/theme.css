@@ -14,170 +14,215 @@
 /* import theme modules */
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 
-* {
-	border-radius: 0px !important;
-}
-body {
-	/* font options */
-	--font: 'Iosevka Nerd Font Propo'; /* change to '' for default discord font */
-	--code-font: 'Iosevka Nerd Font Mono'; /* change to '' for default discord font */
-	font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
+/* nuclear anti-rounding fix */
+*,
+	*::before,
+	*::after {
+		border-radius: 0 !important;
+		clip-path: none !important;
+		mask: none !important;
+		-webkit-mask: none !important;
+	}
 
-	/* sizes */
-	--gap: 5px; /* spacing between panels */
-	--divider-thickness: 3px; /* thickness of unread messages divider and highlighted message borders */
-	--border-thickness: 1px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
+	/* discord containers */
+	div,
+	section,
+	main,
+	aside,
+	nav,
+	header,
+	footer {
+		border-radius: 0 !important;
+	}
 
-	/* animation/transition options */
-	--animations: on; /* off: disable animations/transitions, on: enable animations/transitions */
-	--list-item-transition: 0.2s ease; /* transition for list items */
-	--dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
-	--border-hover-transition: 0.2s ease; /* transition for borders when hovered */
+	/* floating windows/popouts */
+	[class*="layer"],
+	[class*="menu"],
+	[class*="modal"],
+	[class*="popover"],
+	[class*="tooltip"],
+	[class*="dialog"],
+	[class*="drawer"],
+	[class*="container"],
+	[class*="panel"] {
+		border-radius: 0 !important;
+	}
 
-	/* top bar options */
-	--top-bar-height: var(--gap); /* height of the top bar (discord default is 36px, old discord style is 24px, var(--gap) recommended if button position is set to titlebar) */
-	--top-bar-button-position: titlebar; /* off: default position, hide: hide buttons completely, serverlist: move inbox button to server list, titlebar: move inbox button to channel titlebar (will hide title) */
-	--top-bar-title-position: off; /* off: default centered position, hide: hide title completely, left: left align title (like old discord) */
-	--subtle-top-bar-title: off; /* off: default, on: hide the icon and use subtle text color (like old discord) */
+	/* avatars/server icons */
+	foreignObject {
+		mask: none !important;
+		border-radius: 0 !important;
+	}
 
-	/* window controls */
-	--custom-window-controls: on; /* off: default window controls, on: custom window controls */
-	--window-control-size: 14px; /* size of custom window controls */
+	/* images/media */
+	img,
+	video,
+	canvas,
+	svg {
+		border-radius: 0 !important;
+	}
 
-	/* dms button options */
-	--custom-dms-icon: custom; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */
-	--dms-icon-svg-url: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
-	--dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
-	--dms-icon-color-before: var(--icon-subtle); /* normal icon color */
-	--dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
-	--custom-dms-background: off; /* off to disable, image to use a background image (must set url variable below), color to use a custom color/gradient */
-	--dms-background-image-url: url(''); /* url of the background image */
-	--dms-background-image-size: cover; /* size of the background image (css background-size property) */
-	--dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
+	body {
+		/* font options */
+		--font: 'Iosevka Nerd Font Propo'; /* change to '' for default discord font */
+		--code-font: 'Iosevka Nerd Font Mono'; /* change to '' for default discord font */
+		font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
-	/* background image options */
-	--background-image: off; /* off: no background image, on: enable background image (must set url variable below) */
-	--background-image-url: url(''); /* url of the background image */
+		/* sizes */
+		--gap: 5px; /* spacing between panels */
+		--divider-thickness: 3px; /* thickness of unread messages divider and highlighted message borders */
+		--border-thickness: 1px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
 
-	/* transparency/blur options */
-	/* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
-	--transparency-tweaks: off; /* off: no changes, on: remove some elements for better transparency */
-	--remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
-	--panel-blur: off; /* off: no changes, on: blur the background of panels */
-	--blur-amount: 12px; /* amount of blur */
-	--bg-floating: var(--bg-3); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
+		/* animation/transition options */
+		--animations: on; /* off: disable animations/transitions, on: enable animations/transitions */
+		--list-item-transition: 0.2s ease; /* transition for list items */
+		--dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
+		--border-hover-transition: 0.2s ease; /* transition for borders when hovered */
 
-	/* chatbar options */
-	--custom-chatbar: off; /* off: default chatbar, separated: chatbar separated from chat */
-	--chatbar-height: 47px; /* height of the chatbar (56px by default, 47px to align with user panel, 56px recommended for separated) */
+		/* top bar options */
+		--top-bar-height: var(--gap); /* height of the top bar (discord default is 36px, old discord style is 24px, var(--gap) recommended if button position is set to titlebar) */
+		--top-bar-button-position: titlebar; /* off: default position, hide: hide buttons completely, serverlist: move inbox button to server list, titlebar: move inbox button to channel titlebar (will hide title) */
+		--top-bar-title-position: off; /* off: default centered position, hide: hide title completely, left: left align title (like old discord) */
+		--subtle-top-bar-title: off; /* off: default, on: hide the icon and use subtle text color (like old discord) */
 
-	/* other options */
-	--small-user-panel: on; /* off: default user panel, on: smaller user panel like in old discord */
-}
+		/* window controls */
+		--custom-window-controls: on; /* off: default window controls, on: custom window controls */
+		--window-control-size: 14px; /* size of custom window controls */
 
-/* color options */
-:root {
-	--colors: on;
+		/* dms button options */
+		--custom-dms-icon: custom; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */
+		--dms-icon-svg-url: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
+		--dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
+		--dms-icon-color-before: var(--icon-subtle); /* normal icon color */
+		--dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
+		--custom-dms-background: off; /* off to disable, image to use a background image (must set url variable below), color to use a custom color/gradient */
+		--dms-background-image-url: url(''); /* url of the background image */
+		--dms-background-image-size: cover; /* size of the background image (css background-size property) */
+		--dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
 
-	/* text colors */
-	--text-0: var(--bg-dark);
-	--text-1: var(--fg-light);
-	--text-2: var(--fg-medium);
-	--text-3: var(--fg-dark);
-	--text-4: var(--gray);
-	--text-5: var(--dark-gray);
+		/* background image options */
+		--background-image: off; /* off: no background image, on: enable background image (must set url variable below) */
+		--background-image-url: url(''); /* url of the background image */
 
-	/* background and dark colors */
-	--bg-1: var(--bg-dim);
-	--bg-2: var(--bg-light);
-	--bg-3: var(--bg-dim);
-	--bg-4: var(--bg-dark);
+		/* transparency/blur options */
+		/* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
+		--transparency-tweaks: off; /* off: no changes, on: remove some elements for better transparency */
+		--remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
+		--panel-blur: off; /* off: no changes, on: blur the background of panels */
+		--blur-amount: 12px; /* amount of blur */
+		--bg-floating: var(--bg-3); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
 
-	--hover: color-mix(in srgb, var(--fg-light) 8%, transparent);
-	--active: color-mix(in srgb, var(--accent-color) 18%, transparent);
-	--active-2: color-mix(in srgb, var(--accent-color) 28%, transparent);
+		/* chatbar options */
+		--custom-chatbar: off; /* off: default chatbar, separated: chatbar separated from chat */
+		--chatbar-height: 47px; /* height of the chatbar (56px by default, 47px to align with user panel, 56px recommended for separated) */
 
-	--message-hover: rgba(0, 0, 0, 0.12);
+		/* other options */
+		--small-user-panel: on; /* off: default user panel, on: smaller user panel like in old discord */
+	}
 
-	/* accent colors */
-	--accent-1: var(--accent-color);
-	--accent-2: var(--accent-color);
-	--accent-3: var(--accent-color);
-	--accent-4: color-mix(in srgb, var(--accent-color) 85%, white);
-	--accent-5: color-mix(in srgb, var(--accent-color) 70%, black);
+	/* color options */
+	:root {
+		--colors: on;
 
-	--accent-new: var(--accent-color);
+		/* text colors */
+		--text-0: var(--bg-dark);
+		--text-1: var(--fg-light);
+		--text-2: var(--fg-medium);
+		--text-3: var(--fg-dark);
+		--text-4: var(--gray);
+		--text-5: var(--dark-gray);
 
-	--mention:
-	linear-gradient(
-	to right,
-	color-mix(in srgb, var(--green) 18%, transparent) 40%,
-	transparent
-	);
+		/* background and dark colors */
+		--bg-1: var(--bg-dim);
+		--bg-2: var(--bg-light);
+		--bg-3: var(--bg-dim);
+		--bg-4: var(--bg-dark);
 
-	--mention-hover:
-	linear-gradient(
-	to right,
-	color-mix(in srgb, var(--green) 10%, transparent) 40%,
-	transparent
-	);
+		--hover: color-mix(in srgb, var(--fg-light) 8%, transparent);
+		--active: color-mix(in srgb, var(--accent-color) 18%, transparent);
+		--active-2: color-mix(in srgb, var(--accent-color) 28%, transparent);
 
-	--reply:
-	linear-gradient(
-	to right,
-	color-mix(in srgb, var(--fg-dark) 18%, transparent) 40%,
-	transparent
-	);
+		--message-hover: rgba(0, 0, 0, 0.12);
 
-	--reply-hover:
-	linear-gradient(
-	to right,
-	color-mix(in srgb, var(--fg-dark) 10%, transparent) 40%,
-	transparent
-	);
+		/* accent colors */
+		--accent-1: var(--accent-color);
+		--accent-2: var(--accent-color);
+		--accent-3: var(--accent-color);
+		--accent-4: color-mix(in srgb, var(--accent-color) 85%, white);
+		--accent-5: color-mix(in srgb, var(--accent-color) 70%, black);
 
-	/* status indicator colors */
-	--online: var(--green);
-	--dnd: var(--red);
-	--idle: var(--yellow);
-	--streaming: var(--purple);
-	--offline: var(--gray);
+		--accent-new: var(--accent-color);
 
-	/* border colors */
-	--border-light: color-mix(in srgb, var(--fg-light) 8%, transparent);
-	--border: color-mix(in srgb, var(--fg-light) 12%, transparent);
-	--border-hover: color-mix(in srgb, var(--accent-color) 20%, transparent);
+		--mention:
+		linear-gradient(
+		to right,
+		color-mix(in srgb, var(--green) 18%, transparent) 40%,
+		transparent
+		);
 
-	--button-border: rgba(255, 255, 255, 0.08);
+		--mention-hover:
+		linear-gradient(
+		to right,
+		color-mix(in srgb, var(--green) 10%, transparent) 40%,
+		transparent
+		);
 
-	/* base colors */
-	--red-1: var(--red);
-	--red-2: var(--red);
-	--red-3: var(--red);
-	--red-4: var(--red);
-	--red-5: color-mix(in srgb, var(--red) 80%, black);
+		--reply:
+		linear-gradient(
+		to right,
+		color-mix(in srgb, var(--fg-dark) 18%, transparent) 40%,
+		transparent
+		);
 
-	--green-1: var(--green);
-	--green-2: var(--green);
-	--green-3: var(--green);
-	--green-4: var(--green);
-	--green-5: color-mix(in srgb, var(--green) 80%, black);
+		--reply-hover:
+		linear-gradient(
+		to right,
+		color-mix(in srgb, var(--fg-dark) 10%, transparent) 40%,
+		transparent
+		);
 
-	--blue-1: var(--blue);
-	--blue-2: var(--blue);
-	--blue-3: var(--blue);
-	--blue-4: var(--blue);
-	--blue-5: color-mix(in srgb, var(--blue) 80%, black);
+		/* status indicator colors */
+		--online: var(--green);
+		--dnd: var(--red);
+		--idle: var(--yellow);
+		--streaming: var(--purple);
+		--offline: var(--gray);
 
-	--yellow-1: var(--yellow);
-	--yellow-2: var(--yellow);
-	--yellow-3: var(--yellow);
-	--yellow-4: var(--yellow);
-	--yellow-5: color-mix(in srgb, var(--yellow) 80%, black);
+		/* border colors */
+		--border-light: color-mix(in srgb, var(--fg-light) 8%, transparent);
+		--border: color-mix(in srgb, var(--fg-light) 12%, transparent);
+		--border-hover: color-mix(in srgb, var(--accent-color) 20%, transparent);
 
-	--purple-1: var(--purple);
-	--purple-2: var(--purple);
-	--purple-3: var(--purple);
-	--purple-4: var(--purple);
-	--purple-5: color-mix(in srgb, var(--purple) 80%, black);
-}
+		--button-border: rgba(255, 255, 255, 0.08);
+
+		/* base colors */
+		--red-1: var(--red);
+		--red-2: var(--red);
+		--red-3: var(--red);
+		--red-4: var(--red);
+		--red-5: color-mix(in srgb, var(--red) 80%, black);
+
+		--green-1: var(--green);
+		--green-2: var(--green);
+		--green-3: var(--green);
+		--green-4: var(--green);
+		--green-5: color-mix(in srgb, var(--green) 80%, black);
+
+		--blue-1: var(--blue);
+		--blue-2: var(--blue);
+		--blue-3: var(--blue);
+		--blue-4: var(--blue);
+		--blue-5: color-mix(in srgb, var(--blue) 80%, black);
+
+		--yellow-1: var(--yellow);
+		--yellow-2: var(--yellow);
+		--yellow-3: var(--yellow);
+		--yellow-4: var(--yellow);
+		--yellow-5: color-mix(in srgb, var(--yellow) 80%, black);
+
+		--purple-1: var(--purple);
+		--purple-2: var(--purple);
+		--purple-3: var(--purple);
+		--purple-4: var(--purple);
+		--purple-5: color-mix(in srgb, var(--purple) 80%, black);
+	}

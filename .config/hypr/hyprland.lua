@@ -1,9 +1,9 @@
 Terminal = "kitty"
-FileManager = "thunar"
+FileManager = "pcmanfm"
 Menu = '$(tofi-drun)'
 Player = "cmus"
 Browser = "qutebrowser"
-TextEditor = "nvim"
+TextEditor = "emacsclient -c -n"
 Wall_change =
 "~/.config/theme_switcher/wall_switcher.sh ~/Wallpapers/ $(cat ~/.config/theme_switcher/.current) awww img"
 PdfReader = "sioyek"
@@ -25,6 +25,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("nm-applet")
 	hl.exec_cmd("dunst")
 	hl.exec_cmd(".config/hypr/openrgb-login.sh")
+	hl.exec_cmd("emacs --daemon")
 end)
 
 hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
@@ -73,53 +74,5 @@ hl.config({
 
 	}
 })
-hl.curve("smooth", {
-	type = "bezier",
-	points = {
-		{ 0.25, 0.1 },
-		{ 0.25, 1.0 }
-	}
-})
-
-hl.curve("fast", {
-	type = "bezier",
-	points = {
-		{ 0.3,  0.0 },
-		{ 0.15, 1.0 }
-	}
-})
-
-hl.animation({
-	leaf = "windowsIn",
-	enabled = true,
-	speed = 3,
-	curve = "smooth",
-	style = "popin 96%",
-	bezier = "smooth"
-})
-
-hl.animation({
-	leaf = "windowsOut",
-	enabled = true,
-	speed = 2,
-	curve = "fast",
-	style = "popin 96%",
-	bezier = "smooth"
-})
-
-hl.animation({
-	leaf = "windowsMove",
-	enabled = true,
-	speed = 2,
-	curve = "smooth",
-	bezier = "smooth"
-})
-
-hl.animation({
-	leaf = "workspaces",
-	enabled = true,
-	speed = 3,
-	curve = "smooth",
-	style = "slidefade 8%",
-	bezier = "smooth"
-})
+-- animations
+require("animations")

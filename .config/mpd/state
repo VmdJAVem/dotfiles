@@ -1,9 +1,9 @@
-sw_volume: 49
+sw_volume: 64
 audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
-state: pause
-current: 298
-time: 80.039
+state: play
+current: 125
+time: 19.47
 random: 1
 repeat: 1
 single: 0

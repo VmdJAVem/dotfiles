@@ -6,6 +6,7 @@ x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
 text/plain=nvim.desktop
 image/png=org.gnome.eog.desktop
 application/pdf=sioyek.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
 
 [Added Associations]
 image/jpeg=org.gnome.eog.desktop;
