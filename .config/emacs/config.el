@@ -1,0 +1,91 @@
+(defvar bootstrap-version)
+(let ((bootstrap-file
+	(expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
+      (bootstrap-version 6))
+  (unless (file-exists-p bootstrap-file)
+    (with-current-buffer
+      (url-retrieve-synchronously
+	"https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
+	'silent 'inhibit-cookies)
+      (goto-char (point-max))
+      (eval-print-last-sexp)))
+  (load bootstrap-file nil 'nomessage))
+
+(straight-use-package 'use-package)
+(setq straight-use-package-by-default t)
+
+(use-package base16-theme
+  :straight t)
+(use-package everforest-theme
+  :straight (everforest-theme :type git :host github :repo "theorytoe/everforest-emacs" :branch "master2"))  
+
+(load (expand-file-name "theme.el" user-emacs-directory) t)
+
+(use-package evil
+  :init
+  (setq evil-want-integration t
+        evil-want-keybinding nil
+	evil-vsplit-windowright t
+	evil-split-window-below t)
+  :config
+  (evil-mode 1))
+(use-package evil-collection
+  :after evil
+  :config
+(setq evil-collection-modelist '(dired ibuffer))
+(evil-collection-init))
+
+(defun my/reload-config ()
+(interactive)
+(org-babel-tangle-file "~/.config/emacs/config.org")
+(load-file user-init-file))
+
+(use-package general
+  :config
+  (general-evil-setup)
+  (general-create-definer i/leader-keys
+			  :states '(normal insert visual emacs)
+			  :keymaps 'override
+			  :prefix "SPC" ;; set leader
+			  :global-prefix "M-SPC") ;; leader in inser mode
+  (i/leader-keys
+   "e" '(:ignore t :wk "eval")
+   "ec" '(my/reload-config :wk "reload config")
+   "er" '(eval-region :wk "eval-region")
+   "b" '(:ignore t :wk "buffer")
+   "bb" '(switch-to-buffer :wk "switch buffer")
+   "bk" '(kill-this-buffer :wk "kill this")
+   "bn" '(next-buffer :wk "next buffer")
+   "bp" '(previous-buffer :wk "previous buffer")
+   "br" '(revert-buffer :wk "reload buffer")
+   )
+)
+
+(set-face-attribute 'default nil
+		    :font "Iosevka Nerd Font Mono"
+		    :height 175
+		    )
+(set-face-attribute 'default nil
+		    :font "Iosevka Nerd Font Propo"
+		    :height 175
+		    )
+(set-face-attribute 'fixed-pitch nil
+		    :font "Iosevka Nerd Font Mono"
+		    :height 175
+		    )
+;; italics
+(set-face-attribute 'font-lock-comment-face nil
+		    :slant 'italic
+		    )
+(set-face-attribute 'font-lock-keyword-face nil
+		    :slant 'italic
+		    )
+;; emacsclients font
+(add-to-list 'default-frame-alist '(font . "Iosevka Nerd Font Mono-14"))
+
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+(global-display-line-numbers-mode 1)
+(global-visual-line-mode t)

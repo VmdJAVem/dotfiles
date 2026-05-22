@@ -1,0 +1,8 @@
+# Emacs backups/autosaves
+*~
+\#*\#
+.auto-save-list/
+
+# Emacs runtime caches
+.config/emacs/eln-cache/
+.config/emacs/straight/
