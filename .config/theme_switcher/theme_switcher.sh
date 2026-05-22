@@ -18,6 +18,7 @@ BASE_DIR="$THEMES_DIR/$THEME"
 WALLPAPER_DIR="$HOME/Wallpapers/"
 
 echo "Switching to theme: $THEME"
+echo "$THEME" > ./tmp
 
 
 # ------------------------
@@ -137,6 +138,7 @@ EOF
 	qs -d
 # tofi
 	ln -sf "$BASE_DIR/tofi/theme" ~/.config/tofi/
+
 # ------------------------
 # HYPRLAND reload
 # ------------------------
@@ -144,7 +146,7 @@ hyprctl reload 2>/dev/null || true
 
 # zsh reload
 for pid in $(pgrep -t pts/0,pts/1 zsh); do
-    kill -USR1 "$pid"
+	kill -USR1 "$pid"
 done
 
 # Wallpaper picker
