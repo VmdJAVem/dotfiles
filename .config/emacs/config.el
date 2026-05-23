@@ -41,10 +41,6 @@
   (setq evil-collection-mode-list '(dired ibuffer))
   (evil-collection-init))
 
-(defun my/reload-config ()
-(interactive)
-(load-file user-init-file))
-
 (defun my/org-babel-tangle-config ()
   (when (string-equal
          (file-truename (buffer-file-name))
@@ -61,37 +57,48 @@
                       t)))
 
 (use-package which-key
-  :init
-  (which-key-mode 1)
+        :init
+        (which-key-mode 1)
 
-  :config
-  (setq which-key-idle-delay 0.5))
+        :config
+        (setq which-key-idle-delay 0.5))
 
-(use-package general
-  :config
-  (general-evil-setup)
+      (use-package general
+        :config
+        (general-evil-setup)
 
-  (general-create-definer i/leader-keys
-    :states '(normal insert visual emacs)
-    :keymaps 'override
-    :prefix "SPC"
-    :global-prefix "M-SPC")
+        (general-create-definer i/leader-keys
+          :states '(normal insert visual emacs)
+          :keymaps 'override
+          :prefix "SPC"
+          :global-prefix "M-SPC")
+        (i/leader-keys
+          "ff" '(find-file :wk "find files")
+          "fd" '((lambda () (interactive) (find-file "~/.config/emacs/config.org")) :which-key "edit config.org")
+          "TAB TAB" '(comment-line :wk "comment line")
+      	)
 
-  (i/leader-keys
-    "e"  '(:ignore t :which-key "eval")
-    "eb" '(eval-buffer :which-key "eval buffer")
-    "ed" '(eval-defun :which-key "eval defun containing or after point")
-    "ee" '(eval-expression :which-key "eval expression")
-    "er" '(eval-region :which-key "eval region")
-    "ec" '(my/reload-config :which-key "eval init.el")
-    
-    "b"  '(:ignore t :which-key "buffer")
-    "bb" '(switch-to-buffer :which-key "switch buffer")
-    "bk" '(kill-buffer-and-window :which-key "kill buffer")
-    "bn" '(next-buffer :which-key "next buffer")
-    "bp" '(previous-buffer :which-key "previous buffer")
-    "br" '(revert-buffer :which-key "reload buffer")
-    ))
+        (i/leader-keys
+          "e"  '(:ignore t :which-key "eval")
+          "eb" '(eval-buffer :which-key "eval buffer")
+          "ed" '(eval-defun :which-key "eval defun containing or after point")
+          "ee" '(eval-expression :which-key "eval expression")
+          "er" '(eval-region :which-key "eval region")
+          "ec" '(reload-init-file :which-key "eval init.el"))
+          
+        (i/leader-keys
+          "b"  '(:ignore t :which-key "buffer")
+          "bb" '(switch-to-buffer :which-key "switch buffer")
+          "bk" '(kill-buffer-and-window :which-key "kill buffer")
+          "bn" '(next-buffer :which-key "next buffer")
+          "bp" '(previous-buffer :which-key "previous buffer")
+          "br" '(revert-buffer :which-key "reload buffer")
+          )))
+      (i/leader-keys
+"h" '(:ignore t :which-key "help")
+"hf" '(describe-function :which-key "describe function")
+"hv" '(describe-variable :which-key "describe variable")
+  )
 
 (menu-bar-mode -1)
 (tool-bar-mode -1)
