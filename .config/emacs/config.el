@@ -42,9 +42,8 @@
   (evil-collection-init))
 
 (defun my/reload-config ()
-  (interactive)
-  (org-babel-tangle-file "~/.config/emacs/config.org")
-  (load-file user-init-file))
+(interactive)
+(load-file user-init-file))
 
 (defun my/org-babel-tangle-config ()
   (when (string-equal
@@ -80,15 +79,19 @@
 
   (i/leader-keys
     "e"  '(:ignore t :which-key "eval")
-    "ec" '(my/reload-config :which-key "reload config")
+    "eb" '(eval-buffer :which-key "eval buffer")
+    "ed" '(eval-defun :which-key "eval defun containing or after point")
+    "ee" '(eval-expression :which-key "eval expression")
     "er" '(eval-region :which-key "eval region")
-
+    "ec" '(my/reload-config :which-key "eval init.el")
+    
     "b"  '(:ignore t :which-key "buffer")
     "bb" '(switch-to-buffer :which-key "switch buffer")
     "bk" '(kill-buffer-and-window :which-key "kill buffer")
     "bn" '(next-buffer :which-key "next buffer")
     "bp" '(previous-buffer :which-key "previous buffer")
-    "br" '(revert-buffer :which-key "reload buffer")))
+    "br" '(revert-buffer :which-key "reload buffer")
+    ))
 
 (menu-bar-mode -1)
 (tool-bar-mode -1)

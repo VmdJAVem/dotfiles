@@ -56,59 +56,66 @@
 
 * helpers
 #+begin_src emacs-lisp
-(defun my/reload-config ()
+  (defun my/reload-config ()
   (interactive)
-  (org-babel-tangle-file "~/.config/emacs/config.org")
   (load-file user-init-file))
 
-(defun my/org-babel-tangle-config ()
-  (when (string-equal
-         (file-truename (buffer-file-name))
-         (file-truename "~/.config/emacs/config.org"))
+  (defun my/org-babel-tangle-config ()
+    (when (string-equal
+           (file-truename (buffer-file-name))
+           (file-truename "~/.config/emacs/config.org"))
 
-    (let ((org-confirm-babel-evaluate nil))
-      (org-babel-tangle))))
+      (let ((org-confirm-babel-evaluate nil))
+        (org-babel-tangle))))
 
-(add-hook 'org-mode-hook
-          (lambda ()
-            (add-hook 'after-save-hook
-                      #'my/org-babel-tangle-config
-                      nil
-                      t)))
+  (add-hook 'org-mode-hook
+            (lambda ()
+              (add-hook 'after-save-hook
+                        #'my/org-babel-tangle-config
+                        nil
+                        t)))
 #+end_src
 
 * keybinds
 #+begin_src emacs-lisp
-(use-package which-key
-  :init
-  (which-key-mode 1)
+  (use-package which-key
+    :init
+    (which-key-mode 1)
 
-  :config
-  (setq which-key-idle-delay 0.5))
+    :config
+    (setq which-key-idle-delay 0.5))
 
-(use-package general
-  :config
-  (general-evil-setup)
+  (use-package general
+    :config
+    (general-evil-setup)
 
-  (general-create-definer i/leader-keys
-    :states '(normal insert visual emacs)
-    :keymaps 'override
-    :prefix "SPC"
-    :global-prefix "M-SPC")
+    (general-create-definer i/leader-keys
+      :states '(normal insert visual emacs)
+      :keymaps 'override
+      :prefix "SPC"
+      :global-prefix "M-SPC")
+    (i/leader-keys
+      "ff" '(find-file :wk "find files")
+      "fd" '((lambda () (interactive) (find-file "~/.config/emacs/config.org")) :which-key "edit config.org")
+      "TAB TAB" '(comment-line :wk "comment line")
+  	)
 
-  (i/leader-keys
-    "e"  '(:ignore t :which-key "eval")
-    "ec" '(my/reload-config :which-key "reload config")
-    "er" '(eval-region :which-key "eval region")
-
-    "b"  '(:ignore t :which-key "buffer")
-    "bb" '(switch-to-buffer :which-key "switch buffer")
-    "bk" '(kill-buffer-and-window :which-key "kill buffer")
-    "bn" '(next-buffer :which-key "next buffer")
-    "bp" '(previous-buffer :which-key "previous buffer")
-    "br" '(revert-buffer :which-key "reload buffer")))
+    (i/leader-keys
+      "e"  '(:ignore t :which-key "eval")
+      "eb" '(eval-buffer :which-key "eval buffer")
+      "ed" '(eval-defun :which-key "eval defun containing or after point")
+      "ee" '(eval-expression :which-key "eval expression")
+      "er" '(eval-region :which-key "eval region")
+      "ec" '(my/reload-config :which-key "eval init.el")
+      
+      "b"  '(:ignore t :which-key "buffer")
+      "bb" '(switch-to-buffer :which-key "switch buffer")
+      "bk" '(kill-buffer-and-window :which-key "kill buffer")
+      "bn" '(next-buffer :which-key "next buffer")
+      "bp" '(previous-buffer :which-key "previous buffer")
+      "br" '(revert-buffer :which-key "reload buffer")
+      ))
 #+end_src
-
 * ui
 #+begin_src emacs-lisp
 (menu-bar-mode -1)
