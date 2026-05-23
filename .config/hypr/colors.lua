@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/gruvbox/hypr/colors.lua
+/home/arkar/.config/theme_switcher/themes/everforest/hypr/colors.lua

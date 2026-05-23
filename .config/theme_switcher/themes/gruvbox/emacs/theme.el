@@ -1,2 +1,2 @@
 (mapc #'disable-theme custom-enabled-themes)
-(load-theme 'gruvbox t)
+(load-theme 'base16-gruvbox-dark-medium t)

@@ -8,7 +8,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("9cda0155ffd0cddac60729f5e821ba7955e1623ec7bcb12ca8e7219c33747e0f"
+   '("27dac7a05a4dabd15ee4fec7c881b172cb8464a11afcf3de6ffad3c61f20247a"
+     "9cda0155ffd0cddac60729f5e821ba7955e1623ec7bcb12ca8e7219c33747e0f"
      default)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
