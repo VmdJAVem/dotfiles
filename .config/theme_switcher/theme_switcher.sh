@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-set -e
 
 FZF_DEFAULT_OPTS="$(tr '\n' ' ' < ~/.config/fzf/current 2>/dev/null)"
 export FZF_DEFAULT_OPTS
@@ -139,11 +138,15 @@ icon_theme=$(gsettings get org.gnome.desktop.interface icon-theme | tr -d "'")
 EOF
 # QS
 	ln -sf "$BASE_DIR/quickshell/Colors.qml" ~/.config/quickshell/Colors.qml
-	pkill qs 2>/dev/null || true
-	sleep 0.3
-	qs -d
+	# pkill qs 2>/dev/null || true
+	# sleep 0.3
+	# qs -d
 # tofi
 	ln -sf "$BASE_DIR/tofi/theme" ~/.config/tofi/
+# waybar 
+	ln -sf "$BASE_DIR/waybar/style.css" ~/.config/waybar/
+	pkill waybar
+	nohup waybar > /tmp/waybar.log 2>&1 &
 
 # ------------------------
 # HYPRLAND reload
@@ -157,7 +160,6 @@ done
 
 # Wallpaper picker
 ~/.config/theme_switcher/wall_switcher.sh "$WALLPAPER_DIR" "$THEME" awww img
-
 
 echo "$THEME" > "$HOME/.config/theme_switcher/.current"
 

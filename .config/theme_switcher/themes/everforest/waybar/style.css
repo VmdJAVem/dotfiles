@@ -1,0 +1,94 @@
+* {
+	font-family: "IosevkaNFP";
+	font-size: 14px;
+}
+
+window#waybar {
+	background: #2d353b;
+	color: #d3c6aa;
+	border: none;
+}
+
+/* RESET SPACING */
+#workspaces,
+#clock,
+#custom-music,
+#cpu,
+#custom-ram,
+#custom-disk,
+#pulseaudio,
+#tray,
+#window {
+	margin: 0;
+	padding: 0 6px;
+}
+
+/* LEFT GROUP */
+#workspaces {
+	padding-left: 10px;
+	padding-right: 6px;
+}
+
+#clock {
+	padding: 0 6px;
+	color: #d3c6aa;
+}
+
+#custom-music {
+	padding-right: 10px;
+	color: #a7c080;
+}
+
+/* CENTER */
+#window {
+	padding: 0 10px;
+	color: #d3c6aa;
+}
+
+/* RIGHT GROUP */
+#cpu,
+#custom-ram,
+#custom-disk,
+#pulseaudio,
+#tray {
+	padding: 0 6px;
+	color: #d3c6aa;
+}
+
+/* ACCENT GREEN */
+#cpu,
+#custom-ram,
+#custom-disk,
+#pulseaudio {
+	color: #a7c080;
+}
+
+/* WORKSPACES */
+#workspaces button {
+	background: transparent;
+	border: none;
+	padding: 0 6px;
+	color: #d3c6aa;
+}
+
+#workspaces button.active {
+	color: #a7c080;
+}
+
+#workspaces button:hover {
+	color: #a7c080;
+}
+
+/* TRAY */
+#tray {
+	color: #a7a19a;
+}
+
+/* HOVER */
+#cpu:hover,
+#custom-ram:hover,
+#custom-disk:hover,
+#pulseaudio:hover,
+#workspaces button:hover {
+	color: #a7c080;
+}

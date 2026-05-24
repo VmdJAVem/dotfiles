@@ -1,0 +1,101 @@
+/* FONT */
+* {
+	font-family: "IosevkaNFP";
+	font-size: 14px;
+}
+
+/* BAR */
+window#waybar {
+	background: #282828;
+	color: #ebdbb2;
+	border: none;
+}
+
+/* RESET ALL MODULE SPACING */
+#workspaces,
+#clock,
+#custom-music,
+#cpu,
+#custom-ram,
+#custom-disk,
+#pulseaudio,
+#tray,
+#window {
+	margin: 0;
+	padding: 0 6px;
+}
+
+/* LEFT GROUP (Workspaces + Clock + Music) */
+#workspaces {
+	padding-left: 10px;
+	padding-right: 6px;
+}
+
+#clock {
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #fbf1c7;
+}
+
+#custom-music {
+	padding-left: 8px;
+	padding-right: 10px;
+	color: #98971a;
+}
+
+/* CENTER GROUP (Window title) */
+#window {
+	padding: 0 10px;
+	color: #d5c4a1;
+}
+
+/* RIGHT GROUP BASE */
+#cpu,
+#custom-ram,
+#custom-disk,
+#pulseaudio,
+#tray {
+	padding: 0 6px;
+}
+
+/* RIGHT GROUP VISUAL COLORS */
+#cpu {
+	color: #98971a;
+}
+
+#custom-ram {
+	color: #98971a;
+}
+
+#custom-disk {
+	color: #98971a;
+}
+
+#pulseaudio {
+	color: #98971a;
+}
+
+#tray {
+	color: #a89984;
+}
+
+/* HOVER */
+#cpu:hover,
+#custom-ram:hover,
+#custom-disk:hover,
+#pulseaudio:hover,
+#workspaces button:hover {
+	color: #b8bb26;
+}
+
+/* WORKSPACE BUTTONS */
+#workspaces button {
+	background: transparent;
+	border: none;
+	padding: 0 6px;
+	color: #ebdbb2;
+}
+
+#workspaces button.active {
+	color: #98971a;
+}

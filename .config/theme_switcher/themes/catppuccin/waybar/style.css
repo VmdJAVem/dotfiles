@@ -1,0 +1,95 @@
+* {
+	font-family: "IosevkaNFP";
+	font-size: 14px;
+}
+
+window#waybar {
+	background: #24273a; /* base */
+	color: #cad3f5;      /* text */
+	border: none;
+}
+
+/* RESET SPACING */
+#workspaces,
+#clock,
+#custom-music,
+#cpu,
+#custom-ram,
+#custom-disk,
+#pulseaudio,
+#tray,
+#window {
+	margin: 0;
+	padding: 0 6px;
+}
+
+/* LEFT GROUP */
+#workspaces {
+	padding-left: 10px;
+	padding-right: 6px;
+}
+
+#clock {
+	color: #cad3f5;
+	padding: 0 6px;
+}
+
+/* MUSIC */
+#custom-music {
+	padding-right: 10px;
+	color: #f5bde6; /* pink accent */
+}
+
+/* CENTER */
+#window {
+	padding: 0 10px;
+	color: #cad3f5;
+}
+
+/* RIGHT GROUP */
+#cpu,
+#custom-ram,
+#custom-disk,
+#pulseaudio,
+#tray {
+	padding: 0 6px;
+	color: #cad3f5;
+}
+
+/* ACCENT (PINK) */
+#cpu,
+#custom-ram,
+#custom-disk,
+#pulseaudio {
+	color: #f5bde6;
+}
+
+/* WORKSPACES */
+#workspaces button {
+	background: transparent;
+	border: none;
+	padding: 0 6px;
+	color: #cad3f5;
+}
+
+#workspaces button.active {
+	color: #f5bde6;
+}
+
+#workspaces button:hover {
+	color: #f5bde6;
+}
+
+/* TRAY */
+#tray {
+	color: #a5adcb;
+}
+
+/* HOVER */
+#cpu:hover,
+#custom-ram:hover,
+#custom-disk:hover,
+#pulseaudio:hover,
+#workspaces button:hover {
+	color: #f5bde6;
+}

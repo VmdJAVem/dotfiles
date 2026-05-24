@@ -21,8 +21,18 @@
 
 (setq straight-use-package-by-default t)
 
-(use-package base16-theme
-  :straight t)
+(use-package catppuccin-theme
+  :ensure t
+  :config
+  ;; Choose your flavor BEFORE loading
+  (setq catppuccin-flavor 'macchiato))  ; 'latte, 'frappe, 'macchiato, or 'mocha
+
+(straight-use-package 
+  '(everforest :type git :host github :repo "Theory-of-Everything/everforest-emacs"))
+(use-package gruvbox-theme
+  :ensure t)
+
+(load (expand-file-name "theme.el" user-emacs-directory) t)
 
 (use-package evil
   :init
@@ -57,76 +67,96 @@
                       t)))
 
 (use-package which-key
-        :init
-        (which-key-mode 1)
+  :init
+  (which-key-mode 1)
 
-        :config
-        (setq which-key-idle-delay 0.5))
+  :config
+  (setq which-key-idle-delay 0.5))
 
-      (use-package general
-        :config
-        (general-evil-setup)
+(use-package general
+  :config
+  (general-evil-setup)
+  (general-create-definer i/leader-keys
+    :states '(normal insert visual emacs)
+    :keymaps 'override
+    :prefix "SPC"
+    :global-prefix "M-SPC")
+  (i/leader-keys
+    "ff" '(find-file :wk "find files")
+    "fd" '((lambda () (interactive) (find-file "~/.config/emacs/config.org")) :which-key "edit config.org")
+    "TAB TAB" '(comment-line :wk "comment line")
+    "rr" '((lambda () (interactive) (load-file user-init-file)) :which-key "eval init.el"))
+  (i/leader-keys
+    ;; windows
+    "w"  '(:ignore t :which-key "operate on windows")
 
-        (general-create-definer i/leader-keys
-          :states '(normal insert visual emacs)
-          :keymaps 'override
-          :prefix "SPC"
-          :global-prefix "M-SPC")
-        (i/leader-keys
-          "ff" '(find-file :wk "find files")
-          "fd" '((lambda () (interactive) (find-file "~/.config/emacs/config.org")) :which-key "edit config.org")
-          "TAB TAB" '(comment-line :wk "comment line")
-      	)
+    ;; movement
+    "wh" '(windmove-left  :which-key "left")
+    "wj" '(windmove-down  :which-key "down")
+    "wk" '(windmove-up    :which-key "up")
+    "wl" '(windmove-right :which-key "right")
 
-        (i/leader-keys
-          "e"  '(:ignore t :which-key "eval")
-          "eb" '(eval-buffer :which-key "eval buffer")
-          "ed" '(eval-defun :which-key "eval defun containing or after point")
-          "ee" '(eval-expression :which-key "eval expression")
-          "er" '(eval-region :which-key "eval region")
-          "ec" '(reload-init-file :which-key "eval init.el"))
-          
-        (i/leader-keys
-          "b"  '(:ignore t :which-key "buffer")
-          "bb" '(switch-to-buffer :which-key "switch buffer")
-          "bk" '(kill-buffer-and-window :which-key "kill buffer")
-          "bn" '(next-buffer :which-key "next buffer")
-          "bp" '(previous-buffer :which-key "previous buffer")
-          "br" '(revert-buffer :which-key "reload buffer")
-          )))
-      (i/leader-keys
-"h" '(:ignore t :which-key "help")
-"hf" '(describe-function :which-key "describe function")
-"hv" '(describe-variable :which-key "describe variable")
+    ;; splits
+    "wv" '(split-window-right  :which-key "vertical split")
+    "ws" '(split-window-below  :which-key "horizontal split")
+
+    ;; delete
+    "wd" '(delete-window       :which-key "delete window")
+    "wo" '(delete-other-windows :which-key "only window"))
+  (i/leader-keys
+    "e"  '(:ignore t :which-key "eval")
+    "eb" '(eval-buffer :which-key "eval buffer")
+    "ed" '(eval-defun :which-key "eval defun containing or after point")
+    "ee" '(eval-expression :which-key "eval expression")
+    "er" '(eval-region :which-key "eval region")
+    )
+  
+  (i/leader-keys
+    "b"  '(:ignore t :which-key "buffer")
+    "bb" '(switch-to-buffer :which-key "switch buffer")
+    "bk" '(kill-buffer :which-key "kill buffer")
+    "bn" '(next-buffer :which-key "next buffer")
+    "bp" '(previous-buffer :which-key "previous buffer")
+    "br" '(revert-buffer :which-key "reload buffer")
+    )
+  (i/leader-keys
+    "h" '(:ignore t :which-key "help")
+    "hf" '(describe-function :which-key "describe function")
+    "hv" '(describe-variable :which-key "describe variable")
+    )
+  (i/leader-keys
+    "t" '(:ignore :which-key "toggle")
+    "tl" '(display-line-numbers-mode :which-key "toggle line numbers")
+	"tt" '(toggle-truncate-lines :which-key "truncate lines")
+    )
   )
 
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-
 (global-display-line-numbers-mode 1)
 (global-visual-line-mode 1)
+;; line truncation
+(global-display-line-numbers-mode 1)
+;; disable wrapping globally
+(global-visual-line-mode -1)
+(setq-default truncate-lines t)
+(setq-default word-wrap nil)
 
 (defun my/gui-setup (frame)
   (with-selected-frame frame
-
-    ;; theme
-    (load (expand-file-name "theme.el"
-                            user-emacs-directory)
-          t)
-
     ;; fonts
     (set-face-attribute 'default nil
-                        :font "Iosevka Nerd Font Mono"
-                        :height 175)
+                        :family "Iosevka Nerd Font Mono"
+                        :height 140)
 
     (set-face-attribute 'variable-pitch nil
-                        :font "Iosevka Nerd Font Propo"
-                        :height 175)
+                        :family "Iosevka Nerd Font Propo"
+                        :height 140)
 
     (set-face-attribute 'fixed-pitch nil
-                        :font "Iosevka Nerd Font Mono"
-                        :height 175)
+                        :family "Iosevka Nerd Font Mono"
+                        :height 140)
 
     ;; italics
     (set-face-attribute 'font-lock-comment-face nil
@@ -141,29 +171,54 @@
 
     (set-face-background 'line-number-current-line
                          (face-background 'default))))
+
+;; frame defaults for daemon/emacsclient
+(add-to-list 'default-frame-alist
+             '(font . "Iosevka Nerd Font Mono-14"))
+
 ;; daemon support
 (if (daemonp)
     (add-hook 'after-make-frame-functions #'my/gui-setup)
   (my/gui-setup (selected-frame)))
 
-;; emacsclient default font
-(add-to-list 'default-frame-alist
-             '(font . "Iosevka Nerd Font Mono-14"))
+(require 'org-tempo)
+
+;; stop weird indent
+(electric-indent-mode -1)
+
+
 
 (defun my/org-font-setup ()
-  ;; document metadata
-  (set-face-attribute 'org-document-title nil
-                      :height 1.0
-                      :weight 'normal)
 
-  ;; #+TITLE: #+AUTHOR: etc
-  (set-face-attribute 'org-meta-line nil
-                      :height 0.9
-                      :weight 'normal
-                      :inherit 'fixed-pitch)
+  (let ((ln-color (face-foreground 'line-number nil t)))
+    ;; title
+    (set-face-attribute 'org-document-title nil
+			:foreground ln-color
+			:inherit 'default
+			:height 1.0
+			:weight 'normal)
+
+    ;; author/date
+    (set-face-attribute 'org-document-info nil
+			:foreground ln-color
+			:inherit 'default
+			:weight 'normal)
+
+    ;; #+TITLE: #+AUTHOR:
+    (set-face-attribute 'org-document-info-keyword nil
+			:foreground ln-color
+			:inherit 'default)
+
+    ;; #+begin_src etc
+    (set-face-attribute 'org-meta-line nil
+			:foreground ln-color
+			:height 0.9
+			:weight 'normal
+			:inherit 'fixed-pitch))
 
   ;; headings
   (set-face-attribute 'org-level-1 nil
+                      :foreground "#b8bb26"
                       :height 1.25
                       :weight 'bold)
 
@@ -175,19 +230,7 @@
                       :height 1.10
                       :weight 'bold)
 
-  (set-face-attribute 'org-level-4 nil
-                      :height 1.5
-                      :weight 'bold)
-
-  (set-face-attribute 'org-level-5 nil
-                      :height 1
-                      :weight 'bold)
-
-  (set-face-attribute 'org-level-6 nil
-                      :height 1
-                      :weight 'bold)
-
-  ;; keep code blocks/tables monospace
+  ;; monospace
   (set-face-attribute 'org-block nil
                       :inherit 'fixed-pitch)
 
@@ -201,3 +244,20 @@
                       :inherit 'fixed-pitch))
 
 (add-hook 'org-mode-hook #'my/org-font-setup)
+
+(add-hook 'org-mode-hook 'org-indent-mode)
+(use-package  org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+(use-package toc-org
+  :commands toc-org-enable
+  :init (add-hook 'org-mode-hook 'toc-org-enable))
+
+(setq-default tab-width 8)        ;; display width of TAB characters
+(setq-default indent-tabs-mode t) ;; use real TAB characters
+(setq-default tab-stop-list (number-sequence 8 120 8))
+
+(setq-default standard-indent 8)
+(setq-default c-basic-offset 8)
+(setq-default lua-indent-level 8)
+(setq-default indent-tabs-mode t)

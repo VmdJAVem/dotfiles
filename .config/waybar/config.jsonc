@@ -1,0 +1,74 @@
+{
+	"layer": "top",
+	"position": "top",
+	"height": 28,
+
+	"reload_style_on_change": true,
+	"reload_config_on_change": true,
+
+	"modules-left": [
+		"hyprland/workspaces",
+		"clock",
+		"custom/music"
+	],
+
+	"modules-center": [
+		"hyprland/window"
+  ],
+
+  "modules-right": [
+	  "custom/disk",
+	  "custom/ram",
+	  "cpu",
+	  "pulseaudio",
+	  "tray"
+  ],
+
+  /* HYPRLAND */
+  "hyprland/workspaces": {
+	  "format": "{name}"
+  },
+
+  "hyprland/window": {
+	  "format": "{}"
+  },
+
+  /* CLOCK */
+  "clock": {
+	  "format": "{:%H:%M}"
+  },
+
+  /* CPU (safe format for all Waybar builds) */
+  "cpu": {
+	  "format": "{usage:2}%"
+  },
+
+  /* AUDIO */
+  "pulseaudio": {
+	  "format": " {volume}%",
+	  "format-muted": " muted"
+  },
+
+  /* TRAY */
+  "tray": {
+	  "spacing": 10
+  },
+
+  /* DISK */
+  "custom/disk": {
+	  "exec": "~/.config/waybar/scripts/disk.sh",
+	  "interval": 2
+  },
+
+  /* RAM */
+  "custom/ram": {
+	  "exec": "~/.config/waybar/scripts/ram.sh",
+	  "interval": 2
+  },
+
+  /* MUSIC */
+  "custom/music": {
+	  "exec": "~/.config/waybar/scripts/music.sh",
+	  "interval": 2
+  }
+}
