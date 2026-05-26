@@ -37,13 +37,13 @@
         warn: (fg: "#f5a97f", bg: "#24273a"),  // Yellow
         error: (fg: "#ed8796", bg: "#24273a"), // Red
         debug: (fg: "#a6da95", bg: "#24273a"), // Green
-        trace: (fg: "#f5bde6", bg: "#24273a"), // Pink
+        trace: (fg: "#c6a0f6", bg: "#24273a"), // Pink
     ),
     progress_bar: (
         symbols: ["[", "-", ">", " ", "]"],
         track_style: (fg: "#363a4f"),        // Surface0
         elapsed_style: (fg: "#8bd5ca"),      // Teal
-        thumb_style: (fg: "#f5bde6", bg: "#363a4f"), // Pink, Surface0
+        thumb_style: (fg: "#c6a0f6", bg: "#363a4f"), // Pink, Surface0
         use_track_when_empty: false,
     ),
     scrollbar: (
@@ -176,7 +176,7 @@
               0: "#363a4f",  // Surface0
              10: "#8bd5ca",  // Teal
              25: "#a6da95",  // Green
-             50: "#f5bde6",  // Pink
+             50: "#c6a0f6",  // Pink
              75: "#ed8796",  // Red
         })
     ),

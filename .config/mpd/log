@@ -14444,3 +14444,38 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-05-22T19:09:10 player: played "A-Tribe-Called-Quest/The-Low-End-Theory/A-Tribe-Called-Quest---Buggin'-Out.mp3"
 2026-05-22T19:12:08 player: played "Kendrick-Lamar-SZA/GNX/Kendrick-Lamar,-SZA---luther-(with-sza).mp3"
 2026-05-22T19:18:28 player: played "Canserbero-NicoJP/Give-Me-5-(Instrumental)/Canserbero,-NicoJP---Buenas-Noches---Instrumental.mp3"
+2026-05-23T01:07:25 player: played "Canserbero-NicoJP/Give-Me-5-(Instrumental)/Canserbero,-NicoJP---Buenas-Noches---Instrumental.mp3"
+2026-05-24T01:15:58 player: played "Canserbero-NicoJP/Give-Me-5-(Instrumental)/Canserbero,-NicoJP---Buenas-Noches---Instrumental.mp3"
+2026-05-24T15:07:59 client: [127.0.0.1:54968] command "close" during idle
+2026-05-24T15:17:42 player: played "Canserbero-NicoJP/Give-Me-5-(Instrumental)/Canserbero,-NicoJP---Buenas-Noches---Instrumental.mp3"
+2026-05-24T17:29:08 client: [127.0.0.1:55668] command "close" during idle
+2026-05-24T17:31:40 client: [127.0.0.1:60598] command "close" during idle
+2026-05-24T17:42:57 client: [127.0.0.1:43418] command "close" during idle
+2026-05-24T17:51:01 client: [127.0.0.1:34668] command "close" during idle
+2026-05-24T17:54:51 client: [127.0.0.1:57620] command "close" during idle
+2026-05-24T18:08:40 client: [127.0.0.1:40614] command "close" during idle
+2026-05-24T18:15:39 player: played "Canserbero-NicoJP/Give-Me-5-(Instrumental)/Canserbero,-NicoJP---Buenas-Noches---Instrumental.mp3"
+2026-05-24T18:21:43 client: [127.0.0.1:40864] command "close" during idle
+2026-05-24T19:03:00 player: played "Canserbero-NicoJP/Give-Me-5-(Instrumental)/Canserbero,-NicoJP---Buenas-Noches---Instrumental.mp3"
+2026-05-25T12:55:36 player: played "Canserbero-NicoJP/Give-Me-5-(Instrumental)/Canserbero,-NicoJP---Buenas-Noches---Instrumental.mp3"
+2026-05-25T12:55:55 output: Failed to play on "pipewire" (pulse): suspended
+2026-05-25T12:56:28 output: Failed to play on "pipewire" (pulse): suspended
+2026-05-25T12:56:43 output: Failed to play on "pipewire" (pulse): suspended
+2026-05-25T12:58:59 player: played "Malone-the-Chemist/THE-LETTER-EYE/Malone-the-Chemist---NEW-CHOP.mp3"
+2026-05-25T13:00:38 player: played "the-wine-is-ok/gamay/the-wine-is-ok---gamay.mp3"
+2026-05-25T13:03:34 client: [127.0.0.1:38884] command "close" during idle
+2026-05-25T13:04:56 player: played "MF-DOOM-DJ-Cucumber-Slice/Operation-Doomsday-(Complete)/MF-DOOM,-DJ-Cucumber-Slice---Rhymes-Like-Dimes.mp3"
+2026-05-25T13:06:55 player: played "Machine-Girl/…Because-I’m-Young-Arrogant-and-Hate-Everything-You-Stand-For/Machine-Girl---Xleepy.mp3"
+2026-05-25T13:09:51 player: played "Pedro-Mo/Rap-Muy-Supay/Pedro-Mo---Ciudadanos-de-2da-Clase.mp3"
+2026-05-25T13:12:29 player: played "Cap'n-Jazz/Shmap'n-Shmazz-(2025-Remaster)/Cap'n-Jazz---Yes,-I-Am-Talking-To-You---2025-Remaster.mp3"
+2026-05-25T13:16:07 player: played "A-Tribe-Called-Quest/Beats,-Rhymes-&-Life/A-Tribe-Called-Quest---Keeping-It-Moving.mp3"
+2026-05-25T13:16:44 client: [127.0.0.1:37252] command "close" during idle
+2026-05-25T13:18:41 player: played "Oblivion's-Mighty-Trash/LO-POCALYPSE-LOOPS/Oblivion's-Mighty-Trash---Eso-Está-Muy-Jazzudo.mp3"
+2026-05-25T19:23:35 player: played "Julio-Jaramillo/Ayer-y-Hoy/Ayer-y-Hoy---Julio-Jaramillo.mp3"
+2026-05-26T12:38:05 player: played "Julio-Jaramillo/Ayer-y-Hoy/Ayer-y-Hoy---Julio-Jaramillo.mp3"
+2026-05-26T12:41:23 player: played "Nujabes-Substantial/Metaphorical-Music/Nujabes,-Substantial---Think-Different-(feat.-Substantial).mp3"
+2026-05-26T12:45:49 player: played "MF-DOOM/Operation-Doomsday-(Complete)/MF-DOOM---Gas-Drawls.mp3"
+2026-05-26T12:50:19 player: played "American-Football/American-Football/American-Football---You-Know-I-Should-Be-Leaving-Soon.mp3"
+2026-05-26T12:53:10 player: played "JPEGMAFIA/I-LAY-DOWN-MY-LIFE-FOR-YOU/JPEGMAFIA---SIN-MIEDO.mp3"
+2026-05-26T12:59:10 player: played "Jazz-Liberatorz/Clin-D'oeil/Jazz-Liberatorz---Speak-The-Language---Feat.-Lizz-Fields.mp3"
+2026-05-26T13:03:39 player: played "Oblivion's-Mighty-Trash/Medallo-Bullies/Oblivion's-Mighty-Trash---Medallo-Bullies.mp3"

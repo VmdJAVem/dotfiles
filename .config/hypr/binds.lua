@@ -77,6 +77,10 @@ hl.bind(MainMod .. "p", function()
 	]])
 end)
 
+-- mouse
+hl.bind(MainMod .. "mouse:272", hl.dsp.window.drag(), { mouse = true })
+hl.bind(MainMod .. "mouse:272", hl.dsp.window.resize(), { mouse = true })
+
 -- SUBMAP: resize
 hl.bind(MainMod .. "i", hl.dsp.submap("resize"))
 

@@ -167,7 +167,7 @@ c.colors.statusbar.url.warn.fg = bright_yellow
 # =========================
 # Tabs
 # =========================
-c.colors.tabs.bar.bg = bg1
+c.colors.tabs.bar.bg = bg0
 
 # inactive
 c.colors.tabs.odd.bg = bg2
@@ -177,8 +177,8 @@ c.colors.tabs.odd.fg = fg2
 c.colors.tabs.even.fg = fg2
 
 # selected
-c.colors.tabs.selected.odd.bg = bg0
-c.colors.tabs.selected.even.bg = bg0
+c.colors.tabs.selected.odd.bg = bg1
+c.colors.tabs.selected.even.bg = bg1
 
 c.colors.tabs.selected.odd.fg = fg0
 c.colors.tabs.selected.even.fg = fg0

@@ -3,7 +3,44 @@
 #+STARTUP: overview
 #+OPTIONS: toc:2
 
+* Table of contents :TOC:
+- [[#package-manager][package manager]]
+- [[#themes][themes]]
+  - [[#install-themes][install themes]]
+  - [[#load-current-theme][load current theme]]
+- [[#evil][evil]]
+- [[#helpers][helpers]]
+- [[#keybinds][keybinds]]
+  - [[#general-and-which-key-setup][general and which-key setup]]
+  - [[#general-get-it-stuff][general (get it) stuff]]
+  - [[#find-files][find files]]
+  - [[#eval-elisp][eval elisp]]
+  - [[#window-panes-handling][window (panes) handling]]
+  - [[#buffer-stuff][buffer stuff]]
+  - [[#help][help]]
+  - [[#toggle-stuff][toggle stuff]]
+  - [[#org-mode][org mode]]
+- [[#ui][ui]]
+  -  [[#fonts][fonts]]
+- [[#org-mode-1][org mode]]
+  - [[#useful-programs][useful programs]]
+  - [[#general-cosmetic-things][general cosmetic things]]
+- [[#general-options][general options]]
+  - [[#backups-and-auto-save][backups and auto-save]]
+  - [[#tab-size][tab size]]
+- [[#ivy-completion][ivy (completion)]]
+  - [[#config][config]]
+- [[#icons][icons]]
+- [[#shellsterminals][shells/terminals]]
+  - [[#vterm][Vterm]]
+  - [[#vterm-toggle][Vterm-toggle]]
+- [[#projects][Projects]]
+- [[#dashboard][Dashboard]]
+- [[#language-support][Language support]]
+  - [[#cc][C/C++]]
+
 * package manager
+this bootstraps straight.el and use package, the things i use to install emacs plugins.
 #+begin_src emacs-lisp
 (defvar bootstrap-version)
 
@@ -30,23 +67,26 @@
 #+end_src
 * themes
 ** install themes
+install three themes catppuccin, everforest, and gruvbox
 #+begin_src emacs-lisp
 (use-package catppuccin-theme
   :ensure t
   :config
-  ;; Choose your flavor BEFORE loading
   (setq catppuccin-flavor 'macchiato))  ; 'latte, 'frappe, 'macchiato, or 'mocha
 
 (straight-use-package 
   '(everforest :type git :host github :repo "Theory-of-Everything/everforest-emacs"))
+
 (use-package gruvbox-theme
   :ensure t)
 #+end_src
 ** load current theme
+this loads the current theme.el. This is updated by my theme_switcher script, remove it if you don't need/want it.
 #+begin_src emacs-lisp
     (load (expand-file-name "theme.el" user-emacs-directory) t)
 #+end_src
 * evil
+default GNU Emacs binds are terrible, so i turned evil.
 #+begin_src emacs-lisp
 (use-package evil
   :init
@@ -67,24 +107,41 @@
 #+end_src
 
 * helpers
+just custom function and stuff.
 #+begin_src emacs-lisp
-  (defun my/org-babel-tangle-config ()
-    (when (string-equal
-           (file-truename (buffer-file-name))
-           (file-truename "~/.config/emacs/config.org"))
+    (defun my/org-babel-tangle-config ()
+      (when (string-equal
+             (file-truename (buffer-file-name))
+             (file-truename "~/.config/emacs/config.org"))
 
-      (let ((org-confirm-babel-evaluate nil))
-        (org-babel-tangle))))
+        (let ((org-confirm-babel-evaluate nil))
+          (org-babel-tangle))))
 
-  (add-hook 'org-mode-hook
-            (lambda ()
-              (add-hook 'after-save-hook
-                        #'my/org-babel-tangle-config
-                        nil
-                        t)))
+    (add-hook 'org-mode-hook
+              (lambda ()
+                (add-hook 'after-save-hook
+                          #'my/org-babel-tangle-config
+                          nil
+                          t)))
+  (defun my/reload-config ()
+    (interactive)
+
+    (org-babel-tangle-file
+     (expand-file-name "config.org" user-emacs-directory))
+
+    (load-file user-init-file)
+
+    (load (expand-file-name "theme.el" user-emacs-directory) t)
+
+    (my/gui-setup (selected-frame))
+    (my/org-font-setup)
+
+    (message "Reloaded config"))
 #+end_src
 
 * keybinds
+** general and which-key setup
+set up the plugins used for more convenient keybinds
 #+begin_src emacs-lisp
     (use-package which-key
       :init
@@ -100,64 +157,100 @@
         :states '(normal insert visual emacs)
         :keymaps 'override
         :prefix "SPC"
-        :global-prefix "M-SPC")
-      (i/leader-keys
-        "ff" '(find-file :wk "find files")
-        "fd" '((lambda () (interactive) (find-file "~/.config/emacs/config.org")) :which-key "edit config.org")
-        "TAB TAB" '(comment-line :wk "comment line")
-        "rr" '((lambda () (interactive) (load-file user-init-file)) :which-key "eval init.el"))
-      (i/leader-keys
+        :global-prefix "M-SPC"))
+#+end_src
+** general (get it) stuff
+general stuff that does not fit anywhere else
+#+begin_src emacs-lisp
+    (i/leader-keys
+      "c" '(comment-line :wk "comment line")
+      "SPC" '(counsel-M-x :wk "M-x"))
+#+end_src
+** find files
+#+begin_src emacs-lisp
+    (i/leader-keys
+      "f" '(:ignore t :wk "files")
+      "fr" '(counsel-recentf :wk "recent files")
+      "fd" '((lambda () (interactive) (find-file "~/.config/emacs/config.org")) :wk "edit config.org")
+      "ff" '(find-file :wk "find files"))
+#+end_src
+** eval elisp
+eval emacs lisp
+#+begin_src emacs-lisp
+(i/leader-keys
+        "e"  '(:ignore t :wk "eval")
+        "eb" '(eval-buffer :wk "eval buffer")
+        "ed" '(eval-defun :wk "eval defun containing or after point")
+        "ee" '(eval-expression :wk "eval expression")
+        "er" '(eval-region :wk "eval region")
+        "ec" '(my/reload-config :wk "eval init.el"))
+#+end_src
+** window (panes) handling
+#+begin_src emacs-lisp
+(i/leader-keys
         ;; windows
-        "w"  '(:ignore t :which-key "operate on windows")
+        "w"  '(:ignore t :wk "operate on windows")
 
         ;; movement
-        "wh" '(windmove-left  :which-key "left")
-        "wj" '(windmove-down  :which-key "down")
-        "wk" '(windmove-up    :which-key "up")
-        "wl" '(windmove-right :which-key "right")
+        "wh" '(windmove-left  :wk "left")
+        "wj" '(windmove-down  :wk "down")
+        "wk" '(windmove-up    :wk "up")
+        "wl" '(windmove-right :wk "right")
 
         ;; splits
-        "wv" '(split-window-right  :which-key "vertical split")
-        "ws" '(split-window-below  :which-key "horizontal split")
+        "wv" '(split-window-right  :wk "vertical split")
+        "ws" '(split-window-below  :wk "horizontal split")
 
         ;; delete
-        "wd" '(delete-window       :which-key "delete window")
-        "wo" '(delete-other-windows :which-key "only window"))
+        "wd" '(delete-window       :wk "delete window")
+        "wo" '(delete-other-windows :wk "only window"))
+#+end_src
+** buffer stuff
+#+begin_src emacs-lisp
+(i/leader-keys
+        "b"  '(:ignore t :wk "buffer")
+        "bb" '(switch-to-buffer :wk "switch buffer")
+        "bk" '(kill-buffer :wk "kill buffer")
+        "bn" '(next-buffer :wk "next buffer")
+        "bp" '(previous-buffer :wk "previous buffer")
+        "br" '(revert-buffer :wk "reload buffer"))
+#+end_src
+** help
+#+begin_src emacs-lisp
       (i/leader-keys
-        "e"  '(:ignore t :which-key "eval")
-        "eb" '(eval-buffer :which-key "eval buffer")
-        "ed" '(eval-defun :which-key "eval defun containing or after point")
-        "ee" '(eval-expression :which-key "eval expression")
-        "er" '(eval-region :which-key "eval region")
+        "h" '(:ignore t :wk "help")
+        "hf" '(describe-function :wk "describe function")
+        "hv" '(describe-variable :wk "describe variable")
         )
-      
-      (i/leader-keys
-        "b"  '(:ignore t :which-key "buffer")
-        "bb" '(switch-to-buffer :which-key "switch buffer")
-        "bk" '(kill-buffer :which-key "kill buffer")
-        "bn" '(next-buffer :which-key "next buffer")
-        "bp" '(previous-buffer :which-key "previous buffer")
-        "br" '(revert-buffer :which-key "reload buffer")
-        )
-      (i/leader-keys
-        "h" '(:ignore t :which-key "help")
-        "hf" '(describe-function :which-key "describe function")
-        "hv" '(describe-variable :which-key "describe variable")
-        )
-      (i/leader-keys
-        "t" '(:ignore :which-key "toggle")
-        "tl" '(display-line-numbers-mode :which-key "toggle line numbers")
-	"tt" '(toggle-truncate-lines :which-key "truncate lines")
-        )
-      )
+
+#+end_src
+** toggle stuff
+#+begin_src emacs-lisp
+  (i/leader-keys
+    "t" '(:ignore t :wk "toggle")
+    "tl" '(display-line-numbers-mode :wk "toggle line numbers")
+    "tt" '(toggle-truncate-lines :wk "truncate lines")
+    "tv" '(vterm-toggle :wk "toggle vterm"))
+#+end_src
+** org mode
+#+begin_src emacs-lisp
+  (i/leader-keys
+    "m" '(:ignore t :wk "org")
+    "ma" '(org-agenda :wk "agenda")
+    "me" '(org-export-dispatch :wk "export dispatch")
+    "mi" '(org-toggle-item :wk "toggle item")
+    "mt" '(org-todo :wk "todo")
+    "mb" '(org-babel-tangle :wk "tangle")
+    "mT" '(org-todo-list :wk "todo list")
+  )
 #+end_src
 * ui
+make emacs look cute
 #+begin_src emacs-lisp
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (global-display-line-numbers-mode 1)
-(global-visual-line-mode 1)
 ;; line truncation
 (global-display-line-numbers-mode 1)
 ;; disable wrapping globally
@@ -194,7 +287,9 @@
                          (face-background 'default))
 
     (set-face-background 'line-number-current-line
-                         (face-background 'default))))
+                         (face-background 'default))
+
+(message "gui setup ran")))
 
 ;; frame defaults for daemon/emacsclient
 (add-to-list 'default-frame-alist
@@ -207,10 +302,12 @@
 #+end_src
 * org mode
 ** useful programs
+things that make writting org more convinient
 #+begin_src emacs-lisp
   (require 'org-tempo)
 #+end_src
 ** general cosmetic things
+*** font/colors
 #+begin_src emacs-lisp
         ;; stop weird indent
       (electric-indent-mode -1)
@@ -247,7 +344,6 @@
 
         ;; headings
         (set-face-attribute 'org-level-1 nil
-                            :foreground "#b8bb26"
                             :height 1.25
                             :weight 'bold)
 
@@ -284,13 +380,28 @@ it makes things a look little bit nicer
 *** table of contents
 organization is important
 #+begin_src emacs-lisp
-      (use-package toc-org
-        :commands toc-org-enable
-        :init (add-hook 'org-mode-hook 'toc-org-enable))
+(use-package toc-org
+  :config
+  (add-hook 'org-mode-hook #'toc-org-mode))
 #+end_src
 
 * general options
+** backups and auto-save
+these are the ~ and #*# files emacs keep spitting around. I decided to move
+them to a sole directory.
+#+begin_src emacs-lisp
+;; backup files
+(setq backup-directory-alist
+      `(("." . "~/.config/emacs/backups")))
+
+;; auto-save files
+(setq auto-save-file-name-transforms
+      `((".*" "~/.config/emacs/autosaves/" t)))
+
+(setq create-lockfiles nil)
+#+end_src
 ** tab size
+8-tab supremacy
 #+begin_src emacs-lisp
 (setq-default tab-width 8)        ;; display width of TAB characters
 (setq-default indent-tabs-mode t) ;; use real TAB characters
@@ -300,4 +411,133 @@ organization is important
 (setq-default c-basic-offset 8)
 (setq-default lua-indent-level 8)
 (setq-default indent-tabs-mode t)
+#+end_src
+
+* ivy (completion)
+this handles completion.
+** config
+#+begin_src emacs-lisp
+(use-package ivy
+  :ensure t
+  :custom
+  (ivy-use-virtual-buffers t)
+  (ivy-count-format "(%d/%d) ")
+  (enable-recursive-minibuffers t)
+  :config
+  (ivy-mode 1))
+
+(use-package counsel
+  :ensure t
+  :after ivy
+  :config
+  (counsel-mode 1))
+
+(use-package ivy-rich
+  :after ivy
+  :config
+  (setq ivy-virtual-abbreviate 'full
+        ivy-rich-switch-buffer-align-virtual-buffer t
+        ivy-rich-path-style 'abbrev)
+  (ivy-rich-mode 1))
+
+(use-package all-the-icons-ivy-rich
+  :ensure t
+  :after ivy-rich
+  :config
+  (all-the-icons-ivy-rich-mode 1))
+#+end_src
+* icons
+a icon set, it brings the icons.
+#+begin_src emacs-lisp
+(use-package all-the-icons
+:if (display-graphic-p))
+(use-package all-the-icons-dired
+:hook (dired-mode . all-the-icons-dired-mode))
+
+#+end_src
+* shells/terminals
+** Vterm
+terminal emulator inside emacs.
+#+begin_src emacs-lisp
+(use-package vterm)
+#+end_src
+** Vterm-toggle
+this toggles between a buffer and vterm
+#+begin_src emacs-lisp
+  (use-package vterm-toggle
+  :after vterm
+  :config
+  (setq vterm-toggle-fullscreen-p nil)
+  (setq vterm-toggle-scope 'project)
+  (add-to-list 'display-buffer-alist
+               '((lambda (buffer-or-name _)
+                     (let ((buffer (get-buffer buffer-or-name)))
+                       (with-current-buffer buffer
+                         (or (equal major-mode 'vterm-mode)
+                             (string-prefix-p vterm-buffer-name (buffer-name buffer))))))
+                  (display-buffer-reuse-window display-buffer-at-bottom)
+                  ;;(display-buffer-reuse-window display-buffer-in-direction)
+                  ;;display-buffer-in-direction/direction/dedicated is added in emacs27
+                  ;;(direction . bottom)
+                  ;;(dedicated . t) ;dedicated is supported in emacs27
+                  (reusable-frames . visible)
+                  (window-height . 0.3))))
+
+
+#+end_src
+
+i should eventually get around to using Eshell
+* Projects
+projects 
+#+begin_src emacs-lisp
+(use-package projectile
+  :ensure t
+  :init
+  (setq projectile-project-search-path '("~/Projects/"))
+  :config
+  (projectile-mode 1))
+#+end_src
+* Dashboard
+cute splashscreen
+#+begin_src emacs-lisp
+(use-package dashboard
+  :init
+  (setq initial-buffer-choice 'dashboard-open)
+  (setq dashboard-set-heading-icons t)
+  (setq dashboard-set-file-icons t)
+  (setq dashboard-banner-logo-title "hello.")
+  (setq dashboard-center-content t)
+
+  (setq dashboard-projects-backend 'projectile)
+
+  (setq dashboard-items '((recents . 5)
+                          (agenda . 5)
+                          (bookmarks . 3)
+                          (projects . 3)
+                          (registers . 3)))
+
+  :config
+  (dashboard-setup-startup-hook))
+#+end_src
+* Language support
+require eglot so wew can actually do stuff.
+#+begin_src emacs-lisp
+(require 'eglot)
+#+end_src
+** C/C++
+i use clangd. c > c++
+#+begin_src emacs-lisp
+(add-to-list 'eglot-server-programs
+             '((c-mode c++-mode c-ts-mode c++-ts-mode)
+               . ("clangd"
+                  "--background-index"
+                  "--clang-tidy"
+                  "--completion-style=detailed"
+                  "--header-insertion=never")))
+
+(add-hook 'c-mode-hook #'eglot-ensure)
+(add-hook 'c++-mode-hook #'eglot-ensure)
+
+(add-hook 'c-ts-mode-hook #'eglot-ensure)
+(add-hook 'c++-ts-mode-hook #'eglot-ensure)
 #+end_src

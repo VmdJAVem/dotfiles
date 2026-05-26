@@ -4,7 +4,7 @@ return {
 		options = {
 			theme                = {
 				normal = {
-					a = { fg = "#24273a", bg = "#f5bde6", gui = "bold" },
+					a = { fg = "#24273a", bg = "#c6a0f6", gui = "bold" },
 					b = { fg = "#cad3f5", bg = "#363a4f" },
 					c = { fg = "#cad3f5", bg = "#24273a" },
 				},
@@ -14,7 +14,7 @@ return {
 					c = { fg = "#cad3f5", bg = "#24273a" },
 				},
 				visual = {
-					a = { fg = "#24273a", bg = "#f5bde6", gui = "bold" },
+					a = { fg = "#24273a", bg = "#c6a0f6", gui = "bold" },
 					b = { fg = "#cad3f5", bg = "#363a4f" },
 					c = { fg = "#cad3f5", bg = "#24273a" },
 				},

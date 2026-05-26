@@ -4,10 +4,11 @@
 }
 
 window#waybar {
-	background: #2d353b;
+	background: rgba(45, 53, 59, 0.8);
 	color: #d3c6aa;
 	border: none;
 }
+
 
 /* RESET SPACING */
 #workspaces,

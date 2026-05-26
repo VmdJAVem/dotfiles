@@ -82,7 +82,7 @@ theme_color() {
 			printf '\e[1;32m'
 			;;
 		catppuccin)
-			printf '\e[38;2;245;194;231m'
+			printf '\e[38;2;198;160;246m'
 			;;
 		*)
 			printf '\e[0m'

@@ -136,11 +136,6 @@ color_scheme_path=$HOME/.config/qt5ct/colors/colors.conf
 style=Fusion
 icon_theme=$(gsettings get org.gnome.desktop.interface icon-theme | tr -d "'")
 EOF
-# QS
-	ln -sf "$BASE_DIR/quickshell/Colors.qml" ~/.config/quickshell/Colors.qml
-	# pkill qs 2>/dev/null || true
-	# sleep 0.3
-	# qs -d
 # tofi
 	ln -sf "$BASE_DIR/tofi/theme" ~/.config/tofi/
 # waybar 

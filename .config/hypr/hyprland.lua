@@ -16,7 +16,7 @@ Exec_raw = hl.dsp.exec_raw
 hl.on("hyprland.start", function()
 	hl.exec_cmd("mpd ~/.config/mpd/mpd.conf")
 	hl.exec_cmd("mpDris2")
-	hl.exec_cmd("qs")
+	hl.exec_cmd("waybar")
 	hl.exec_cmd("hyprsunset -g 90 -t 5300")
 	hl.exec_cmd("awww-daemon")
 	hl.exec_cmd("vesktop --start-minimized")
@@ -72,6 +72,9 @@ hl.config({
 	input = {
 		kb_options = "compose:ralt"
 
+	},
+	binds = {
+		drag_threshold = 10
 	}
 })
 -- animations

@@ -24,7 +24,6 @@
 	  "tray"
   ],
 
-  /* HYPRLAND */
   "hyprland/workspaces": {
 	  "format": "{name}"
   },
@@ -33,12 +32,10 @@
 	  "format": "{}"
   },
 
-  /* CLOCK */
   "clock": {
-	  "format": "{:%H:%M}"
+  "format": "{:%d/%m/%y at %I:%M %p}"
   },
 
-  /* CPU (safe format for all Waybar builds) */
   "cpu": {
 	  "format": "{usage:2}%"
   },

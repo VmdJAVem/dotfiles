@@ -6,10 +6,11 @@
 
 /* BAR */
 window#waybar {
-	background: #282828;
+	background: rgba(40, 40, 40, 0.8);
 	color: #ebdbb2;
 	border: none;
 }
+
 
 /* RESET ALL MODULE SPACING */
 #workspaces,

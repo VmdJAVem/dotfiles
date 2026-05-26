@@ -4,8 +4,8 @@
 }
 
 window#waybar {
-	background: #24273a; /* base */
-	color: #cad3f5;      /* text */
+	background: rgba(36, 39, 58, 0.8);
+	color: #cad3f5;
 	border: none;
 }
 
@@ -37,7 +37,7 @@ window#waybar {
 /* MUSIC */
 #custom-music {
 	padding-right: 10px;
-	color: #f5bde6; /* pink accent */
+	color: #c6a0f6;
 }
 
 /* CENTER */
@@ -56,12 +56,12 @@ window#waybar {
 	color: #cad3f5;
 }
 
-/* ACCENT (PINK) */
+/* ACCENT (MAUVE) */
 #cpu,
 #custom-ram,
 #custom-disk,
 #pulseaudio {
-	color: #f5bde6;
+	color: #c6a0f6;
 }
 
 /* WORKSPACES */
@@ -73,11 +73,11 @@ window#waybar {
 }
 
 #workspaces button.active {
-	color: #f5bde6;
+	color: #c6a0f6;
 }
 
 #workspaces button:hover {
-	color: #f5bde6;
+	color: #c6a0f6;
 }
 
 /* TRAY */
@@ -91,5 +91,5 @@ window#waybar {
 #custom-disk:hover,
 #pulseaudio:hover,
 #workspaces button:hover {
-	color: #f5bde6;
+	color: #c6a0f6;
 }
