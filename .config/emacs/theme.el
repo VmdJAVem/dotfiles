@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/catppuccin/emacs/theme.el
+/home/arkar/.config/theme_switcher/themes/gruvbox/emacs/theme.el

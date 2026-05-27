@@ -26,6 +26,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("dunst")
 	hl.exec_cmd(".config/hypr/openrgb-login.sh")
 	hl.exec_cmd("emacs --daemon")
+	hl.exec_cmd("syncthing")
 end)
 
 hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")

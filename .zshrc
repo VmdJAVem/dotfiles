@@ -1,4 +1,5 @@
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH"
+export PATH="$HOME/.gem/ruby/3.4.0/bin:$PATH"
 export GI_TYPELIB_PATH=/usr/local/lib/girepository-1.0
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -18,6 +19,7 @@ alias ls='ls -lah --color=always --group-directories-first'
 alias grep='grep --color=auto'
 alias cd ..='cd ..'
 alias mountusb='sudo mount -t exfat -o uid=$(id -u),gid=$(id -g)'
+alias remacs='killall emacs; emacs --daemon'
 
 # Plugins
 source ~/.zplugins/vi-mode/zsh-vi-mode.zsh

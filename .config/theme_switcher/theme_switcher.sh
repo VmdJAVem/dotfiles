@@ -42,7 +42,7 @@ ln -sf "$BASE_DIR/nvim/theme.lua" ~/.config/nvim/lua/config/theme.lua
 # EMACS
 # ------------------------
 ln -sf "$BASE_DIR/emacs/theme.el" ~/.config/emacs/theme.el
-emacsclient -e '(load (expand-file-name "theme.el" user-emacs-directory) t)'
+emacsclient -e '(my/reload-config)'
 
 # ------------------------
 # TMUX
