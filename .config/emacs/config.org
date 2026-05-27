@@ -29,6 +29,7 @@
   - [[#vterm][Vterm]]
   - [[#vterm-toggle][Vterm-toggle]]
 - [[#language-support][Language support]]
+  - [[#paredit][Paredit]]
   - [[#eglot][Eglot]]
   - [[#treesitter][Treesitter]]
   - [[#flycheck][Flycheck]]
@@ -38,6 +39,7 @@
 - [[#general-options][General options]]
   - [[#backups-and-autosaves][Backups and autosaves]]
   - [[#indentation][Indentation]]
+  - [[#niceties][Niceties]]
 - [[#misc-packages][Misc packages]]
 
 * Package manager
@@ -603,7 +605,10 @@ Bootstraps straight.el and use-package.
 #+end_src
 
 * Language support
-
+** Paredit
+#+begin_src emacs-lisp
+  (use-package paredit)
+#+end_src
 ** Eglot
 
 #+begin_src emacs-lisp
@@ -668,7 +673,9 @@ Bootstraps straight.el and use-package.
 ** Extra modes
 
 #+begin_src emacs-lisp
-(use-package lua-mode)
+  (use-package lua-mode)
+  ;; i'm learning, so i will not install to much stuff.
+  (use-package geiser-racket)
 #+end_src
 
 ** C configuration
@@ -732,7 +739,10 @@ Bootstraps straight.el and use-package.
 (setq-default lua-indent-level 8)
 (setq-default indent-tabs-mode t)
 #+end_src
-
+** Niceties
+#+begin_src emacs-lisp
+  (paredit-mode 1)
+#+end_src
 * Misc packages
 
 #+begin_src emacs-lisp

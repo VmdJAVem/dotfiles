@@ -434,6 +434,8 @@
      (reusable-frames . visible)
      (window-height . 0.3))))
 
+(use-package paredit)
+
 (use-package eglot
 :hook ((c-ts-mode . eglot-ensure)
        (c++-ts-mode . eglot-ensure)
@@ -485,6 +487,8 @@
         (expand-file-name "~/.luarocks/bin/luacheck")))
 
 (use-package lua-mode)
+;; i'm learning, so i will not install to much stuff.
+(use-package geiser-racket)
 
 (setq-default indent-tabs-mode t)
 (setq-default tab-width 8)
@@ -529,6 +533,8 @@
 (setq-default c-basic-offset 8)
 (setq-default lua-indent-level 8)
 (setq-default indent-tabs-mode t)
+
+(paredit-mode 1)
 
 (use-package simple-httpd
   :ensure t)
