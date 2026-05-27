@@ -1,10 +1,11 @@
 #+TITLE: config
 #+AUTHOR: arkar
-#+STARTUP: overview
+#+STARTUP: showeverything
 #+OPTIONS: toc:2
 
 * Table of contents :TOC:
 - [[#package-manager][package manager]]
+- [[#general-pkgs][general pkgs]]
 - [[#themes][themes]]
   - [[#install-themes][install themes]]
   - [[#load-current-theme][load current theme]]
@@ -37,33 +38,49 @@
 - [[#projects][Projects]]
 - [[#dashboard][Dashboard]]
 - [[#language-support][Language support]]
-  - [[#cc][C/C++]]
+  - [[#in-buffer-completion][In-buffer completion]]
+  - [[#flycheck][flycheck]]
+  - [[#install-not-default-modes][install not-default modes]]
+  - [[#configure-modes][Configure modes]]
+- [[#modeline][Modeline]]
 
 * package manager
 this bootstraps straight.el and use package, the things i use to install emacs plugins.
 #+begin_src emacs-lisp
-(defvar bootstrap-version)
 
-(let ((bootstrap-file
-       (expand-file-name
-        "straight/repos/straight.el/bootstrap.el"
-        user-emacs-directory))
-      (bootstrap-version 6))
+  (setq package-enable-at-startup nil)
 
-  (unless (file-exists-p bootstrap-file)
-    (with-current-buffer
-        (url-retrieve-synchronously
-         "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
-         'silent
-         'inhibit-cookies)
-      (goto-char (point-max))
-      (eval-print-last-sexp)))
+  (setq straight-built-in-pseudo-packages
+	'(emacs nadvice python image-mode project xref flymake))
 
-  (load bootstrap-file nil 'nomessage))
+    (defvar bootstrap-version)
 
-(straight-use-package 'use-package)
+  (let ((bootstrap-file
+         (expand-file-name
+          "straight/repos/straight.el/bootstrap.el"
+          user-emacs-directory))
+        (bootstrap-version 6))
 
-(setq straight-use-package-by-default t)
+    (unless (file-exists-p bootstrap-file)
+      (with-current-buffer
+          (url-retrieve-synchronously
+           "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
+           'silent
+           'inhibit-cookies)
+        (goto-char (point-max))
+        (eval-print-last-sexp)))
+
+    (load bootstrap-file nil 'nomessage))
+
+  (straight-use-package 'use-package)
+
+  (setq straight-use-package-by-default t)
+#+end_src
+
+* general pkgs
+#+begin_src emacs-lisp
+(use-package simple-httpd
+  :ensure t)
 #+end_src
 * themes
 ** install themes
@@ -309,66 +326,59 @@ things that make writting org more convinient
 ** general cosmetic things
 *** font/colors
 #+begin_src emacs-lisp
-        ;; stop weird indent
-      (electric-indent-mode -1)
+  (defun my/org-font-setup ()
+    (let ((ln-color (face-foreground 'line-number nil t)))
 
+      ;; title
+      (set-face-attribute 'org-document-title nil
+                          :foreground ln-color
+                          :inherit 'default
+                          :height 1.0
+                          :weight 'normal)
 
+      ;; author/date
+      (set-face-attribute 'org-document-info nil
+                          :foreground ln-color
+                          :inherit 'default
+                          :weight 'normal)
 
-      (defun my/org-font-setup ()
+      ;; #+TITLE: #+AUTHOR:
+      (set-face-attribute 'org-document-info-keyword nil
+                          :foreground ln-color
+                          :inherit 'default)
+      (set-face-attribute 'org-document-title nil
+                    :height 1.4
+                    :weight 'bold
+  		  :foreground (face-foreground 'default nil t)
+                    :inherit 'default)
 
-        (let ((ln-color (face-foreground 'line-number nil t)))
-          ;; title
-          (set-face-attribute 'org-document-title nil
-      			:foreground ln-color
-      			:inherit 'default
-      			:height 1.0
-      			:weight 'normal)
+      ;; headings
+      (set-face-attribute 'org-level-1 nil
+                          :height 1.25
+                          :weight 'bold)
 
-          ;; author/date
-          (set-face-attribute 'org-document-info nil
-      			:foreground ln-color
-      			:inherit 'default
-      			:weight 'normal)
+      (set-face-attribute 'org-level-2 nil
+                          :height 1.15
+                          :weight 'bold)
 
-          ;; #+TITLE: #+AUTHOR:
-          (set-face-attribute 'org-document-info-keyword nil
-      			:foreground ln-color
-      			:inherit 'default)
+      (set-face-attribute 'org-level-3 nil
+                          :height 1.10
+                          :weight 'bold)
 
-          ;; #+begin_src etc
-          (set-face-attribute 'org-meta-line nil
-      			:foreground ln-color
-      			:height 0.9
-      			:weight 'normal
-      			:inherit 'fixed-pitch))
+      ;; monospace
+      (set-face-attribute 'org-block nil
+                          :inherit 'fixed-pitch)
 
-        ;; headings
-        (set-face-attribute 'org-level-1 nil
-                            :height 1.25
-                            :weight 'bold)
+      (set-face-attribute 'org-code nil
+                          :inherit 'fixed-pitch)
 
-        (set-face-attribute 'org-level-2 nil
-                            :height 1.15
-                            :weight 'bold)
+      (set-face-attribute 'org-table nil
+                          :inherit 'fixed-pitch)
 
-        (set-face-attribute 'org-level-3 nil
-                            :height 1.10
-                            :weight 'bold)
+      (set-face-attribute 'org-verbatim nil
+                          :inherit 'fixed-pitch)))
 
-        ;; monospace
-        (set-face-attribute 'org-block nil
-                            :inherit 'fixed-pitch)
-
-        (set-face-attribute 'org-code nil
-                            :inherit 'fixed-pitch)
-
-        (set-face-attribute 'org-table nil
-                            :inherit 'fixed-pitch)
-
-        (set-face-attribute 'org-verbatim nil
-                            :inherit 'fixed-pitch))
-
-      (add-hook 'org-mode-hook #'my/org-font-setup)
+  (add-hook 'org-mode-hook #'my/org-font-setup)
 #+end_src
 *** bullets
 it makes things a look little bit nicer
@@ -449,11 +459,13 @@ this handles completion.
 * icons
 a icon set, it brings the icons.
 #+begin_src emacs-lisp
-(use-package all-the-icons
-:if (display-graphic-p))
-(use-package all-the-icons-dired
-:hook (dired-mode . all-the-icons-dired-mode))
+  (use-package all-the-icons
+  :if (display-graphic-p))
+  (use-package all-the-icons-dired
+  :hook (dired-mode . all-the-icons-dired-mode))
 
+  (use-package nerd-icons
+  :straight t)
 #+end_src
 * shells/terminals
 ** Vterm
@@ -500,44 +512,154 @@ projects
 * Dashboard
 cute splashscreen
 #+begin_src emacs-lisp
-(use-package dashboard
+(use-package minimal-dashboard
+  :straight (minimal-dashboard
+             :type git
+             :host github
+             :repo "dheerajshenoy/minimal-dashboard.el")
+
   :init
-  (setq initial-buffer-choice 'dashboard-open)
-  (setq dashboard-set-heading-icons t)
-  (setq dashboard-set-file-icons t)
-  (setq dashboard-banner-logo-title "hello.")
-  (setq dashboard-center-content t)
+  (setq initial-buffer-choice #'minimal-dashboard)
 
-  (setq dashboard-projects-backend 'projectile)
-
-  (setq dashboard-items '((recents . 5)
-                          (agenda . 5)
-                          (bookmarks . 3)
-                          (projects . 3)
-                          (registers . 3)))
+  :custom
+  (minimal-dashboard-buffer-name "dashboard")
+  (minimal-dashboard-text "¡welcome!")
+  (minimal-dashboard-enable-resize-handling t)
+  (minimal-dashboard-modeline-shown nil)
 
   :config
-  (dashboard-setup-startup-hook))
+  (add-hook 'minimal-dashboard-mode-hook
+            (lambda ()
+              (display-line-numbers-mode -1))))
+
 #+end_src
 * Language support
-require eglot so wew can actually do stuff.
+** In-buffer completion
+*** UI
+corfu
 #+begin_src emacs-lisp
-(require 'eglot)
+  (use-package corfu
+    :ensure t
+    :init
+    (global-corfu-mode)
+    :custom
+    (corfu-auto t)
+    (corfu-auto-delay 0.2)
+    (corfu-auto-prefix 1)
+    (corfu-cycle t))
+
+  (use-package orderless
+    :ensure t
+    :custom
+    (completion-styles '(orderless basic))
+    (completion-category-defaults nil)
+    (completion-category-overrides '((file (styles partial-completion)))))
+
+  (use-package cape
+    :ensure t
+    :init
+    (add-to-list 'completion-at-point-functions #'cape-dabbrev)
+    (add-to-list 'completion-at-point-functions #'cape-file))
+
+  (defun my/corfu-capf-setup ()
+  (setq-local completion-at-point-functions
+              (list (cape-capf-super
+                     #'eglot-completion-at-point
+                     #'cape-dabbrev
+                     #'cape-file))))
+
+(add-hook 'eglot-managed-mode-hook #'my/corfu-capf-setup)
+
 #+end_src
-** C/C++
-i use clangd. c > c++
+*** LSP
 #+begin_src emacs-lisp
-(add-to-list 'eglot-server-programs
-             '((c-mode c++-mode c-ts-mode c++-ts-mode)
-               . ("clangd"
-                  "--background-index"
-                  "--clang-tidy"
-                  "--completion-style=detailed"
-                  "--header-insertion=never")))
+(use-package eglot)
+#+end_src
+**** C
+#+begin_src emacs-lisp
+  (add-hook 'c-mode-hook #'eglot-ensure)
+  (add-hook 'c++-mode-hook #'eglot-ensure)
 
-(add-hook 'c-mode-hook #'eglot-ensure)
-(add-hook 'c++-mode-hook #'eglot-ensure)
+  ;; Tell eglot to use clangd explicitly (optional)
+  (setq eglot-server-programs
+      '((c-mode . ("clangd"))
+        (c++-mode . ("clangd"))))
+#+end_src
+** flycheck
+#+begin_src emacs-lisp
+;; luarocks path
+(add-to-list 'exec-path (expand-file-name "~/.luarocks/bin"))
 
-(add-hook 'c-ts-mode-hook #'eglot-ensure)
-(add-hook 'c++-ts-mode-hook #'eglot-ensure)
+(setenv "PATH"
+        (concat (expand-file-name "~/.luarocks/bin")
+                path-separator
+                (getenv "PATH")))
+
+(use-package flycheck
+  :defer t
+  :init
+  (global-flycheck-mode)
+
+  :config
+  ;; C/C++
+  (setq flycheck-gcc-language-standard "c99"
+        flycheck-clang-language-standard "c99"
+
+        flycheck-gcc-warnings '("all" "extra")
+        flycheck-clang-warnings '("all" "extra"))
+
+  ;; Lua
+  (setq flycheck-luacheck-args '("--lua-version" "5.4")
+
+        flycheck-lua-luacheck-executable
+        (expand-file-name "~/.luarocks/bin/luacheck")))
+#+end_src
+
+** install not-default modes
+
+#+begin_src emacs-lisp
+(use-package lua-mode)
+#+end_src
+
+** Configure modes
+
+*** C mode
+
+#+begin_src emacs-lisp
+(setq-default indent-tabs-mode t)
+(setq-default tab-width 8)
+(setq-default c-basic-offset 8)
+
+(add-hook 'c-mode-hook
+          (lambda ()
+            (c-set-style "linux")
+            (setq indent-tabs-mode t
+                  tab-width 8
+                  c-basic-offset 8)))
+
+(add-hook 'c++-mode-hook
+          (lambda ()
+            (c-set-style "linux")
+            (setq indent-tabs-mode t
+                  tab-width 8
+                  c-basic-offset 8)))
+#+end_src
+
+*** Lua mode
+
+#+begin_src emacs-lisp
+(setq-default lua-indent-level 8)
+
+(add-hook 'lua-mode-hook
+          (lambda ()
+            (setq indent-tabs-mode t
+                  tab-width 8
+                  lua-indent-level 8)))
+#+end_src
+* Modeline
+#+begin_src emacs-lisp
+(use-package doom-modeline
+  :straight t
+  :init
+  (doom-modeline-mode 1))
 #+end_src
