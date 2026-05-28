@@ -4,7 +4,6 @@
 #+OPTIONS: toc:2
 
 * Table of contents :TOC:
-- [[#package-manager][Package manager]]
 - [[#core-helpers][Core helpers]]
 - [[#ui-and-appearance][UI and appearance]]
   - [[#themes][Themes]]
@@ -40,39 +39,6 @@
   - [[#backups-and-autosaves][Backups and autosaves]]
   - [[#indentation][Indentation]]
 - [[#misc-packages][Misc packages]]
-
-* Package manager
-Bootstraps straight.el and use-package.
-
-#+begin_src emacs-lisp
-(setq package-enable-at-startup nil)
-
-(setq straight-built-in-pseudo-packages
-      '(emacs nadvice python image-mode project xref flymake))
-
-(defvar bootstrap-version)
-
-(let ((bootstrap-file
-       (expand-file-name
-        "straight/repos/straight.el/bootstrap.el"
-        user-emacs-directory))
-      (bootstrap-version 6))
-
-  (unless (file-exists-p bootstrap-file)
-    (with-current-buffer
-        (url-retrieve-synchronously
-         "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
-         'silent
-         'inhibit-cookies)
-      (goto-char (point-max))
-      (eval-print-last-sexp)))
-
-  (load bootstrap-file nil 'nomessage))
-
-(straight-use-package 'use-package)
-
-(setq straight-use-package-by-default t)
-#+end_src
 
 * Core helpers
 
@@ -132,19 +98,22 @@ Bootstraps straight.el and use-package.
 ** Basic UI
 
 #+begin_src emacs-lisp
-  (menu-bar-mode -1)
-  (tool-bar-mode -1)
-  (scroll-bar-mode -1)
+    (menu-bar-mode -1)
+    (tool-bar-mode -1)
+    (scroll-bar-mode -1)
 
-  (global-display-line-numbers-mode 1)
+    (global-display-line-numbers-mode 1)
+    (global-visual-line-mode -1)
 
-  (global-visual-line-mode -1)
 
-  (setq-default cursor-type 'bar)
-  (blink-cursor-mode 0)
-  
-  (setq-default truncate-lines t)
-  (setq-default word-wrap nil)
+  (fringe-mode 0)
+  (add-to-list 'default-frame-alist '(internal-border-width . 0))
+
+    (setq-default cursor-type 'bar)
+    (blink-cursor-mode 0)
+    
+    (setq-default truncate-lines t)
+    (setq-default word-wrap nil)
 #+end_src
 
 ** Fonts
@@ -211,25 +180,26 @@ Bootstraps straight.el and use-package.
 ** Dashboard
 
 #+begin_src emacs-lisp
-(use-package minimal-dashboard
-  :straight (minimal-dashboard
-             :type git
-             :host github
-             :repo "dheerajshenoy/minimal-dashboard.el")
+  (use-package minimal-dashboard
+    :straight (minimal-dashboard
+               :type git
+               :host github
+               :repo "dheerajshenoy/minimal-dashboard.el")
 
-  :init
-  (setq initial-buffer-choice #'minimal-dashboard)
+    :init
+    (setq initial-buffer-choice #'minimal-dashboard)
 
-  :custom
-  (minimal-dashboard-buffer-name "dashboard")
-  (minimal-dashboard-text "¡welcome!")
-  (minimal-dashboard-enable-resize-handling t)
-  (minimal-dashboard-modeline-shown nil)
+    :custom
+    (minimal-dashboard-buffer-name "dashboard")
+    (minimal-dashboard-text "Emacs is a LISP environment that has a pretty-okay text editor in it.")
+    (minimal-dashboard-enable-resize-handling t)
+    (minimal-dashboard-modeline-shown nil)
+    (minimal-dashboard-image-path dashboard-img)
 
-  :config
-  (add-hook 'minimal-dashboard-mode-hook
-            (lambda ()
-              (display-line-numbers-mode -1))))
+    :config
+    (add-hook 'minimal-dashboard-mode-hook
+              (lambda ()
+                (display-line-numbers-mode -1))))
 #+end_src
 
 * Editing and keybinds
@@ -439,13 +409,13 @@ Bootstraps straight.el and use-package.
 
 (add-hook 'org-mode-hook #'my/org-font-setup)
 #+end_src
-
-*** Indentation & org modern
+*** Org modern
 
 #+begin_src emacs-lisp
-  (use-package org-bullets)
+(use-package org-bullets
+  :ensure t
+  :hook (org-mode . org-bullets-mode))
 #+end_src
-
 ** Table of contents
 
 #+begin_src emacs-lisp
@@ -526,10 +496,7 @@ Bootstraps straight.el and use-package.
   (corfu-auto t)
   (corfu-auto-delay 0.2)
   (corfu-auto-prefix 1)
-  (corfu-cycle t)
-
-  :config
-  (corfu-popupinfo-mode 1))
+  (corfu-cycle t))
   (use-package cape
     :ensure t
 

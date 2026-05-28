@@ -1,3 +1,49 @@
+(setq package-enable-at-startup nil)
+
+(setq straight-built-in-pseudo-packages
+      '(emacs nadvice python image-mode project xref flymake))
+
+(defvar bootstrap-version)
+
+(let ((bootstrap-file
+       (expand-file-name
+        "straight/repos/straight.el/bootstrap.el"
+        user-emacs-directory))
+      (bootstrap-version 6))
+
+  (unless (file-exists-p bootstrap-file)
+    (with-current-buffer
+        (url-retrieve-synchronously
+         "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
+         'silent
+         'inhibit-cookies)
+      (goto-char (point-max))
+      (eval-print-last-sexp)))
+
+  (load bootstrap-file nil 'nomessage))
+
+(straight-use-package 'use-package)
+
+;; IMPORTANT
+(straight-use-package 'org)
+(require 'org)
+
+(setq straight-use-package-by-default t)
+
+(org-babel-load-file
+ (expand-file-name
+  "config.org"
+  user-emacs-directory))
+
+(custom-set-variables
+ ;; custom-set-variables ...
+ )
+
+(custom-set-faces
+ ;; custom-set-faces ...
+ )
+
+
 (org-babel-load-file
   (expand-file-name
     "config.org"
