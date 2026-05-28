@@ -29,17 +29,16 @@
   - [[#vterm][Vterm]]
   - [[#vterm-toggle][Vterm-toggle]]
 - [[#language-support][Language support]]
-  - [[#paredit][Paredit]]
   - [[#eglot][Eglot]]
   - [[#treesitter][Treesitter]]
   - [[#flycheck][Flycheck]]
   - [[#extra-modes][Extra modes]]
+  - [[#paredit][Paredit]]
   - [[#c-configuration][C configuration]]
   - [[#lua-configuration][Lua configuration]]
 - [[#general-options][General options]]
   - [[#backups-and-autosaves][Backups and autosaves]]
   - [[#indentation][Indentation]]
-  - [[#niceties][Niceties]]
 - [[#misc-packages][Misc packages]]
 
 * Package manager
@@ -412,22 +411,18 @@ Bootstraps straight.el and use-package.
 
     (set-face-attribute 'org-document-title nil
                         :height 1.4
-                        :weight 'bold
                         :foreground (face-foreground 'default nil t)
                         :inherit 'default)
 
     ;; headings
     (set-face-attribute 'org-level-1 nil
-                        :height 1.25
-                        :weight 'bold)
+                        :height 1.25)
 
     (set-face-attribute 'org-level-2 nil
-                        :height 1.15
-                        :weight 'bold)
+                        :height 1.15)
 
     (set-face-attribute 'org-level-3 nil
-                        :height 1.10
-                        :weight 'bold)
+                        :height 1.10)
 
     ;; monospace
     (set-face-attribute 'org-block nil
@@ -445,16 +440,10 @@ Bootstraps straight.el and use-package.
 (add-hook 'org-mode-hook #'my/org-font-setup)
 #+end_src
 
-*** Bullets and indentation
+*** Indentation & org modern
 
 #+begin_src emacs-lisp
-(add-hook 'org-mode-hook 'org-indent-mode)
-
-(use-package org-bullets)
-
-(add-hook 'org-mode-hook
-          (lambda ()
-            (org-bullets-mode 1)))
+  (use-package org-bullets)
 #+end_src
 
 ** Table of contents
@@ -605,10 +594,7 @@ Bootstraps straight.el and use-package.
 #+end_src
 
 * Language support
-** Paredit
-#+begin_src emacs-lisp
-  (use-package paredit)
-#+end_src
+
 ** Eglot
 
 #+begin_src emacs-lisp
@@ -673,31 +659,42 @@ Bootstraps straight.el and use-package.
 ** Extra modes
 
 #+begin_src emacs-lisp
-  (use-package lua-mode)
-  ;; i'm learning, so i will not install to much stuff.
-  (use-package geiser-racket)
+    (use-package lua-mode)
+    ;; i'm learning, so i will not install to much stuff.
+  (use-package geiser
+    :config
+    (setq geiser-default-implementation 'guile))
+
+  (use-package geiser-guile)
 #+end_src
+** Paredit
+#+begin_src emacs-lisp
+(use-package paredit
+  :hook (scheme-mode . paredit-mode))
+#+end_src
+
 
 ** C configuration
 
 #+begin_src emacs-lisp
-(setq-default indent-tabs-mode t)
-(setq-default tab-width 8)
-(setq-default c-basic-offset 8)
+  (setq-default indent-tabs-mode t)
+  (setq-default tab-width 8)
+  (setq-default c-basic-offset 8)
 
-(add-hook 'c-mode-hook
+(add-hook 'c-ts-mode-hook
           (lambda ()
-            (c-set-style "linux")
+            (c-ts-mode-set-style 'linux)
             (setq indent-tabs-mode t
                   tab-width 8
-                  c-basic-offset 8)))
+                  c-ts-mode-indent-offset 8)))
 
-(add-hook 'c++-mode-hook
+(add-hook 'c++-ts-mode-hook
           (lambda ()
-            (c-set-style "linux")
+            (c-ts-mode-set-style 'linux)
             (setq indent-tabs-mode t
                   tab-width 8
-                  c-basic-offset 8)))
+                  c-ts-mode-indent-offset 8)))
+  
 #+end_src
 
 ** Lua configuration
@@ -713,6 +710,10 @@ Bootstraps straight.el and use-package.
 #+end_src
 
 * General options
+
+#+begin_src emacs-lisp
+(save-place-mode 1)
+#+end_src
 
 ** Backups and autosaves
 
@@ -739,13 +740,11 @@ Bootstraps straight.el and use-package.
 (setq-default lua-indent-level 8)
 (setq-default indent-tabs-mode t)
 #+end_src
-** Niceties
-#+begin_src emacs-lisp
-  (paredit-mode 1)
-#+end_src
+
+
 * Misc packages
 
 #+begin_src emacs-lisp
-(use-package simple-httpd
-  :ensure t)
+  (use-package simple-httpd
+    :ensure t)
 #+end_src
