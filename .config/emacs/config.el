@@ -72,18 +72,21 @@
 (load (expand-file-name "theme.el" user-emacs-directory) t)
 
 (menu-bar-mode -1)
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
+  (tool-bar-mode -1)
+  (scroll-bar-mode -1)
 
-(global-display-line-numbers-mode 1)
+  (global-display-line-numbers-mode 1)
+  (global-visual-line-mode -1)
 
-(global-visual-line-mode -1)
 
-(setq-default cursor-type 'bar)
-(blink-cursor-mode 0)
+(fringe-mode 0)
+(add-to-list 'default-frame-alist '(internal-border-width . 0))
 
-(setq-default truncate-lines t)
-(setq-default word-wrap nil)
+  (setq-default cursor-type 'bar)
+  (blink-cursor-mode 0)
+  
+  (setq-default truncate-lines t)
+  (setq-default word-wrap nil)
 
 (defun my/gui-setup (frame)
   (with-selected-frame frame
@@ -135,24 +138,31 @@
   (doom-modeline-mode 1))
 
 (use-package minimal-dashboard
-  :straight (minimal-dashboard
-             :type git
-             :host github
-             :repo "dheerajshenoy/minimal-dashboard.el")
+:straight (minimal-dashboard
+           :type git
+           :host github
+           :repo "dheerajshenoy/minimal-dashboard.el")
+:init
+(setq initial-buffer-choice #'minimal-dashboard)
+:custom
+(minimal-dashboard-buffer-name "dashboard")
+(minimal-dashboard-text "Emacs is a LISP environment that has a pretty-okay text editor in it.")
+(minimal-dashboard-enable-resize-handling t)
+(minimal-dashboard-modeline-shown nil)
+:config
+(setq minimal-dashboard-image-path dashboard-img)
+(add-hook 'minimal-dashboard-mode-hook
+          (lambda ()
+            (display-line-numbers-mode -1))))
 
-  :init
-  (setq initial-buffer-choice #'minimal-dashboard)
-
-  :custom
-  (minimal-dashboard-buffer-name "dashboard")
-  (minimal-dashboard-text "¡welcome!")
-  (minimal-dashboard-enable-resize-handling t)
-  (minimal-dashboard-modeline-shown nil)
-
-  :config
-  (add-hook 'minimal-dashboard-mode-hook
-            (lambda ()
-              (display-line-numbers-mode -1))))
+(defun my/refresh-dashboard-image ()
+  (when-let* ((buf (get-buffer (minimal-dashboard--refresh-buffer-name)))
+              (win (get-buffer-window buf)))
+    (with-selected-window win
+      (let ((inhibit-read-only t))
+        (erase-buffer)
+        (minimal-dashboard--insert-centered-info)))))
+(add-hook 'server-after-make-frame-hook #'my/refresh-dashboard-image)
 
 (use-package evil
   :init
@@ -278,22 +288,18 @@
 
     (set-face-attribute 'org-document-title nil
                         :height 1.4
-                        :weight 'bold
                         :foreground (face-foreground 'default nil t)
                         :inherit 'default)
 
     ;; headings
     (set-face-attribute 'org-level-1 nil
-                        :height 1.25
-                        :weight 'bold)
+                        :height 1.25)
 
     (set-face-attribute 'org-level-2 nil
-                        :height 1.15
-                        :weight 'bold)
+                        :height 1.15)
 
     (set-face-attribute 'org-level-3 nil
-                        :height 1.10
-                        :weight 'bold)
+                        :height 1.10)
 
     ;; monospace
     (set-face-attribute 'org-block nil
@@ -310,13 +316,9 @@
 
 (add-hook 'org-mode-hook #'my/org-font-setup)
 
-(add-hook 'org-mode-hook 'org-indent-mode)
-
-(use-package org-bullets)
-
-(add-hook 'org-mode-hook
-          (lambda ()
-            (org-bullets-mode 1)))
+(use-package org-bullets
+  :ensure t
+  :hook (org-mode . org-bullets-mode))
 
 (use-package toc-org
   :config
@@ -382,10 +384,7 @@
   (corfu-auto t)
   (corfu-auto-delay 0.2)
   (corfu-auto-prefix 1)
-  (corfu-cycle t)
-
-  :config
-  (corfu-popupinfo-mode 1))
+  (corfu-cycle t))
   (use-package cape
     :ensure t
 
@@ -433,8 +432,6 @@
      (display-buffer-reuse-window display-buffer-at-bottom)
      (reusable-frames . visible)
      (window-height . 0.3))))
-
-(use-package paredit)
 
 (use-package eglot
 :hook ((c-ts-mode . eglot-ensure)
@@ -487,26 +484,33 @@
         (expand-file-name "~/.luarocks/bin/luacheck")))
 
 (use-package lua-mode)
-;; i'm learning, so i will not install to much stuff.
-(use-package geiser-racket)
+  ;; i'm learning, so i will not install to much stuff.
+(use-package geiser
+  :config
+  (setq geiser-default-implementation 'guile))
+
+(use-package geiser-guile)
+
+(use-package paredit
+  :hook (scheme-mode . paredit-mode))
 
 (setq-default indent-tabs-mode t)
-(setq-default tab-width 8)
-(setq-default c-basic-offset 8)
+  (setq-default tab-width 8)
+  (setq-default c-basic-offset 8)
 
-(add-hook 'c-mode-hook
+(add-hook 'c-ts-mode-hook
           (lambda ()
-            (c-set-style "linux")
+            (c-ts-mode-set-style 'linux)
             (setq indent-tabs-mode t
                   tab-width 8
-                  c-basic-offset 8)))
+                  c-ts-mode-indent-offset 8)))
 
-(add-hook 'c++-mode-hook
+(add-hook 'c++-ts-mode-hook
           (lambda ()
-            (c-set-style "linux")
+            (c-ts-mode-set-style 'linux)
             (setq indent-tabs-mode t
                   tab-width 8
-                  c-basic-offset 8)))
+                  c-ts-mode-indent-offset 8)))
 
 (setq-default lua-indent-level 8)
 
@@ -515,6 +519,8 @@
             (setq indent-tabs-mode t
                   tab-width 8
                   lua-indent-level 8)))
+
+(save-place-mode 1)
 
 (setq backup-directory-alist
       `(("." . "~/.config/emacs/backups")))
@@ -533,8 +539,6 @@
 (setq-default c-basic-offset 8)
 (setq-default lua-indent-level 8)
 (setq-default indent-tabs-mode t)
-
-(paredit-mode 1)
 
 (use-package simple-httpd
   :ensure t)

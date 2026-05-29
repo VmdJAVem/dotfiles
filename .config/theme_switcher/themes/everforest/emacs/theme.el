@@ -60,3 +60,5 @@
 (set-face-attribute 'completions-first-difference nil
                     :foreground "#dbbc7f"
                     :weight 'bold)
+(setq dashboard-img
+      (expand-file-name "~/.config/emacs/images/everforest.png"))

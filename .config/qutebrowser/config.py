@@ -3,17 +3,17 @@ import os
 from qutebrowser.api import hook
 config.load_autoconfig()
 
-c.fonts.default_family = "Iosevka Nerd Font Mono"
-c.fonts.default_size = "11pt"
+c.fonts.default_family = "Iosevka Nerd Font Propo"
+c.fonts.default_size = "12pt"
 
-c.fonts.statusbar = "11pt Iosevka Nerd Font Mono"
-c.fonts.prompts = "11pt Iosevka Nerd Font Mono"
-c.fonts.debug_console = "11pt Iosevka Nerd Font Mono"
+c.fonts.statusbar = "12pt Iosevka Nerd Font Propo"
+c.fonts.prompts = "12pt Iosevka Nerd Font Propo"
+c.fonts.debug_console = "12pt Iosevka Nerd Font Mono"
 
-c.fonts.web.family.standard = "Iosevka Nerd Font Mono"
+c.fonts.web.family.standard = "Iosevka Nerd Font Propo"
 c.fonts.web.family.fixed = "Iosevka Nerd Font Mono"
-c.fonts.web.family.sans_serif = "Iosevka Nerd Font Mono"
-c.fonts.web.family.serif = "Iosevka Nerd Font Mono"
+c.fonts.web.family.sans_serif = "Iosevka Nerd Font Propo"
+c.fonts.web.family.serif = "Iosevka Nerd Font Propo"
 c.completion.shrink = True
 
 config.bind("xb", "config-cycle statusbar.show always never")
@@ -38,7 +38,7 @@ config.set("colors.webpage.darkmode.enabled", False, "http://localhost:8087/*")
 config.set("colors.webpage.darkmode.enabled", True, "https://redsails.org/*")
 # Generate CSS content with colors and font
 # Generate CSS content with colors, fonts, spacing and full webpage theming
-css_content = f""" * {{ background-color: {bg0} !important; color: {fg0} !important; border-radius: 0px !important; font-family: "Iosevka Nerd Font Mono" !important; }} a {{ color: {accent} !important; }} a:visited {{ color: {bright_purple} !important; }} input, textarea, select, button {{ background-color: {bg1} !important; color: {fg0} !important; border-color: {bg2} !important; }} ::selection {{ background-color: {accent} !important; color: {bg0} !important; }} """ # Write the CSS file to your config directory css_path = os.path.join(os.path.dirname(__file__), "all-cites.css") with open(css_path, "w") as f: f.write(css_content)
+css_content = f""" * {{ background-color: {bg0} !important; color: {fg0} !important; border-radius: 0px !important; font-family: "Iosevka Nerd Font Propo" !important; }} a {{ color: {accent} !important; }} a:visited {{ color: {bright_purple} !important; }} input, textarea, select, button {{ background-color: {bg1} !important; color: {fg0} !important; border-color: {bg2} !important; }} ::selection {{ background-color: {accent} !important; color: {bg0} !important; }} """ # Write the CSS file to your config directory css_path = os.path.join(os.path.dirname(__file__), "all-cites.css") with open(css_path, "w") as f: f.write(css_content)
 # Write the CSS file to your config directory
 css_path = os.path.join(os.path.dirname(__file__), "all-cites.css")
 with open(css_path, "w") as f:

@@ -4,6 +4,7 @@
 #+OPTIONS: toc:2
 
 * Table of contents :TOC:
+- [[#package-manager-bootstrap][Package manager bootstrap]]
 - [[#core-helpers][Core helpers]]
 - [[#ui-and-appearance][UI and appearance]]
   - [[#themes][Themes]]
@@ -12,6 +13,7 @@
   - [[#icons][Icons]]
   - [[#modeline][Modeline]]
   - [[#dashboard][Dashboard]]
+  - [[#refresh-when-new-gui-frame-connects][Refresh when new gui frame connects]]
 - [[#editing-and-keybinds][Editing and keybinds]]
   - [[#evil][Evil]]
   - [[#which-key-and-general][Which-key and general]]
@@ -39,6 +41,38 @@
   - [[#backups-and-autosaves][Backups and autosaves]]
   - [[#indentation][Indentation]]
 - [[#misc-packages][Misc packages]]
+
+* Package manager bootstrap
+#+begin_src emacs-lisp
+(setq package-enable-at-startup nil)
+
+(setq straight-built-in-pseudo-packages
+      '(emacs nadvice python image-mode project xref flymake))
+
+(defvar bootstrap-version)
+
+(let ((bootstrap-file
+       (expand-file-name
+        "straight/repos/straight.el/bootstrap.el"
+        user-emacs-directory))
+      (bootstrap-version 6))
+
+  (unless (file-exists-p bootstrap-file)
+    (with-current-buffer
+        (url-retrieve-synchronously
+         "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
+         'silent
+         'inhibit-cookies)
+      (goto-char (point-max))
+      (eval-print-last-sexp)))
+
+  (load bootstrap-file nil 'nomessage))
+
+(straight-use-package 'use-package)
+
+(setq straight-use-package-by-default t)
+
+#+end_src
 
 * Core helpers
 
@@ -181,25 +215,34 @@
 
 #+begin_src emacs-lisp
   (use-package minimal-dashboard
-    :straight (minimal-dashboard
-               :type git
-               :host github
-               :repo "dheerajshenoy/minimal-dashboard.el")
+  :straight (minimal-dashboard
+             :type git
+             :host github
+             :repo "dheerajshenoy/minimal-dashboard.el")
+  :init
+  (setq initial-buffer-choice #'minimal-dashboard)
+  :custom
+  (minimal-dashboard-buffer-name "dashboard")
+  (minimal-dashboard-text "Emacs is a LISP environment that has a pretty-okay text editor in it.")
+  (minimal-dashboard-enable-resize-handling t)
+  (minimal-dashboard-modeline-shown nil)
+  :config
+  (setq minimal-dashboard-image-path dashboard-img)
+  (add-hook 'minimal-dashboard-mode-hook
+            (lambda ()
+              (display-line-numbers-mode -1))))
+#+end_src
 
-    :init
-    (setq initial-buffer-choice #'minimal-dashboard)
-
-    :custom
-    (minimal-dashboard-buffer-name "dashboard")
-    (minimal-dashboard-text "Emacs is a LISP environment that has a pretty-okay text editor in it.")
-    (minimal-dashboard-enable-resize-handling t)
-    (minimal-dashboard-modeline-shown nil)
-    (minimal-dashboard-image-path dashboard-img)
-
-    :config
-    (add-hook 'minimal-dashboard-mode-hook
-              (lambda ()
-                (display-line-numbers-mode -1))))
+** Refresh when new gui frame connects
+#+begin_src emacs-lisp
+(defun my/refresh-dashboard-image ()
+  (when-let* ((buf (get-buffer (minimal-dashboard--refresh-buffer-name)))
+              (win (get-buffer-window buf)))
+    (with-selected-window win
+      (let ((inhibit-read-only t))
+        (erase-buffer)
+        (minimal-dashboard--insert-centered-info)))))
+(add-hook 'server-after-make-frame-hook #'my/refresh-dashboard-image)
 #+end_src
 
 * Editing and keybinds
@@ -409,7 +452,7 @@
 
 (add-hook 'org-mode-hook #'my/org-font-setup)
 #+end_src
-*** Org modern
+*** org bullets
 
 #+begin_src emacs-lisp
 (use-package org-bullets

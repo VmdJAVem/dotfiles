@@ -3,7 +3,7 @@ audio_device_state:1:pipewire
 audio_device_state:1:my_fifo
 state: pause
 current: 102
-time: 57.174
+time: 58.054
 random: 1
 repeat: 1
 single: 0
