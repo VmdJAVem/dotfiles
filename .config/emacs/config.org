@@ -4,7 +4,6 @@
 #+OPTIONS: toc:2
 
 * Table of contents :TOC:
-- [[#package-manager-bootstrap][Package manager bootstrap]]
 - [[#core-helpers][Core helpers]]
 - [[#ui-and-appearance][UI and appearance]]
   - [[#themes][Themes]]
@@ -22,6 +21,8 @@
   - [[#org-helpers][Org helpers]]
   - [[#org-ui][Org UI]]
   - [[#table-of-contents][Table of contents]]
+  - [[#hide-markup][Hide markup]]
+- [[#org-agenda][Org-agenda]]
 - [[#completion-and-minibuffer][Completion and minibuffer]]
   - [[#vertico][Vertico]]
   - [[#corfu-and-capf][Corfu and CAPF]]
@@ -41,38 +42,6 @@
   - [[#backups-and-autosaves][Backups and autosaves]]
   - [[#indentation][Indentation]]
 - [[#misc-packages][Misc packages]]
-
-* Package manager bootstrap
-#+begin_src emacs-lisp
-(setq package-enable-at-startup nil)
-
-(setq straight-built-in-pseudo-packages
-      '(emacs nadvice python image-mode project xref flymake))
-
-(defvar bootstrap-version)
-
-(let ((bootstrap-file
-       (expand-file-name
-        "straight/repos/straight.el/bootstrap.el"
-        user-emacs-directory))
-      (bootstrap-version 6))
-
-  (unless (file-exists-p bootstrap-file)
-    (with-current-buffer
-        (url-retrieve-synchronously
-         "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
-         'silent
-         'inhibit-cookies)
-      (goto-char (point-max))
-      (eval-print-last-sexp)))
-
-  (load bootstrap-file nil 'nomessage))
-
-(straight-use-package 'use-package)
-
-(setq straight-use-package-by-default t)
-
-#+end_src
 
 * Core helpers
 
@@ -376,16 +345,16 @@
 #+end_src
 
 *** Org
-
 #+begin_src emacs-lisp
-(i/leader-keys
-  "m" '(:ignore t :wk "org")
-  "ma" '(org-agenda :wk "agenda")
-  "me" '(org-export-dispatch :wk "export dispatch")
-  "mi" '(org-toggle-item :wk "toggle item")
-  "mt" '(org-todo :wk "todo")
-  "mb" '(org-babel-tangle :wk "tangle")
-  "mT" '(org-todo-list :wk "todo list"))
+  (i/leader-keys
+    "m" '(:ignore t :wk "org")
+    "ma" '(org-agenda :wk "agenda")
+    "ms" '(org-time-stamp :wk "time stamp")
+    "me" '(org-export-dispatch :wk "export dispatch")
+    "mi" '(org-toggle-item :wk "toggle item")
+    "mt" '(org-todo :wk "todo")
+    "mb" '(org-babel-tangle :wk "tangle")
+    "mT" '(org-todo-list :wk "todo list"))
 #+end_src
 
 * Org mode
@@ -461,12 +430,31 @@
 #+end_src
 ** Table of contents
 
+** Hide markup
+#+begin_src emacs-lisp
+(use-package org-appear
+  :straight t   ; or :ensure t if using package.el
+  :hook (org-mode . org-appear-mode)
+  :init
+  (setq org-hide-emphasis-markers t  ; required for autoemphasis
+        org-link-descriptive t        ; required for autolinks
+        org-pretty-entities t))       ; required for autosubmarkers
+#+end_src
+
 #+begin_src emacs-lisp
 (use-package toc-org
   :config
   (add-hook 'org-mode-hook #'toc-org-mode))
 #+end_src
 
+* Org-agenda
+#+begin_src emacs-lisp
+  (setq org-directory "~/notes/agenda/")
+  (setq org-agenda-files (directory-files-recursively "~/notes/agenda" "\.org$"))
+  (setq org-log-done 'time)
+  (setq org-todo-keywords
+	'((sequence "TODO" "DOING" "DONE")))
+#+end_src
 * Completion and minibuffer
 
 ** Vertico
@@ -750,7 +738,6 @@
 (setq-default lua-indent-level 8)
 (setq-default indent-tabs-mode t)
 #+end_src
-
 
 * Misc packages
 

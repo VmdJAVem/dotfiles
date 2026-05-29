@@ -1,31 +1,3 @@
-(setq package-enable-at-startup nil)
-
-(setq straight-built-in-pseudo-packages
-      '(emacs nadvice python image-mode project xref flymake))
-
-(defvar bootstrap-version)
-
-(let ((bootstrap-file
-       (expand-file-name
-        "straight/repos/straight.el/bootstrap.el"
-        user-emacs-directory))
-      (bootstrap-version 6))
-
-  (unless (file-exists-p bootstrap-file)
-    (with-current-buffer
-        (url-retrieve-synchronously
-         "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
-         'silent
-         'inhibit-cookies)
-      (goto-char (point-max))
-      (eval-print-last-sexp)))
-
-  (load bootstrap-file nil 'nomessage))
-
-(straight-use-package 'use-package)
-
-(setq straight-use-package-by-default t)
-
 (defun my/org-babel-tangle-config ()
   (when (string-equal
          (file-truename (buffer-file-name))
@@ -71,7 +43,7 @@
 
 (load (expand-file-name "theme.el" user-emacs-directory) t)
 
-(menu-bar-mode -1)
+  (menu-bar-mode -1)
   (tool-bar-mode -1)
   (scroll-bar-mode -1)
 
@@ -127,7 +99,7 @@
     (add-hook 'after-make-frame-functions #'my/gui-setup)
   (my/gui-setup (selected-frame)))
 
-(use-package nerd-icons)
+  (use-package nerd-icons)
 
 (use-package nerd-icons-dired
   :hook (dired-mode . nerd-icons-dired-mode))
@@ -257,6 +229,7 @@
 (i/leader-keys
   "m" '(:ignore t :wk "org")
   "ma" '(org-agenda :wk "agenda")
+  "ms" '(org-time-stamp :wk "time stamp")
   "me" '(org-export-dispatch :wk "export dispatch")
   "mi" '(org-toggle-item :wk "toggle item")
   "mt" '(org-todo :wk "todo")
@@ -320,11 +293,25 @@
   :ensure t
   :hook (org-mode . org-bullets-mode))
 
+(use-package org-appear
+  :straight t   ; or :ensure t if using package.el
+  :hook (org-mode . org-appear-mode)
+  :init
+  (setq org-hide-emphasis-markers t  ; required for autoemphasis
+        org-link-descriptive t        ; required for autolinks
+        org-pretty-entities t))       ; required for autosubmarkers
+
 (use-package toc-org
   :config
   (add-hook 'org-mode-hook #'toc-org-mode))
 
-(use-package vertico
+(setq org-directory "~/notes/agenda/")
+(setq org-agenda-files (directory-files-recursively "~/notes/agenda" "\.org$"))
+(setq org-log-done 'time)
+(setq org-todo-keywords
+	'((sequence "TODO" "DOING" "DONE")))
+
+  (use-package vertico
   :init
   (vertico-mode 1))
 
@@ -446,6 +433,7 @@
 
 (setq read-process-output-max (* 1024 1024)))
 
+
 (setq treesit-language-source-alist
       '((c "https://github.com/tree-sitter/tree-sitter-c")
         (cpp "https://github.com/tree-sitter/tree-sitter-cpp")))
@@ -483,7 +471,7 @@
         flycheck-lua-luacheck-executable
         (expand-file-name "~/.luarocks/bin/luacheck")))
 
-(use-package lua-mode)
+  (use-package lua-mode)
   ;; i'm learning, so i will not install to much stuff.
 (use-package geiser
   :config
@@ -494,7 +482,7 @@
 (use-package paredit
   :hook (scheme-mode . paredit-mode))
 
-(setq-default indent-tabs-mode t)
+  (setq-default indent-tabs-mode t)
   (setq-default tab-width 8)
   (setq-default c-basic-offset 8)
 
@@ -511,6 +499,7 @@
             (setq indent-tabs-mode t
                   tab-width 8
                   c-ts-mode-indent-offset 8)))
+  
 
 (setq-default lua-indent-level 8)
 

@@ -14499,3 +14499,10 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-05-27T19:59:42 player: played "Cap'n-Jazz/Shmap'n-Shmazz-(2025-Remaster)/Cap'n-Jazz---In-The-Clear---2025-Remaster.mp3"
 2026-05-28T14:56:09 player: played "Cap'n-Jazz/Shmap'n-Shmazz-(2025-Remaster)/Cap'n-Jazz---In-The-Clear---2025-Remaster.mp3"
 2026-05-28T16:32:44 player: played "Cap'n-Jazz/Shmap'n-Shmazz-(2025-Remaster)/Cap'n-Jazz---In-The-Clear---2025-Remaster.mp3"
+2026-05-28T19:45:13 client: [127.0.0.1:53756] command "close" during idle
+2026-05-28T19:45:33 client: [127.0.0.1:58826] command "close" during idle
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-05-28T21:14:18 player: played "Cap'n-Jazz/Shmap'n-Shmazz-(2025-Remaster)/Cap'n-Jazz---In-The-Clear---2025-Remaster.mp3"
