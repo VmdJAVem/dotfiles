@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/gruvbox/emacs/theme.el
+/home/arkar/.config/theme_switcher/themes/everforest/emacs/theme.el

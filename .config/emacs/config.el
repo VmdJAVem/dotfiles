@@ -1,32 +1,67 @@
-(defun my/org-babel-tangle-config ()
-  (when (string-equal
-         (file-truename (buffer-file-name))
-         (file-truename "~/.config/emacs/config.org"))
+    (defun my/org-babel-tangle-config ()
+      (when (string-equal
+             (file-truename (buffer-file-name))
+             (file-truename "~/.config/emacs/config.org"))
 
-    (let ((org-confirm-babel-evaluate nil))
-      (org-babel-tangle))))
+        (let ((org-confirm-babel-evaluate nil))
+          (org-babel-tangle))))
 
-(add-hook 'org-mode-hook
-          (lambda ()
-            (add-hook 'after-save-hook
-                      #'my/org-babel-tangle-config
-                      nil
-                      t)))
+    (add-hook 'org-mode-hook
+              (lambda ()
+                (add-hook 'after-save-hook
+                          #'my/org-babel-tangle-config
+                          nil
+                          t)))
 
-(defun my/reload-config ()
-  (interactive)
+    (defun my/reload-config ()
+      (interactive)
 
-  (org-babel-tangle-file
-   (expand-file-name "config.org" user-emacs-directory))
+      (org-babel-tangle-file
+       (expand-file-name "config.org" user-emacs-directory))
 
-  (load-file user-init-file)
+      ;; remove old themes first
+      (mapc #'disable-theme custom-enabled-themes)
 
-  (load (expand-file-name "theme.el" user-emacs-directory) t)
+      ;; reload config
+      (load-file user-init-file)
 
-  (my/gui-setup (selected-frame))
-  (my/org-font-setup)
+      (my/apply-theme)
+      
+      ;; reapply org styling AFTER theme
+      (my/org-font-setup)
 
-  (message "Reloaded config"))
+
+      ;; refresh existing org buffers
+      (dolist (buf (buffer-list))
+        (with-current-buffer buf
+          (when (derived-mode-p 'org-mode)
+            (font-lock-flush)
+            (font-lock-ensure))))
+
+      (redraw-display)
+
+      (message "Reloaded config"))
+
+(defun my/frame-setup (frame)
+  (with-selected-frame frame
+
+    (my/gui-setup frame)
+    (my/apply-theme)
+    (my/org-font-setup)
+
+
+    (dolist (buf (buffer-list))
+      (with-current-buffer buf
+        (when (derived-mode-p 'org-mode)
+          (font-lock-flush)
+          (font-lock-ensure))))
+
+    (redraw-display)))
+
+  (if (daemonp)
+    (add-hook 'after-make-frame-functions #'my/frame-setup)
+  (my/frame-setup (selected-frame)))
+
 
 (use-package catppuccin-theme
   :ensure t
@@ -42,6 +77,7 @@
   :ensure t)
 
 (load (expand-file-name "theme.el" user-emacs-directory) t)
+(my/apply-theme)
 
   (menu-bar-mode -1)
   (tool-bar-mode -1)

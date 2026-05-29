@@ -1,6 +1,7 @@
-(mapc #'disable-theme custom-enabled-themes)
-(load-theme 'catppuccin t)
+(defun my/apply-theme ()
+  (mapc #'disable-theme custom-enabled-themes)
 
-(setq dashboard-img
-      (expand-file-name "~/.config/emacs/images/catppuccin.png"))
+  (load-theme 'catppuccin t)
 
+  (setq dashboard-img
+        (expand-file-name "~/.config/emacs/images/catppuccin.png")))
