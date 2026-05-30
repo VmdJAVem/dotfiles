@@ -26,6 +26,13 @@
       (load-file user-init-file)
 
       (my/apply-theme)
+
+      ;; make cursor the color of text regardless of theme
+      (set-face-attribute 'cursor nil
+                  :background (face-foreground 'default nil t))
+      (set-face-attribute 'cursor nil
+                  :background (face-foreground 'default nil t)
+                  :foreground (face-background 'default nil t))
       
       ;; reapply org styling AFTER theme
       (my/org-font-setup)
@@ -49,6 +56,13 @@
     (my/apply-theme)
     (my/org-font-setup)
 
+    ;; make cursor the color of text
+      (set-face-attribute 'cursor nil
+                  :background (face-foreground 'default nil t))
+      (set-face-attribute 'cursor nil
+                  :background (face-foreground 'default nil t)
+                  :foreground (face-background 'default nil t))
+
 
     (dolist (buf (buffer-list))
       (with-current-buffer buf
@@ -63,21 +77,18 @@
   (my/frame-setup (selected-frame)))
 
 
-(use-package catppuccin-theme
-  :ensure t
-  :config
-  (setq catppuccin-flavor 'macchiato))
+  (use-package catppuccin-theme
+    :ensure t
+    :config
+    (setq catppuccin-flavor 'macchiato))
 
-(straight-use-package
- '(everforest :type git
-              :host github
-              :repo "Theory-of-Everything/everforest-emacs"))
+(use-package base16-theme)
+  
+  (use-package gruvbox-theme
+    :ensure t)
 
-(use-package gruvbox-theme
-  :ensure t)
-
-(load (expand-file-name "theme.el" user-emacs-directory) t)
-(my/apply-theme)
+  (load (expand-file-name "theme.el" user-emacs-directory) t)
+  (my/apply-theme)
 
   (menu-bar-mode -1)
   (tool-bar-mode -1)
@@ -299,6 +310,12 @@
                         :height 1.4
                         :foreground (face-foreground 'default nil t)
                         :inherit 'default)
+
+    ;; line numbers
+    (set-face-attribute 'line-number nil
+			:background (face-background 'default nil t))
+    (set-face-attribute 'line-number-current-line nil
+                  :background (face-background 'default nil t))
 
     ;; headings
     (set-face-attribute 'org-level-1 nil

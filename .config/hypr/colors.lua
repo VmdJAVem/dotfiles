@@ -1,1 +1,1 @@
-/home/arkar/.config/theme_switcher/themes/everforest/hypr/colors.lua
+/home/arkar/.config/theme_switcher/themes/catppuccin/hypr/colors.lua

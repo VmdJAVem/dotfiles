@@ -74,6 +74,13 @@
         (load-file user-init-file)
 
         (my/apply-theme)
+
+        ;; make cursor the color of text regardless of theme
+        (set-face-attribute 'cursor nil
+                    :background (face-foreground 'default nil t))
+        (set-face-attribute 'cursor nil
+                    :background (face-foreground 'default nil t)
+                    :foreground (face-background 'default nil t))
         
         ;; reapply org styling AFTER theme
         (my/org-font-setup)
@@ -97,6 +104,13 @@
       (my/apply-theme)
       (my/org-font-setup)
 
+      ;; make cursor the color of text
+        (set-face-attribute 'cursor nil
+                    :background (face-foreground 'default nil t))
+        (set-face-attribute 'cursor nil
+                    :background (face-foreground 'default nil t)
+                    :foreground (face-background 'default nil t))
+
 
       (dolist (buf (buffer-list))
         (with-current-buffer buf
@@ -117,21 +131,18 @@
 ** Themes
 
 #+begin_src emacs-lisp
-  (use-package catppuccin-theme
-    :ensure t
-    :config
-    (setq catppuccin-flavor 'macchiato))
+    (use-package catppuccin-theme
+      :ensure t
+      :config
+      (setq catppuccin-flavor 'macchiato))
 
-  (straight-use-package
-   '(everforest :type git
-                :host github
-                :repo "Theory-of-Everything/everforest-emacs"))
+  (use-package base16-theme)
+    
+    (use-package gruvbox-theme
+      :ensure t)
 
-  (use-package gruvbox-theme
-    :ensure t)
-
-  (load (expand-file-name "theme.el" user-emacs-directory) t)
-  (my/apply-theme)
+    (load (expand-file-name "theme.el" user-emacs-directory) t)
+    (my/apply-theme)
 #+end_src
 
 ** Basic UI
@@ -406,56 +417,62 @@
 *** Fonts and colors
 
 #+begin_src emacs-lisp
-(defun my/org-font-setup ()
-  (let ((ln-color (face-foreground 'line-number nil t)))
+  (defun my/org-font-setup ()
+    (let ((ln-color (face-foreground 'line-number nil t)))
 
-    ;; title
-    (set-face-attribute 'org-document-title nil
-                        :foreground ln-color
-                        :inherit 'default
-                        :height 1.0
-                        :weight 'normal)
+      ;; title
+      (set-face-attribute 'org-document-title nil
+                          :foreground ln-color
+                          :inherit 'default
+                          :height 1.0
+                          :weight 'normal)
 
-    ;; author/date
-    (set-face-attribute 'org-document-info nil
-                        :foreground ln-color
-                        :inherit 'default
-                        :weight 'normal)
+      ;; author/date
+      (set-face-attribute 'org-document-info nil
+                          :foreground ln-color
+                          :inherit 'default
+                          :weight 'normal)
 
-    ;; keywords
-    (set-face-attribute 'org-document-info-keyword nil
-                        :foreground ln-color
-                        :inherit 'default)
+      ;; keywords
+      (set-face-attribute 'org-document-info-keyword nil
+                          :foreground ln-color
+                          :inherit 'default)
 
-    (set-face-attribute 'org-document-title nil
-                        :height 1.4
-                        :foreground (face-foreground 'default nil t)
-                        :inherit 'default)
+      (set-face-attribute 'org-document-title nil
+                          :height 1.4
+                          :foreground (face-foreground 'default nil t)
+                          :inherit 'default)
 
-    ;; headings
-    (set-face-attribute 'org-level-1 nil
-                        :height 1.25)
+      ;; line numbers
+      (set-face-attribute 'line-number nil
+  			:background (face-background 'default nil t))
+      (set-face-attribute 'line-number-current-line nil
+                    :background (face-background 'default nil t))
 
-    (set-face-attribute 'org-level-2 nil
-                        :height 1.15)
+      ;; headings
+      (set-face-attribute 'org-level-1 nil
+                          :height 1.25)
 
-    (set-face-attribute 'org-level-3 nil
-                        :height 1.10)
+      (set-face-attribute 'org-level-2 nil
+                          :height 1.15)
 
-    ;; monospace
-    (set-face-attribute 'org-block nil
-                        :inherit 'fixed-pitch)
+      (set-face-attribute 'org-level-3 nil
+                          :height 1.10)
 
-    (set-face-attribute 'org-code nil
-                        :inherit 'fixed-pitch)
+      ;; monospace
+      (set-face-attribute 'org-block nil
+                          :inherit 'fixed-pitch)
 
-    (set-face-attribute 'org-table nil
-                        :inherit 'fixed-pitch)
+      (set-face-attribute 'org-code nil
+                          :inherit 'fixed-pitch)
 
-    (set-face-attribute 'org-verbatim nil
-                        :inherit 'fixed-pitch)))
+      (set-face-attribute 'org-table nil
+                          :inherit 'fixed-pitch)
 
-(add-hook 'org-mode-hook #'my/org-font-setup)
+      (set-face-attribute 'org-verbatim nil
+                          :inherit 'fixed-pitch)))
+
+  (add-hook 'org-mode-hook #'my/org-font-setup)
 #+end_src
 *** org bullets
 
