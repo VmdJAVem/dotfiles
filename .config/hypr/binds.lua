@@ -5,7 +5,7 @@ MainModShift = MainMod .. "SHIFT + "
 hl.bind(MainMod .. "Return", Exec(Terminal))
 hl.bind(MainMod .. "c", hl.dsp.window.close())
 hl.bind(MainMod .. "x", Exec(FileManager))
-hl.bind(MainMod .. "e", Exec(Terminal .. " -e " .. TextEditor))
+hl.bind(MainMod .. "e", Exec(TextEditor))
 hl.bind(MainMod .. "r", Exec(Menu))
 hl.bind(MainMod .. "a", Exec(PdfReader))
 hl.bind(MainMod .. "d", Exec(Browser))
